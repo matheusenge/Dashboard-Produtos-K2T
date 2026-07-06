@@ -8,7 +8,7 @@
       porPagina: 50,
       autoRefresh: true,
       refreshTimer: null,
-      refreshInterval: 60000,
+      refreshInterval: 15000,
       carregando: false,
     };
 
@@ -457,7 +457,7 @@
         toggle.setAttribute('aria-checked', E.autoRefresh);
         if (E.autoRefresh) {
           iniciarAutoRefresh();
-          toast('Auto-refresh ativado (60s)', 'info');
+          toast('Auto-refresh ativado (15s)', 'info');
         } else {
           pararAutoRefresh();
           toast('Auto-refresh desativado', 'info');
@@ -488,4 +488,5 @@
         $('footer-time').textContent = dataHora();
       }, 1000);
     })();
+
 
