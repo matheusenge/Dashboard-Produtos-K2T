@@ -26,8 +26,8 @@
       <div class="flex items-center gap-3 min-w-0">
         <img
           src="https://z-cdn-media.chatglm.cn/files/3323a8b1-e0e2-4d40-8889-c4c421cbbce9.png?auth_key=1883274642-64d03c6002c94a0591c4db1be9e49f7c-0-3dd3ea961e7e4fc5d24d161ba6c730f7"
-          alt="Stellantis" class="h-8 sm:h-9 w-auto object-contain shrink-0"
-          style="mix-blend-mode: multiply; filter: brightness(8) contrast(0.85);"
+          alt="Stellantis" class="h-10 sm:h-11 w-auto object-contain shrink-0 drop-shadow-[0_0_14px_rgba(255,255,255,0.18)]"
+          style="filter: brightness(0) invert(1) contrast(1.12) drop-shadow(0 0 10px rgba(255,255,255,0.22));"
           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div class="hidden items-center shrink-0">
           <div class="w-9 h-9 rounded-lg bg-accent flex items-center justify-center shadow-lg shadow-accent/20">
@@ -35,13 +35,12 @@
           </div>
         </div>
         <div class="min-w-0">
-          <h1 class="font-display font-bold text-base leading-tight truncate">Stellantis K2T</h1>
+          <h1 class="font-display font-bold text-base leading-tight truncate text-white">Stellantis K2T</h1>
           <p class="text-[11px] text-txt-muted leading-tight">Painel de Produtos</p>
         </div>
       </div>
 
       <div class="flex items-center gap-3 sm:gap-4 shrink-0">
-        <span id="status-text" class="text-[11px] text-txt-muted hidden sm:inline"></span>
         <div class="flex items-center gap-2">
           <span class="text-[11px] text-txt-secondary hidden sm:inline">Auto</span>
           <div id="toggle-refresh" class="toggle-track on" role="switch" aria-checked="true"
@@ -117,12 +116,6 @@
             <span class="hidden sm:inline">Baixar XLSX</span>
             <span class="sm:hidden">XLSX</span>
           </button>
-          <button onclick="baixarCSV()"
-            class="btn-download h-10 px-4 rounded-lg bg-surface border border-border hover:bg-surface-hover text-txt text-sm font-medium flex items-center gap-2 transition-colors">
-            <i class="fa-solid fa-file-csv text-xs text-ok"></i>
-            <span class="hidden sm:inline">Baixar CSV</span>
-            <span class="sm:hidden">CSV</span>
-          </button>
           <button onclick="copiarTabela()"
             class="h-10 w-10 rounded-lg bg-surface border border-border hover:bg-surface-hover flex items-center justify-center transition-colors"
             title="Copiar dados para área de transferência" aria-label="Copiar dados">
@@ -146,7 +139,7 @@
       </div>
 
       <div class="border border-border rounded-xl overflow-hidden shadow-2xl shadow-black/30">
-        <div class="overflow-x-auto" style="max-height: 62vh;" id="table-scroll">
+        <div class="overflow-x-auto" style="height: calc(100vh - 285px); min-height: 620px; max-height: 78vh;" id="table-scroll">
           <table class="w-full text-sm tbl-sticky-first">
             <thead id="table-head"></thead>
             <tbody id="table-body"></tbody>
@@ -157,15 +150,9 @@
       <div id="pagination" class="flex items-center justify-center gap-1.5 flex-wrap"></div>
     </div>
   </main>
-
-  <footer class="border-t border-border-subtle mt-8">
-    <div class="max-w-[1680px] mx-auto px-6 py-4 flex items-center justify-between text-[11px] text-txt-muted">
-      <span>Stellantis K2T — Automação de Produtos</span>
-      <span id="footer-time"></span>
-    </div>
-  </footer>
   <script src="app.js"></script>
 </body>
 
 </html>
+
 

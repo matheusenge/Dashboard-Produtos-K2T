@@ -228,4 +228,13 @@
         transition-duration: 0.01ms !important;
       }
     }
+    #table-scroll {
+      scrollbar-gutter: stable both-edges;
+    }
 
+    @media (max-height: 820px) {
+      #table-scroll {
+        height: calc(100vh - 240px) !important;
+        min-height: 430px !important;
+      }
+    }

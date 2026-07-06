@@ -8,7 +8,7 @@
       porPagina: 50,
       autoRefresh: true,
       refreshTimer: null,
-      refreshInterval: 15000,
+      refreshInterval: 900000,
       carregando: false,
     };
 
@@ -65,7 +65,6 @@
 
       const icon = $('refresh-icon');
       icon.classList.add('anim-spin');
-      $('status-text').textContent = 'Atualizando...';
 
       if (!forcado) mostrarEstado('loading');
 
@@ -98,9 +97,6 @@
           renderizarPaginacao();
         }
 
-        $('status-text').textContent = `Atualizado: ${E.meta.ultima_atualizacao}`;
-        $('footer-time').textContent = dataHora();
-
         if (forcado && E.dados.length > 0) {
           toast('Dados atualizados com sucesso', 'success');
         }
@@ -118,7 +114,6 @@
         E.carregando = false;
         icon.classList.remove('anim-spin');
         if (E.meta.ultima_atualizacao) {
-          $('status-text').textContent = `Atualizado: ${E.meta.ultima_atualizacao}`;
         }
       }
     }
@@ -227,7 +222,7 @@
         const isAtivo = ordemCol === i;
         const seta = isAtivo ? (ordemDir === 'asc' ? 'fa-sort-up' : 'fa-sort-down') : 'fa-sort';
         const ativoClass = isAtivo ? 'active' : '';
-        return `<th class="th-sortable ${ativoClass} px-3 py-3 text-left text-[11px] font-semibold text-txt-muted uppercase tracking-wider whitespace-nowrap border-b border-border bg-base-light/95 backdrop-blur-sm select-none"
+        return `<th class="th-sortable ${ativoClass} px-3 py-2.5 text-left text-[11px] font-semibold text-txt-muted uppercase tracking-wider whitespace-nowrap border-b border-border bg-base-light/95 backdrop-blur-sm select-none"
                     onclick="ordenar(${i})" title="Ordenar por ${col}">
                     <span class="inline-flex items-center gap-1.5">
                         ${col}
@@ -254,7 +249,7 @@
         const val = row[col];
         const display = val === null || val === undefined ? '' : String(val);
         const isFirst = E.colunas.indexOf(col) === 0;
-        return `<td class="px-3 py-2.5 text-[13px] whitespace-nowrap max-w-[280px] truncate ${isFirst ? 'font-semibold neon-id' : 'text-txt-secondary'}"
+        return `<td class="px-3 py-2 text-[13px] whitespace-nowrap max-w-[280px] truncate ${isFirst ? 'font-semibold neon-id' : 'text-txt-secondary'}"
                         title="${display.replace(/"/g, '&quot;')}">${display || '<span class="text-txt-muted/40">—</span>'}</td>`;
       }).join('')}
             </tr>
@@ -457,7 +452,7 @@
         toggle.setAttribute('aria-checked', E.autoRefresh);
         if (E.autoRefresh) {
           iniciarAutoRefresh();
-          toast('Auto-refresh ativado (15s)', 'info');
+          toast('Auto-refresh ativado (15 min)', 'info');
         } else {
           pararAutoRefresh();
           toast('Auto-refresh desativado', 'info');
@@ -483,10 +478,8 @@
       initEventListeners();
       await carregarDados(false);
       iniciarAutoRefresh();
-
-      setInterval(() => {
-        $('footer-time').textContent = dataHora();
-      }, 1000);
     })();
+
+
 
 
