@@ -178,7 +178,8 @@
           valor: numeroBR(E.meta.total_produtos),
         },
         {
-          icone: 'fa-sparkles',
+          icone: 'adicionar-produto.png',
+          imagem: true,
           cor: 'text-ok',
           bg: 'bg-ok-subtle',
           label: 'Novos Produtos',
@@ -200,7 +201,7 @@
                  style="animation-delay: ${i * 80}ms">
                 <div class="flex items-center gap-2 mb-1.5">
                     <div class="w-7 h-7 rounded-md ${c.bg} flex items-center justify-center shrink-0">
-                        <i class="fa-solid ${c.icone} ${c.cor} text-xs"></i>
+                        ${c.imagem ? `<img src="${c.icone}" alt="" class="w-4 h-4 object-contain brightness-0 invert opacity-95">` : `<i class="fa-solid ${c.icone} ${c.cor} text-xs"></i>`}
                     </div>
                     <span class="text-[11px] text-txt-muted leading-tight">${c.label}</span>
                 </div>
@@ -488,6 +489,7 @@
       await carregarDados(false);
       iniciarAutoRefresh();
     })();
+
 
 
 

@@ -135,6 +135,13 @@
         0 0 40px rgba(36, 56, 130, 0.10);
     }
 
+
+    .tbl-sticky-first thead th {
+      position: sticky;
+      top: 0;
+      z-index: 3;
+      background: #0F1219;
+    }
     .tbl-sticky-first th:first-child,
     .tbl-sticky-first td:first-child {
       position: sticky;
@@ -144,7 +151,7 @@
     }
 
     .tbl-sticky-first thead th:first-child {
-      z-index: 4;
+      z-index: 6;
       background: #0F1219;
     }
 
@@ -238,4 +245,6 @@
         min-height: 500px !important;
       }
     }
+
+
 
