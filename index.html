@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Produtos — Stellantis K2T</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Space Grotesk"', 'sans-serif'],
+            body: ['"DM Sans"', 'sans-serif'],
+          },
+          colors: {
+            base: { DEFAULT: '#0B0D13', light: '#0F1219' },
+            surface: { DEFAULT: '#13161F', hover: '#1A1E2A', active: '#222738' },
+            border: { subtle: '#1E2230', DEFAULT: '#282D3E' },
+            txt: { DEFAULT: '#E8EAEF', secondary: '#9499AD', muted: '#5D6278' },
+            accent: { DEFAULT: '#243882', hover: '#2e4a9e', subtle: 'rgba(36,56,130,0.10)' },
+            ok: { DEFAULT: '#2DD4A0', subtle: 'rgba(45,212,160,0.10)' },
+            warn: { DEFAULT: '#F5BF24', subtle: 'rgba(245,191,36,0.10)' },
+            err: { DEFAULT: '#EF6B6B', subtle: 'rgba(239,107,107,0.10)' },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #0B0D13;
+      color: #E8EAEF;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #282D3E;
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #3A4060;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(80px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideOut {
+      from {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateX(80px);
+      }
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes pulseGlow {
+
+      0%,
+      100% {
+        box-shadow: 0 0 0 0 rgba(36, 56, 130, 0);
+      }
+
+      50% {
+        box-shadow: 0 0 24px 4px rgba(36, 56, 130, 0.25);
+      }
+    }
+
+    @keyframes shimmer {
+      0% {
+        background-position: -200% 0;
+      }
+
+      100% {
+        background-position: 200% 0;
+      }
+    }
+
+    .anim-fade-up {
+      animation: fadeUp 0.5s ease-out both;
+    }
+
+    .anim-fade-in {
+      animation: fadeIn 0.4s ease-out both;
+    }
+
+    .anim-spin {
+      animation: spin 0.8s linear infinite;
+    }
+
+    .anim-pulse {
+      animation: pulseGlow 1.5s ease-in-out;
+    }
+
+    .toast-enter {
+      animation: slideIn 0.3s ease-out both;
+    }
+
+    .toast-exit {
+      animation: slideOut 0.3s ease-in both;
+    }
+
+    /* Neon fraco na coluna ID */
+    .neon-id {
+      color: #7b9cf5;
+      text-shadow:
+        0 0 6px rgba(36, 56, 130, 0.6),
+        0 0 18px rgba(36, 56, 130, 0.25),
+        0 0 40px rgba(36, 56, 130, 0.10);
+    }
+
+    .tbl-sticky-first th:first-child,
+    .tbl-sticky-first td:first-child {
+      position: sticky;
+      left: 0;
+      z-index: 2;
+      background: #13161F;
+    }
+
+    .tbl-sticky-first thead th:first-child {
+      z-index: 4;
+      background: #0F1219;
+    }
+
+    .tbl-sticky-first tbody tr:hover td:first-child {
+      background: #1A1E2A;
+    }
+
+    .th-sortable {
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.15s;
+    }
+
+    .th-sortable:hover {
+      color: #243882;
+    }
+
+    .th-sortable.active {
+      color: #243882;
+    }
+
+    .shimmer {
+      background: linear-gradient(90deg, #13161F 25%, #1A1E2A 50%, #13161F 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+    }
+
+    .toggle-track {
+      width: 36px;
+      height: 20px;
+      background: #282D3E;
+      border-radius: 10px;
+      position: relative;
+      transition: background 0.2s;
+      cursor: pointer;
+    }
+
+    .toggle-track.on {
+      background: #243882;
+    }
+
+    .toggle-knob {
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: transform 0.2s;
+    }
+
+    .toggle-track.on .toggle-knob {
+      transform: translateX(16px);
+    }
+
+    .btn-download {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-download::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+      transform: translateX(-100%);
+      transition: transform 0.4s;
+    }
+
+    .btn-download:hover::after {
+      transform: translateX(100%);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen">
+
+  <div id="toast-container" class="fixed top-4 right-4 z-[100] flex flex-col gap-2 pointer-events-none"
+    aria-live="polite"></div>
+
+  <header class="sticky top-0 z-50 border-b border-border-subtle bg-base-light/80 backdrop-blur-xl">
+    <div class="max-w-[1680px] mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3 min-w-0">
+        <img
+          src="https://z-cdn-media.chatglm.cn/files/3323a8b1-e0e2-4d40-8889-c4c421cbbce9.png?auth_key=1883274642-64d03c6002c94a0591c4db1be9e49f7c-0-3dd3ea961e7e4fc5d24d161ba6c730f7"
+          alt="Stellantis" class="h-8 sm:h-9 w-auto object-contain shrink-0"
+          style="mix-blend-mode: multiply; filter: brightness(8) contrast(0.85);"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="hidden items-center shrink-0">
+          <div class="w-9 h-9 rounded-lg bg-accent flex items-center justify-center shadow-lg shadow-accent/20">
+            <i class="fa-solid fa-gear text-white text-sm"></i>
+          </div>
+        </div>
+        <div class="min-w-0">
+          <h1 class="font-display font-bold text-base leading-tight truncate">Stellantis K2T</h1>
+          <p class="text-[11px] text-txt-muted leading-tight">Painel de Produtos</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3 sm:gap-4 shrink-0">
+        <span id="status-text" class="text-[11px] text-txt-muted hidden sm:inline"></span>
+        <div class="flex items-center gap-2">
+          <span class="text-[11px] text-txt-secondary hidden sm:inline">Auto</span>
+          <div id="toggle-refresh" class="toggle-track on" role="switch" aria-checked="true"
+            aria-label="Atualização automática" tabindex="0">
+            <div class="toggle-knob"></div>
+          </div>
+        </div>
+        <button id="btn-refresh" onclick="carregarDados(true)"
+          class="w-9 h-9 rounded-lg border border-border bg-surface hover:bg-surface-hover flex items-center justify-center transition-colors"
+          aria-label="Atualizar dados">
+          <i class="fa-solid fa-arrows-rotate text-txt-secondary text-sm" id="refresh-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-[1680px] mx-auto px-4 sm:px-6 py-6">
+
+    <div id="state-loading" class="space-y-6">
+      <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="h-24 rounded-xl shimmer"></div>
+        <div class="h-24 rounded-xl shimmer"></div>
+        <div class="h-24 rounded-xl shimmer"></div>
+      </div>
+      <div class="h-12 rounded-lg shimmer"></div>
+      <div class="h-96 rounded-xl shimmer"></div>
+    </div>
+
+    <div id="state-error" class="hidden">
+      <div class="max-w-md mx-auto text-center py-20 anim-fade-up">
+        <div class="w-16 h-16 rounded-2xl bg-err-subtle flex items-center justify-center mx-auto mb-5">
+          <i class="fa-solid fa-triangle-exclamation text-err text-2xl"></i>
+        </div>
+        <h2 class="font-display font-bold text-xl mb-2">Erro ao carregar dados</h2>
+        <p id="error-msg" class="text-txt-secondary text-sm mb-6">Não foi possível ler o arquivo de dados.</p>
+        <button onclick="carregarDados(true)"
+          class="px-5 py-2.5 rounded-lg bg-surface border border-border hover:bg-surface-hover text-sm font-medium transition-colors">
+          <i class="fa-solid fa-arrows-rotate mr-2"></i>Tentar novamente
+        </button>
+      </div>
+    </div>
+
+    <div id="state-empty" class="hidden">
+      <div class="max-w-md mx-auto text-center py-20 anim-fade-up">
+        <div class="w-16 h-16 rounded-2xl bg-accent-subtle flex items-center justify-center mx-auto mb-5">
+          <i class="fa-solid fa-box-open text-accent text-2xl"></i>
+        </div>
+        <h2 class="font-display font-bold text-xl mb-2">Nenhum dado disponível</h2>
+        <p class="text-txt-secondary text-sm mb-6">Execute a automação primeiro para gerar os dados do dashboard.</p>
+        <div
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface border border-border text-sm text-txt-secondary">
+          <i class="fa-solid fa-terminal"></i>
+          <code>2_RODAR_AUTOMACAO.bat</code>
+        </div>
+      </div>
+    </div>
+
+    <div id="state-data" class="hidden space-y-5">
+
+      <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4" id="stats-grid"></div>
+
+      <div class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between">
+        <div class="relative flex-1 max-w-lg">
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-txt-muted text-xs"></i>
+          <input type="text" id="search-input" placeholder="Pesquisar em qualquer coluna..."
+            class="w-full h-10 pl-10 pr-4 rounded-lg bg-surface border border-border text-sm text-txt placeholder:text-txt-muted focus:outline-none focus:border-accent/60 focus:ring-1 focus:ring-accent/30 transition-all">
+        </div>
+
+        <div class="flex gap-2 shrink-0">
+          <button onclick="baixarXLSX()"
+            class="btn-download h-10 px-4 rounded-lg bg-accent hover:bg-accent-hover text-white text-sm font-medium flex items-center gap-2 transition-colors shadow-lg shadow-accent/20">
+            <i class="fa-solid fa-file-excel text-xs"></i>
+            <span class="hidden sm:inline">Baixar XLSX</span>
+            <span class="sm:hidden">XLSX</span>
+          </button>
+          <button onclick="baixarCSV()"
+            class="btn-download h-10 px-4 rounded-lg bg-surface border border-border hover:bg-surface-hover text-txt text-sm font-medium flex items-center gap-2 transition-colors">
+            <i class="fa-solid fa-file-csv text-xs text-ok"></i>
+            <span class="hidden sm:inline">Baixar CSV</span>
+            <span class="sm:hidden">CSV</span>
+          </button>
+          <button onclick="copiarTabela()"
+            class="h-10 w-10 rounded-lg bg-surface border border-border hover:bg-surface-hover flex items-center justify-center transition-colors"
+            title="Copiar dados para área de transferência" aria-label="Copiar dados">
+            <i class="fa-regular fa-clipboard text-txt-secondary text-sm"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between text-[11px] text-txt-muted px-1">
+        <span id="info-count"></span>
+        <div class="flex items-center gap-2">
+          <span>Itens/página:</span>
+          <select id="page-size"
+            class="bg-surface border border-border-subtle rounded px-2 py-1 text-txt text-[11px] focus:outline-none focus:border-accent/60 cursor-pointer">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+            <option value="500">500</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="border border-border rounded-xl overflow-hidden shadow-2xl shadow-black/30">
+        <div class="overflow-x-auto" style="max-height: 62vh;" id="table-scroll">
+          <table class="w-full text-sm tbl-sticky-first">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="pagination" class="flex items-center justify-center gap-1.5 flex-wrap"></div>
+    </div>
+  </main>
+
+  <footer class="border-t border-border-subtle mt-8">
+    <div class="max-w-[1680px] mx-auto px-6 py-4 flex items-center justify-between text-[11px] text-txt-muted">
+      <span>Stellantis K2T — Automação de Produtos</span>
+      <span id="footer-time"></span>
+    </div>
+  </footer>
+
+  <script>
+    const E = {
+      dados: [],
+      colunas: [],
+      meta: {},
+      busca: '',
+      ordem: { col: -1, dir: 'asc' },
+      pagina: 1,
+      porPagina: 50,
+      autoRefresh: true,
+      refreshTimer: null,
+      refreshInterval: 60000,
+      carregando: false,
+    };
+
+    function $(id) { return document.getElementById(id); }
+
+    function mostrarEstado(nome) {
+      ['loading', 'error', 'empty', 'data'].forEach(s => {
+        $(`state-${s}`).classList.toggle('hidden', s !== nome);
+      });
+    }
+
+    function dataHora() {
+      const d = new Date();
+      return d.toLocaleDateString('pt-BR') + ' ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+    }
+
+    function dataHoraArquivo() {
+      const d = new Date();
+      const pad = n => String(n).padStart(2, '0');
+      return `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}_${pad(d.getHours())}${pad(d.getMinutes())}`;
+    }
+
+    function numeroBR(n) {
+      return Number(n).toLocaleString('pt-BR');
+    }
+
+    function toast(msg, tipo = 'info') {
+      const container = $('toast-container');
+      const cores = {
+        info: 'border-accent/40 bg-surface',
+        success: 'border-ok/40 bg-surface',
+        error: 'border-err/40 bg-surface',
+      };
+      const icones = {
+        info: 'fa-circle-info text-accent',
+        success: 'fa-circle-check text-ok',
+        error: 'fa-circle-xmark text-err',
+      };
+      const el = document.createElement('div');
+      el.className = `pointer-events-auto flex items-center gap-3 px-4 py-3 rounded-xl border ${cores[tipo]} shadow-2xl shadow-black/40 toast-enter text-sm max-w-sm`;
+      el.innerHTML = `<i class="fa-solid ${icones[tipo]} shrink-0"></i><span class="text-txt text-[13px]">${msg}</span>`;
+      container.appendChild(el);
+
+      setTimeout(() => {
+        el.classList.remove('toast-enter');
+        el.classList.add('toast-exit');
+        el.addEventListener('animationend', () => el.remove());
+      }, 3000);
+    }
+
+    async function carregarDados(forcado = false) {
+      if (E.carregando) return;
+      E.carregando = true;
+
+      const icon = $('refresh-icon');
+      icon.classList.add('anim-spin');
+      $('status-text').textContent = 'Atualizando...';
+
+      if (!forcado) mostrarEstado('loading');
+
+      try {
+        const resp = await fetch(`dados.json?_t=${Date.now()}`);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+
+        const json = await resp.json();
+
+        if (!json.colunas || !Array.isArray(json.dados)) {
+          throw new Error('Formato de dados inválido');
+        }
+
+        const novosAnterior = E.meta.novos_produtos || 0;
+
+        E.meta = {
+          ultima_atualizacao: json.ultima_atualizacao || '',
+          total_produtos: json.total_produtos || 0,
+          novos_produtos: json.novos_produtos || 0,
+        };
+        E.colunas = json.colunas;
+        E.dados = json.dados;
+
+        if (E.dados.length === 0) {
+          mostrarEstado('empty');
+        } else {
+          mostrarEstado('data');
+          renderizarStats(novosAnterior);
+          renderizarTabela();
+          renderizarPaginacao();
+        }
+
+        $('status-text').textContent = `Atualizado: ${E.meta.ultima_atualizacao}`;
+        $('footer-time').textContent = dataHora();
+
+        if (forcado && E.dados.length > 0) {
+          toast('Dados atualizados com sucesso', 'success');
+        }
+
+      } catch (err) {
+        console.error('Erro ao carregar dados:', err);
+        if (forcado || E.dados.length === 0) {
+          $('error-msg').textContent = err.message || 'Não foi possível ler o arquivo de dados.';
+          mostrarEstado('error');
+        }
+        if (forcado) {
+          toast('Falha ao atualizar dados', 'error');
+        }
+      } finally {
+        E.carregando = false;
+        icon.classList.remove('anim-spin');
+        if (E.meta.ultima_atualizacao) {
+          $('status-text').textContent = `Atualizado: ${E.meta.ultima_atualizacao}`;
+        }
+      }
+    }
+
+    function getDadosFiltrados() {
+      let dados = [...E.dados];
+
+      if (E.busca.trim()) {
+        const termo = E.busca.toLowerCase().trim();
+        dados = dados.filter(row =>
+          E.colunas.some(col => {
+            const val = row[col];
+            return val !== null && val !== undefined && String(val).toLowerCase().includes(termo);
+          })
+        );
+      }
+
+      if (E.ordem.col >= 0 && E.ordem.col < E.colunas.length) {
+        const colNome = E.colunas[E.ordem.col];
+        const dir = E.ordem.dir === 'asc' ? 1 : -1;
+        dados.sort((a, b) => {
+          let va = a[colNome] ?? '';
+          let vb = b[colNome] ?? '';
+          const na = Number(va);
+          const nb = Number(vb);
+          if (!isNaN(na) && !isNaN(nb) && va !== '' && vb !== '') {
+            return (na - nb) * dir;
+          }
+          return String(va).localeCompare(String(vb), 'pt-BR') * dir;
+        });
+      }
+
+      return dados;
+    }
+
+    function getDadosPagina() {
+      const filtrados = getDadosFiltrados();
+      const inicio = (E.pagina - 1) * E.porPagina;
+      return {
+        dados: filtrados.slice(inicio, inicio + E.porPagina),
+        total: filtrados.length,
+        totalPaginas: Math.max(1, Math.ceil(filtrados.length / E.porPagina)),
+      };
+    }
+
+    function renderizarStats(novosAnterior) {
+      const cards = [
+        {
+          icone: 'fa-boxes-stacked',
+          cor: 'text-accent',
+          bg: 'bg-accent-subtle',
+          label: 'Total de Produtos',
+          valor: numeroBR(E.meta.total_produtos),
+        },
+        {
+          icone: 'fa-sparkles',
+          cor: 'text-ok',
+          bg: 'bg-ok-subtle',
+          label: 'Novos Produtos',
+          valor: numeroBR(E.meta.novos_produtos),
+          pulse: E.meta.novos_produtos > 0 && E.meta.novos_produtos !== novosAnterior,
+        },
+        {
+          icone: 'fa-clock',
+          cor: 'text-txt-secondary',
+          bg: 'bg-surface',
+          label: 'Última Atualização',
+          valor: E.meta.ultima_atualizacao || '—',
+          small: true,
+        },
+      ];
+
+      $('stats-grid').innerHTML = cards.map((c, i) => `
+            <div class="rounded-xl border border-border-subtle bg-surface p-4 anim-fade-up ${c.pulse ? 'anim-pulse' : ''}"
+                 style="animation-delay: ${i * 80}ms">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-9 h-9 rounded-lg ${c.bg} flex items-center justify-center shrink-0">
+                        <i class="fa-solid ${c.icone} ${c.cor} text-sm"></i>
+                    </div>
+                    <span class="text-[11px] text-txt-muted leading-tight">${c.label}</span>
+                </div>
+                <div class="${c.small ? 'text-sm' : 'text-2xl'} font-display font-bold text-txt leading-none truncate" title="${c.valor}">
+                    ${c.valor}
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function renderizarTabela() {
+      const { dados, total } = getDadosPagina();
+      const filtrados = getDadosFiltrados();
+
+      const inicio = Math.min((E.pagina - 1) * E.porPagina + 1, total);
+      const fim = Math.min(E.pagina * E.porPagina, filtrados.length);
+      if (filtrados.length === 0) {
+        $('info-count').textContent = 'Nenhum resultado encontrado';
+      } else {
+        $('info-count').textContent = `Mostrando ${numeroBR(inicio)}–${numeroBR(fim)} de ${numeroBR(filtrados.length)} produtos`;
+      }
+
+      const ordemCol = E.ordem.col;
+      const ordemDir = E.ordem.dir;
+
+      $('table-head').innerHTML = `<tr class="border-b border-border">
+            ${E.colunas.map((col, i) => {
+        const isAtivo = ordemCol === i;
+        const seta = isAtivo ? (ordemDir === 'asc' ? 'fa-sort-up' : 'fa-sort-down') : 'fa-sort';
+        const ativoClass = isAtivo ? 'active' : '';
+        return `<th class="th-sortable ${ativoClass} px-3 py-3 text-left text-[11px] font-semibold text-txt-muted uppercase tracking-wider whitespace-nowrap border-b border-border bg-base-light/95 backdrop-blur-sm select-none"
+                    onclick="ordenar(${i})" title="Ordenar por ${col}">
+                    <span class="inline-flex items-center gap-1.5">
+                        ${col}
+                        <i class="fa-solid ${seta} text-[9px] opacity-40 ${isAtivo ? '!opacity-100' : ''}"></i>
+                    </span>
+                </th>`;
+      }).join('')}
+        </tr>`;
+
+      if (dados.length === 0) {
+        $('table-body').innerHTML = `
+                <tr>
+                    <td colspan="${E.colunas.length}" class="px-4 py-16 text-center text-txt-muted text-sm">
+                        <i class="fa-solid fa-magnifying-glass text-2xl mb-3 block opacity-30"></i>
+                        Nenhum produto corresponde à pesquisa
+                    </td>
+                </tr>`;
+        return;
+      }
+
+      $('table-body').innerHTML = dados.map((row, ri) => `
+            <tr class="border-b border-border-subtle hover:bg-surface-hover/60 transition-colors anim-fade-in" style="animation-delay: ${Math.min(ri * 15, 300)}ms">
+                ${E.colunas.map(col => {
+        const val = row[col];
+        const display = val === null || val === undefined ? '' : String(val);
+        const isFirst = E.colunas.indexOf(col) === 0;
+        return `<td class="px-3 py-2.5 text-[13px] whitespace-nowrap max-w-[280px] truncate ${isFirst ? 'font-semibold neon-id' : 'text-txt-secondary'}"
+                        title="${display.replace(/"/g, '&quot;')}">${display || '<span class="text-txt-muted/40">—</span>'}</td>`;
+      }).join('')}
+            </tr>
+        `).join('');
+    }
+
+    function renderizarPaginacao() {
+      const { totalPaginas } = getDadosPagina();
+      if (totalPaginas <= 1) {
+        $('pagination').innerHTML = '';
+        return;
+      }
+
+      let botoes = [];
+
+      botoes.push(`<button onclick="mudarPagina(${E.pagina - 1})" ${E.pagina <= 1 ? 'disabled' : ''}
+            class="h-8 px-3 rounded-lg text-xs font-medium border transition-colors
+            ${E.pagina <= 1 ? 'border-border-subtle text-txt-muted/30 cursor-not-allowed' : 'border-border bg-surface hover:bg-surface-hover text-txt-secondary'}">
+            <i class="fa-solid fa-chevron-left text-[10px] mr-1"></i>Anterior
+        </button>`);
+
+      const maxVisiveis = 7;
+      let inicioP = Math.max(1, E.pagina - Math.floor(maxVisiveis / 2));
+      let fimP = Math.min(totalPaginas, inicioP + maxVisiveis - 1);
+      if (fimP - inicioP < maxVisiveis - 1) {
+        inicioP = Math.max(1, fimP - maxVisiveis + 1);
+      }
+
+      if (inicioP > 1) {
+        botoes.push(pageBtn(1));
+        if (inicioP > 2) botoes.push('<span class="text-txt-muted text-xs px-1">...</span>');
+      }
+
+      for (let p = inicioP; p <= fimP; p++) {
+        botoes.push(pageBtn(p));
+      }
+
+      if (fimP < totalPaginas) {
+        if (fimP < totalPaginas - 1) botoes.push('<span class="text-txt-muted text-xs px-1">...</span>');
+        botoes.push(pageBtn(totalPaginas));
+      }
+
+      botoes.push(`<button onclick="mudarPagina(${E.pagina + 1})" ${E.pagina >= totalPaginas ? 'disabled' : ''}
+            class="h-8 px-3 rounded-lg text-xs font-medium border transition-colors
+            ${E.pagina >= totalPaginas ? 'border-border-subtle text-txt-muted/30 cursor-not-allowed' : 'border-border bg-surface hover:bg-surface-hover text-txt-secondary'}">
+            Próximo<i class="fa-solid fa-chevron-right text-[10px] ml-1"></i>
+        </button>`);
+
+      $('pagination').innerHTML = botoes.join('');
+    }
+
+    function pageBtn(p) {
+      const ativo = p === E.pagina;
+      return `<button onclick="mudarPagina(${p})"
+            class="h-8 w-8 rounded-lg text-xs font-medium border transition-colors
+            ${ativo ? 'border-accent/50 bg-accent/15 text-accent' : 'border-border bg-surface hover:bg-surface-hover text-txt-secondary'}">
+            ${p}
+        </button>`;
+    }
+
+    function ordenar(colIdx) {
+      if (E.ordem.col === colIdx) {
+        E.ordem.dir = E.ordem.dir === 'asc' ? 'desc' : 'asc';
+      } else {
+        E.ordem.col = colIdx;
+        E.ordem.dir = 'asc';
+      }
+      E.pagina = 1;
+      renderizarTabela();
+      renderizarPaginacao();
+    }
+
+    function mudarPagina(p) {
+      const { totalPaginas } = getDadosPagina();
+      if (p < 1 || p > totalPaginas) return;
+      E.pagina = p;
+      renderizarTabela();
+      renderizarPaginacao();
+      $('table-scroll').scrollTop = 0;
+    }
+
+    function baixarXLSX() {
+      const dados = getDadosFiltrados();
+      if (dados.length === 0) {
+        toast('Nenhum dado para exportar', 'error');
+        return;
+      }
+
+      toast('Gerando planilha XLSX...', 'info');
+
+      try {
+        const ws = XLSX.utils.json_to_sheet(dados, { header: E.colunas });
+
+        ws['!cols'] = E.colunas.map(col => {
+          const maxLen = Math.max(
+            col.length,
+            ...dados.slice(0, 200).map(r => String(r[col] || '').length)
+          );
+          return { wch: Math.min(maxLen + 3, 50) };
+        });
+
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, 'Produtos');
+        XLSX.writeFile(wb, `produtos_k2t_${dataHoraArquivo()}.xlsx`);
+
+        toast(`XLSX exportado: ${numeroBR(dados.length)} produtos`, 'success');
+      } catch (err) {
+        console.error('Erro ao gerar XLSX:', err);
+        toast('Erro ao gerar planilha', 'error');
+      }
+    }
+
+    function baixarCSV() {
+      const dados = getDadosFiltrados();
+      if (dados.length === 0) {
+        toast('Nenhum dado para exportar', 'error');
+        return;
+      }
+
+      toast('Gerando CSV...', 'info');
+
+      try {
+        const ws = XLSX.utils.json_to_sheet(dados, { header: E.colunas });
+        const csv = XLSX.utils.sheet_to_csv(ws, { sep: ';', forceQuotes: true });
+
+        const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `produtos_k2t_${dataHoraArquivo()}.csv`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+
+        toast(`CSV exportado: ${numeroBR(dados.length)} produtos`, 'success');
+      } catch (err) {
+        console.error('Erro ao gerar CSV:', err);
+        toast('Erro ao gerar CSV', 'error');
+      }
+    }
+
+    async function copiarTabela() {
+      const dados = getDadosFiltrados();
+      if (dados.length === 0) {
+        toast('Nenhum dado para copiar', 'error');
+        return;
+      }
+
+      try {
+        const header = E.colunas.join('\t');
+        const rows = dados.map(row => E.colunas.map(c => row[c] ?? '').join('\t'));
+        const tsv = [header, ...rows].join('\n');
+
+        await navigator.clipboard.writeText(tsv);
+        toast(`${numeroBR(dados.length)} linhas copiadas (cole no Excel)`, 'success');
+      } catch (err) {
+        console.error('Erro ao copiar:', err);
+        toast('Não foi possível acessar a área de transferência', 'error');
+      }
+    }
+
+    function iniciarAutoRefresh() {
+      pararAutoRefresh();
+      if (E.autoRefresh) {
+        E.refreshTimer = setInterval(() => carregarDados(false), E.refreshInterval);
+      }
+    }
+
+    function pararAutoRefresh() {
+      if (E.refreshTimer) {
+        clearInterval(E.refreshTimer);
+        E.refreshTimer = null;
+      }
+    }
+
+    function initEventListeners() {
+      let debounceTimer = null;
+      $('search-input').addEventListener('input', (e) => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          E.busca = e.target.value;
+          E.pagina = 1;
+          renderizarTabela();
+          renderizarPaginacao();
+        }, 250);
+      });
+
+      $('page-size').addEventListener('change', (e) => {
+        E.porPagina = parseInt(e.target.value, 10);
+        E.pagina = 1;
+        renderizarTabela();
+        renderizarPaginacao();
+      });
+
+      const toggle = $('toggle-refresh');
+      toggle.addEventListener('click', () => {
+        E.autoRefresh = !E.autoRefresh;
+        toggle.classList.toggle('on', E.autoRefresh);
+        toggle.setAttribute('aria-checked', E.autoRefresh);
+        if (E.autoRefresh) {
+          iniciarAutoRefresh();
+          toast('Auto-refresh ativado (60s)', 'info');
+        } else {
+          pararAutoRefresh();
+          toast('Auto-refresh desativado', 'info');
+        }
+      });
+
+      toggle.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggle.click();
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+          e.preventDefault();
+          $('search-input').focus();
+        }
+      });
+    }
+
+    (async function init() {
+      initEventListeners();
+      await carregarDados(false);
+      iniciarAutoRefresh();
+
+      setInterval(() => {
+        $('footer-time').textContent = dataHora();
+      }, 1000);
+    })();
+  </script>
+</body>
+
+</html>
