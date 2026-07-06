@@ -5,7 +5,7 @@
       busca: '',
       ordem: { col: -1, dir: 'asc' },
       pagina: 1,
-      porPagina: 50,
+      porPagina: "all",
       autoRefresh: true,
       refreshTimer: null,
       refreshInterval: 900000,
@@ -151,6 +151,15 @@
 
     function getDadosPagina() {
       const filtrados = getDadosFiltrados();
+
+      if (E.porPagina === 'all') {
+        return {
+          dados: filtrados,
+          total: filtrados.length,
+          totalPaginas: 1,
+        };
+      }
+
       const inicio = (E.pagina - 1) * E.porPagina;
       return {
         dados: filtrados.slice(inicio, inicio + E.porPagina),
@@ -187,15 +196,15 @@
       ];
 
       $('stats-grid').innerHTML = cards.map((c, i) => `
-            <div class="rounded-xl border border-border-subtle bg-surface p-4 anim-fade-up ${c.pulse ? 'anim-pulse' : ''}"
+            <div class="rounded-lg border border-border-subtle bg-surface px-3 py-2.5 anim-fade-up ${c.pulse ? 'anim-pulse' : ''}"
                  style="animation-delay: ${i * 80}ms">
-                <div class="flex items-center gap-3 mb-3">
-                    <div class="w-9 h-9 rounded-lg ${c.bg} flex items-center justify-center shrink-0">
-                        <i class="fa-solid ${c.icone} ${c.cor} text-sm"></i>
+                <div class="flex items-center gap-2 mb-1.5">
+                    <div class="w-7 h-7 rounded-md ${c.bg} flex items-center justify-center shrink-0">
+                        <i class="fa-solid ${c.icone} ${c.cor} text-xs"></i>
                     </div>
                     <span class="text-[11px] text-txt-muted leading-tight">${c.label}</span>
                 </div>
-                <div class="${c.small ? 'text-sm' : 'text-2xl'} font-display font-bold text-txt leading-none truncate" title="${c.valor}">
+                <div class="${c.small ? 'text-xs' : 'text-xl'} font-display font-bold text-txt leading-none truncate" title="${c.valor}">
                     ${c.valor}
                 </div>
             </div>
@@ -206,8 +215,8 @@
       const { dados, total } = getDadosPagina();
       const filtrados = getDadosFiltrados();
 
-      const inicio = Math.min((E.pagina - 1) * E.porPagina + 1, total);
-      const fim = Math.min(E.pagina * E.porPagina, filtrados.length);
+      const inicio = E.porPagina === 'all' ? 1 : Math.min((E.pagina - 1) * E.porPagina + 1, total);
+      const fim = E.porPagina === 'all' ? filtrados.length : Math.min(E.pagina * E.porPagina, filtrados.length);
       if (filtrados.length === 0) {
         $('info-count').textContent = 'Nenhum resultado encontrado';
       } else {
@@ -439,7 +448,7 @@
       });
 
       $('page-size').addEventListener('change', (e) => {
-        E.porPagina = parseInt(e.target.value, 10);
+        E.porPagina = e.target.value === 'all' ? 'all' : parseInt(e.target.value, 10);
         E.pagina = 1;
         renderizarTabela();
         renderizarPaginacao();
@@ -479,6 +488,8 @@
       await carregarDados(false);
       iniciarAutoRefresh();
     })();
+
+
 
 
 

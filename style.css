@@ -234,7 +234,8 @@
 
     @media (max-height: 820px) {
       #table-scroll {
-        height: calc(100vh - 240px) !important;
-        min-height: 430px !important;
+        height: calc(100vh - 205px) !important;
+        min-height: 500px !important;
       }
     }
+

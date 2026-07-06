@@ -98,9 +98,9 @@
       </div>
     </div>
 
-    <div id="state-data" class="hidden space-y-5">
+    <div id="state-data" class="hidden space-y-3">
 
-      <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4" id="stats-grid"></div>
+      <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3" id="stats-grid"></div>
 
       <div class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between">
         <div class="relative flex-1 max-w-lg">
@@ -131,15 +131,16 @@
           <select id="page-size"
             class="bg-surface border border-border-subtle rounded px-2 py-1 text-txt text-[11px] focus:outline-none focus:border-accent/60 cursor-pointer">
             <option value="25">25</option>
-            <option value="50" selected>50</option>
+            <option value="50">50</option>
             <option value="100">100</option>
             <option value="500">500</option>
+            <option value="all" selected>Todos</option>
           </select>
         </div>
       </div>
 
       <div class="border border-border rounded-xl overflow-hidden shadow-2xl shadow-black/30">
-        <div class="overflow-x-auto" style="height: calc(100vh - 285px); min-height: 620px; max-height: 78vh;" id="table-scroll">
+        <div class="overflow-x-auto" style="height: calc(100vh - 235px); min-height: 660px; max-height: 84vh;" id="table-scroll">
           <table class="w-full text-sm tbl-sticky-first">
             <thead id="table-head"></thead>
             <tbody id="table-body"></tbody>
@@ -154,5 +155,6 @@
 </body>
 
 </html>
+
 
 
