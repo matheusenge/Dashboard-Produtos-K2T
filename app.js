@@ -79,11 +79,14 @@
         }
 
         const novosAnterior = E.meta.novos_produtos || 0;
+        const subidosAnterior = E.meta.total_subidos || 0;
 
         E.meta = {
           ultima_atualizacao: json.ultima_atualizacao || '',
           total_produtos: json.total_produtos || 0,
           novos_produtos: json.novos_produtos || 0,
+          total_subidos: json.total_subidos || 0,
+          metricas_dia: json.metricas_dia || null,
         };
         E.colunas = json.colunas;
         E.dados = json.dados;
@@ -92,7 +95,7 @@
           mostrarEstado('empty');
         } else {
           mostrarEstado('data');
-          renderizarStats(novosAnterior);
+          renderizarStats(novosAnterior, subidosAnterior);
           renderizarTabela();
           renderizarPaginacao();
         }
@@ -168,7 +171,7 @@
       };
     }
 
-    function renderizarStats(novosAnterior) {
+    function renderizarStats(novosAnterior, subidosAnterior) {
       const cards = [
         {
           icone: 'fa-boxes-stacked',
@@ -185,6 +188,14 @@
           label: 'Novos Produtos',
           valor: numeroBR(E.meta.novos_produtos),
           pulse: E.meta.novos_produtos > 0 && E.meta.novos_produtos !== novosAnterior,
+        },
+        {
+          icone: 'fa-arrow-up-from-bracket',
+          cor: 'text-warn',
+          bg: 'bg-warn-subtle',
+          label: 'Total Subidos',
+          valor: numeroBR(E.meta.total_subidos),
+          pulse: E.meta.total_subidos > 0 && E.meta.total_subidos !== subidosAnterior,
         },
         {
           icone: 'fa-clock',
