@@ -1,11 +1,11 @@
 {
   "data": "2026-07-14",
   "primeira_atualizacao": "14/07/2026 08:20:59",
-  "ultima_atualizacao": "14/07/2026 08:51:19",
+  "ultima_atualizacao": "14/07/2026 09:20:52",
   "total_base_dia": 134,
-  "total_atual": 129,
+  "total_atual": 128,
   "novos_produtos": 0,
-  "total_subidos": 5,
+  "total_subidos": 6,
   "skus_base_dia": [
     "SP12501005122033",
     "SP12501005351032",
@@ -284,6 +284,7 @@
     "SP12501116935020",
     "SP12501116935027",
     "SP12501116935425",
-    "SP12501117389015"
+    "SP12501117389015",
+    "SP12501117737475"
   ]
 }
