@@ -1,10 +1,10 @@
 {
   "data": "2026-07-22",
   "primeira_atualizacao": "22/07/2026 08:20:50",
-  "ultima_atualizacao": "22/07/2026 15:20:54",
+  "ultima_atualizacao": "22/07/2026 15:50:49",
   "total_base_dia": 23,
-  "total_atual": 21,
-  "novos_produtos": 1,
+  "total_atual": 22,
+  "novos_produtos": 2,
   "total_subidos": 3,
   "skus_base_dia": [
     "SP12501010835033",
@@ -55,10 +55,12 @@
     "SP12501116765041",
     "SP12501116765042",
     "SP12501116765043",
+    "SP22501034170005",
     "SP42501003164947"
   ],
   "skus_novos_hoje": [
-    "SP12501014962400"
+    "SP12501014962400",
+    "SP22501034170005"
   ],
   "skus_subidos_hoje": [
     "SP12501016264013",
