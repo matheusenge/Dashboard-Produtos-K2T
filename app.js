@@ -2,6 +2,7 @@
       dados: [],
       colunas: [],
       meta: {},
+      metricas: {},
       busca: '',
       ordem: { col: -1, dir: 'asc' },
       pagina: 1,
@@ -10,6 +11,7 @@
       refreshTimer: null,
       refreshInterval: 900000,
       carregando: false,
+      modalTrigger: null,
     };
 
     function $(id) { return document.getElementById(id); }
@@ -78,6 +80,16 @@
           throw new Error('Formato de dados inválido');
         }
 
+        let metricas = {};
+        try {
+          const respMetricas = await fetch(`metricas_dia.json?_t=${Date.now()}`);
+          if (respMetricas.ok) {
+            metricas = await respMetricas.json();
+          }
+        } catch (errMetricas) {
+          console.warn('Não foi possível carregar os detalhes das métricas:', errMetricas);
+        }
+
         const novosAnterior = E.meta.novos_produtos || 0;
         const subidosAnterior = E.meta.total_subidos || 0;
 
@@ -88,6 +100,7 @@
           total_subidos: json.total_subidos || 0,
           metricas_dia: json.metricas_dia || null,
         };
+        E.metricas = metricas;
         E.colunas = json.colunas;
         E.dados = json.dados;
 
@@ -188,6 +201,7 @@
           label: 'Novos Produtos',
           valor: numeroBR(E.meta.novos_produtos),
           pulse: E.meta.novos_produtos > 0 && E.meta.novos_produtos !== novosAnterior,
+          acao: 'novos',
         },
         {
           icone: 'fa-arrow-up-from-bracket',
@@ -196,6 +210,7 @@
           label: 'Total Subidos',
           valor: numeroBR(E.meta.total_subidos),
           pulse: E.meta.total_subidos > 0 && E.meta.total_subidos !== subidosAnterior,
+          acao: 'subidos',
         },
         {
           icone: 'fa-clock',
@@ -207,9 +222,8 @@
         },
       ];
 
-      $('stats-grid').innerHTML = cards.map((c, i) => `
-            <div class="rounded-lg border border-border-subtle bg-surface px-3 py-2.5 anim-fade-up ${c.pulse ? 'anim-pulse' : ''}"
-                 style="animation-delay: ${i * 80}ms">
+      $('stats-grid').innerHTML = cards.map((c, i) => {
+        const conteudo = `
                 <div class="flex items-center gap-2 mb-1.5">
                     <div class="w-7 h-7 rounded-md ${c.bg} flex items-center justify-center shrink-0">
                         ${c.imagem ? `<img src="${c.icone}" alt="" class="w-4 h-4 object-contain brightness-0 invert opacity-95">` : `<i class="fa-solid ${c.icone} ${c.cor} text-xs"></i>`}
@@ -219,8 +233,144 @@
                 <div class="${c.small ? 'text-xs' : 'text-xl'} font-display font-bold text-txt leading-none truncate" title="${c.valor}">
                     ${c.valor}
                 </div>
-            </div>
-        `).join('');
+                ${c.acao ? '<div class="mt-2 text-[10px] text-accent flex items-center gap-1"><span>Ver itens</span><i class="fa-solid fa-chevron-right text-[8px]"></i></div>' : ''}
+        `;
+        const classeBase = `rounded-lg border bg-surface px-3 py-2.5 anim-fade-up ${c.pulse ? 'anim-pulse' : ''}`;
+
+        if (c.acao) {
+          return `
+            <button type="button"
+              class="${classeBase} w-full text-left border-border-subtle hover:border-accent/60 hover:bg-surface-hover focus:outline-none focus:ring-2 focus:ring-accent/40 transition-all cursor-pointer"
+              style="animation-delay: ${i * 80}ms"
+              onclick="abrirModalItens('${c.acao}', this)"
+              aria-haspopup="dialog" aria-controls="items-modal">
+              ${conteudo}
+            </button>`;
+        }
+
+        return `
+          <div class="${classeBase} border-border-subtle" style="animation-delay: ${i * 80}ms">
+            ${conteudo}
+          </div>`;
+      }).join('');
+    }
+
+    function escaparHTML(valor) {
+      return String(valor ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function obterItensCard(tipo) {
+      const ehNovos = tipo === 'novos';
+      const chaveDetalhes = ehNovos ? 'itens_novos_hoje' : 'itens_subidos_hoje';
+      const chaveSkus = ehNovos ? 'skus_novos_hoje' : 'skus_subidos_status_ml_hoje';
+      const detalhes = Array.isArray(E.metricas[chaveDetalhes]) ? E.metricas[chaveDetalhes] : [];
+      const skus = Array.isArray(E.metricas[chaveSkus])
+        ? E.metricas[chaveSkus]
+        : (ehNovos ? [] : (E.metricas.skus_subidos_hoje || []));
+      const porSkuAtual = new Map(
+        E.dados.map(item => [String(item.sku || '').trim().toUpperCase(), item])
+      );
+      const porSkuDetalhe = new Map(
+        detalhes.map(item => [String(item.sku || '').trim().toUpperCase(), item])
+      );
+
+      return skus.map(skuOriginal => {
+        const sku = String(skuOriginal || '').trim().toUpperCase();
+        return {
+          sku,
+          ...(porSkuDetalhe.get(sku) || {}),
+          ...(porSkuAtual.get(sku) || {}),
+        };
+      }).sort((a, b) => {
+        const idA = Number(a.id_produto);
+        const idB = Number(b.id_produto);
+        if (Number.isFinite(idA) && Number.isFinite(idB)) return idA - idB;
+        return String(a.sku || '').localeCompare(String(b.sku || ''), 'pt-BR');
+      });
+    }
+
+    function situacaoItem(item, tipo) {
+      const sku = String(item.sku || '').trim().toUpperCase();
+      const subidos = new Set(
+        E.metricas.skus_subidos_status_ml_hoje || E.metricas.skus_subidos_hoje || []
+      );
+      const atuais = new Set(
+        E.dados.map(row => String(row.sku || '').trim().toUpperCase())
+      );
+
+      if (tipo === 'subidos' || subidos.has(sku)) {
+        return { texto: 'Subido', classe: 'bg-warn-subtle text-warn' };
+      }
+      if (atuais.has(sku)) {
+        return { texto: 'Na lista atual', classe: 'bg-ok-subtle text-ok' };
+      }
+      if (String(item.status || '').trim().toLowerCase() === 'vendido' || String(item.quantidade || '').trim() === '0') {
+        return { texto: 'Vendido / sem estoque', classe: 'bg-err-subtle text-err' };
+      }
+      return { texto: 'Fora da lista atual', classe: 'bg-surface text-txt-secondary' };
+    }
+
+    function abrirModalItens(tipo, trigger) {
+      const modal = $('items-modal');
+      const itens = obterItensCard(tipo);
+      const ehNovos = tipo === 'novos';
+      E.modalTrigger = trigger || document.activeElement;
+
+      $('items-modal-title').textContent = ehNovos ? 'Novos Produtos' : 'Total Subidos';
+      $('items-modal-subtitle').textContent = `${numeroBR(itens.length)} ${itens.length === 1 ? 'item' : 'itens'} no dia`;
+      $('items-modal-icon').className = `w-8 h-8 rounded-lg ${ehNovos ? 'bg-ok-subtle' : 'bg-warn-subtle'} flex items-center justify-center shrink-0`;
+      $('items-modal-icon').innerHTML = ehNovos
+        ? '<i class="fa-solid fa-box-open text-ok text-sm"></i>'
+        : '<i class="fa-solid fa-arrow-up-from-bracket text-warn text-sm"></i>';
+
+      if (itens.length === 0) {
+        $('items-modal-body').innerHTML = `
+          <tr>
+            <td colspan="4" class="px-4 py-14 text-center text-txt-muted">
+              Nenhum item registrado nesta métrica.
+            </td>
+          </tr>`;
+      } else {
+        $('items-modal-body').innerHTML = itens.map(item => {
+          const situacao = situacaoItem(item, tipo);
+          const id = item.id_produto || '—';
+          const sku = item.sku || '—';
+          const nome = item.nome || 'Detalhes ainda não disponíveis';
+          return `
+            <tr class="border-b border-border-subtle hover:bg-surface-hover/60 transition-colors">
+              <td class="px-4 py-3 font-semibold neon-id whitespace-nowrap">${escaparHTML(id)}</td>
+              <td class="px-4 py-3 text-txt-secondary whitespace-nowrap">${escaparHTML(sku)}</td>
+              <td class="px-4 py-3 text-txt-secondary min-w-[260px]">${escaparHTML(nome)}</td>
+              <td class="px-4 py-3 whitespace-nowrap">
+                <span class="inline-flex px-2 py-1 rounded-md text-[11px] font-medium ${situacao.classe}">
+                  ${escaparHTML(situacao.texto)}
+                </span>
+              </td>
+            </tr>`;
+        }).join('');
+      }
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+      $('items-modal-close').focus();
+    }
+
+    function fecharModalItens() {
+      const modal = $('items-modal');
+      if (modal.classList.contains('hidden')) return;
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+      if (E.modalTrigger && typeof E.modalTrigger.focus === 'function') {
+        E.modalTrigger.focus();
+      }
+      E.modalTrigger = null;
     }
 
     function renderizarTabela() {
@@ -488,6 +638,10 @@
       });
 
       document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !$('items-modal').classList.contains('hidden')) {
+          fecharModalItens();
+          return;
+        }
         if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
           e.preventDefault();
           $('search-input').focus();
