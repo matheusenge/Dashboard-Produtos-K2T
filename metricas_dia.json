@@ -1,10 +1,10 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 10:50:55",
+  "ultima_atualizacao": "30/07/2026 11:16:33",
   "total_base_dia": 20,
-  "total_atual": 20,
-  "novos_produtos": 0,
+  "total_atual": 24,
+  "novos_produtos": 4,
   "total_subidos": 0,
   "skus_base_dia": [
     "SP12501015160035",
@@ -38,6 +38,10 @@
     "SP12501080469424",
     "SP12501083808029",
     "SP12501089989035",
+    "SP12501100834400",
+    "SP12501102861015",
+    "SP12501102861037",
+    "SP12501105690048",
     "SP12501108100601",
     "SP12501116765033",
     "SP12501116765039",
@@ -50,10 +54,64 @@
     "SP12501117680007",
     "SP42501003164947"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501100834400",
+    "SP12501102861015",
+    "SP12501102861037",
+    "SP12501105690048"
+  ],
   "skus_subidos_hoje": [],
   "skus_subidos_status_ml_hoje": [],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501100834400",
+      "id_produto": "19273",
+      "nome": "MOTOR COMPLETO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501102861015",
+      "id_produto": "19278",
+      "nome": "FAROL DIREITO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102861037",
+      "id_produto": "19282",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501105690048",
+      "id_produto": "19285",
+      "nome": "TURBINA FORD RANGER CD LIMITED 3.2 DURATORQ TDCI 2017/2018",
+      "marca": "FORD",
+      "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    }
+  ],
   "itens_subidos_hoje": [],
   "detalhes_skus_vistos_hoje": {
     "SP12501080469019": {
@@ -295,6 +353,54 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
+    },
+    "SP12501102861015": {
+      "sku": "SP12501102861015",
+      "id_produto": "19278",
+      "nome": "FAROL DIREITO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501100834400": {
+      "sku": "SP12501100834400",
+      "id_produto": "19273",
+      "nome": "MOTOR COMPLETO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
+    "SP12501105690048": {
+      "sku": "SP12501105690048",
+      "id_produto": "19285",
+      "nome": "TURBINA FORD RANGER CD LIMITED 3.2 DURATORQ TDCI 2017/2018",
+      "marca": "FORD",
+      "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    },
+    "SP12501102861037": {
+      "sku": "SP12501102861037",
+      "id_produto": "19282",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   }
 }
