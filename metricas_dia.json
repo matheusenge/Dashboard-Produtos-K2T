@@ -1,11 +1,11 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 11:50:43",
+  "ultima_atualizacao": "30/07/2026 12:16:22",
   "total_base_dia": 20,
-  "total_atual": 30,
+  "total_atual": 29,
   "novos_produtos": 11,
-  "total_subidos": 1,
+  "total_subidos": 2,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501042273041",
@@ -75,9 +75,11 @@
     "SP12501105690048"
   ],
   "skus_subidos_hoje": [
+    "SP12501102861480",
     "SP12501105690048"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501102861480",
     "SP12501105690048"
   ],
   "itens_novos_hoje": [
@@ -192,11 +194,11 @@
     {
       "sku": "SP12501102861480",
       "id_produto": "19284",
-      "nome": "PORTINHOLA DO TANQUE",
+      "nome": "PORTINHOLA DO TANQUE VOLKSWAGEN FOX PLUS 1.6 2004",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -215,6 +217,18 @@
     }
   ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501102861480",
+      "id_produto": "19284",
+      "nome": "PORTINHOLA DO TANQUE VOLKSWAGEN FOX PLUS 1.6 2004",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
     {
       "sku": "SP12501105690048",
       "id_produto": "19285",
@@ -532,11 +546,11 @@
     "SP12501102861480": {
       "sku": "SP12501102861480",
       "id_produto": "19284",
-      "nome": "PORTINHOLA DO TANQUE",
+      "nome": "PORTINHOLA DO TANQUE VOLKSWAGEN FOX PLUS 1.6 2004",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
