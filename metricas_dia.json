@@ -1,10 +1,10 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 12:16:22",
+  "ultima_atualizacao": "30/07/2026 12:23:00",
   "total_base_dia": 20,
-  "total_atual": 29,
-  "novos_produtos": 11,
+  "total_atual": 30,
+  "novos_produtos": 12,
   "total_subidos": 2,
   "skus_base_dia": [
     "SP12501015160035",
@@ -50,6 +50,7 @@
     "SP12501102861480",
     "SP12501105690048",
     "SP12501108100601",
+    "SP12501116706001",
     "SP12501116765033",
     "SP12501116765039",
     "SP12501116765040",
@@ -72,7 +73,8 @@
     "SP12501102861037",
     "SP12501102861411",
     "SP12501102861480",
-    "SP12501105690048"
+    "SP12501105690048",
+    "SP12501116706001"
   ],
   "skus_subidos_hoje": [
     "SP12501102861480",
@@ -214,6 +216,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116706001",
+      "id_produto": "19286",
+      "nome": "ALTERNADOR",
+      "marca": "KIA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
     }
   ],
   "itens_subidos_hoje": [
@@ -614,6 +628,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
+    },
+    "SP12501116706001": {
+      "sku": "SP12501116706001",
+      "id_produto": "19286",
+      "nome": "ALTERNADOR",
+      "marca": "KIA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
     }
   }
 }
