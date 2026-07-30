@@ -1,7 +1,7 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 12:48:25",
+  "ultima_atualizacao": "30/07/2026 12:50:55",
   "total_base_dia": 20,
   "total_atual": 27,
   "novos_produtos": 12,
@@ -230,7 +230,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
@@ -292,7 +292,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
@@ -678,7 +678,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
