@@ -1,10 +1,10 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 14:51:00",
+  "ultima_atualizacao": "30/07/2026 15:16:23",
   "total_base_dia": 20,
-  "total_atual": 152,
-  "novos_produtos": 144,
+  "total_atual": 156,
+  "novos_produtos": 148,
   "total_subidos": 12,
   "skus_base_dia": [
     "SP12501015160035",
@@ -36,6 +36,7 @@
     "SP12501005319032",
     "SP12501009713027",
     "SP12501009900027",
+    "SP12501010380032",
     "SP12501010452010",
     "SP12501014784012",
     "SP12501015098001",
@@ -141,6 +142,7 @@
     "SP12501103043568",
     "SP12501103051012",
     "SP12501103175012",
+    "SP12501103175030",
     "SP12501105631026",
     "SP12501105690048",
     "SP12501108088045",
@@ -151,6 +153,8 @@
     "SP12501116706011",
     "SP12501116706024",
     "SP12501116706026",
+    "SP12501116706029",
+    "SP12501116706032",
     "SP12501116706049",
     "SP12501116706412",
     "SP12501116706480",
@@ -202,6 +206,7 @@
     "SP12501005319032",
     "SP12501009713027",
     "SP12501009900027",
+    "SP12501010380032",
     "SP12501010452010",
     "SP12501014784012",
     "SP12501015098001",
@@ -298,6 +303,7 @@
     "SP12501103043568",
     "SP12501103051012",
     "SP12501103175012",
+    "SP12501103175030",
     "SP12501105631026",
     "SP12501105690048",
     "SP12501108088045",
@@ -307,6 +313,8 @@
     "SP12501116706011",
     "SP12501116706024",
     "SP12501116706026",
+    "SP12501116706029",
+    "SP12501116706032",
     "SP12501116706049",
     "SP12501116706412",
     "SP12501116706480",
@@ -452,6 +460,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "11"
+    },
+    {
+      "sku": "SP12501010380032",
+      "id_produto": "8934",
+      "nome": "PORTA DIANTEIRA DIREITA RENAULT LOGAN EXPRESSION HI-FLEX 1.6 2011/2011",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "LOGAN EXPRESSION HI-FLEX 1.6 8V 4P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501010452010",
@@ -1606,6 +1626,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501103175030",
+      "id_produto": "19369",
+      "nome": "PARA-LAMA DIANTEIRO DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "ZAFIRA ELITE 2.0 MPFI FLEXPOWER 8V AUT",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501105631026",
       "id_produto": "15943",
       "nome": "MOTOR DE PARTIDA",
@@ -1712,6 +1744,30 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501116706029",
+      "id_produto": "19370",
+      "nome": "PARA-CHOQUE TRASEIRO",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501116706032",
+      "id_produto": "19371",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501116706049",
@@ -4212,6 +4268,54 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
+    },
+    "SP12501116706029": {
+      "sku": "SP12501116706029",
+      "id_produto": "19370",
+      "nome": "PARA-CHOQUE TRASEIRO",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    "SP12501116706032": {
+      "sku": "SP12501116706032",
+      "id_produto": "19371",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    "SP12501103175030": {
+      "sku": "SP12501103175030",
+      "id_produto": "19369",
+      "nome": "PARA-LAMA DIANTEIRO DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "ZAFIRA ELITE 2.0 MPFI FLEXPOWER 8V AUT",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
+    "SP12501010380032": {
+      "sku": "SP12501010380032",
+      "id_produto": "8934",
+      "nome": "PORTA DIANTEIRA DIREITA RENAULT LOGAN EXPRESSION HI-FLEX 1.6 2011/2011",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "LOGAN EXPRESSION HI-FLEX 1.6 8V 4P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
     }
   }
 }
