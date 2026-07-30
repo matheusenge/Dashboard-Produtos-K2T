@@ -1,10 +1,10 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 14:20:57",
+  "ultima_atualizacao": "30/07/2026 14:46:51",
   "total_base_dia": 20,
-  "total_atual": 150,
-  "novos_produtos": 142,
+  "total_atual": 152,
+  "novos_produtos": 144,
   "total_subidos": 12,
   "skus_base_dia": [
     "SP12501015160035",
@@ -128,10 +128,12 @@
     "SP12501103035519",
     "SP12501103035520",
     "SP12501103043010",
+    "SP12501103043012",
     "SP12501103043015",
     "SP12501103043016",
     "SP12501103043024",
     "SP12501103043027",
+    "SP12501103043036",
     "SP12501103043037",
     "SP12501103043411",
     "SP12501103043424",
@@ -283,10 +285,12 @@
     "SP12501103035519",
     "SP12501103035520",
     "SP12501103043010",
+    "SP12501103043012",
     "SP12501103043015",
     "SP12501103043016",
     "SP12501103043024",
     "SP12501103043027",
+    "SP12501103043036",
     "SP12501103043037",
     "SP12501103043411",
     "SP12501103043424",
@@ -1446,6 +1450,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501103043012",
+      "id_produto": "19367",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501103043015",
       "id_produto": "19328",
       "nome": "FAROL DIREITO",
@@ -1491,6 +1507,18 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501103043036",
+      "id_produto": "19368",
+      "nome": "RADIADOR",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
       "qtd_images": "5"
     },
     {
@@ -1738,7 +1766,7 @@
       "id_produto": "19372",
       "nome": "RÁDIO",
       "marca": "KIA",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -4154,12 +4182,36 @@
       "id_produto": "19372",
       "nome": "RÁDIO",
       "marca": "KIA",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
+    },
+    "SP12501103043036": {
+      "sku": "SP12501103043036",
+      "id_produto": "19368",
+      "nome": "RADIADOR",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    "SP12501103043012": {
+      "sku": "SP12501103043012",
+      "id_produto": "19367",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
     }
   }
 }
