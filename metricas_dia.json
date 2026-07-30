@@ -1,10 +1,10 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 11:16:33",
+  "ultima_atualizacao": "30/07/2026 11:20:55",
   "total_base_dia": 20,
-  "total_atual": 24,
-  "novos_produtos": 4,
+  "total_atual": 25,
+  "novos_produtos": 5,
   "total_subidos": 0,
   "skus_base_dia": [
     "SP12501015160035",
@@ -41,6 +41,7 @@
     "SP12501100834400",
     "SP12501102861015",
     "SP12501102861037",
+    "SP12501102861411",
     "SP12501105690048",
     "SP12501108100601",
     "SP12501116765033",
@@ -58,6 +59,7 @@
     "SP12501100834400",
     "SP12501102861015",
     "SP12501102861037",
+    "SP12501102861411",
     "SP12501105690048"
   ],
   "skus_subidos_hoje": [],
@@ -98,6 +100,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102861411",
+      "id_produto": "19283",
+      "nome": "ELETROVENTILADOR",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501105690048",
@@ -401,6 +415,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    "SP12501102861411": {
+      "sku": "SP12501102861411",
+      "id_produto": "19283",
+      "nome": "ELETROVENTILADOR",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
     }
   }
 }
