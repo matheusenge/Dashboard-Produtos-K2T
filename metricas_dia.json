@@ -1,10 +1,10 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 14:16:33",
+  "ultima_atualizacao": "30/07/2026 14:20:57",
   "total_base_dia": 20,
-  "total_atual": 149,
-  "novos_produtos": 141,
+  "total_atual": 150,
+  "novos_produtos": 142,
   "total_subidos": 12,
   "skus_base_dia": [
     "SP12501015160035",
@@ -153,6 +153,7 @@
     "SP12501116706412",
     "SP12501116706480",
     "SP12501116706505",
+    "SP12501116706570",
     "SP12501116706585",
     "SP12501116722001",
     "SP12501116722010",
@@ -306,6 +307,7 @@
     "SP12501116706412",
     "SP12501116706480",
     "SP12501116706505",
+    "SP12501116706570",
     "SP12501116706585",
     "SP12501116722001",
     "SP12501116722010",
@@ -1730,6 +1732,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116706570",
+      "id_produto": "19372",
+      "nome": "RÁDIO",
+      "marca": "KIA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501116706585",
@@ -4134,6 +4148,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    "SP12501116706570": {
+      "sku": "SP12501116706570",
+      "id_produto": "19372",
+      "nome": "RÁDIO",
+      "marca": "KIA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
     }
   }
 }
