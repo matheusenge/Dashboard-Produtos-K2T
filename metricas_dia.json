@@ -1,11 +1,11 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 12:23:00",
+  "ultima_atualizacao": "30/07/2026 12:48:25",
   "total_base_dia": 20,
-  "total_atual": 30,
+  "total_atual": 27,
   "novos_produtos": 12,
-  "total_subidos": 2,
+  "total_subidos": 5,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501042273041",
@@ -77,12 +77,18 @@
     "SP12501116706001"
   ],
   "skus_subidos_hoje": [
+    "SP12501102861037",
+    "SP12501102861411",
     "SP12501102861480",
-    "SP12501105690048"
+    "SP12501105690048",
+    "SP12501116706001"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501102861037",
+    "SP12501102861411",
     "SP12501102861480",
-    "SP12501105690048"
+    "SP12501105690048",
+    "SP12501116706001"
   ],
   "itens_novos_hoje": [
     {
@@ -172,11 +178,11 @@
     {
       "sku": "SP12501102861037",
       "id_produto": "19282",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO VOLKSWAGEN FOX PLUS 1.6 TOTAL FLEX 2004",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -184,11 +190,11 @@
     {
       "sku": "SP12501102861411",
       "id_produto": "19283",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR VOLKSWAGEN FOX PLUS 1.6 2004",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -211,20 +217,20 @@
       "nome": "TURBINA FORD RANGER CD LIMITED 3.2 DURATORQ TDCI 2017/2018",
       "marca": "FORD",
       "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
-      "status": "Habilitado",
-      "status_ml": "active",
-      "quantidade": "1",
+      "status": "Desabilitado",
+      "status_ml": "closed",
+      "quantidade": "0",
       "classificacao": null,
       "qtd_images": "5"
     },
     {
       "sku": "SP12501116706001",
       "id_produto": "19286",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
-      "modelo_do_veiculo": null,
-      "status": "Desabilitado",
-      "status_ml": null,
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
@@ -232,6 +238,30 @@
   ],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501102861037",
+      "id_produto": "19282",
+      "nome": "RETROVISOR DIREITO VOLKSWAGEN FOX PLUS 1.6 TOTAL FLEX 2004",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102861411",
+      "id_produto": "19283",
+      "nome": "ELETROVENTILADOR VOLKSWAGEN FOX PLUS 1.6 2004",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501102861480",
       "id_produto": "19284",
       "nome": "PORTINHOLA DO TANQUE VOLKSWAGEN FOX PLUS 1.6 2004",
@@ -249,11 +279,23 @@
       "nome": "TURBINA FORD RANGER CD LIMITED 3.2 DURATORQ TDCI 2017/2018",
       "marca": "FORD",
       "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
-      "status": "Habilitado",
-      "status_ml": "active",
-      "quantidade": "1",
+      "status": "Desabilitado",
+      "status_ml": "closed",
+      "quantidade": "0",
       "classificacao": null,
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116706001",
+      "id_produto": "19286",
+      "nome": "ALTERNADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -527,20 +569,20 @@
       "nome": "TURBINA FORD RANGER CD LIMITED 3.2 DURATORQ TDCI 2017/2018",
       "marca": "FORD",
       "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
-      "status": "Habilitado",
-      "status_ml": "active",
-      "quantidade": "1",
+      "status": "Desabilitado",
+      "status_ml": "closed",
+      "quantidade": "0",
       "classificacao": null,
       "qtd_images": "5"
     },
     "SP12501102861037": {
       "sku": "SP12501102861037",
       "id_produto": "19282",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO VOLKSWAGEN FOX PLUS 1.6 TOTAL FLEX 2004",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -548,11 +590,11 @@
     "SP12501102861411": {
       "sku": "SP12501102861411",
       "id_produto": "19283",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR VOLKSWAGEN FOX PLUS 1.6 2004",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -632,11 +674,11 @@
     "SP12501116706001": {
       "sku": "SP12501116706001",
       "id_produto": "19286",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
-      "modelo_do_veiculo": null,
-      "status": "Desabilitado",
-      "status_ml": null,
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
