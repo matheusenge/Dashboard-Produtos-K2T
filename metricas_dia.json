@@ -1,10 +1,10 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 15:16:23",
+  "ultima_atualizacao": "30/07/2026 15:20:43",
   "total_base_dia": 20,
-  "total_atual": 156,
-  "novos_produtos": 148,
+  "total_atual": 157,
+  "novos_produtos": 149,
   "total_subidos": 12,
   "skus_base_dia": [
     "SP12501015160035",
@@ -155,6 +155,7 @@
     "SP12501116706026",
     "SP12501116706029",
     "SP12501116706032",
+    "SP12501116706037",
     "SP12501116706049",
     "SP12501116706412",
     "SP12501116706480",
@@ -315,6 +316,7 @@
     "SP12501116706026",
     "SP12501116706029",
     "SP12501116706032",
+    "SP12501116706037",
     "SP12501116706049",
     "SP12501116706412",
     "SP12501116706480",
@@ -1768,6 +1770,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501116706037",
+      "id_produto": "19380",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "KIA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501116706049",
@@ -4316,6 +4330,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    "SP12501116706037": {
+      "sku": "SP12501116706037",
+      "id_produto": "19380",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "KIA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
     }
   }
 }
