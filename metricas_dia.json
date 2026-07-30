@@ -1,11 +1,11 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 16:51:03",
+  "ultima_atualizacao": "30/07/2026 17:16:44",
   "total_base_dia": 20,
-  "total_atual": 145,
+  "total_atual": 143,
   "novos_produtos": 158,
-  "total_subidos": 33,
+  "total_subidos": 35,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501042273041",
@@ -401,6 +401,8 @@
     "SP12501116706033",
     "SP12501116706034",
     "SP12501116706570",
+    "SP12501116722411",
+    "SP12501116722542",
     "SP12501116722570"
   ],
   "skus_subidos_status_ml_hoje": [
@@ -436,6 +438,8 @@
     "SP12501116706033",
     "SP12501116706034",
     "SP12501116706570",
+    "SP12501116722411",
+    "SP12501116722542",
     "SP12501116722570"
   ],
   "itens_novos_hoje": [
@@ -2158,11 +2162,11 @@
     {
       "sku": "SP12501116722411",
       "id_produto": "19361",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -2170,11 +2174,11 @@
     {
       "sku": "SP12501116722542",
       "id_produto": "19362",
-      "nome": "MOTOR DO LIMPADOR DE PARA-BRISA",
+      "nome": "MOTOR DO LIMPADOR DE PARA-BRISA HYUNDAI I30 2.0 2011/2012",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -2722,6 +2726,30 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501116722411",
+      "id_produto": "19361",
+      "nome": "ELETROVENTILADOR HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116722542",
+      "id_produto": "19362",
+      "nome": "MOTOR DO LIMPADOR DE PARA-BRISA HYUNDAI I30 2.0 2011/2012",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501116722570",
       "id_produto": "19363",
       "nome": "RÁDIO HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
@@ -3170,11 +3198,11 @@
     "SP12501116722411": {
       "sku": "SP12501116722411",
       "id_produto": "19361",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -3578,11 +3606,11 @@
     "SP12501116722542": {
       "sku": "SP12501116722542",
       "id_produto": "19362",
-      "nome": "MOTOR DO LIMPADOR DE PARA-BRISA",
+      "nome": "MOTOR DO LIMPADOR DE PARA-BRISA HYUNDAI I30 2.0 2011/2012",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
