@@ -1,11 +1,11 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 15:46:22",
+  "ultima_atualizacao": "30/07/2026 15:50:42",
   "total_base_dia": 20,
-  "total_atual": 162,
+  "total_atual": 161,
   "novos_produtos": 154,
-  "total_subidos": 12,
+  "total_subidos": 13,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501042273041",
@@ -372,7 +372,8 @@
     "SP12501102861411",
     "SP12501102861480",
     "SP12501105690048",
-    "SP12501116706001"
+    "SP12501116706001",
+    "SP12501116706570"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501100834400",
@@ -386,7 +387,8 @@
     "SP12501102861411",
     "SP12501102861480",
     "SP12501105690048",
-    "SP12501116706001"
+    "SP12501116706001",
+    "SP12501116706570"
   ],
   "itens_novos_hoje": [
     {
@@ -1904,11 +1906,11 @@
     {
       "sku": "SP12501116706570",
       "id_produto": "19372",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -2382,6 +2384,18 @@
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501116706570",
+      "id_produto": "19372",
+      "nome": "RÁDIO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -4320,11 +4334,11 @@
     "SP12501116706570": {
       "sku": "SP12501116706570",
       "id_produto": "19372",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
