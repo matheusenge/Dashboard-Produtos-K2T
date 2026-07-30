@@ -1,11 +1,11 @@
 {
   "data": "2026-07-30",
   "primeira_atualizacao": "30/07/2026 08:16:47",
-  "ultima_atualizacao": "30/07/2026 11:20:55",
+  "ultima_atualizacao": "30/07/2026 11:46:35",
   "total_base_dia": 20,
-  "total_atual": 25,
-  "novos_produtos": 5,
-  "total_subidos": 0,
+  "total_atual": 30,
+  "novos_produtos": 11,
+  "total_subidos": 1,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501042273041",
@@ -39,9 +39,15 @@
     "SP12501083808029",
     "SP12501089989035",
     "SP12501100834400",
+    "SP12501102861010",
+    "SP12501102861011",
     "SP12501102861015",
+    "SP12501102861020",
+    "SP12501102861027",
+    "SP12501102861036",
     "SP12501102861037",
     "SP12501102861411",
+    "SP12501102861480",
     "SP12501105690048",
     "SP12501108100601",
     "SP12501116765033",
@@ -57,13 +63,23 @@
   ],
   "skus_novos_hoje": [
     "SP12501100834400",
+    "SP12501102861010",
+    "SP12501102861011",
     "SP12501102861015",
+    "SP12501102861020",
+    "SP12501102861027",
+    "SP12501102861036",
     "SP12501102861037",
     "SP12501102861411",
+    "SP12501102861480",
     "SP12501105690048"
   ],
-  "skus_subidos_hoje": [],
-  "skus_subidos_status_ml_hoje": [],
+  "skus_subidos_hoje": [
+    "SP12501105690048"
+  ],
+  "skus_subidos_status_ml_hoje": [
+    "SP12501105690048"
+  ],
   "itens_novos_hoje": [
     {
       "sku": "SP12501100834400",
@@ -78,11 +94,35 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501102861010",
+      "id_produto": "19276",
+      "nome": "CHAVE DE SETA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102861011",
+      "id_produto": "19277",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102861015",
       "id_produto": "19278",
       "nome": "FAROL DIREITO",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -90,11 +130,47 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501102861020",
+      "id_produto": "19279",
+      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102861027",
+      "id_produto": "19280",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102861036",
+      "id_produto": "19281",
+      "nome": "RADIADOR",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501102861037",
       "id_produto": "19282",
       "nome": "RETROVISOR DIREITO",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -106,7 +182,19 @@
       "id_produto": "19283",
       "nome": "ELETROVENTILADOR",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102861480",
+      "id_produto": "19284",
+      "nome": "PORTINHOLA DO TANQUE",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -120,13 +208,26 @@
       "marca": "FORD",
       "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
     }
   ],
-  "itens_subidos_hoje": [],
+  "itens_subidos_hoje": [
+    {
+      "sku": "SP12501105690048",
+      "id_produto": "19285",
+      "nome": "TURBINA FORD RANGER CD LIMITED 3.2 DURATORQ TDCI 2017/2018",
+      "marca": "FORD",
+      "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    }
+  ],
   "detalhes_skus_vistos_hoje": {
     "SP12501080469019": {
       "sku": "SP12501080469019",
@@ -373,7 +474,7 @@
       "id_produto": "19278",
       "nome": "FAROL DIREITO",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -399,7 +500,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "RANGER CD LIMITED 3.2 DURATORQ TDCI",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -409,7 +510,7 @@
       "id_produto": "19282",
       "nome": "RETROVISOR DIREITO",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -421,12 +522,84 @@
       "id_produto": "19283",
       "nome": "ELETROVENTILADOR",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
+    },
+    "SP12501102861480": {
+      "sku": "SP12501102861480",
+      "id_produto": "19284",
+      "nome": "PORTINHOLA DO TANQUE",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    "SP12501102861020": {
+      "sku": "SP12501102861020",
+      "id_produto": "19279",
+      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    "SP12501102861027": {
+      "sku": "SP12501102861027",
+      "id_produto": "19280",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    },
+    "SP12501102861010": {
+      "sku": "SP12501102861010",
+      "id_produto": "19276",
+      "nome": "CHAVE DE SETA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    "SP12501102861011": {
+      "sku": "SP12501102861011",
+      "id_produto": "19277",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
+    },
+    "SP12501102861036": {
+      "sku": "SP12501102861036",
+      "id_produto": "19281",
+      "nome": "RADIADOR",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
     }
   }
 }
