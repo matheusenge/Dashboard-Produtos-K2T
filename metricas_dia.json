@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 09:16:46",
+  "ultima_atualizacao": "31/07/2026 09:21:01",
   "total_base_dia": 140,
-  "total_atual": 126,
+  "total_atual": 124,
   "novos_produtos": 0,
-  "total_subidos": 14,
+  "total_subidos": 16,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -292,12 +292,14 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501009900027",
     "SP12501014784012",
     "SP12501015586024",
     "SP12501015586026",
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501103043424",
     "SP12501103043480",
     "SP12501116706010",
     "SP12501116706011",
@@ -308,12 +310,14 @@
     "SP12501116722027"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501009900027",
     "SP12501014784012",
     "SP12501015586024",
     "SP12501015586026",
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501103043424",
     "SP12501103043480",
     "SP12501116706010",
     "SP12501116706011",
@@ -325,6 +329,18 @@
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501009900027",
+      "id_produto": "4621",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET COBALT LTZ 1.8 8V FLEX 2013",
+      "marca": "CHEVROLET&nbsp;",
+      "modelo_do_veiculo": "COBALT LTZ 1.8 8V ECONO.FLEX 4P AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "11"
+    },
     {
       "sku": "SP12501014784012",
       "id_produto": "1098",
@@ -398,13 +414,25 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501103043424",
+      "id_produto": "19335",
+      "nome": "MULTIMÍDIA MITSUBISHI OUTLANDER SPORT HPE 2.0 2021/2022",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501103043480",
       "id_produto": "19336",
       "nome": "PORTINHOLA DO TANQUE MITSUBISHI OUTLANDER SPORT 2.0 21/22",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -550,7 +578,7 @@
       "marca": "CHEVROLET&nbsp;",
       "modelo_do_veiculo": "COBALT LTZ 1.8 8V ECONO.FLEX 4P AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "11"
@@ -1386,11 +1414,11 @@
     "SP12501103043424": {
       "sku": "SP12501103043424",
       "id_produto": "19335",
-      "nome": "MULTIMÍDIA",
+      "nome": "MULTIMÍDIA MITSUBISHI OUTLANDER SPORT HPE 2.0 2021/2022",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
@@ -1894,7 +1922,7 @@
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
