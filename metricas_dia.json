@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 14:21:03",
+  "ultima_atualizacao": "31/07/2026 14:46:37",
   "total_base_dia": 140,
-  "total_atual": 79,
+  "total_atual": 77,
   "novos_produtos": 3,
-  "total_subidos": 63,
+  "total_subidos": 65,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -301,7 +301,9 @@
   "skus_subidos_hoje": [
     "SP12501004355424",
     "SP12501005203020",
+    "SP12501009713027",
     "SP12501009900027",
+    "SP12501010452010",
     "SP12501014784012",
     "SP12501015098001",
     "SP12501015586024",
@@ -366,7 +368,9 @@
   "skus_subidos_status_ml_hoje": [
     "SP12501004355424",
     "SP12501005203020",
+    "SP12501009713027",
     "SP12501009900027",
+    "SP12501010452010",
     "SP12501014784012",
     "SP12501015098001",
     "SP12501015586024",
@@ -492,6 +496,18 @@
       "qtd_images": "11"
     },
     {
+      "sku": "SP12501009713027",
+      "id_produto": "3662",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT EX/S 2017/2018",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT EX/S 1.5 FLEX/FLEXONE 16V 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "4"
+    },
+    {
       "sku": "SP12501009900027",
       "id_produto": "4621",
       "nome": "PAINEL DE INSTRUMENTOS CHEVROLET COBALT LTZ 1.8 8V FLEX 2013",
@@ -502,6 +518,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "11"
+    },
+    {
+      "sku": "SP12501010452010",
+      "id_produto": "3185",
+      "nome": "CHAVE DE SETA VOLKSWAGEN POLO TRACK 2023/2024",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "POLO TRACK 1.0 FLEX 12V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501014784012",
@@ -1912,11 +1940,11 @@
     "SP12501009713027": {
       "sku": "SP12501009713027",
       "id_produto": "3662",
-      "nome": "PAINEL INSTRU",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT EX/S 2017/2018",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT EX/S 1.5 FLEX/FLEXONE 16V 5P AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -2320,11 +2348,11 @@
     "SP12501010452010": {
       "sku": "SP12501010452010",
       "id_produto": "3185",
-      "nome": "CHAVE SETA",
-      "marca": "VW",
+      "nome": "CHAVE DE SETA VOLKSWAGEN POLO TRACK 2023/2024",
+      "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "POLO TRACK 1.0 FLEX 12V 5P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
