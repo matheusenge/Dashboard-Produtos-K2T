@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 15:20:58",
+  "ultima_atualizacao": "31/07/2026 15:46:41",
   "total_base_dia": 140,
-  "total_atual": 73,
-  "novos_produtos": 5,
-  "total_subidos": 71,
+  "total_atual": 69,
+  "novos_produtos": 6,
+  "total_subidos": 76,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -235,6 +235,7 @@
     "SP12501103043016",
     "SP12501103043024",
     "SP12501103043027",
+    "SP12501103043032",
     "SP12501103043037",
     "SP12501103043400",
     "SP12501103043411",
@@ -299,6 +300,7 @@
     "SP12501102861004",
     "SP12501102861007",
     "SP12501103043004",
+    "SP12501103043032",
     "SP12501116706004",
     "SP12501123419004"
   ],
@@ -330,6 +332,7 @@
     "SP12501087390004",
     "SP12501089229004",
     "SP12501102861004",
+    "SP12501102861007",
     "SP12501103027038",
     "SP12501103035007",
     "SP12501103035010",
@@ -356,14 +359,18 @@
     "SP12501103043411",
     "SP12501103043424",
     "SP12501103043480",
+    "SP12501108100601",
     "SP12501116706004",
     "SP12501116706010",
     "SP12501116706011",
+    "SP12501116706019",
+    "SP12501116706020",
     "SP12501116706024",
     "SP12501116706026",
     "SP12501116706037",
     "SP12501116706038",
     "SP12501116706045",
+    "SP12501116706400",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
@@ -403,6 +410,7 @@
     "SP12501087390004",
     "SP12501089229004",
     "SP12501102861004",
+    "SP12501102861007",
     "SP12501103027038",
     "SP12501103035007",
     "SP12501103035010",
@@ -429,14 +437,18 @@
     "SP12501103043411",
     "SP12501103043424",
     "SP12501103043480",
+    "SP12501108100601",
     "SP12501116706004",
     "SP12501116706010",
     "SP12501116706011",
+    "SP12501116706019",
+    "SP12501116706020",
     "SP12501116706024",
     "SP12501116706026",
     "SP12501116706037",
     "SP12501116706038",
     "SP12501116706045",
+    "SP12501116706400",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
@@ -464,11 +476,11 @@
     {
       "sku": "SP12501102861007",
       "id_produto": "19400",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ VOLKSWAGEN FOX PLUS 1.6MI TOTAL FLEX 8V 4P 2004/2004",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
-      "status": "Desabilitado",
-      "status_ml": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -484,6 +496,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501103043032",
+      "id_produto": "19401",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501116706004",
@@ -836,6 +860,18 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501102861007",
+      "id_produto": "19400",
+      "nome": "CAPÔ VOLKSWAGEN FOX PLUS 1.6MI TOTAL FLEX 8V 4P 2004/2004",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501103027038",
       "id_produto": "19301",
       "nome": "RETROVISOR ESQUERDO VOLKSWAGEN PARATI 1.8 MI 2000/2000",
@@ -1148,6 +1184,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501108100601",
+      "id_produto": "19130",
+      "nome": "CAÇAMBA PARA CARROCERIA CHEVROLET S10 PICK-UP LT 2012/13",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 PICK-UP LT 2.4 F.POWER 4X2 CD",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501116706004",
       "id_produto": "19398",
       "nome": "CÂMBIO AUTOMATICO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
@@ -1182,6 +1230,30 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501116706019",
+      "id_produto": "19387",
+      "nome": "LANTERNA TRASEIRA DIREITA KIA SPORTAGE EX 2.0 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116706020",
+      "id_produto": "19388",
+      "nome": "LANTERNA TRASEIRA ESQUERDA KIA SPORTAGE EX 2.0 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501116706024",
@@ -1226,7 +1298,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -1238,7 +1310,19 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501116706400",
+      "id_produto": "19389",
+      "nome": "MOTOR COMPLETO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -1432,7 +1516,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -1824,11 +1908,11 @@
     "SP12501116706019": {
       "sku": "SP12501116706019",
       "id_produto": "19387",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA KIA SPORTAGE EX 2.0 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -2116,7 +2200,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -2200,7 +2284,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 PICK-UP LT 2.4 F.POWER 4X2 CD",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -2208,11 +2292,11 @@
     "SP12501116706020": {
       "sku": "SP12501116706020",
       "id_produto": "19388",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA KIA SPORTAGE EX 2.0 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -2364,11 +2448,11 @@
     "SP12501116706400": {
       "sku": "SP12501116706400",
       "id_produto": "19389",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -3096,14 +3180,26 @@
     "SP12501102861007": {
       "sku": "SP12501102861007",
       "id_produto": "19400",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ VOLKSWAGEN FOX PLUS 1.6MI TOTAL FLEX 8V 4P 2004/2004",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    "SP12501103043032": {
+      "sku": "SP12501103043032",
+      "id_produto": "19401",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
-      "qtd_images": "7"
+      "qtd_images": "10"
     }
   }
 }
