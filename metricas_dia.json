@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 09:50:48",
+  "ultima_atualizacao": "31/07/2026 10:16:21",
   "total_base_dia": 140,
-  "total_atual": 118,
+  "total_atual": 116,
   "novos_produtos": 0,
-  "total_subidos": 22,
+  "total_subidos": 24,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -292,6 +292,7 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501004355424",
     "SP12501009900027",
     "SP12501014784012",
     "SP12501015586024",
@@ -299,6 +300,7 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
     "SP12501103043024",
@@ -316,6 +318,7 @@
     "SP12501116722027"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501004355424",
     "SP12501009900027",
     "SP12501014784012",
     "SP12501015586024",
@@ -323,6 +326,7 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
     "SP12501103043024",
@@ -341,6 +345,18 @@
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501004355424",
+      "id_produto": "5887",
+      "nome": "RADIO MULTIMIDIA NISSAN KICKS PLAY ACTIVE PLUS 1.6 2025",
+      "marca": "NISSAN",
+      "modelo_do_veiculo": "KICKS PLAY ACTIVE PLUS 1.6 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "9"
+    },
     {
       "sku": "SP12501009900027",
       "id_produto": "4621",
@@ -424,6 +440,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501103035520",
+      "id_produto": "19325",
+      "nome": "FECHADURA DA PORTA TRASEIRA ESQUERDA JAC J6 2.0 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501103043015",
@@ -914,7 +942,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS PLAY ACTIVE PLUS 1.6 16V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "9"
@@ -2098,11 +2126,11 @@
     "SP12501103035520": {
       "sku": "SP12501103035520",
       "id_produto": "19325",
-      "nome": "FECHADURA DA PORTA TRASEIRA ESQUERDA",
+      "nome": "FECHADURA DA PORTA TRASEIRA ESQUERDA JAC J6 2.0 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
