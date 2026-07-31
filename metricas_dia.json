@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 12:16:21",
+  "ultima_atualizacao": "31/07/2026 12:20:43",
   "total_base_dia": 140,
-  "total_atual": 98,
+  "total_atual": 96,
   "novos_produtos": 3,
-  "total_subidos": 44,
+  "total_subidos": 46,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -308,6 +308,8 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501017325011",
+    "SP12501017465001",
     "SP12501042249045",
     "SP12501080175027",
     "SP12501080450016",
@@ -354,6 +356,8 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501017325011",
+    "SP12501017465001",
     "SP12501042249045",
     "SP12501080175027",
     "SP12501080450016",
@@ -538,6 +542,30 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501017325011",
+      "id_produto": "1390",
+      "nome": "COMPRESSOR DO AR CONDICIONADO FIAT SIENA EL 1.0 2013/2014",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "SIENA EL 1.0 MPI FIRE FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501017465001",
+      "id_produto": "1490",
+      "nome": "ALTERNADOR (REMAN) JEEP RENEGADE1.8 4X2 FLEX 16V 2016/2016",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE1.8 4X2 FLEX 16V AUT",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501042249045",
       "id_produto": "10071",
       "nome": "TAMPA TRASEIRA CINZA VOLKSWAGEN VIRTUS COMFORT TSI 2019/20",
@@ -592,7 +620,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CAPTIVA SPORT AWD 3.0 V6 24V 268CV",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -1002,7 +1030,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "SIENA EL 1.0 MPI FIRE FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -1910,11 +1938,11 @@
     "SP12501017465001": {
       "sku": "SP12501017465001",
       "id_produto": "1490",
-      "nome": "ALTERNADOR (REMAN)",
+      "nome": "ALTERNADOR (REMAN) JEEP RENEGADE1.8 4X2 FLEX 16V 2016/2016",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE1.8 4X2 FLEX 16V AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -2286,7 +2314,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CAPTIVA SPORT AWD 3.0 V6 24V 268CV",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
