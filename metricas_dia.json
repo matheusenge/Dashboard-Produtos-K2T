@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 12:46:38",
+  "ultima_atualizacao": "31/07/2026 12:51:06",
   "total_base_dia": 140,
-  "total_atual": 92,
+  "total_atual": 91,
   "novos_produtos": 3,
-  "total_subidos": 50,
+  "total_subidos": 51,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -337,6 +337,7 @@
     "SP12501103043411",
     "SP12501103043424",
     "SP12501103043480",
+    "SP12501116706004",
     "SP12501116706010",
     "SP12501116706011",
     "SP12501116706024",
@@ -389,6 +390,7 @@
     "SP12501103043411",
     "SP12501103043424",
     "SP12501103043480",
+    "SP12501116706004",
     "SP12501116706010",
     "SP12501116706011",
     "SP12501116706024",
@@ -430,11 +432,11 @@
     {
       "sku": "SP12501116706004",
       "id_produto": "19398",
-      "nome": "CÂMBIO AUTOMATICO",
+      "nome": "CÂMBIO AUTOMATICO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -896,6 +898,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501116706004",
+      "id_produto": "19398",
+      "nome": "CÂMBIO AUTOMATICO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501116706010",
@@ -2726,11 +2740,11 @@
     "SP12501116706004": {
       "sku": "SP12501116706004",
       "id_produto": "19398",
-      "nome": "CÂMBIO AUTOMATICO",
+      "nome": "CÂMBIO AUTOMATICO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
