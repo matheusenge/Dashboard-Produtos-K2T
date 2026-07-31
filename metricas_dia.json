@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 10:50:45",
+  "ultima_atualizacao": "31/07/2026 11:16:21",
   "total_base_dia": 140,
-  "total_atual": 113,
-  "novos_produtos": 0,
-  "total_subidos": 26,
+  "total_atual": 110,
+  "novos_produtos": 3,
+  "total_subidos": 32,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -197,6 +197,7 @@
     "SP12501089229004",
     "SP12501089229040",
     "SP12501089989035",
+    "SP12501102861004",
     "SP12501102861024",
     "SP12501102870001",
     "SP12501102870004",
@@ -228,6 +229,7 @@
     "SP12501103035518",
     "SP12501103035519",
     "SP12501103035520",
+    "SP12501103043004",
     "SP12501103043015",
     "SP12501103043016",
     "SP12501103043024",
@@ -244,6 +246,7 @@
     "SP12501108088045",
     "SP12501108100601",
     "SP12501108118034",
+    "SP12501116706004",
     "SP12501116706010",
     "SP12501116706011",
     "SP12501116706019",
@@ -290,7 +293,11 @@
     "SP42501001064042",
     "SP42501003164947"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501102861004",
+    "SP12501103043004",
+    "SP12501116706004"
+  ],
   "skus_subidos_hoje": [
     "SP12501004355424",
     "SP12501005203020",
@@ -301,7 +308,9 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501042249045",
     "SP12501080175027",
+    "SP12501084782411",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -314,10 +323,14 @@
     "SP12501116706010",
     "SP12501116706011",
     "SP12501116706024",
+    "SP12501116706026",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
-    "SP12501116722027"
+    "SP12501116722010",
+    "SP12501116722026",
+    "SP12501116722027",
+    "SP12501122099032"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501004355424",
@@ -329,7 +342,9 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501042249045",
     "SP12501080175027",
+    "SP12501084782411",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -342,12 +357,53 @@
     "SP12501116706010",
     "SP12501116706011",
     "SP12501116706024",
+    "SP12501116706026",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
-    "SP12501116722027"
+    "SP12501116722010",
+    "SP12501116722026",
+    "SP12501116722027",
+    "SP12501122099032"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501102861004",
+      "id_produto": "19396",
+      "nome": "CÂMBIO MANUAL",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501103043004",
+      "id_produto": "19397",
+      "nome": "CÂMBIO AUTOMATICO",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501116706004",
+      "id_produto": "19398",
+      "nome": "CÂMBIO AUTOMATICO",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501004355424",
@@ -458,6 +514,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501042249045",
+      "id_produto": "10071",
+      "nome": "TAMPA TRASEIRA CINZA VOLKSWAGEN VIRTUS COMFORT TSI 2019/20",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "VIRTUS COMFORT. 200 TSI 1.0 FLEX 12V AUT",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501080175027",
       "id_produto": "6942",
       "nome": "PAINEL DE INSTRUMENTOS VOLKSWAGEN T-CROSS COMFORT 1.0 20/21",
@@ -468,6 +536,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501084782411",
+      "id_produto": "8454",
+      "nome": "ELETROVENTILADOR FIAT PUNTO ATTRACTIVE 1.4 FIRE 8V 2011/12",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "PUNTO ATTRACTIVE 1.4 FIRE FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501103035520",
@@ -614,6 +694,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501116706026",
+      "id_produto": "19341",
+      "nome": "MOTOR DE PARTIDA KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501116706505",
       "id_produto": "19347",
       "nome": "GRADE DO RADIADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
@@ -650,6 +742,30 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501116722010",
+      "id_produto": "19350",
+      "nome": "CHAVE DE SETA HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116722026",
+      "id_produto": "19353",
+      "nome": "Motor Partida I30 Tucson 2.0 05/17 Sportage 06/10 2.0 Aut",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501116722027",
       "id_produto": "19354",
       "nome": "PAINEL DE INSTRUMENTOS HYUNDAI I30 2.0 16V 145CV 2011/2012",
@@ -660,6 +776,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501122099032",
+      "id_produto": "9834",
+      "nome": "PORTA DIANTEIRA DIREITA PRETA VOLKSWAGEN VOYAGE COMF 2011/12",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "VOYAGE COMF/HIGHLI. 1.6 T.FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -1110,11 +1238,11 @@
     "SP12501116722026": {
       "sku": "SP12501116722026",
       "id_produto": "19353",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "Motor Partida I30 Tucson 2.0 05/17 Sportage 06/10 2.0 Aut",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -1210,7 +1338,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -1254,11 +1382,11 @@
     "SP12501116706026": {
       "sku": "SP12501116706026",
       "id_produto": "19341",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1362,14 +1490,14 @@
     "SP12501122099032": {
       "sku": "SP12501122099032",
       "id_produto": "9834",
-      "nome": "PORTA DIANTEIRA DIREITA VOLKSWAGEN VOYAGE COMF 1.6 FLX 11/12",
+      "nome": "PORTA DIANTEIRA DIREITA PRETA VOLKSWAGEN VOYAGE COMF 2011/12",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "VOYAGE COMF/HIGHLI. 1.6 T.FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "10"
+      "qtd_images": "6"
     },
     "SP12501057114045": {
       "sku": "SP12501057114045",
@@ -1774,7 +1902,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "PUNTO ATTRACTIVE 1.4 FIRE FLEX 8V 5P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -2106,10 +2234,10 @@
     "SP12501103035517": {
       "sku": "SP12501103035517",
       "id_produto": "19322",
-      "nome": "FECHADURA DA PORTA DIANTEIRA DIREITA",
+      "nome": "FECHADURA DA PORTA DIANTEIRA DIREITA JAC J6 2.0 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
@@ -2190,14 +2318,14 @@
     "SP12501042249045": {
       "sku": "SP12501042249045",
       "id_produto": "10071",
-      "nome": "TAMPA TRASEIRA VOLKSWAGEN VIRTUS COMFORT TSI 1.0 2019/20",
+      "nome": "TAMPA TRASEIRA CINZA VOLKSWAGEN VIRTUS COMFORT TSI 2019/20",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "VIRTUS COMFORT. 200 TSI 1.0 FLEX 12V AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "8"
+      "qtd_images": "5"
     },
     "SP12501102870024": {
       "sku": "SP12501102870024",
@@ -2341,6 +2469,42 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "8"
+    },
+    "SP12501116706004": {
+      "sku": "SP12501116706004",
+      "id_produto": "19398",
+      "nome": "CÂMBIO AUTOMATICO",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    "SP12501103043004": {
+      "sku": "SP12501103043004",
+      "id_produto": "19397",
+      "nome": "CÂMBIO AUTOMATICO",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    },
+    "SP12501102861004": {
+      "sku": "SP12501102861004",
+      "id_produto": "19396",
+      "nome": "CÂMBIO MANUAL",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
       "qtd_images": "8"
     }
   }
