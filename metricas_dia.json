@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 08:21:00",
+  "ultima_atualizacao": "31/07/2026 08:46:36",
   "total_base_dia": 140,
-  "total_atual": 140,
+  "total_atual": 134,
   "novos_produtos": 0,
-  "total_subidos": 0,
+  "total_subidos": 6,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -291,10 +291,97 @@
     "SP42501003164947"
   ],
   "skus_novos_hoje": [],
-  "skus_subidos_hoje": [],
-  "skus_subidos_status_ml_hoje": [],
+  "skus_subidos_hoje": [
+    "SP12501014784012",
+    "SP12501015586024",
+    "SP12501015977400",
+    "SP12501016426015",
+    "SP12501116706505",
+    "SP12501116722027"
+  ],
+  "skus_subidos_status_ml_hoje": [
+    "SP12501014784012",
+    "SP12501015586024",
+    "SP12501015977400",
+    "SP12501016426015",
+    "SP12501116706505",
+    "SP12501116722027"
+  ],
   "itens_novos_hoje": [],
-  "itens_subidos_hoje": [],
+  "itens_subidos_hoje": [
+    {
+      "sku": "SP12501014784012",
+      "id_produto": "1098",
+      "nome": "Condensador Ar Condicionado Peugeot 208 Lk Essen 1.6 2019/20",
+      "marca": "Peugeot",
+      "modelo_do_veiculo": "208 Like Essencial 1.6 Flex 16V Câmbio Manual",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "3"
+    },
+    {
+      "sku": "SP12501015586024",
+      "id_produto": "1232",
+      "nome": "Módulo De Injeção Ram Rampage Laramie 2.0 Tb Die Aut 2023/24",
+      "marca": "Ram",
+      "modelo_do_veiculo": "Rampage Laramie 2.0 Turbo Cabine Dupla 4X4 Diesel Automática",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "4"
+    },
+    {
+      "sku": "SP12501015977400",
+      "id_produto": "480",
+      "nome": "Motor Completo Fiat Punto Attract Italia 1.4 Flex 8v 2012/13",
+      "marca": "Fiat",
+      "modelo_do_veiculo": "Punto Attractive Italia 1.4 F.Flex 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501016426015",
+      "id_produto": "623",
+      "nome": "Farol Dianteiro Direito Ram Rampage Laramie 2.0 2023/2024",
+      "marca": "Ram",
+      "modelo_do_veiculo": "Rampage Laramie 2.0 Turbo Cabine Dupla 4X4 Diesel Automático",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501116706505",
+      "id_produto": "19347",
+      "nome": "GRADE DO RADIADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116722027",
+      "id_produto": "19354",
+      "nome": "PAINEL DE INSTRUMENTOS HYUNDAI I30 2.0 16V 145CV 2011/2012",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    }
+  ],
   "detalhes_skus_vistos_hoje": {
     "SP12501005122035": {
       "sku": "SP12501005122035",
@@ -615,7 +702,7 @@
       "marca": "Ram",
       "modelo_do_veiculo": "Rampage Laramie 2.0 Turbo Cabine Dupla 4X4 Diesel Automático",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -723,7 +810,7 @@
       "marca": "Peugeot",
       "modelo_do_veiculo": "208 Like Essencial 1.6 Flex 16V Câmbio Manual",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "3"
@@ -839,10 +926,10 @@
     "SP12501116722010": {
       "sku": "SP12501116722010",
       "id_produto": "19350",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
@@ -915,7 +1002,7 @@
       "marca": "Fiat",
       "modelo_do_veiculo": "Punto Attractive Italia 1.4 F.Flex 8V 5P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -1079,11 +1166,11 @@
     "SP12501116706505": {
       "sku": "SP12501116706505",
       "id_produto": "19347",
-      "nome": "GRADE DO RADIADOR",
+      "nome": "GRADE DO RADIADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
@@ -1583,11 +1670,11 @@
     "SP12501116722027": {
       "sku": "SP12501116722027",
       "id_produto": "19354",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS HYUNDAI I30 2.0 16V 145CV 2011/2012",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -1875,7 +1962,7 @@
       "marca": "Ram",
       "modelo_do_veiculo": "Rampage Laramie 2.0 Turbo Cabine Dupla 4X4 Diesel Automática",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
