@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 11:16:21",
+  "ultima_atualizacao": "31/07/2026 11:20:45",
   "total_base_dia": 140,
-  "total_atual": 110,
+  "total_atual": 107,
   "novos_produtos": 3,
-  "total_subidos": 32,
+  "total_subidos": 35,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -310,7 +310,10 @@
     "SP12501016582036",
     "SP12501042249045",
     "SP12501080175027",
+    "SP12501080450016",
     "SP12501084782411",
+    "SP12501103035477",
+    "SP12501103035517",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -344,7 +347,10 @@
     "SP12501016582036",
     "SP12501042249045",
     "SP12501080175027",
+    "SP12501080450016",
     "SP12501084782411",
+    "SP12501103035477",
+    "SP12501103035517",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -520,7 +526,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "VIRTUS COMFORT. 200 TSI 1.0 FLEX 12V AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -538,6 +544,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501080450016",
+      "id_produto": "13358",
+      "nome": "FAROL ESQUERDO CHEVROLET TRACKER PREMIER 2024",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "TRACKER PREMIER 1.2 TURBO 12V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501084782411",
       "id_produto": "8454",
       "nome": "ELETROVENTILADOR FIAT PUNTO ATTRACTIVE 1.4 FIRE 8V 2011/12",
@@ -548,6 +566,30 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501103035477",
+      "id_produto": "19319",
+      "nome": "MAQUINA ELETRICA VIDRO TRASEIRA DIREITA JAC J6 2.0 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103035517",
+      "id_produto": "19322",
+      "nome": "FECHADURA DA PORTA DIANTEIRA DIREITA JAC J6 2.0 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501103035520",
@@ -1802,11 +1844,11 @@
     "SP12501103035477": {
       "sku": "SP12501103035477",
       "id_produto": "19319",
-      "nome": "MAQUINA ELETRICA VIDRO TRASEIRA DIREITA",
+      "nome": "MAQUINA ELETRICA VIDRO TRASEIRA DIREITA JAC J6 2.0 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -2238,7 +2280,7 @@
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -2306,11 +2348,11 @@
     "SP12501080450016": {
       "sku": "SP12501080450016",
       "id_produto": "13358",
-      "nome": "FAROL ESQUERDO CHEVROLET TRACKER PREMIER 1.2 FLEX AUT. 2024",
+      "nome": "FAROL ESQUERDO CHEVROLET TRACKER PREMIER 2024",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "TRACKER PREMIER 1.2 TURBO 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -2322,7 +2364,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "VIRTUS COMFORT. 200 TSI 1.0 FLEX 12V AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
