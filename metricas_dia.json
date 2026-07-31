@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 12:20:43",
+  "ultima_atualizacao": "31/07/2026 12:46:38",
   "total_base_dia": 140,
-  "total_atual": 96,
+  "total_atual": 92,
   "novos_produtos": 3,
-  "total_subidos": 46,
+  "total_subidos": 50,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -303,9 +303,13 @@
     "SP12501005203020",
     "SP12501009900027",
     "SP12501014784012",
+    "SP12501015098001",
     "SP12501015586024",
     "SP12501015586026",
+    "SP12501015705001",
     "SP12501015977400",
+    "SP12501016132001",
+    "SP12501016205026",
     "SP12501016426015",
     "SP12501016582036",
     "SP12501017325011",
@@ -351,9 +355,13 @@
     "SP12501005203020",
     "SP12501009900027",
     "SP12501014784012",
+    "SP12501015098001",
     "SP12501015586024",
     "SP12501015586026",
+    "SP12501015705001",
     "SP12501015977400",
+    "SP12501016132001",
+    "SP12501016205026",
     "SP12501016426015",
     "SP12501016582036",
     "SP12501017325011",
@@ -482,6 +490,18 @@
       "qtd_images": "3"
     },
     {
+      "sku": "SP12501015098001",
+      "id_produto": "1581",
+      "nome": "ALTERNADOR (REMAN) FIAT PALIO 1.0 ECONOMY FIRE FLEX 2011/12",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "PALIO 1.0 ECONOMY FIRE FLEX 8V 2P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501015586024",
       "id_produto": "1232",
       "nome": "Módulo De Injeção Ram Rampage Laramie 2.0 Tb Die Aut 2023/24",
@@ -506,6 +526,18 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501015705001",
+      "id_produto": "1730",
+      "nome": "ALTERNADOR (REMAN) FIAT PUNTO ELX 1.4 FIRE FLEX 2008/2008",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "PUNTO ELX 1.4 FIRE FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501015977400",
       "id_produto": "480",
       "nome": "Motor Completo Fiat Punto Attract Italia 1.4 Flex 8v 2012/13",
@@ -513,6 +545,30 @@
       "modelo_do_veiculo": "Punto Attractive Italia 1.4 F.Flex 8V 5P",
       "status": "Habilitado",
       "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501016132001",
+      "id_produto": "2796",
+      "nome": "ALTERNADOR (REMAN) FIAT TORO FREEDOM 1.8 16V FLEX 2016/2017",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "TORO FREEDOM 1.8 16V FLEX AUT",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501016205026",
+      "id_produto": "2802",
+      "nome": "MOTOR DE PARTIDA/ARRANQUE FIAT UNO  MILLE 1.0 F.FLEX 08/08",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "UNO MILLE 1.0 FIRE FLEX ECONOMY 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -560,7 +616,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE1.8 4X2 FLEX 16V AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -1218,11 +1274,11 @@
     "SP12501015098001": {
       "sku": "SP12501015098001",
       "id_produto": "1581",
-      "nome": "ALTERNADOR (REMAN)",
+      "nome": "ALTERNADOR (REMAN) FIAT PALIO 1.0 ECONOMY FIRE FLEX 2011/12",
       "marca": "FIAT",
       "modelo_do_veiculo": "PALIO 1.0 ECONOMY FIRE FLEX 8V 2P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
@@ -1470,7 +1526,7 @@
     "SP12501017244001": {
       "sku": "SP12501017244001",
       "id_produto": "2860",
-      "nome": "ALTERNADOR (REMAN)",
+      "nome": "ALTERNADOR (REMAN) FIAT UNO MILLE 1.0 F.FLEX ECONOMY 10/10",
       "marca": "FIAT",
       "modelo_do_veiculo": "UNO MILLE 1.0 FIRE FLEX ECONOMY 2P",
       "status": "Habilitado",
@@ -1942,7 +1998,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE1.8 4X2 FLEX 16V AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -2010,11 +2066,11 @@
     "SP12501016205026": {
       "sku": "SP12501016205026",
       "id_produto": "2802",
-      "nome": "MOTOR DE PARTIDA / ARRANQUE",
+      "nome": "MOTOR DE PARTIDA/ARRANQUE FIAT UNO  MILLE 1.0 F.FLEX 08/08",
       "marca": "FIAT",
       "modelo_do_veiculo": "UNO MILLE 1.0 FIRE FLEX ECONOMY 4P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -2358,11 +2414,11 @@
     "SP12501016132001": {
       "sku": "SP12501016132001",
       "id_produto": "2796",
-      "nome": "ALTERNADOR (REMAN)",
+      "nome": "ALTERNADOR (REMAN) FIAT TORO FREEDOM 1.8 16V FLEX 2016/2017",
       "marca": "FIAT",
       "modelo_do_veiculo": "TORO FREEDOM 1.8 16V FLEX AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
@@ -2466,11 +2522,11 @@
     "SP12501015705001": {
       "sku": "SP12501015705001",
       "id_produto": "1730",
-      "nome": "ALTERNADOR (REMAN)",
+      "nome": "ALTERNADOR (REMAN) FIAT PUNTO ELX 1.4 FIRE FLEX 2008/2008",
       "marca": "FIAT",
       "modelo_do_veiculo": "PUNTO ELX 1.4 FIRE FLEX 8V 5P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
