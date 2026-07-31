@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 08:50:52",
+  "ultima_atualizacao": "31/07/2026 09:16:46",
   "total_base_dia": 140,
-  "total_atual": 134,
+  "total_atual": 126,
   "novos_produtos": 0,
-  "total_subidos": 6,
+  "total_subidos": 14,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -294,17 +294,33 @@
   "skus_subidos_hoje": [
     "SP12501014784012",
     "SP12501015586024",
+    "SP12501015586026",
     "SP12501015977400",
     "SP12501016426015",
+    "SP12501016582036",
+    "SP12501103043480",
+    "SP12501116706010",
+    "SP12501116706011",
+    "SP12501116706024",
     "SP12501116706505",
+    "SP12501116706585",
+    "SP12501116722001",
     "SP12501116722027"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501014784012",
     "SP12501015586024",
+    "SP12501015586026",
     "SP12501015977400",
     "SP12501016426015",
+    "SP12501016582036",
+    "SP12501103043480",
+    "SP12501116706010",
+    "SP12501116706011",
+    "SP12501116706024",
     "SP12501116706505",
+    "SP12501116706585",
+    "SP12501116722001",
     "SP12501116722027"
   ],
   "itens_novos_hoje": [],
@@ -334,6 +350,18 @@
       "qtd_images": "4"
     },
     {
+      "sku": "SP12501015586026",
+      "id_produto": "3815",
+      "nome": "MOTOR DE PARTIDA RAM RAMPAGE LARAMIE 2.0 2023/24",
+      "marca": "RAM",
+      "modelo_do_veiculo": "RAMPAGE LARAMIE 2.0 TB CD 4X4 DIESEL AUT",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501015977400",
       "id_produto": "480",
       "nome": "Motor Completo Fiat Punto Attract Italia 1.4 Flex 8v 2012/13",
@@ -358,6 +386,66 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501016582036",
+      "id_produto": "2312",
+      "nome": "Radiador Óleo Motor Jeep Commander Limited TD380 2021/22",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "COMMANDER LIMITED TD380 2.0 4X4 DIESEL AUTOMÁTIC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501103043480",
+      "id_produto": "19336",
+      "nome": "PORTINHOLA DO TANQUE MITSUBISHI OUTLANDER SPORT 2.0 21/22",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501116706010",
+      "id_produto": "19338",
+      "nome": "CHAVE DE SETA KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116706011",
+      "id_produto": "19339",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO KIA SPORTAGE EX 2.0 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501116706024",
+      "id_produto": "19340",
+      "nome": "MÓDULO DE INJEÇÃO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501116706505",
       "id_produto": "19347",
       "nome": "GRADE DO RADIADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
@@ -368,6 +456,30 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116706585",
+      "id_produto": "19348",
+      "nome": "ALAVANCA DE MARCHA AUTOMATICO KIA SPORTAGE EX 2.0 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116722001",
+      "id_produto": "19349",
+      "nome": "ALTERNADOR HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501116722027",
@@ -506,11 +618,11 @@
     "SP12501116706585": {
       "sku": "SP12501116706585",
       "id_produto": "19348",
-      "nome": "ALAVANCA DE MARCHA AUTOMATICO",
+      "nome": "ALAVANCA DE MARCHA AUTOMATICO KIA SPORTAGE EX 2.0 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -546,7 +658,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "COMMANDER LIMITED TD380 2.0 4X4 DIESEL AUTOMÁTIC",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -638,11 +750,11 @@
     "SP12501116706024": {
       "sku": "SP12501116706024",
       "id_produto": "19340",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -674,11 +786,11 @@
     "SP12501116706011": {
       "sku": "SP12501116706011",
       "id_produto": "19339",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO KIA SPORTAGE EX 2.0 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1422,7 +1534,7 @@
       "marca": "RAM",
       "modelo_do_veiculo": "RAMPAGE LARAMIE 2.0 TB CD 4X4 DIESEL AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "10"
@@ -1778,11 +1890,11 @@
     "SP12501103043480": {
       "sku": "SP12501103043480",
       "id_produto": "19336",
-      "nome": "PORTINHOLA DO TANQUE",
+      "nome": "PORTINHOLA DO TANQUE MITSUBISHI OUTLANDER SPORT 2.0 21/22",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -1802,11 +1914,11 @@
     "SP12501116722001": {
       "sku": "SP12501116722001",
       "id_produto": "19349",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR HYUNDAI I30 2.0 16V 145CV 5P AUT. 2011/2012",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "I30 2.0 16V 145CV 5P AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -1970,11 +2082,11 @@
     "SP12501116706010": {
       "sku": "SP12501116706010",
       "id_produto": "19338",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
