@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 17:47:32",
+  "ultima_atualizacao": "31/07/2026 17:51:03",
   "total_base_dia": 140,
-  "total_atual": 54,
+  "total_atual": 53,
   "novos_produtos": 7,
-  "total_subidos": 92,
+  "total_subidos": 93,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -369,6 +369,7 @@
     "SP12501103043027",
     "SP12501103043032",
     "SP12501103043037",
+    "SP12501103043400",
     "SP12501103043411",
     "SP12501103043424",
     "SP12501103043480",
@@ -463,6 +464,7 @@
     "SP12501103043027",
     "SP12501103043032",
     "SP12501103043037",
+    "SP12501103043400",
     "SP12501103043411",
     "SP12501103043424",
     "SP12501103043480",
@@ -1326,6 +1328,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501103043400",
+      "id_produto": "19386",
+      "nome": "Motor Outlander Asx 2.0 16v Flex 2016 2017 a 2022",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501103043411",
       "id_produto": "19334",
       "nome": "ELETROVENTILADOR MITSUBISHI OUTLANDER SPORT HPE 2.0 2021/22",
@@ -1870,11 +1884,11 @@
     "SP12501103043400": {
       "sku": "SP12501103043400",
       "id_produto": "19386",
-      "nome": "MOTOR COMPLETO",
+      "nome": "Motor Outlander Asx 2.0 16v Flex 2016 2017 a 2022",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
