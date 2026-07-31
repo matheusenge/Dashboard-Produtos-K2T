@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 15:46:41",
+  "ultima_atualizacao": "31/07/2026 15:51:03",
   "total_base_dia": 140,
-  "total_atual": 69,
+  "total_atual": 68,
   "novos_produtos": 6,
-  "total_subidos": 76,
+  "total_subidos": 77,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -378,6 +378,7 @@
     "SP12501116722026",
     "SP12501116722027",
     "SP12501122099032",
+    "SP12501123419004",
     "SP12501123559027",
     "SP32501000222091",
     "SP32501002896091"
@@ -456,6 +457,7 @@
     "SP12501116722026",
     "SP12501116722027",
     "SP12501122099032",
+    "SP12501123419004",
     "SP12501123559027",
     "SP32501000222091",
     "SP32501002896091"
@@ -480,7 +482,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -524,11 +526,11 @@
     {
       "sku": "SP12501123419004",
       "id_produto": "19399",
-      "nome": "CÂMBIO MANUAL",
+      "nome": "CÂMBIO MANUAL CHEVROLET CELTA LIFE 1.0 MPFI 2008/2009",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LIFE 1.0 MPFI 8V FLEXPOWER 3P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
@@ -866,7 +868,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -1410,6 +1412,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501123419004",
+      "id_produto": "19399",
+      "nome": "CÂMBIO MANUAL CHEVROLET CELTA LIFE 1.0 MPFI 2008/2009",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LIFE 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501123559027",
@@ -3168,11 +3182,11 @@
     "SP12501123419004": {
       "sku": "SP12501123419004",
       "id_produto": "19399",
-      "nome": "CÂMBIO MANUAL",
+      "nome": "CÂMBIO MANUAL CHEVROLET CELTA LIFE 1.0 MPFI 2008/2009",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LIFE 1.0 MPFI 8V FLEXPOWER 3P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
@@ -3184,7 +3198,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
