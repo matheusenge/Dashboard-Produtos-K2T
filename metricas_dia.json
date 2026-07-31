@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 14:50:57",
+  "ultima_atualizacao": "31/07/2026 15:16:40",
   "total_base_dia": 140,
-  "total_atual": 77,
-  "novos_produtos": 3,
-  "total_subidos": 65,
+  "total_atual": 74,
+  "novos_produtos": 4,
+  "total_subidos": 69,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -287,6 +287,7 @@
     "SP12501122099032",
     "SP12501122099035",
     "SP12501122102045",
+    "SP12501123419004",
     "SP12501123559027",
     "SP32501000222091",
     "SP32501002896091",
@@ -296,7 +297,8 @@
   "skus_novos_hoje": [
     "SP12501102861004",
     "SP12501103043004",
-    "SP12501116706004"
+    "SP12501116706004",
+    "SP12501123419004"
   ],
   "skus_subidos_hoje": [
     "SP12501004355424",
@@ -336,6 +338,7 @@
     "SP12501103035033",
     "SP12501103035034",
     "SP12501103035035",
+    "SP12501103035475",
     "SP12501103035476",
     "SP12501103035477",
     "SP12501103035517",
@@ -356,6 +359,7 @@
     "SP12501116706011",
     "SP12501116706024",
     "SP12501116706026",
+    "SP12501116706037",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
@@ -363,7 +367,9 @@
     "SP12501116722026",
     "SP12501116722027",
     "SP12501122099032",
-    "SP12501123559027"
+    "SP12501123559027",
+    "SP32501000222091",
+    "SP32501002896091"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501004355424",
@@ -403,6 +409,7 @@
     "SP12501103035033",
     "SP12501103035034",
     "SP12501103035035",
+    "SP12501103035475",
     "SP12501103035476",
     "SP12501103035477",
     "SP12501103035517",
@@ -423,6 +430,7 @@
     "SP12501116706011",
     "SP12501116706024",
     "SP12501116706026",
+    "SP12501116706037",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
@@ -430,7 +438,9 @@
     "SP12501116722026",
     "SP12501116722027",
     "SP12501122099032",
-    "SP12501123559027"
+    "SP12501123559027",
+    "SP32501000222091",
+    "SP32501002896091"
   ],
   "itens_novos_hoje": [
     {
@@ -467,6 +477,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501123419004",
+      "id_produto": "19399",
+      "nome": "CÂMBIO MANUAL",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LIFE 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
       "qtd_images": "8"
     }
   ],
@@ -916,6 +938,18 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501103035475",
+      "id_produto": "19317",
+      "nome": "MAQUINA ELETRICA VIDRO DIANTEIRA DIREITA JAC J6 2.0 2011/12",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501103035476",
       "id_produto": "19318",
       "nome": "MAQUINA ELETRICA VIDRO DIANTEIRA ESQUERD JAC J6 2.0 2011/12",
@@ -1156,6 +1190,18 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501116706037",
+      "id_produto": "19380",
+      "nome": "RETROVISOR DIREITO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
       "sku": "SP12501116706505",
       "id_produto": "19347",
       "nome": "GRADE DO RADIADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
@@ -1250,6 +1296,30 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP32501000222091",
+      "id_produto": "5010",
+      "nome": "RADIADOR RAM 2500 LARAMIE 6.7 2019/2019",
+      "marca": "RAM",
+      "modelo_do_veiculo": "RAM 2500 LARAMIE 6.7",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "4"
+    },
+    {
+      "sku": "SP32501002896091",
+      "id_produto": "4463",
+      "nome": "RADIADOR RAM 2500 LARAMIE 6.7 TDI DIESEL 2019",
+      "marca": "RAM",
+      "modelo_do_veiculo": "2500 LARAMIE 6.7 TDI CD 4X4 DIESEL",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "4"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -1388,11 +1458,11 @@
     "SP32501002896091": {
       "sku": "SP32501002896091",
       "id_produto": "4463",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR RAM 2500 LARAMIE 6.7 TDI DIESEL 2019",
       "marca": "RAM",
       "modelo_do_veiculo": "2500 LARAMIE 6.7 TDI CD 4X4 DIESEL",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -1880,11 +1950,11 @@
     "SP12501103035475": {
       "sku": "SP12501103035475",
       "id_produto": "19317",
-      "nome": "MAQUINA ELETRICA VIDRO DIANTEIRA DIREITA",
+      "nome": "MAQUINA ELETRICA VIDRO DIANTEIRA DIREITA JAC J6 2.0 2011/12",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -2240,11 +2310,11 @@
     "SP32501000222091": {
       "sku": "SP32501000222091",
       "id_produto": "5010",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR RAM 2500 LARAMIE 6.7 2019/2019",
       "marca": "RAM",
       "modelo_do_veiculo": "RAM 2500 LARAMIE 6.7",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -2492,11 +2562,11 @@
     "SP12501116706037": {
       "sku": "SP12501116706037",
       "id_produto": "19380",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -2967,6 +3037,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
+      "qtd_images": "8"
+    },
+    "SP12501123419004": {
+      "sku": "SP12501123419004",
+      "id_produto": "19399",
+      "nome": "CÂMBIO MANUAL",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LIFE 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
       "qtd_images": "8"
     }
   }
