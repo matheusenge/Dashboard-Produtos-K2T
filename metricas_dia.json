@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 16:46:22",
+  "ultima_atualizacao": "31/07/2026 16:50:40",
   "total_base_dia": 140,
-  "total_atual": 60,
+  "total_atual": 59,
   "novos_produtos": 7,
-  "total_subidos": 86,
+  "total_subidos": 87,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -341,6 +341,7 @@
     "SP12501103027011",
     "SP12501103027015",
     "SP12501103027016",
+    "SP12501103027026",
     "SP12501103027038",
     "SP12501103035007",
     "SP12501103035010",
@@ -429,6 +430,7 @@
     "SP12501103027011",
     "SP12501103027015",
     "SP12501103027016",
+    "SP12501103027026",
     "SP12501103027038",
     "SP12501103035007",
     "SP12501103035010",
@@ -976,6 +978,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501103027026",
+      "id_produto": "19299",
+      "nome": "MOTOR DE PARTIDA VOLKSWAGEN PARATI 1.8 MI 2000/2000",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "PARATI 1.8 MI",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501103027038",
@@ -3070,11 +3084,11 @@
     "SP12501103027026": {
       "sku": "SP12501103027026",
       "id_produto": "19299",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA VOLKSWAGEN PARATI 1.8 MI 2000/2000",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "PARATI 1.8 MI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
