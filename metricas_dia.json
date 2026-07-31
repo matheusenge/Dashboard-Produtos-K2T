@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 16:16:51",
+  "ultima_atualizacao": "31/07/2026 16:20:47",
   "total_base_dia": 140,
   "total_atual": 64,
-  "novos_produtos": 6,
-  "total_subidos": 81,
+  "novos_produtos": 7,
+  "total_subidos": 82,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -200,6 +200,7 @@
     "SP12501102861004",
     "SP12501102861007",
     "SP12501102861024",
+    "SP12501102861045",
     "SP12501102870001",
     "SP12501102870004",
     "SP12501102870024",
@@ -299,6 +300,7 @@
   "skus_novos_hoje": [
     "SP12501102861004",
     "SP12501102861007",
+    "SP12501102861045",
     "SP12501103043004",
     "SP12501103043032",
     "SP12501116706004",
@@ -335,6 +337,7 @@
     "SP12501102861007",
     "SP12501102861024",
     "SP12501102870027",
+    "SP12501103027001",
     "SP12501103027038",
     "SP12501103035007",
     "SP12501103035010",
@@ -418,6 +421,7 @@
     "SP12501102861007",
     "SP12501102861024",
     "SP12501102870027",
+    "SP12501103027001",
     "SP12501103027038",
     "SP12501103035007",
     "SP12501103035010",
@@ -491,6 +495,18 @@
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Habilitado",
       "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102861045",
+      "id_produto": "19402",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -904,6 +920,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501103027001",
+      "id_produto": "19294",
+      "nome": "ALTERNADOR VOLKSWAGEN PARATI 1.8 MI 2000/2000",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "PARATI 1.8 MI",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501103027038",
@@ -2282,7 +2310,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "PARATI 1.8 MI",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -3270,6 +3298,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
+    },
+    "SP12501102861045": {
+      "sku": "SP12501102861045",
+      "id_produto": "19402",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     }
   }
 }
