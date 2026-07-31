@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 11:20:45",
+  "ultima_atualizacao": "31/07/2026 11:46:21",
   "total_base_dia": 140,
-  "total_atual": 107,
+  "total_atual": 104,
   "novos_produtos": 3,
-  "total_subidos": 35,
+  "total_subidos": 38,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -312,8 +312,11 @@
     "SP12501080175027",
     "SP12501080450016",
     "SP12501084782411",
+    "SP12501103035024",
+    "SP12501103035476",
     "SP12501103035477",
     "SP12501103035517",
+    "SP12501103035518",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -349,8 +352,11 @@
     "SP12501080175027",
     "SP12501080450016",
     "SP12501084782411",
+    "SP12501103035024",
+    "SP12501103035476",
     "SP12501103035477",
     "SP12501103035517",
+    "SP12501103035518",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -550,7 +556,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "TRACKER PREMIER 1.2 TURBO 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -568,13 +574,37 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501103035024",
+      "id_produto": "19307",
+      "nome": "MÓDULO DE INJEÇÃO JAC J6 2.0 16V 5P MEC. 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103035476",
+      "id_produto": "19318",
+      "nome": "MAQUINA ELETRICA VIDRO DIANTEIRA ESQUERD JAC J6 2.0 2011/12",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501103035477",
       "id_produto": "19319",
       "nome": "MAQUINA ELETRICA VIDRO TRASEIRA DIREITA JAC J6 2.0 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -590,6 +620,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103035518",
+      "id_produto": "19323",
+      "nome": "FECHADURA DA PORTA DIANTEIRA ESQUERDA JAC J6 2.0 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501103035520",
@@ -1712,11 +1754,11 @@
     "SP12501103035518": {
       "sku": "SP12501103035518",
       "id_produto": "19323",
-      "nome": "FECHADURA DA PORTA DIANTEIRA ESQUERDA",
+      "nome": "FECHADURA DA PORTA DIANTEIRA ESQUERDA JAC J6 2.0 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
@@ -1848,7 +1890,7 @@
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -2352,7 +2394,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "TRACKER PREMIER 1.2 TURBO 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -2432,11 +2474,11 @@
     "SP12501103035476": {
       "sku": "SP12501103035476",
       "id_produto": "19318",
-      "nome": "MAQUINA ELETRICA VIDRO DIANTEIRA ESQUERD",
+      "nome": "MAQUINA ELETRICA VIDRO DIANTEIRA ESQUERD JAC J6 2.0 2011/12",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -2480,11 +2522,11 @@
     "SP12501103035024": {
       "sku": "SP12501103035024",
       "id_produto": "19307",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JAC J6 2.0 16V 5P MEC. 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
