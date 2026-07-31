@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 17:20:38",
+  "ultima_atualizacao": "31/07/2026 17:47:32",
   "total_base_dia": 140,
-  "total_atual": 56,
+  "total_atual": 54,
   "novos_produtos": 7,
-  "total_subidos": 90,
+  "total_subidos": 92,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -337,6 +337,7 @@
     "SP12501102861007",
     "SP12501102861024",
     "SP12501102861045",
+    "SP12501102870024",
     "SP12501102870027",
     "SP12501103027001",
     "SP12501103027011",
@@ -379,6 +380,7 @@
     "SP12501116706020",
     "SP12501116706024",
     "SP12501116706026",
+    "SP12501116706035",
     "SP12501116706037",
     "SP12501116706038",
     "SP12501116706045",
@@ -429,6 +431,7 @@
     "SP12501102861007",
     "SP12501102861024",
     "SP12501102861045",
+    "SP12501102870024",
     "SP12501102870027",
     "SP12501103027001",
     "SP12501103027011",
@@ -471,6 +474,7 @@
     "SP12501116706020",
     "SP12501116706024",
     "SP12501116706026",
+    "SP12501116706035",
     "SP12501116706037",
     "SP12501116706038",
     "SP12501116706045",
@@ -938,6 +942,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501102870024",
+      "id_produto": "19290",
+      "nome": "MÓDULO DE INJEÇÃO CHEVROLET CORSA SED CLASS.LIFE 1.0 2005",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SED CLASS.LIFE 1.0",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501102870027",
       "id_produto": "19291",
       "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CORSA SED 1.0 2005",
@@ -1136,7 +1152,7 @@
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1440,6 +1456,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501116706035",
+      "id_produto": "19379",
+      "nome": "PORTA TRASEIRA ESQUERDA KIA SPORTAGE EX 2.0 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501116706037",
@@ -1774,7 +1802,7 @@
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -2010,11 +2038,11 @@
     "SP12501116706035": {
       "sku": "SP12501116706035",
       "id_produto": "19379",
-      "nome": "PORTA TRASEIRA ESQUERDA",
+      "nome": "PORTA TRASEIRA ESQUERDA KIA SPORTAGE EX 2.0 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -3198,11 +3226,11 @@
     "SP12501102870024": {
       "sku": "SP12501102870024",
       "id_produto": "19290",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO CHEVROLET CORSA SED CLASS.LIFE 1.0 2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED CLASS.LIFE 1.0",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
