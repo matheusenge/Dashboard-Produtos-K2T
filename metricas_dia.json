@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 10:20:46",
+  "ultima_atualizacao": "31/07/2026 10:46:24",
   "total_base_dia": 140,
-  "total_atual": 116,
+  "total_atual": 113,
   "novos_produtos": 0,
-  "total_subidos": 24,
+  "total_subidos": 26,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -293,6 +293,7 @@
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
     "SP12501004355424",
+    "SP12501005203020",
     "SP12501009900027",
     "SP12501014784012",
     "SP12501015586024",
@@ -300,6 +301,7 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501080175027",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -319,6 +321,7 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501004355424",
+    "SP12501005203020",
     "SP12501009900027",
     "SP12501014784012",
     "SP12501015586024",
@@ -326,6 +329,7 @@
     "SP12501015977400",
     "SP12501016426015",
     "SP12501016582036",
+    "SP12501080175027",
     "SP12501103035520",
     "SP12501103043015",
     "SP12501103043016",
@@ -356,6 +360,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501005203020",
+      "id_produto": "6840",
+      "nome": "LANTERNA TRASEIRA ESQ VOLKSWAGEN T-CROSS COMFORT 1.0 2022",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "T-CROSS COMFOR. 200 TSI 1.0 FLEX 5P AUT",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "11"
     },
     {
       "sku": "SP12501009900027",
@@ -440,6 +456,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501080175027",
+      "id_produto": "6942",
+      "nome": "PAINEL DE INSTRUMENTOS VOLKSWAGEN T-CROSS COMFORT 1.0 20/21",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "T-CROSS COMFOR. 200 TSI 1.0 FLEX 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501103035520",
@@ -842,11 +870,11 @@
     "SP12501005203020": {
       "sku": "SP12501005203020",
       "id_produto": "6840",
-      "nome": "LANTERNA TRASEIRA ESQ VOLKSWAGEN T-CROSS COMFOR. 1.0 2022",
+      "nome": "LANTERNA TRASEIRA ESQ VOLKSWAGEN T-CROSS COMFORT 1.0 2022",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "T-CROSS COMFOR. 200 TSI 1.0 FLEX 5P AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "11"
@@ -1490,11 +1518,11 @@
     "SP12501080175027": {
       "sku": "SP12501080175027",
       "id_produto": "6942",
-      "nome": "PAINEL DE INSTRUMENTOS VOLKSWAGEN T-CROSS COMFOR. 1.0 20/21",
+      "nome": "PAINEL DE INSTRUMENTOS VOLKSWAGEN T-CROSS COMFORT 1.0 20/21",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "T-CROSS COMFOR. 200 TSI 1.0 FLEX 5P AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
@@ -2201,9 +2229,9 @@
       "nome": "LANTERNA TRASEIRA DIREITA VOLKSWAGEN VIRTUS SENSE 1.6 19/20",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "VIRTUS SENSE 1.6 FLEX 16V 5P AUT.",
-      "status": "Habilitado",
+      "status": "Desabilitado",
       "status_ml": null,
-      "quantidade": "1",
+      "quantidade": "0",
       "classificacao": null,
       "qtd_images": "11"
     },
