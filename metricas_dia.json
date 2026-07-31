@@ -1,7 +1,7 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 14:46:37",
+  "ultima_atualizacao": "31/07/2026 14:50:57",
   "total_base_dia": 140,
   "total_atual": 77,
   "novos_produtos": 3,
@@ -694,7 +694,7 @@
       "marca": "CHEVROLET&nbsp;",
       "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "9"
@@ -2064,7 +2064,7 @@
       "marca": "CHEVROLET&nbsp;",
       "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "9"
