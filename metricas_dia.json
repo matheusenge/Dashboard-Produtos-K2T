@@ -1,11 +1,11 @@
 {
   "data": "2026-07-31",
   "primeira_atualizacao": "31/07/2026 08:16:49",
-  "ultima_atualizacao": "31/07/2026 15:16:40",
+  "ultima_atualizacao": "31/07/2026 15:20:58",
   "total_base_dia": 140,
-  "total_atual": 74,
-  "novos_produtos": 4,
-  "total_subidos": 69,
+  "total_atual": 73,
+  "novos_produtos": 5,
+  "total_subidos": 71,
   "skus_base_dia": [
     "SP12501004355424",
     "SP12501004584033",
@@ -198,6 +198,7 @@
     "SP12501089229040",
     "SP12501089989035",
     "SP12501102861004",
+    "SP12501102861007",
     "SP12501102861024",
     "SP12501102870001",
     "SP12501102870004",
@@ -296,6 +297,7 @@
   ],
   "skus_novos_hoje": [
     "SP12501102861004",
+    "SP12501102861007",
     "SP12501103043004",
     "SP12501116706004",
     "SP12501123419004"
@@ -360,6 +362,8 @@
     "SP12501116706024",
     "SP12501116706026",
     "SP12501116706037",
+    "SP12501116706038",
+    "SP12501116706045",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
@@ -431,6 +435,8 @@
     "SP12501116706024",
     "SP12501116706026",
     "SP12501116706037",
+    "SP12501116706038",
+    "SP12501116706045",
     "SP12501116706505",
     "SP12501116706585",
     "SP12501116722001",
@@ -454,6 +460,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501102861007",
+      "id_produto": "19400",
+      "nome": "CAPÔ",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501103043004",
@@ -1196,10 +1214,34 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116706038",
+      "id_produto": "19381",
+      "nome": "RETROVISOR ESQUERDO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
       "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116706045",
+      "id_produto": "19382",
+      "nome": "TAMPA TRASEIRA KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501116706505",
@@ -1386,11 +1428,11 @@
     "SP12501116706045": {
       "sku": "SP12501116706045",
       "id_produto": "19382",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -2070,11 +2112,11 @@
     "SP12501116706038": {
       "sku": "SP12501116706038",
       "id_produto": "19381",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -2566,7 +2608,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -3050,6 +3092,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
+    },
+    "SP12501102861007": {
+      "sku": "SP12501102861007",
+      "id_produto": "19400",
+      "nome": "CAPÔ",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     }
   }
 }
