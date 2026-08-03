@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 14:50:54",
+  "ultima_atualizacao": "03/08/2026 15:12:23",
   "total_base_dia": 93,
-  "total_atual": 39,
-  "novos_produtos": 4,
-  "total_subidos": 58,
+  "total_atual": 37,
+  "novos_produtos": 5,
+  "total_subidos": 61,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -121,6 +121,7 @@
     "SP12501080469424",
     "SP12501080647004",
     "SP12501083808029",
+    "SP12501084006448",
     "SP12501087323003",
     "SP12501089229040",
     "SP12501089989035",
@@ -201,12 +202,14 @@
     "SP42501003164947"
   ],
   "skus_novos_hoje": [
+    "SP12501084006448",
     "SP12501100834027",
     "SP12501100850032",
     "SP12501100850034",
     "SP12501103035478"
   ],
   "skus_subidos_hoje": [
+    "SP12501041056012",
     "SP12501087323003",
     "SP12501100834001",
     "SP12501100834010",
@@ -215,7 +218,9 @@
     "SP12501100834037",
     "SP12501100834038",
     "SP12501100850032",
+    "SP12501100850034",
     "SP12501102870001",
+    "SP12501102870004",
     "SP12501103027004",
     "SP12501103035004",
     "SP12501103035400",
@@ -267,6 +272,7 @@
     "SP12501122102045"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501041056012",
     "SP12501087323003",
     "SP12501100834001",
     "SP12501100834010",
@@ -275,7 +281,9 @@
     "SP12501100834037",
     "SP12501100834038",
     "SP12501100850032",
+    "SP12501100850034",
     "SP12501102870001",
+    "SP12501102870004",
     "SP12501103027004",
     "SP12501103035004",
     "SP12501103035400",
@@ -328,6 +336,18 @@
   ],
   "itens_novos_hoje": [
     {
+      "sku": "SP12501084006448",
+      "id_produto": "19455",
+      "nome": "SEMI-EIXO DIANTEIRO DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LIFE/ LS 1.0 MPFI 8V FLEXPOWER 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501100834027",
       "id_produto": "19430",
       "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA SPIRIT 1.0 2006/2007",
@@ -354,11 +374,11 @@
     {
       "sku": "SP12501100850034",
       "id_produto": "19454",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA CHEVROLET S10 LTZ 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -377,6 +397,18 @@
     }
   ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501041056012",
+      "id_produto": "13482",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO VERSA EXCLUSIVE 1.6 2024/2024",
+      "marca": "NISSAN",
+      "modelo_do_veiculo": "VERSA EXCLUSIVE 1.6 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "4"
+    },
     {
       "sku": "SP12501087323003",
       "id_produto": "19425",
@@ -474,6 +506,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501100850034",
+      "id_produto": "19454",
+      "nome": "PORTA TRASEIRA DIREITA CHEVROLET S10 LTZ 2012/2013",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501102870001",
       "id_produto": "19288",
       "nome": "ALTERNADOR CHEVROLET CORSA SED CLASS.LIFE 1.0 2005/2005",
@@ -484,6 +528,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102870004",
+      "id_produto": "19289",
+      "nome": "CÂMBIO MANUAL CHEVROLET CORSA SED CLASS.LIFE 1.0 2005/2005",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SED CLASS.LIFE 1.0",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501103027004",
@@ -1078,11 +1134,11 @@
     "SP12501041056012": {
       "sku": "SP12501041056012",
       "id_produto": "13482",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO VERSA EXCLUSIVE 1.6 2024/2024",
       "marca": "NISSAN",
       "modelo_do_veiculo": "VERSA EXCLUSIVE 1.6 16V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -1310,7 +1366,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED CLASS.LIFE 1.0",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
@@ -2194,11 +2250,11 @@
     "SP12501100850034": {
       "sku": "SP12501100850034",
       "id_produto": "19454",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA CHEVROLET S10 LTZ 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -2238,6 +2294,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
+    },
+    "SP12501084006448": {
+      "sku": "SP12501084006448",
+      "id_produto": "19455",
+      "nome": "SEMI-EIXO DIANTEIRO DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LIFE/ LS 1.0 MPFI 8V FLEXPOWER 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "8"
     }
   }
 }
