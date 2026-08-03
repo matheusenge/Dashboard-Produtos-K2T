@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 15:21:03",
+  "ultima_atualizacao": "03/08/2026 15:42:24",
   "total_base_dia": 93,
-  "total_atual": 35,
-  "novos_produtos": 5,
-  "total_subidos": 62,
+  "total_atual": 37,
+  "novos_produtos": 8,
+  "total_subidos": 63,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -132,8 +132,11 @@
     "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
+    "SP12501100850010",
+    "SP12501100850024",
     "SP12501100850032",
     "SP12501100850034",
+    "SP12501100850569",
     "SP12501102870001",
     "SP12501102870004",
     "SP12501103027004",
@@ -204,12 +207,16 @@
   "skus_novos_hoje": [
     "SP12501084006448",
     "SP12501100834027",
+    "SP12501100850010",
+    "SP12501100850024",
     "SP12501100850032",
     "SP12501100850034",
+    "SP12501100850569",
     "SP12501103035478"
   ],
   "skus_subidos_hoje": [
     "SP12501041056012",
+    "SP12501080647004",
     "SP12501084006448",
     "SP12501087323003",
     "SP12501100834001",
@@ -274,6 +281,7 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501041056012",
+    "SP12501080647004",
     "SP12501084006448",
     "SP12501087323003",
     "SP12501100834001",
@@ -362,6 +370,30 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501100850010",
+      "id_produto": "19456",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501100850024",
+      "id_produto": "19457",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501100850032",
       "id_produto": "19453",
       "nome": "PORTA DIANTEIRA DIREITA CHEVROLET S10 LTZ 2012/2013",
@@ -383,6 +415,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100850569",
+      "id_produto": "19458",
+      "nome": "BRAKE LIGHT",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
       "qtd_images": "7"
     },
     {
@@ -410,6 +454,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
+    },
+    {
+      "sku": "SP12501080647004",
+      "id_produto": "13458",
+      "nome": "CÂMBIO AUTOMATICO TOYOTA YARIS XL SEDAN 1.5 FLEX 2022/2023",
+      "marca": "TOYOTA",
+      "modelo_do_veiculo": "YARIS XL SEDAN 1.5 FLEX 16V 4P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501084006448",
@@ -1676,11 +1732,11 @@
     "SP12501080647004": {
       "sku": "SP12501080647004",
       "id_produto": "13458",
-      "nome": "CÂMBIO AUTOMATICO",
+      "nome": "CÂMBIO AUTOMATICO TOYOTA YARIS XL SEDAN 1.5 FLEX 2022/2023",
       "marca": "TOYOTA",
       "modelo_do_veiculo": "YARIS XL SEDAN 1.5 FLEX 16V 4P AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -2320,6 +2376,42 @@
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "4"
+    },
+    "SP12501100850569": {
+      "sku": "SP12501100850569",
+      "id_produto": "19458",
+      "nome": "BRAKE LIGHT",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    "SP12501100850010": {
+      "sku": "SP12501100850010",
+      "id_produto": "19456",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    "SP12501100850024": {
+      "sku": "SP12501100850024",
+      "id_produto": "19457",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
     }
   }
 }
