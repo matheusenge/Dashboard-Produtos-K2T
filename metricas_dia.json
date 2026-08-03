@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 08:51:31",
+  "ultima_atualizacao": "03/08/2026 09:13:13",
   "total_base_dia": 93,
-  "total_atual": 84,
+  "total_atual": 77,
   "novos_produtos": 0,
-  "total_subidos": 9,
+  "total_subidos": 16,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -198,6 +198,13 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501116706036",
+    "SP12501116706411",
+    "SP12501116714001",
+    "SP12501116714010",
+    "SP12501116714024",
+    "SP12501116714027",
+    "SP12501116714037",
     "SP12501116714038",
     "SP12501116714411",
     "SP12501116765016",
@@ -209,6 +216,13 @@
     "SP12501117680020"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501116706036",
+    "SP12501116706411",
+    "SP12501116714001",
+    "SP12501116714010",
+    "SP12501116714024",
+    "SP12501116714027",
+    "SP12501116714037",
     "SP12501116714038",
     "SP12501116714411",
     "SP12501116765016",
@@ -221,6 +235,90 @@
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501116706036",
+      "id_produto": "19437",
+      "nome": "RADIADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116706411",
+      "id_produto": "19438",
+      "nome": "ELETROVENTILADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501116714001",
+      "id_produto": "19439",
+      "nome": "ALTERNADOR RENAULT SANDERO AUTENTIQUE 1.0 16V 2010/2011",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116714010",
+      "id_produto": "19440",
+      "nome": "CHAVE DE SETA RENAULT SANDERO AUTENTIQUE 1.0 2010/2011",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501116714024",
+      "id_produto": "19441",
+      "nome": "MÓDULO DE INJEÇÃO RENAULT SANDERO AUTENTIQUE 1.0 10/11",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116714027",
+      "id_produto": "19442",
+      "nome": "PAINEL DE INSTRUMENTOS RENAULT SANDERO AUTENTIQUE 1.0 10/11",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501116714037",
+      "id_produto": "19443",
+      "nome": "RETROVISOR DIREITO RENAULT SANDERO AUTENTIQUE 1.0 2010/2011",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
     {
       "sku": "SP12501116714038",
       "id_produto": "19444",
@@ -766,11 +864,11 @@
     "SP12501116714037": {
       "sku": "SP12501116714037",
       "id_produto": "19443",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO RENAULT SANDERO AUTENTIQUE 1.0 2010/2011",
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -778,11 +876,11 @@
     "SP12501116706411": {
       "sku": "SP12501116706411",
       "id_produto": "19438",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -790,11 +888,11 @@
     "SP12501116714027": {
       "sku": "SP12501116714027",
       "id_produto": "19442",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS RENAULT SANDERO AUTENTIQUE 1.0 10/11",
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -934,14 +1032,14 @@
     "SP12501116706036": {
       "sku": "SP12501116706036",
       "id_produto": "19437",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR KIA SPORTAGE EX 2.0 16V AUT. 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
-      "qtd_images": "7"
+      "qtd_images": "5"
     },
     "SP12501057114045": {
       "sku": "SP12501057114045",
@@ -1018,11 +1116,11 @@
     "SP12501116714001": {
       "sku": "SP12501116714001",
       "id_produto": "19439",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR RENAULT SANDERO AUTENTIQUE 1.0 16V 2010/2011",
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "9"
@@ -1078,11 +1176,11 @@
     "SP12501116714024": {
       "sku": "SP12501116714024",
       "id_produto": "19441",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO RENAULT SANDERO AUTENTIQUE 1.0 10/11",
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -1150,11 +1248,11 @@
     "SP12501116714010": {
       "sku": "SP12501116714010",
       "id_produto": "19440",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA RENAULT SANDERO AUTENTIQUE 1.0 2010/2011",
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
