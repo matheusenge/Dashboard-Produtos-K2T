@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 16:50:45",
+  "ultima_atualizacao": "03/08/2026 17:12:02",
   "total_base_dia": 93,
-  "total_atual": 38,
+  "total_atual": 32,
   "novos_produtos": 13,
-  "total_subidos": 67,
+  "total_subidos": 73,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -225,9 +225,15 @@
     "SP12501111526037"
   ],
   "skus_subidos_hoje": [
+    "SP12501004584033",
+    "SP12501005122035",
+    "SP12501005319032",
+    "SP12501016540034",
+    "SP12501016620033",
     "SP12501041056012",
     "SP12501041480012",
     "SP12501080647004",
+    "SP12501083808029",
     "SP12501084006448",
     "SP12501087323003",
     "SP12501100834001",
@@ -294,9 +300,15 @@
     "SP12501122102045"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501004584033",
+    "SP12501005122035",
+    "SP12501005319032",
+    "SP12501016540034",
+    "SP12501016620033",
     "SP12501041056012",
     "SP12501041480012",
     "SP12501080647004",
+    "SP12501083808029",
     "SP12501084006448",
     "SP12501087323003",
     "SP12501100834001",
@@ -522,6 +534,66 @@
   ],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501004584033",
+      "id_produto": "4535",
+      "nome": "PORTA DIANTEIRA ESQUERDA FORD ECOSPORT XL 1.6 VINHO 2011/12",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XL 1.6/ 1.6 FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501005122035",
+      "id_produto": "4576",
+      "nome": "PORTA TRASEIRA ESQUERDA HYUNDAI CRETA PLATINUM 1.0 PRATA 23",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501005319032",
+      "id_produto": "4584",
+      "nome": "PORTA DIANTEIRA DIREITA CHEVROLET ONIX  JOY 1.0 PRATA 2019",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501016540034",
+      "id_produto": "5314",
+      "nome": "PORTA TRASEIRA DIREITA CITROËN C3 TENDANCE 1.5 12/13",
+      "marca": "CITROËN",
+      "modelo_do_veiculo": "C3 &lt;span open=",
+      "status": "Habilitado",
+      "status_ml": "closed",
+      "quantidade": "0",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501016620033",
+      "id_produto": "1639",
+      "nome": "PORTA DIANTEIRA ESQUERDA JEEP GRAND CHEROKEE LIM 3.0 14/15",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TB DIES. AUT",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501041056012",
       "id_produto": "13482",
       "nome": "CONDENSADOR DO AR-CONDICIONADO VERSA EXCLUSIVE 1.6 2024/2024",
@@ -556,6 +628,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501083808029",
+      "id_produto": "19046",
+      "nome": "PARA-CHOQUE TRASEIRO CHEVROLET MONTANA SPORT 1.8 05/05",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MONTANA SPORT 1.8 MPFI FLEXPOWER 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "4"
     },
     {
       "sku": "SP12501084006448",
@@ -1354,14 +1438,14 @@
     "SP12501010380032": {
       "sku": "SP12501010380032",
       "id_produto": "8934",
-      "nome": "PORTA DIANTEIRA DIREITA RENAULT LOGAN EXPRESSION HI-FLEX 1.6 2011/2011",
+      "nome": "PORTA DIANTEIRA DIREITA RENAULT LOGAN EXPRE HI-FLEX 1.6 2011",
       "marca": "RENAULT",
       "modelo_do_veiculo": "LOGAN EXPRESSION HI-FLEX 1.6 8V 4P",
       "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "6"
+      "qtd_images": "4"
     },
     "SP12501122102045": {
       "sku": "SP12501122102045",
@@ -1526,7 +1610,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
@@ -1633,8 +1717,8 @@
       "nome": "PARA-CHOQUE TRASEIRO CHEVROLET MONTANA SPORT 1.8 05/05",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MONTANA SPORT 1.8 MPFI FLEXPOWER 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "4"
@@ -1714,11 +1798,11 @@
     "SP12501016620033": {
       "sku": "SP12501016620033",
       "id_produto": "1639",
-      "nome": "PORTA DIANTEIRA ESQUERDA JEEP GRAND CHEROKEE LIM 3.0 TB D AT CINZA 14/15",
+      "nome": "PORTA DIANTEIRA ESQUERDA JEEP GRAND CHEROKEE LIM 3.0 14/15",
       "marca": "JEEP",
       "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TB DIES. AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
@@ -1908,12 +1992,12 @@
       "id_produto": "5314",
       "nome": "PORTA TRASEIRA DIREITA CITROËN C3 TENDANCE 1.5 12/13",
       "marca": "CITROËN",
-      "modelo_do_veiculo": "C3 <span open=\"\" sans\",arial;font-weight:normal;font-style:norma",
+      "modelo_do_veiculo": "C3 &lt;span open=",
       "status": "Habilitado",
-      "status_ml": null,
-      "quantidade": "1",
+      "status_ml": "closed",
+      "quantidade": "0",
       "classificacao": null,
-      "qtd_images": "10"
+      "qtd_images": "8"
     },
     "SP12501108029437": {
       "sku": "SP12501108029437",
@@ -2306,7 +2390,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XL 1.6/ 1.6 FLEX 8V 5P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
@@ -2342,7 +2426,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
