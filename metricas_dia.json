@@ -1,7 +1,7 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 10:42:38",
+  "ultima_atualizacao": "03/08/2026 10:46:51",
   "total_base_dia": 93,
   "total_atual": 59,
   "novos_produtos": 0,
@@ -470,7 +470,7 @@
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "PAJERO TR4 2.0 FLEX 16V 4X4 AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "3"
@@ -662,7 +662,7 @@
       "marca": "AUDI",
       "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
@@ -1000,7 +1000,7 @@
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "PAJERO TR4 2.0 FLEX 16V 4X4 AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "3"
@@ -1744,7 +1744,7 @@
       "marca": "AUDI",
       "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
