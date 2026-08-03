@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 11:46:46",
+  "ultima_atualizacao": "03/08/2026 11:51:13",
   "total_base_dia": 93,
-  "total_atual": 52,
+  "total_atual": 51,
   "novos_produtos": 0,
-  "total_subidos": 41,
+  "total_subidos": 42,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -204,6 +204,7 @@
     "SP12501100834037",
     "SP12501100834038",
     "SP12501102870001",
+    "SP12501103027004",
     "SP12501103035004",
     "SP12501116706012",
     "SP12501116706036",
@@ -247,6 +248,7 @@
     "SP12501100834037",
     "SP12501100834038",
     "SP12501102870001",
+    "SP12501103027004",
     "SP12501103035004",
     "SP12501116706012",
     "SP12501116706036",
@@ -356,6 +358,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501103027004",
+      "id_produto": "19384",
+      "nome": "CÂMBIO MANUAL VOLKSWAGEN PARATI 1.8 MI 2000/2000",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "PARATI 1.8 MI",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501103035004",
@@ -1154,11 +1168,11 @@
     "SP12501103027004": {
       "sku": "SP12501103027004",
       "id_produto": "19384",
-      "nome": "CÂMBIO MANUAL",
+      "nome": "CÂMBIO MANUAL VOLKSWAGEN PARATI 1.8 MI 2000/2000",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "PARATI 1.8 MI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
