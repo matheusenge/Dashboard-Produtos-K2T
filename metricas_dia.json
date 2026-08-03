@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 08:21:37",
+  "ultima_atualizacao": "03/08/2026 08:42:50",
   "total_base_dia": 93,
-  "total_atual": 93,
+  "total_atual": 86,
   "novos_produtos": 0,
-  "total_subidos": 0,
+  "total_subidos": 7,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -197,10 +197,111 @@
     "SP42501003164947"
   ],
   "skus_novos_hoje": [],
-  "skus_subidos_hoje": [],
-  "skus_subidos_status_ml_hoje": [],
+  "skus_subidos_hoje": [
+    "SP12501116765016",
+    "SP12501117354010",
+    "SP12501117354016",
+    "SP12501117354024",
+    "SP12501117354027",
+    "SP12501117354049",
+    "SP12501117680020"
+  ],
+  "skus_subidos_status_ml_hoje": [
+    "SP12501116765016",
+    "SP12501117354010",
+    "SP12501117354016",
+    "SP12501117354024",
+    "SP12501117354027",
+    "SP12501117354049",
+    "SP12501117680020"
+  ],
   "itens_novos_hoje": [],
-  "itens_subidos_hoje": [],
+  "itens_subidos_hoje": [
+    {
+      "sku": "SP12501116765016",
+      "id_produto": "19446",
+      "nome": "FAROL ESQUERDO MITSUBISHI PAJERO TR4 2.0 FLEX 16V 2007/08",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "PAJERO TR4 2.0 FLEX 16V 4X4 AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501117354010",
+      "id_produto": "19447",
+      "nome": "CHAVE DE SETA FIAT ARGO FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501117354016",
+      "id_produto": "19448",
+      "nome": "FAROL ESQUERDO FIAT ARGO FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501117354024",
+      "id_produto": "19449",
+      "nome": "MÓDULO DE INJEÇÃO FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501117354027",
+      "id_produto": "19450",
+      "nome": "PAINEL DE INSTRUMENTOS FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501117354049",
+      "id_produto": "19451",
+      "nome": "VOLANTE DO MOTORISTA FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501117680020",
+      "id_produto": "19452",
+      "nome": "LANTERNA TRASEIRA ESQUERDA AUDI A3 SEDAN 1.4 TFSI FLEX 17/17",
+      "marca": "AUDI",
+      "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "6"
+    }
+  ],
   "detalhes_skus_vistos_hoje": {
     "SP12501041056012": {
       "sku": "SP12501041056012",
@@ -217,11 +318,11 @@
     "SP12501117354027": {
       "sku": "SP12501117354027",
       "id_produto": "19450",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -301,14 +402,14 @@
     "SP12501117680020": {
       "sku": "SP12501117680020",
       "id_produto": "19452",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA AUDI A3 SEDAN 1.4 TFSI FLEX 17/17",
       "marca": "AUDI",
       "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
-      "qtd_images": "8"
+      "qtd_images": "6"
     },
     "SP12501117362019": {
       "sku": "SP12501117362019",
@@ -685,11 +786,11 @@
     "SP12501116765016": {
       "sku": "SP12501116765016",
       "id_produto": "19446",
-      "nome": "FAROL ESQUERDO",
+      "nome": "FAROL ESQUERDO MITSUBISHI PAJERO TR4 2.0 FLEX 16V 2007/08",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "PAJERO TR4 2.0 FLEX 16V 4X4 AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -937,11 +1038,11 @@
     "SP12501117354010": {
       "sku": "SP12501117354010",
       "id_produto": "19447",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA FIAT ARGO FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -997,11 +1098,11 @@
     "SP12501117354049": {
       "sku": "SP12501117354049",
       "id_produto": "19451",
-      "nome": "VOLANTE DO MOTORISTA",
+      "nome": "VOLANTE DO MOTORISTA FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -1117,11 +1218,11 @@
     "SP12501117354016": {
       "sku": "SP12501117354016",
       "id_produto": "19448",
-      "nome": "FAROL ESQUERDO",
+      "nome": "FAROL ESQUERDO FIAT ARGO FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -1285,11 +1386,11 @@
     "SP12501117354024": {
       "sku": "SP12501117354024",
       "id_produto": "19449",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
