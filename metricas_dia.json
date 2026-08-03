@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 17:16:19",
+  "ultima_atualizacao": "03/08/2026 17:20:43",
   "total_base_dia": 93,
-  "total_atual": 33,
+  "total_atual": 31,
   "novos_produtos": 14,
-  "total_subidos": 73,
+  "total_subidos": 75,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -230,6 +230,7 @@
     "SP12501004584033",
     "SP12501005122035",
     "SP12501005319032",
+    "SP12501010380032",
     "SP12501016540034",
     "SP12501016620033",
     "SP12501041056012",
@@ -258,6 +259,7 @@
     "SP12501103051012",
     "SP12501103175012",
     "SP12501105631026",
+    "SP12501111321010",
     "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
@@ -305,6 +307,7 @@
     "SP12501004584033",
     "SP12501005122035",
     "SP12501005319032",
+    "SP12501010380032",
     "SP12501016540034",
     "SP12501016620033",
     "SP12501041056012",
@@ -333,6 +336,7 @@
     "SP12501103051012",
     "SP12501103175012",
     "SP12501105631026",
+    "SP12501111321010",
     "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
@@ -476,11 +480,11 @@
     {
       "sku": "SP12501111321010",
       "id_produto": "19461",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005/2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -582,6 +586,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501010380032",
+      "id_produto": "8934",
+      "nome": "PORTA DIANTEIRA DIREITA RENAULT LOGAN EXPRE HI-FLEX 1.6 2011",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "LOGAN EXPRESSION HI-FLEX 1.6 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "4"
     },
     {
       "sku": "SP12501016540034",
@@ -918,6 +934,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501111321010",
+      "id_produto": "19461",
+      "nome": "CHAVE DE SETA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005/2005",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501116706012",
@@ -1456,7 +1484,7 @@
       "marca": "RENAULT",
       "modelo_do_veiculo": "LOGAN EXPRESSION HI-FLEX 1.6 8V 4P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -2676,11 +2704,11 @@
     "SP12501111321010": {
       "sku": "SP12501111321010",
       "id_produto": "19461",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005/2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
