@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 09:17:07",
+  "ultima_atualizacao": "03/08/2026 09:21:36",
   "total_base_dia": 93,
-  "total_atual": 75,
+  "total_atual": 74,
   "novos_produtos": 0,
-  "total_subidos": 18,
+  "total_subidos": 19,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -198,6 +198,7 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501100834037",
     "SP12501100834038",
     "SP12501116706012",
     "SP12501116706036",
@@ -218,6 +219,7 @@
     "SP12501117680020"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501100834037",
     "SP12501100834038",
     "SP12501116706012",
     "SP12501116706036",
@@ -240,13 +242,25 @@
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501100834037",
+      "id_produto": "19431",
+      "nome": "RETROVISOR DIREITO CHEVROLET CELTA SPIRIT 1.0 FLEXP. 2006/07",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501100834038",
       "id_produto": "19432",
       "nome": "RETROVISOR ESQUERDO CHEVROLET CELTA SPIRIT 1.0 FLEXP. 06/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -1288,11 +1302,11 @@
     "SP12501100834037": {
       "sku": "SP12501100834037",
       "id_produto": "19431",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO CHEVROLET CELTA SPIRIT 1.0 FLEXP. 2006/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -1328,7 +1342,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
