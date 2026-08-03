@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 09:21:36",
+  "ultima_atualizacao": "03/08/2026 09:43:13",
   "total_base_dia": 93,
-  "total_atual": 74,
+  "total_atual": 71,
   "novos_produtos": 0,
-  "total_subidos": 19,
+  "total_subidos": 22,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -198,6 +198,9 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501100834001",
+    "SP12501100834010",
+    "SP12501100834019",
     "SP12501100834037",
     "SP12501100834038",
     "SP12501116706012",
@@ -219,6 +222,9 @@
     "SP12501117680020"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501100834001",
+    "SP12501100834010",
+    "SP12501100834019",
     "SP12501100834037",
     "SP12501100834038",
     "SP12501116706012",
@@ -241,6 +247,42 @@
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501100834001",
+      "id_produto": "19426",
+      "nome": "ALTERNADOR CHEVROLET CELTA SPIRIT 1.0 MPFI 8V FLEXP. 06/07",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501100834010",
+      "id_produto": "19427",
+      "nome": "CHAVE DE SETA CHEVROLET CELTA SPIRIT 1.0 FLEXP. 06/07",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100834019",
+      "id_produto": "19428",
+      "nome": "LANTERNA TRASEIRA DIREITA CHEVROLET CELTA SPIRIT 1.0 06/07",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
     {
       "sku": "SP12501100834037",
       "id_produto": "19431",
@@ -654,11 +696,11 @@
     "SP12501100834019": {
       "sku": "SP12501100834019",
       "id_produto": "19428",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA CHEVROLET CELTA SPIRIT 1.0 06/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -894,11 +936,11 @@
     "SP12501100834010": {
       "sku": "SP12501100834010",
       "id_produto": "19427",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET CELTA SPIRIT 1.0 FLEXP. 06/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -1014,11 +1056,11 @@
     "SP12501100834001": {
       "sku": "SP12501100834001",
       "id_produto": "19426",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR CHEVROLET CELTA SPIRIT 1.0 MPFI 8V FLEXP. 06/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
