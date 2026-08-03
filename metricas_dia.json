@@ -1,7 +1,7 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 16:16:26",
+  "ultima_atualizacao": "03/08/2026 16:20:56",
   "total_base_dia": 93,
   "total_atual": 33,
   "novos_produtos": 8,
@@ -1651,7 +1651,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "8"
+      "qtd_images": "6"
     },
     "SP12501117362024": {
       "sku": "SP12501117362024",
