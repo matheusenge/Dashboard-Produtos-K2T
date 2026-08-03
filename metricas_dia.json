@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 12:21:27",
+  "ultima_atualizacao": "03/08/2026 12:42:20",
   "total_base_dia": 93,
-  "total_atual": 50,
+  "total_atual": 49,
   "novos_produtos": 0,
-  "total_subidos": 43,
+  "total_subidos": 44,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -212,6 +212,7 @@
     "SP12501116706411",
     "SP12501116706448",
     "SP12501116706449",
+    "SP12501116706455",
     "SP12501116714001",
     "SP12501116714004",
     "SP12501116714010",
@@ -257,6 +258,7 @@
     "SP12501116706411",
     "SP12501116706448",
     "SP12501116706449",
+    "SP12501116706455",
     "SP12501116714001",
     "SP12501116714004",
     "SP12501116714010",
@@ -456,6 +458,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116706455",
+      "id_produto": "19383",
+      "nome": "FAROL DE NEBLINA ESQUERDO KIA SPORTAGE EX 2.0 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501116714001",
@@ -1050,11 +1064,11 @@
     "SP12501116706455": {
       "sku": "SP12501116706455",
       "id_produto": "19383",
-      "nome": "FAROL DE NEBLINA ESQUERDO",
+      "nome": "FAROL DE NEBLINA ESQUERDO KIA SPORTAGE EX 2.0 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
