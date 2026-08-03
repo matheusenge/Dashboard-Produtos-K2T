@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 15:42:24",
+  "ultima_atualizacao": "03/08/2026 15:46:41",
   "total_base_dia": 93,
-  "total_atual": 37,
+  "total_atual": 36,
   "novos_produtos": 8,
-  "total_subidos": 63,
+  "total_subidos": 64,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -216,6 +216,7 @@
   ],
   "skus_subidos_hoje": [
     "SP12501041056012",
+    "SP12501041480012",
     "SP12501080647004",
     "SP12501084006448",
     "SP12501087323003",
@@ -281,6 +282,7 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501041056012",
+    "SP12501041480012",
     "SP12501080647004",
     "SP12501084006448",
     "SP12501087323003",
@@ -451,6 +453,18 @@
       "modelo_do_veiculo": "VERSA EXCLUSIVE 1.6 16V FLEX AUT.",
       "status": "Habilitado",
       "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "4"
+    },
+    {
+      "sku": "SP12501041480012",
+      "id_produto": "13457",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO NISSAN KICKS SENSE 1.6 23/24",
+      "marca": "NISSAN",
+      "modelo_do_veiculo": "KICKS SENSE 1.6 16V FLEX AUT",
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -1540,11 +1554,11 @@
     "SP12501041480012": {
       "sku": "SP12501041480012",
       "id_produto": "13457",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO NISSAN KICKS SENSE 1.6 23/24",
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SENSE 1.6 16V FLEX AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
