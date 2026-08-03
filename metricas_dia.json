@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 15:46:41",
+  "ultima_atualizacao": "03/08/2026 15:51:07",
   "total_base_dia": 93,
-  "total_atual": 36,
+  "total_atual": 34,
   "novos_produtos": 8,
-  "total_subidos": 64,
+  "total_subidos": 66,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -226,8 +226,10 @@
     "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
+    "SP12501100850024",
     "SP12501100850032",
     "SP12501100850034",
+    "SP12501100850569",
     "SP12501102870001",
     "SP12501102870004",
     "SP12501103027004",
@@ -292,8 +294,10 @@
     "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
+    "SP12501100850024",
     "SP12501100850032",
     "SP12501100850034",
+    "SP12501100850569",
     "SP12501102870001",
     "SP12501102870004",
     "SP12501103027004",
@@ -386,11 +390,11 @@
     {
       "sku": "SP12501100850024",
       "id_produto": "19457",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -422,11 +426,11 @@
     {
       "sku": "SP12501100850569",
       "id_produto": "19458",
-      "nome": "BRAKE LIGHT",
+      "nome": "BRAKE LIGHT CHEVROLET S10 CABINE DUPLA LTZ 2.4 F.POWER 12/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -578,6 +582,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501100850024",
+      "id_produto": "19457",
+      "nome": "MÓDULO DE INJEÇÃO CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/13",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501100850032",
       "id_produto": "19453",
       "nome": "PORTA DIANTEIRA DIREITA CHEVROLET S10 LTZ 2012/2013",
@@ -599,6 +615,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100850569",
+      "id_produto": "19458",
+      "nome": "BRAKE LIGHT CHEVROLET S10 CABINE DUPLA LTZ 2.4 F.POWER 12/13",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
       "qtd_images": "7"
     },
     {
@@ -2394,11 +2422,11 @@
     "SP12501100850569": {
       "sku": "SP12501100850569",
       "id_produto": "19458",
-      "nome": "BRAKE LIGHT",
+      "nome": "BRAKE LIGHT CHEVROLET S10 CABINE DUPLA LTZ 2.4 F.POWER 12/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -2418,11 +2446,11 @@
     "SP12501100850024": {
       "sku": "SP12501100850024",
       "id_produto": "19457",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
