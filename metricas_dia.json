@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 12:51:01",
+  "ultima_atualizacao": "03/08/2026 14:01:40",
   "total_base_dia": 93,
-  "total_atual": 48,
-  "novos_produtos": 0,
-  "total_subidos": 45,
+  "total_atual": 42,
+  "novos_produtos": 4,
+  "total_subidos": 55,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -128,14 +128,18 @@
     "SP12501100834010",
     "SP12501100834019",
     "SP12501100834024",
+    "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
+    "SP12501100850032",
+    "SP12501100850034",
     "SP12501102870001",
     "SP12501102870004",
     "SP12501103027004",
     "SP12501103027039",
     "SP12501103035004",
     "SP12501103035400",
+    "SP12501103035478",
     "SP12501103043568",
     "SP12501103051012",
     "SP12501103175012",
@@ -196,8 +200,14 @@
     "SP42501001064042",
     "SP42501003164947"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501100834027",
+    "SP12501100850032",
+    "SP12501100850034",
+    "SP12501103035478"
+  ],
   "skus_subidos_hoje": [
+    "SP12501087323003",
     "SP12501100834001",
     "SP12501100834010",
     "SP12501100834019",
@@ -207,6 +217,9 @@
     "SP12501103027004",
     "SP12501103035004",
     "SP12501103035400",
+    "SP12501103051012",
+    "SP12501103175012",
+    "SP12501105631026",
     "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
@@ -223,8 +236,10 @@
     "SP12501116714037",
     "SP12501116714038",
     "SP12501116714411",
+    "SP12501116749012",
     "SP12501116765016",
     "SP12501116765033",
+    "SP12501116935012",
     "SP12501116935437",
     "SP12501117354010",
     "SP12501117354016",
@@ -241,10 +256,15 @@
     "SP12501117362037",
     "SP12501117362475",
     "SP12501117362476",
+    "SP12501117672012",
     "SP12501117680007",
-    "SP12501117680020"
+    "SP12501117680020",
+    "SP12501117737012",
+    "SP12501117761012",
+    "SP12501122102045"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501087323003",
     "SP12501100834001",
     "SP12501100834010",
     "SP12501100834019",
@@ -254,6 +274,9 @@
     "SP12501103027004",
     "SP12501103035004",
     "SP12501103035400",
+    "SP12501103051012",
+    "SP12501103175012",
+    "SP12501105631026",
     "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
@@ -270,8 +293,10 @@
     "SP12501116714037",
     "SP12501116714038",
     "SP12501116714411",
+    "SP12501116749012",
     "SP12501116765016",
     "SP12501116765033",
+    "SP12501116935012",
     "SP12501116935437",
     "SP12501117354010",
     "SP12501117354016",
@@ -288,11 +313,76 @@
     "SP12501117362037",
     "SP12501117362475",
     "SP12501117362476",
+    "SP12501117672012",
     "SP12501117680007",
-    "SP12501117680020"
+    "SP12501117680020",
+    "SP12501117737012",
+    "SP12501117761012",
+    "SP12501122102045"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501100834027",
+      "id_produto": "19430",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100850032",
+      "id_produto": "19453",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100850034",
+      "id_produto": "19454",
+      "nome": "PORTA TRASEIRA DIREITA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501103035478",
+      "id_produto": "19320",
+      "nome": "MAQUINA ELETRICA VIDRO TRASEIRA ESQUERDA",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    }
+  ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501087323003",
+      "id_produto": "19425",
+      "nome": "CABEÇOTE COM VÁLVULAS FIAT UNO VIVACE 1.0 EVO FIRE FLEX 2015",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "UNO VIVACE 1.0 EVO FIRE FLEX 8V 3P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
     {
       "sku": "SP12501100834001",
       "id_produto": "19426",
@@ -402,6 +492,42 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501103051012",
+      "id_produto": "18549",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO CITROEN C3 EXCLUSIVE 1.4 2009",
+      "marca": "CITROEN",
+      "modelo_do_veiculo": "C3 EXCLUSIVE 1.4 FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501103175012",
+      "id_produto": "18499",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO CHEVROLET ZAFIRA ELITE 2.0 05",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "ZAFIRA ELITE 2.0 MPFI FLEXPOWER 8V AUT",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501105631026",
+      "id_produto": "15943",
+      "nome": "MOTOR DE PARTIDA FIAT ARGO 1.0 6V FLEX 2023/2023",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 6V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501116706012",
       "id_produto": "19436",
       "nome": "CONDENSADOR DO AR-CONDICIONADO KIA SPORTAGE EX 2.0 2009/2010",
@@ -444,7 +570,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -594,6 +720,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501116749012",
+      "id_produto": "18558",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO RENAULT DUSTER 2.0 14/15",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501116765016",
       "id_produto": "19446",
       "nome": "FAROL ESQUERDO MITSUBISHI PAJERO TR4 2.0 FLEX 16V 2007/08",
@@ -616,6 +754,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "3"
+    },
+    {
+      "sku": "SP12501116935012",
+      "id_produto": "18564",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO RAM RAMPAGE R/T 2.0 25/26",
+      "marca": "RAM",
+      "modelo_do_veiculo": "RAMPAGE R/T 2.0 HURRICANE TURBO",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501116935437",
@@ -810,6 +960,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501117672012",
+      "id_produto": "18575",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT TORO RANCH 2.0 23/23",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "TORO RANCH 2.0 16V 4X4 TB DIESEL AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501117680007",
       "id_produto": "18678",
       "nome": "CAPÔ AUDI A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P 2017/2017",
@@ -832,6 +994,42 @@
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501117737012",
+      "id_produto": "18535",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT PULSE DRIVE 1.0 2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "PULSE DRIVE TURBO 200 1.0 12V GSE TURBO",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501117761012",
+      "id_produto": "18545",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO CHEVROLET CAPTIVA 2.4 11/12",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CAPTIVA SPORT 2.4 16V ECOTEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501122102045",
+      "id_produto": "13641",
+      "nome": "TAMPA TRASEIRA TOYOTA ETIOS XLS SEDAN 1.5 AUT. 2017/2018",
+      "marca": "TOYOTA",
+      "modelo_do_veiculo": "ETIOS XLS SEDAN 1.5 FLEX 16V 4P AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "2"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -874,11 +1072,11 @@
     "SP12501122102045": {
       "sku": "SP12501122102045",
       "id_produto": "13641",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA TOYOTA ETIOS XLS SEDAN 1.5 AUT. 2017/2018",
       "marca": "TOYOTA",
       "modelo_do_veiculo": "ETIOS XLS SEDAN 1.5 FLEX 16V 4P AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "2"
@@ -902,7 +1100,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -914,7 +1112,7 @@
       "marca": "CITROEN",
       "modelo_do_veiculo": "C3 EXCLUSIVE 1.4 FLEX 8V 5P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -970,11 +1168,11 @@
     "SP12501105631026": {
       "sku": "SP12501105631026",
       "id_produto": "15943",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA FIAT ARGO 1.0 6V FLEX 2023/2023",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 6V FLEX",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -1013,7 +1211,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
-      "qtd_images": "3"
+      "qtd_images": "8"
     },
     "SP12501100834019": {
       "sku": "SP12501100834019",
@@ -1130,7 +1328,7 @@
       "marca": "RENAULT",
       "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -1166,7 +1364,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "ZAFIRA ELITE 2.0 MPFI FLEXPOWER 8V AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -1250,7 +1448,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "TORO RANCH 2.0 16V 4X4 TB DIESEL AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -1310,7 +1508,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "PULSE DRIVE TURBO 200 1.0 12V GSE TURBO",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1730,7 +1928,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CAPTIVA SPORT 2.4 16V ECOTEC",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1802,7 +2000,7 @@
       "marca": "RAM",
       "modelo_do_veiculo": "RAMPAGE R/T 2.0 HURRICANE TURBO",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -1934,7 +2132,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "UNO VIVACE 1.0 EVO FIRE FLEX 8V 3P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1950,6 +2148,54 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "2"
+    },
+    "SP12501100850034": {
+      "sku": "SP12501100850034",
+      "id_produto": "19454",
+      "nome": "PORTA TRASEIRA DIREITA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501103035478": {
+      "sku": "SP12501103035478",
+      "id_produto": "19320",
+      "nome": "MAQUINA ELETRICA VIDRO TRASEIRA ESQUERDA",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    "SP12501100834027": {
+      "sku": "SP12501100834027",
+      "id_produto": "19430",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    "SP12501100850032": {
+      "sku": "SP12501100850032",
+      "id_produto": "19453",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
     }
   }
 }
