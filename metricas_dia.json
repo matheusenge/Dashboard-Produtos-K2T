@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 14:01:40",
+  "ultima_atualizacao": "03/08/2026 14:12:15",
   "total_base_dia": 93,
-  "total_atual": 42,
+  "total_atual": 40,
   "novos_produtos": 4,
-  "total_subidos": 55,
+  "total_subidos": 57,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -211,12 +211,14 @@
     "SP12501100834001",
     "SP12501100834010",
     "SP12501100834019",
+    "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
     "SP12501102870001",
     "SP12501103027004",
     "SP12501103035004",
     "SP12501103035400",
+    "SP12501103035478",
     "SP12501103051012",
     "SP12501103175012",
     "SP12501105631026",
@@ -268,12 +270,14 @@
     "SP12501100834001",
     "SP12501100834010",
     "SP12501100834019",
+    "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
     "SP12501102870001",
     "SP12501103027004",
     "SP12501103035004",
     "SP12501103035400",
+    "SP12501103035478",
     "SP12501103051012",
     "SP12501103175012",
     "SP12501105631026",
@@ -324,26 +328,26 @@
     {
       "sku": "SP12501100834027",
       "id_produto": "19430",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA SPIRIT 1.0 2006/2007",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
-      "qtd_images": "9"
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501100850032",
       "id_produto": "19453",
-      "nome": "PORTA DIANTEIRA DIREITA",
+      "nome": "PORTA DIANTEIRA DIREITA CHEVROLET S10 LTZ 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
-      "qtd_images": "9"
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501100850034",
@@ -360,14 +364,14 @@
     {
       "sku": "SP12501103035478",
       "id_produto": "19320",
-      "nome": "MAQUINA ELETRICA VIDRO TRASEIRA ESQUERDA",
+      "nome": "MAQUINA ELETRICA VIDRO TRASEIRO ESQUERDO JAC J6 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
-      "qtd_images": "7"
+      "qtd_images": "5"
     }
   ],
   "itens_subidos_hoje": [
@@ -418,6 +422,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100834027",
+      "id_produto": "19430",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA SPIRIT 1.0 2006/2007",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501100834037",
@@ -490,6 +506,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103035478",
+      "id_produto": "19320",
+      "nome": "MAQUINA ELETRICA VIDRO TRASEIRO ESQUERDO JAC J6 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501103051012",
@@ -2164,38 +2192,38 @@
     "SP12501103035478": {
       "sku": "SP12501103035478",
       "id_produto": "19320",
-      "nome": "MAQUINA ELETRICA VIDRO TRASEIRA ESQUERDA",
+      "nome": "MAQUINA ELETRICA VIDRO TRASEIRO ESQUERDO JAC J6 2011/2012",
       "marca": "JAC",
       "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
-      "qtd_images": "7"
+      "qtd_images": "5"
     },
     "SP12501100834027": {
       "sku": "SP12501100834027",
       "id_produto": "19430",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA SPIRIT 1.0 2006/2007",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
-      "qtd_images": "9"
+      "qtd_images": "6"
     },
     "SP12501100850032": {
       "sku": "SP12501100850032",
       "id_produto": "19453",
-      "nome": "PORTA DIANTEIRA DIREITA",
+      "nome": "PORTA DIANTEIRA DIREITA CHEVROLET S10 LTZ 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
-      "qtd_images": "9"
+      "qtd_images": "6"
     }
   }
 }
