@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 17:20:43",
+  "ultima_atualizacao": "03/08/2026 17:42:01",
   "total_base_dia": 93,
-  "total_atual": 31,
-  "novos_produtos": 14,
-  "total_subidos": 75,
+  "total_atual": 28,
+  "novos_produtos": 16,
+  "total_subidos": 80,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -156,6 +156,8 @@
     "SP12501111321037",
     "SP12501111321038",
     "SP12501111526010",
+    "SP12501111526015",
+    "SP12501111526019",
     "SP12501111526027",
     "SP12501111526037",
     "SP12501116706012",
@@ -223,6 +225,8 @@
     "SP12501111321037",
     "SP12501111321038",
     "SP12501111526010",
+    "SP12501111526015",
+    "SP12501111526019",
     "SP12501111526027",
     "SP12501111526037"
   ],
@@ -260,6 +264,11 @@
     "SP12501103175012",
     "SP12501105631026",
     "SP12501111321010",
+    "SP12501111321037",
+    "SP12501111321038",
+    "SP12501111526010",
+    "SP12501111526027",
+    "SP12501111526037",
     "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
@@ -337,6 +346,11 @@
     "SP12501103175012",
     "SP12501105631026",
     "SP12501111321010",
+    "SP12501111321037",
+    "SP12501111321038",
+    "SP12501111526010",
+    "SP12501111526027",
+    "SP12501111526037",
     "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
@@ -484,7 +498,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -492,11 +506,11 @@
     {
       "sku": "SP12501111321037",
       "id_produto": "19462",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -504,11 +518,11 @@
     {
       "sku": "SP12501111321038",
       "id_produto": "19463",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -516,23 +530,47 @@
     {
       "sku": "SP12501111526010",
       "id_produto": "19464",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501111526015",
+      "id_produto": "19469",
+      "nome": "FAROL DIREITO",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "06",
-      "qtd_images": "6"
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111526019",
+      "id_produto": "19470",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501111526027",
       "id_produto": "19471",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET MERIVA 1.8 MPFI 8V 2003",
       "marca": "CHEVROLET",
-      "modelo_do_veiculo": null,
-      "status": "Desabilitado",
-      "status_ml": null,
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
@@ -540,11 +578,11 @@
     {
       "sku": "SP12501111526037",
       "id_produto": "19465",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -942,10 +980,70 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501111321037",
+      "id_produto": "19462",
+      "nome": "RETROVISOR DIREITO CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111321038",
+      "id_produto": "19463",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111526010",
+      "id_produto": "19464",
+      "nome": "CHAVE DE SETA CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501111526027",
+      "id_produto": "19471",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET MERIVA 1.8 MPFI 8V 2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111526037",
+      "id_produto": "19465",
+      "nome": "RETROVISOR DIREITO CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501116706012",
@@ -2027,7 +2125,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
-      "qtd_images": "8"
+      "qtd_images": "3"
     },
     "SP12501016540034": {
       "sku": "SP12501016540034",
@@ -2507,7 +2605,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "10"
+      "qtd_images": "6"
     },
     "SP12501117680007": {
       "sku": "SP12501117680007",
@@ -2668,11 +2766,11 @@
     "SP12501111321037": {
       "sku": "SP12501111321037",
       "id_produto": "19462",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -2680,11 +2778,11 @@
     "SP12501111321038": {
       "sku": "SP12501111321038",
       "id_produto": "19463",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -2692,11 +2790,11 @@
     "SP12501111526037": {
       "sku": "SP12501111526037",
       "id_produto": "19465",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -2708,7 +2806,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -2716,11 +2814,11 @@
     "SP12501111526010": {
       "sku": "SP12501111526010",
       "id_produto": "19464",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -2728,14 +2826,38 @@
     "SP12501111526027": {
       "sku": "SP12501111526027",
       "id_produto": "19471",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET MERIVA 1.8 MPFI 8V 2003",
       "marca": "CHEVROLET",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
+    },
+    "SP12501111526019": {
+      "sku": "SP12501111526019",
+      "id_produto": "19470",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "05",
-      "qtd_images": "7"
+      "qtd_images": "10"
+    },
+    "SP12501111526015": {
+      "sku": "SP12501111526015",
+      "id_produto": "19469",
+      "nome": "FAROL DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     }
   }
 }
