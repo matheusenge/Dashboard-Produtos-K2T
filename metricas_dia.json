@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 15:51:07",
+  "ultima_atualizacao": "03/08/2026 16:12:09",
   "total_base_dia": 93,
-  "total_atual": 34,
+  "total_atual": 33,
   "novos_produtos": 8,
-  "total_subidos": 66,
+  "total_subidos": 67,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -226,6 +226,7 @@
     "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
+    "SP12501100850010",
     "SP12501100850024",
     "SP12501100850032",
     "SP12501100850034",
@@ -294,6 +295,7 @@
     "SP12501100834027",
     "SP12501100834037",
     "SP12501100834038",
+    "SP12501100850010",
     "SP12501100850024",
     "SP12501100850032",
     "SP12501100850034",
@@ -378,11 +380,11 @@
     {
       "sku": "SP12501100850010",
       "id_produto": "19456",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -394,7 +396,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -430,7 +432,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -468,7 +470,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SENSE 1.6 16V FLEX AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -582,13 +584,25 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501100850010",
+      "id_produto": "19456",
+      "nome": "CHAVE DE SETA CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/2013",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501100850024",
       "id_produto": "19457",
       "nome": "MÓDULO DE INJEÇÃO CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -624,7 +638,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -1128,7 +1142,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LS 1.0 MPFI 8V FLEXPOWER 3P",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "closed",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -1586,7 +1600,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SENSE 1.6 16V FLEX AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -1910,7 +1924,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LS 1.0 MPFI 8V FLEXPOWER 3P",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "closed",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -2426,7 +2440,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -2434,11 +2448,11 @@
     "SP12501100850010": {
       "sku": "SP12501100850010",
       "id_produto": "19456",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -2450,7 +2464,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
