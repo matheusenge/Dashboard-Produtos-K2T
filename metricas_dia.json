@@ -1,7 +1,7 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 16:46:31",
+  "ultima_atualizacao": "03/08/2026 16:50:45",
   "total_base_dia": 93,
   "total_atual": 38,
   "novos_produtos": 13,
@@ -1529,7 +1529,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "8"
+      "qtd_images": "6"
     },
     "SP12501108029485": {
       "sku": "SP12501108029485",
@@ -1630,7 +1630,7 @@
     "SP12501083808029": {
       "sku": "SP12501083808029",
       "id_produto": "19046",
-      "nome": "PARA-CHOQUE TRASEIRO",
+      "nome": "PARA-CHOQUE TRASEIRO CHEVROLET MONTANA SPORT 1.8 05/05",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MONTANA SPORT 1.8 MPFI FLEXPOWER 8V",
       "status": "Desabilitado",
