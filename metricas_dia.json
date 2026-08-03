@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 08:47:05",
+  "ultima_atualizacao": "03/08/2026 08:51:31",
   "total_base_dia": 93,
-  "total_atual": 85,
+  "total_atual": 84,
   "novos_produtos": 0,
-  "total_subidos": 8,
+  "total_subidos": 9,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -198,6 +198,7 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501116714038",
     "SP12501116714411",
     "SP12501116765016",
     "SP12501117354010",
@@ -208,6 +209,7 @@
     "SP12501117680020"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501116714038",
     "SP12501116714411",
     "SP12501116765016",
     "SP12501117354010",
@@ -220,13 +222,25 @@
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501116714038",
+      "id_produto": "19444",
+      "nome": "RETROVISOR ESQUERDO RENAULT SANDERO AUTENTIQUE 1.0 2010/2011",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501116714411",
       "id_produto": "19445",
       "nome": "ELETROVENTILADOR RENAULT SANDERO AUTENTIQUE 1.0 2010/2011",
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -476,11 +490,11 @@
     "SP12501116714038": {
       "sku": "SP12501116714038",
       "id_produto": "19444",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO RENAULT SANDERO AUTENTIQUE 1.0 2010/2011",
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -816,7 +830,7 @@
       "marca": "RENAULT",
       "modelo_do_veiculo": "SANDERO AUTENTIQUE 1.0 16V HI-FLEX",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
