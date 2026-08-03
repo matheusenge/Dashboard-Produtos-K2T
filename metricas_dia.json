@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 15:16:32",
+  "ultima_atualizacao": "03/08/2026 15:21:03",
   "total_base_dia": 93,
-  "total_atual": 36,
+  "total_atual": 35,
   "novos_produtos": 5,
-  "total_subidos": 61,
+  "total_subidos": 62,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -210,6 +210,7 @@
   ],
   "skus_subidos_hoje": [
     "SP12501041056012",
+    "SP12501084006448",
     "SP12501087323003",
     "SP12501100834001",
     "SP12501100834010",
@@ -273,6 +274,7 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501041056012",
+    "SP12501084006448",
     "SP12501087323003",
     "SP12501100834001",
     "SP12501100834010",
@@ -338,11 +340,11 @@
     {
       "sku": "SP12501084006448",
       "id_produto": "19455",
-      "nome": "SEMI-EIXO DIANTEIRO DIREITO",
+      "nome": "SEMI-EIXO DIANTEIRO DIREITO CHEVROLET CELTA LIFE/LS 2006/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LIFE/ LS 1.0 MPFI 8V FLEXPOWER 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "4"
@@ -407,6 +409,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
+      "qtd_images": "4"
+    },
+    {
+      "sku": "SP12501084006448",
+      "id_produto": "19455",
+      "nome": "SEMI-EIXO DIANTEIRO DIREITO CHEVROLET CELTA LIFE/LS 2006/07",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LIFE/ LS 1.0 MPFI 8V FLEXPOWER 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
       "qtd_images": "4"
     },
     {
@@ -2298,11 +2312,11 @@
     "SP12501084006448": {
       "sku": "SP12501084006448",
       "id_produto": "19455",
-      "nome": "SEMI-EIXO DIANTEIRO DIREITO",
+      "nome": "SEMI-EIXO DIANTEIRO DIREITO CHEVROLET CELTA LIFE/LS 2006/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LIFE/ LS 1.0 MPFI 8V FLEXPOWER 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "4"
