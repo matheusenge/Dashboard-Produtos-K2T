@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 10:27:30",
+  "ultima_atualizacao": "03/08/2026 10:42:38",
   "total_base_dia": 93,
-  "total_atual": 61,
+  "total_atual": 59,
   "novos_produtos": 0,
-  "total_subidos": 32,
+  "total_subidos": 34,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -214,6 +214,7 @@
     "SP12501116714038",
     "SP12501116714411",
     "SP12501116765016",
+    "SP12501116765033",
     "SP12501117354010",
     "SP12501117354016",
     "SP12501117354024",
@@ -229,6 +230,7 @@
     "SP12501117362037",
     "SP12501117362475",
     "SP12501117362476",
+    "SP12501117680007",
     "SP12501117680020"
   ],
   "skus_subidos_status_ml_hoje": [
@@ -248,6 +250,7 @@
     "SP12501116714038",
     "SP12501116714411",
     "SP12501116765016",
+    "SP12501116765033",
     "SP12501117354010",
     "SP12501117354016",
     "SP12501117354024",
@@ -263,6 +266,7 @@
     "SP12501117362037",
     "SP12501117362475",
     "SP12501117362476",
+    "SP12501117680007",
     "SP12501117680020"
   ],
   "itens_novos_hoje": [],
@@ -460,6 +464,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501116765033",
+      "id_produto": "18826",
+      "nome": "PORTA DIANTEIRA ESQUERDA PAJERO TR4 2.0 FLEX 2007/2008",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "PAJERO TR4 2.0 FLEX 16V 4X4 AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "3"
+    },
+    {
       "sku": "SP12501117354010",
       "id_produto": "19447",
       "nome": "CHAVE DE SETA FIAT ARGO FIREFLY 2024/2025",
@@ -638,6 +654,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501117680007",
+      "id_produto": "18678",
+      "nome": "CAPÔ AUDI A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P 2017/2017",
+      "marca": "AUDI",
+      "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501117680020",
@@ -968,11 +996,11 @@
     "SP12501116765033": {
       "sku": "SP12501116765033",
       "id_produto": "18826",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA PAJERO TR4 2.0 FLEX 2007/2008",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "PAJERO TR4 2.0 FLEX 16V 4X4 AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "3"
@@ -1712,11 +1740,11 @@
     "SP12501117680007": {
       "sku": "SP12501117680007",
       "id_produto": "18678",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ AUDI A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P 2017/2017",
       "marca": "AUDI",
       "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
