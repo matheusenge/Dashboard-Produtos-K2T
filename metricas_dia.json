@@ -1,11 +1,11 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 09:13:13",
+  "ultima_atualizacao": "03/08/2026 09:17:07",
   "total_base_dia": 93,
-  "total_atual": 77,
+  "total_atual": 75,
   "novos_produtos": 0,
-  "total_subidos": 16,
+  "total_subidos": 18,
   "skus_base_dia": [
     "SP12501004584033",
     "SP12501005122035",
@@ -198,6 +198,8 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501100834038",
+    "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
     "SP12501116714001",
@@ -216,6 +218,8 @@
     "SP12501117680020"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501100834038",
+    "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
     "SP12501116714001",
@@ -235,6 +239,30 @@
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501100834038",
+      "id_produto": "19432",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET CELTA SPIRIT 1.0 FLEXP. 06/07",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501116706012",
+      "id_produto": "19436",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO KIA SPORTAGE EX 2.0 2009/2010",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
     {
       "sku": "SP12501116706036",
       "id_produto": "19437",
@@ -1296,11 +1324,11 @@
     "SP12501100834038": {
       "sku": "SP12501100834038",
       "id_produto": "19432",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET CELTA SPIRIT 1.0 FLEXP. 06/07",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -1464,11 +1492,11 @@
     "SP12501116706012": {
       "sku": "SP12501116706012",
       "id_produto": "19436",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO KIA SPORTAGE EX 2.0 2009/2010",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
