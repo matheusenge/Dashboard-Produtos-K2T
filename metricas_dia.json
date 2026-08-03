@@ -1,10 +1,10 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 16:20:56",
+  "ultima_atualizacao": "03/08/2026 16:42:08",
   "total_base_dia": 93,
-  "total_atual": 33,
-  "novos_produtos": 8,
+  "total_atual": 38,
+  "novos_produtos": 13,
   "total_subidos": 67,
   "skus_base_dia": [
     "SP12501004584033",
@@ -152,6 +152,11 @@
     "SP12501108029485",
     "SP12501108088045",
     "SP12501108118034",
+    "SP12501111321010",
+    "SP12501111321037",
+    "SP12501111321038",
+    "SP12501111526010",
+    "SP12501111526037",
     "SP12501116706012",
     "SP12501116706036",
     "SP12501116706411",
@@ -212,7 +217,12 @@
     "SP12501100850032",
     "SP12501100850034",
     "SP12501100850569",
-    "SP12501103035478"
+    "SP12501103035478",
+    "SP12501111321010",
+    "SP12501111321037",
+    "SP12501111321038",
+    "SP12501111526010",
+    "SP12501111526037"
   ],
   "skus_subidos_hoje": [
     "SP12501041056012",
@@ -448,6 +458,66 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501111321010",
+      "id_produto": "19461",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501111321037",
+      "id_produto": "19462",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111321038",
+      "id_produto": "19463",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111526010",
+      "id_produto": "19464",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501111526037",
+      "id_produto": "19465",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   ],
   "itens_subidos_hoje": [
@@ -470,7 +540,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SENSE 1.6 16V FLEX AUT",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -1600,7 +1670,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SENSE 1.6 16V FLEX AUT",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
@@ -2239,7 +2309,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "8"
+      "qtd_images": "6"
     },
     "SP42501001064042": {
       "sku": "SP42501001064042",
@@ -2275,7 +2345,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "8"
+      "qtd_images": "6"
     },
     "SP12501102870001": {
       "sku": "SP12501102870001",
@@ -2467,6 +2537,66 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
+      "qtd_images": "6"
+    },
+    "SP12501111321037": {
+      "sku": "SP12501111321037",
+      "id_produto": "19462",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    "SP12501111321038": {
+      "sku": "SP12501111321038",
+      "id_produto": "19463",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    "SP12501111526037": {
+      "sku": "SP12501111526037",
+      "id_produto": "19465",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    "SP12501111321010": {
+      "sku": "SP12501111321010",
+      "id_produto": "19461",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    "SP12501111526010": {
+      "sku": "SP12501111526010",
+      "id_produto": "19464",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
       "qtd_images": "6"
     }
   }
