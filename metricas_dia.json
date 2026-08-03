@@ -1,10 +1,10 @@
 {
   "data": "2026-08-03",
   "primeira_atualizacao": "03/08/2026 08:14:22",
-  "ultima_atualizacao": "03/08/2026 17:12:02",
+  "ultima_atualizacao": "03/08/2026 17:16:19",
   "total_base_dia": 93,
-  "total_atual": 32,
-  "novos_produtos": 13,
+  "total_atual": 33,
+  "novos_produtos": 14,
   "total_subidos": 73,
   "skus_base_dia": [
     "SP12501004584033",
@@ -156,6 +156,7 @@
     "SP12501111321037",
     "SP12501111321038",
     "SP12501111526010",
+    "SP12501111526027",
     "SP12501111526037",
     "SP12501116706012",
     "SP12501116706036",
@@ -222,6 +223,7 @@
     "SP12501111321037",
     "SP12501111321038",
     "SP12501111526010",
+    "SP12501111526027",
     "SP12501111526037"
   ],
   "skus_subidos_hoje": [
@@ -520,6 +522,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501111526027",
+      "id_produto": "19471",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501111526037",
       "id_produto": "19465",
       "nome": "RETROVISOR DIREITO",
@@ -576,8 +590,8 @@
       "marca": "CITROËN",
       "modelo_do_veiculo": "C3 &lt;span open=",
       "status": "Habilitado",
-      "status_ml": "closed",
-      "quantidade": "0",
+      "status_ml": "active",
+      "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
     },
@@ -1994,8 +2008,8 @@
       "marca": "CITROËN",
       "modelo_do_veiculo": "C3 &lt;span open=",
       "status": "Habilitado",
-      "status_ml": "closed",
-      "quantidade": "0",
+      "status_ml": "active",
+      "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
     },
@@ -2682,6 +2696,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
+    },
+    "SP12501111526027": {
+      "sku": "SP12501111526027",
+      "id_produto": "19471",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
     }
   }
 }
