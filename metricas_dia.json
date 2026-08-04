@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 10:21:37",
+  "ultima_atualizacao": "04/08/2026 10:47:00",
   "total_base_dia": 27,
   "total_atual": 22,
-  "novos_produtos": 2,
-  "total_subidos": 7,
+  "novos_produtos": 3,
+  "total_subidos": 8,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -61,6 +61,7 @@
     "SP12501116765043",
     "SP12501117354012",
     "SP12501117354026",
+    "SP12501117354036",
     "SP12501117389034",
     "SP12501122099035",
     "SP42501001064042",
@@ -68,11 +69,13 @@
   ],
   "skus_novos_hoje": [
     "SP12501117354012",
-    "SP12501117354026"
+    "SP12501117354026",
+    "SP12501117354036"
   ],
   "skus_subidos_hoje": [
     "SP12501015160035",
     "SP12501054476028",
+    "SP12501103043568",
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
@@ -82,6 +85,7 @@
   "skus_subidos_status_ml_hoje": [
     "SP12501015160035",
     "SP12501054476028",
+    "SP12501103043568",
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
@@ -94,7 +98,7 @@
       "id_produto": "19473",
       "nome": "CONDENSADOR DO AR-CONDICIONADO",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -106,12 +110,24 @@
       "id_produto": "19474",
       "nome": "MOTOR DE PARTIDA",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501117354036",
+      "id_produto": "19475",
+      "nome": "RADIADOR",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   ],
   "itens_subidos_hoje": [
@@ -133,6 +149,18 @@
       "nome": "PARA-CHOQUE DIANTEIRO FIAT MOBI LIKE 1.0 FIRE FLEX 5P. 2023",
       "marca": "FIAT",
       "modelo_do_veiculo": "MOBI LIKE 1.0 FIRE FLEX 5P.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501103043568",
+      "id_produto": "19337",
+      "nome": "ANTENA RÁDIO MITSUBISHI OUTLANDER SPORT HPE 2.0 2021/2022",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
       "status": "Habilitado",
       "status_ml": "active",
       "quantidade": "1",
@@ -432,11 +460,11 @@
     "SP12501103043568": {
       "sku": "SP12501103043568",
       "id_produto": "19337",
-      "nome": "ANTENA RÁDIO",
+      "nome": "ANTENA RÁDIO MITSUBISHI OUTLANDER SPORT HPE 2.0 2021/2022",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -530,7 +558,7 @@
       "id_produto": "19473",
       "nome": "CONDENSADOR DO AR-CONDICIONADO",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -542,12 +570,24 @@
       "id_produto": "19474",
       "nome": "MOTOR DE PARTIDA",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
+    },
+    "SP12501117354036": {
+      "sku": "SP12501117354036",
+      "id_produto": "19475",
+      "nome": "RADIADOR",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   }
 }
