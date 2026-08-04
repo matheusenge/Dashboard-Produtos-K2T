@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 08:51:28",
+  "ultima_atualizacao": "04/08/2026 09:12:52",
   "total_base_dia": 27,
-  "total_atual": 26,
+  "total_atual": 25,
   "novos_produtos": 0,
-  "total_subidos": 1,
+  "total_subidos": 2,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -66,17 +66,19 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
-    "SP12501054476028"
+    "SP12501054476028",
+    "SP12501108029485"
   ],
   "skus_subidos_status_ml_hoje": [
-    "SP12501054476028"
+    "SP12501054476028",
+    "SP12501108029485"
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501054476028",
       "id_produto": "19468",
-      "nome": "PARA-CHOQUE DIANTEIRO FIAT MOBI LIKE 2023",
+      "nome": "PARA-CHOQUE DIANTEIRO FIAT MOBI LIKE 1.0 FIRE FLEX 5P. 2023",
       "marca": "FIAT",
       "modelo_do_veiculo": "MOBI LIKE 1.0 FIRE FLEX 5P.",
       "status": "Habilitado",
@@ -84,20 +86,32 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501108029485",
+      "id_produto": "19435",
+      "nome": "PNEU 175/65 R14 82T DUNLOP SP TOURING",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "6"
     }
   ],
   "detalhes_skus_vistos_hoje": {
     "SP12501108029485": {
       "sku": "SP12501108029485",
       "id_produto": "19435",
-      "nome": "PNEU TRASEIRO ESQUERDO",
+      "nome": "PNEU 175/65 R14 82T DUNLOP SP TOURING",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "05",
-      "qtd_images": "9"
+      "qtd_images": "6"
     },
     "SP12501079959400": {
       "sku": "SP12501079959400",
@@ -301,7 +315,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "06",
-      "qtd_images": "7"
+      "qtd_images": "5"
     },
     "SP12501057114045": {
       "sku": "SP12501057114045",
@@ -342,7 +356,7 @@
     "SP12501054476028": {
       "sku": "SP12501054476028",
       "id_produto": "19468",
-      "nome": "PARA-CHOQUE DIANTEIRO FIAT MOBI LIKE 2023",
+      "nome": "PARA-CHOQUE DIANTEIRO FIAT MOBI LIKE 1.0 FIRE FLEX 5P. 2023",
       "marca": "FIAT",
       "modelo_do_veiculo": "MOBI LIKE 1.0 FIRE FLEX 5P.",
       "status": "Habilitado",
@@ -361,7 +375,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
-      "qtd_images": "8"
+      "qtd_images": "3"
     },
     "SP12501042273041": {
       "sku": "SP12501042273041",
