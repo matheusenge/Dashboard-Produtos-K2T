@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 12:20:54",
+  "ultima_atualizacao": "04/08/2026 12:42:20",
   "total_base_dia": 27,
-  "total_atual": 35,
-  "novos_produtos": 21,
-  "total_subidos": 13,
+  "total_atual": 34,
+  "novos_produtos": 23,
+  "total_subidos": 16,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -67,6 +67,7 @@
     "SP12501111348480",
     "SP12501111518010",
     "SP12501111518019",
+    "SP12501111518024",
     "SP12501111518027",
     "SP12501111518038",
     "SP12501111526024",
@@ -80,6 +81,7 @@
     "SP12501117354026",
     "SP12501117354036",
     "SP12501117354038",
+    "SP12501117354411",
     "SP12501117389034",
     "SP12501122099035",
     "SP42501001064042",
@@ -99,6 +101,7 @@
     "SP12501111348480",
     "SP12501111518010",
     "SP12501111518019",
+    "SP12501111518024",
     "SP12501111518027",
     "SP12501111518038",
     "SP12501111526024",
@@ -106,16 +109,20 @@
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
-    "SP12501117354038"
+    "SP12501117354038",
+    "SP12501117354411"
   ],
   "skus_subidos_hoje": [
     "SP12501015160035",
     "SP12501054476028",
+    "SP12501100850027",
+    "SP12501100850033",
     "SP12501103043568",
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
     "SP12501111518027",
+    "SP12501111518038",
     "SP12501111526024",
     "SP12501117354012",
     "SP12501117354026",
@@ -126,11 +133,14 @@
   "skus_subidos_status_ml_hoje": [
     "SP12501015160035",
     "SP12501054476028",
+    "SP12501100850027",
+    "SP12501100850033",
     "SP12501103043568",
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
     "SP12501111518027",
+    "SP12501111518038",
     "SP12501111526024",
     "SP12501117354012",
     "SP12501117354026",
@@ -142,11 +152,11 @@
     {
       "sku": "SP12501100850027",
       "id_produto": "19476",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET S10 CABINE DUPLA 2.4 12/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -154,11 +164,11 @@
     {
       "sku": "SP12501100850033",
       "id_produto": "19477",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA CHEVROLET S10 CABINE DUPLA 2.4 2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -296,6 +306,18 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501111518024",
+      "id_produto": "19497",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501111518027",
       "id_produto": "19489",
       "nome": "PAINEL DE INSTRUMENTOS HONDA FIT LX 1.4 5P MEC 2005/2005",
@@ -310,11 +332,11 @@
     {
       "sku": "SP12501111518038",
       "id_produto": "19490",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -390,6 +412,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501117354411",
+      "id_produto": "19498",
+      "nome": "ELETROVENTILADOR",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     }
   ],
   "itens_subidos_hoje": [
@@ -416,6 +450,30 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501100850027",
+      "id_produto": "19476",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET S10 CABINE DUPLA 2.4 12/13",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501100850033",
+      "id_produto": "19477",
+      "nome": "PORTA DIANTEIRA ESQUERDA CHEVROLET S10 CABINE DUPLA 2.4 2013",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501103043568",
@@ -476,6 +534,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111518038",
+      "id_produto": "19490",
+      "nome": "RETROVISOR ESQUERDO HONDA FIT LX 1.4 5P MEC 2005/2005",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501111526024",
@@ -926,11 +996,11 @@
     "SP12501100850033": {
       "sku": "SP12501100850033",
       "id_produto": "19477",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA CHEVROLET S10 CABINE DUPLA 2.4 2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1010,11 +1080,11 @@
     "SP12501100850027": {
       "sku": "SP12501100850027",
       "id_produto": "19476",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET S10 CABINE DUPLA 2.4 12/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -1106,11 +1176,11 @@
     "SP12501111518038": {
       "sku": "SP12501111518038",
       "id_produto": "19490",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1126,6 +1196,30 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    "SP12501117354411": {
+      "sku": "SP12501117354411",
+      "id_produto": "19498",
+      "nome": "ELETROVENTILADOR",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    "SP12501111518024": {
+      "sku": "SP12501111518024",
+      "id_produto": "19497",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
     }
   }
 }
