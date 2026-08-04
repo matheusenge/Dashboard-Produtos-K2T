@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 17:46:26",
+  "ultima_atualizacao": "04/08/2026 17:50:54",
   "total_base_dia": 27,
-  "total_atual": 32,
+  "total_atual": 31,
   "novos_produtos": 50,
-  "total_subidos": 45,
+  "total_subidos": 46,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -182,6 +182,7 @@
     "SP12501111313019",
     "SP12501111313020",
     "SP12501111313024",
+    "SP12501111313027",
     "SP12501111313032",
     "SP12501111313033",
     "SP12501111313034",
@@ -229,6 +230,7 @@
     "SP12501111313019",
     "SP12501111313020",
     "SP12501111313024",
+    "SP12501111313027",
     "SP12501111313032",
     "SP12501111313033",
     "SP12501111313034",
@@ -364,7 +366,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -372,11 +374,11 @@
     {
       "sku": "SP12501111313027",
       "id_produto": "19512",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -1038,10 +1040,22 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111313027",
+      "id_produto": "19512",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501111313032",
@@ -2128,11 +2142,11 @@
     "SP12501111313027": {
       "sku": "SP12501111313027",
       "id_produto": "19512",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -2192,7 +2206,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
