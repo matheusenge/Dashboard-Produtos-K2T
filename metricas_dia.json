@@ -1,10 +1,10 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 10:12:59",
+  "ultima_atualizacao": "04/08/2026 10:17:10",
   "total_base_dia": 27,
-  "total_atual": 21,
-  "novos_produtos": 1,
+  "total_atual": 22,
+  "novos_produtos": 2,
   "total_subidos": 7,
   "skus_base_dia": [
     "SP12501015160035",
@@ -60,13 +60,15 @@
     "SP12501116765042",
     "SP12501116765043",
     "SP12501117354012",
+    "SP12501117354026",
     "SP12501117389034",
     "SP12501122099035",
     "SP42501001064042",
     "SP42501003164947"
   ],
   "skus_novos_hoje": [
-    "SP12501117354012"
+    "SP12501117354012",
+    "SP12501117354026"
   ],
   "skus_subidos_hoje": [
     "SP12501015160035",
@@ -98,6 +100,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501117354026",
+      "id_produto": "19474",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
     }
   ],
   "itens_subidos_hoje": [
@@ -522,6 +536,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    "SP12501117354026": {
+      "sku": "SP12501117354026",
+      "id_produto": "19474",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
     }
   }
 }
