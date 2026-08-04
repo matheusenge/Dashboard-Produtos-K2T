@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 09:12:52",
+  "ultima_atualizacao": "04/08/2026 09:17:17",
   "total_base_dia": 27,
-  "total_atual": 25,
+  "total_atual": 24,
   "novos_produtos": 0,
-  "total_subidos": 2,
+  "total_subidos": 3,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -67,10 +67,12 @@
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
     "SP12501054476028",
+    "SP12501108029437",
     "SP12501108029485"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501054476028",
+    "SP12501108029437",
     "SP12501108029485"
   ],
   "itens_novos_hoje": [],
@@ -88,13 +90,25 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501108029437",
+      "id_produto": "19434",
+      "nome": "PNEU 175/65 R14 82T DUNLOP SP TOURING",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501108029485",
       "id_produto": "19435",
       "nome": "PNEU 175/65 R14 82T DUNLOP SP TOURING",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "6"
@@ -108,7 +122,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "6"
@@ -140,14 +154,14 @@
     "SP12501108029437": {
       "sku": "SP12501108029437",
       "id_produto": "19434",
-      "nome": "PNEU DIANTEIRO DIREITO",
+      "nome": "PNEU 175/65 R14 82T DUNLOP SP TOURING",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "05",
-      "qtd_images": "9"
+      "qtd_images": "6"
     },
     "SP12501100834024": {
       "sku": "SP12501100834024",
