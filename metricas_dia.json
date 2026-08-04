@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 15:12:14",
+  "ultima_atualizacao": "04/08/2026 15:16:35",
   "total_base_dia": 27,
-  "total_atual": 28,
+  "total_atual": 27,
   "novos_produtos": 28,
-  "total_subidos": 27,
+  "total_subidos": 28,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -148,6 +148,7 @@
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
+    "SP12501117354411",
     "SP12501117389034",
     "SP12501122099035"
   ],
@@ -177,6 +178,7 @@
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
+    "SP12501117354411",
     "SP12501117389034",
     "SP12501122099035"
   ],
@@ -356,7 +358,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
@@ -508,11 +510,11 @@
     {
       "sku": "SP12501117354411",
       "id_produto": "19498",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -742,7 +744,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
@@ -817,6 +819,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501117354411",
+      "id_produto": "19498",
+      "nome": "ELETROVENTILADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
       "qtd_images": "7"
     },
     {
@@ -1424,11 +1438,11 @@
     "SP12501117354411": {
       "sku": "SP12501117354411",
       "id_produto": "19498",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -1440,7 +1454,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
