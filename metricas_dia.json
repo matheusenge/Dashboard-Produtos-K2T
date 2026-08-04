@@ -1,7 +1,7 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 09:17:17",
+  "ultima_atualizacao": "04/08/2026 09:21:45",
   "total_base_dia": 27,
   "total_atual": 24,
   "novos_produtos": 0,
@@ -96,7 +96,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "6"
@@ -158,7 +158,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SED. PREMIUM 1.4 8V ECONOFLEX 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "6"
