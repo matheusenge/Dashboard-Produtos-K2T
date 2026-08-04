@@ -1,10 +1,10 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 09:51:42",
+  "ultima_atualizacao": "04/08/2026 10:12:59",
   "total_base_dia": 27,
-  "total_atual": 20,
-  "novos_produtos": 0,
+  "total_atual": 21,
+  "novos_produtos": 1,
   "total_subidos": 7,
   "skus_base_dia": [
     "SP12501015160035",
@@ -59,12 +59,15 @@
     "SP12501116765041",
     "SP12501116765042",
     "SP12501116765043",
+    "SP12501117354012",
     "SP12501117389034",
     "SP12501122099035",
     "SP42501001064042",
     "SP42501003164947"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501117354012"
+  ],
   "skus_subidos_hoje": [
     "SP12501015160035",
     "SP12501054476028",
@@ -83,7 +86,20 @@
     "SP12501117389034",
     "SP12501122099035"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501117354012",
+      "id_produto": "19473",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501015160035",
@@ -494,6 +510,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
+    },
+    "SP12501117354012": {
+      "sku": "SP12501117354012",
+      "id_produto": "19473",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   }
 }
