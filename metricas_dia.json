@@ -1,10 +1,10 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 11:42:14",
+  "ultima_atualizacao": "04/08/2026 11:46:30",
   "total_base_dia": 27,
-  "total_atual": 36,
-  "novos_produtos": 20,
+  "total_atual": 37,
+  "novos_produtos": 21,
   "total_subidos": 11,
   "skus_base_dia": [
     "SP12501015160035",
@@ -63,6 +63,7 @@
     "SP12501111348015",
     "SP12501111348016",
     "SP12501111348027",
+    "SP12501111348037",
     "SP12501111348480",
     "SP12501111518010",
     "SP12501111518019",
@@ -94,6 +95,7 @@
     "SP12501111348015",
     "SP12501111348016",
     "SP12501111348027",
+    "SP12501111348037",
     "SP12501111348480",
     "SP12501111518010",
     "SP12501111518019",
@@ -240,6 +242,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501111348037",
+      "id_produto": "19485",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "GOLF GLX 2.0 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501111348480",
@@ -1072,6 +1086,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
+    },
+    "SP12501111348037": {
+      "sku": "SP12501111348037",
+      "id_produto": "19485",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "GOLF GLX 2.0 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   }
 }
