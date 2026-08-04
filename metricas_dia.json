@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 09:21:45",
+  "ultima_atualizacao": "04/08/2026 09:43:25",
   "total_base_dia": 27,
-  "total_atual": 24,
+  "total_atual": 20,
   "novos_produtos": 0,
-  "total_subidos": 3,
+  "total_subidos": 7,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -66,17 +66,37 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501015160035",
     "SP12501054476028",
     "SP12501108029437",
-    "SP12501108029485"
+    "SP12501108029485",
+    "SP12501108118034",
+    "SP12501117389034",
+    "SP12501122099035"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501015160035",
     "SP12501054476028",
     "SP12501108029437",
-    "SP12501108029485"
+    "SP12501108029485",
+    "SP12501108118034",
+    "SP12501117389034",
+    "SP12501122099035"
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501015160035",
+      "id_produto": "19210",
+      "nome": "PORTA TRASEIRA ESQUERDA FIAT TORO ULTRA 2.0 AUT. 2019",
+      "marca": "TOYOTA",
+      "modelo_do_veiculo": "TORO ULTRA 2.0 16V 4X4 TB DIESEL AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
+    },
     {
       "sku": "SP12501054476028",
       "id_produto": "19468",
@@ -111,6 +131,42 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501108118034",
+      "id_produto": "16546",
+      "nome": "PORTA TRASEIRA DIREITA FIAT ARGO TREKKING 1.3 8V FLEX 23/23",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO TREKKING 1.3 8V FLEX MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "3"
+    },
+    {
+      "sku": "SP12501117389034",
+      "id_produto": "19197",
+      "nome": "PORTA TRASEIRA DIREITA VOLKSWAGEN AMAROK EXTREME CD 3.0 2022",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "AMAROK EXTREME CD 3.0 4X4 TB DIES. AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "3"
+    },
+    {
+      "sku": "SP12501122099035",
+      "id_produto": "9837",
+      "nome": "PORTA TRASEIRA ESQUERDA VOLKSWAGEN  VOYAGE COMF 1.6 FL 11/12",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "VOYAGE COMF/HIGHLI. 1.6 T.FLEX 8V 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
       "qtd_images": "6"
     }
   ],
@@ -218,7 +274,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "VOYAGE COMF/HIGHLI. 1.6 T.FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
@@ -274,11 +330,11 @@
     "SP12501108118034": {
       "sku": "SP12501108118034",
       "id_produto": "16546",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA FIAT ARGO TREKKING 1.3 8V FLEX 23/23",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO TREKKING 1.3 8V FLEX MEC.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "3"
@@ -322,11 +378,11 @@
     "SP12501015160035": {
       "sku": "SP12501015160035",
       "id_produto": "19210",
-      "nome": "PORTA TRASEIRA ESQUERDA",
+      "nome": "PORTA TRASEIRA ESQUERDA FIAT TORO ULTRA 2.0 AUT. 2019",
       "marca": "TOYOTA",
       "modelo_do_veiculo": "TORO ULTRA 2.0 16V 4X4 TB DIESEL AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
@@ -382,11 +438,11 @@
     "SP12501117389034": {
       "sku": "SP12501117389034",
       "id_produto": "19197",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA VOLKSWAGEN AMAROK EXTREME CD 3.0 2022",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "AMAROK EXTREME CD 3.0 4X4 TB DIES. AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "3"
