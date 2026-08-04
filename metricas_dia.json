@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 15:50:39",
+  "ultima_atualizacao": "04/08/2026 16:12:02",
   "total_base_dia": 27,
-  "total_atual": 23,
+  "total_atual": 21,
   "novos_produtos": 32,
-  "total_subidos": 36,
+  "total_subidos": 38,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -142,6 +142,8 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501111313032",
+    "SP12501111313033",
     "SP12501111321480",
     "SP12501111348015",
     "SP12501111348016",
@@ -180,6 +182,8 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501111313032",
+    "SP12501111313033",
     "SP12501111321480",
     "SP12501111348015",
     "SP12501111348016",
@@ -270,11 +274,11 @@
     {
       "sku": "SP12501111313032",
       "id_produto": "19504",
-      "nome": "PORTA DIANTEIRA DIREITA",
+      "nome": "PORTA DIANTEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -282,11 +286,11 @@
     {
       "sku": "SP12501111313033",
       "id_produto": "19505",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -418,7 +422,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -726,6 +730,30 @@
       "qtd_images": "3"
     },
     {
+      "sku": "SP12501111313032",
+      "id_produto": "19504",
+      "nome": "PORTA DIANTEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111313033",
+      "id_produto": "19505",
+      "nome": "PORTA DIANTEIRA ESQUERDA HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501111321480",
       "id_produto": "19481",
       "nome": "PORTINHOLA DO TANQUE CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005",
@@ -828,7 +856,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1514,7 +1542,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1690,11 +1718,11 @@
     "SP12501111313032": {
       "sku": "SP12501111313032",
       "id_produto": "19504",
-      "nome": "PORTA DIANTEIRA DIREITA",
+      "nome": "PORTA DIANTEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -1726,11 +1754,11 @@
     "SP12501111313033": {
       "sku": "SP12501111313033",
       "id_produto": "19505",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
