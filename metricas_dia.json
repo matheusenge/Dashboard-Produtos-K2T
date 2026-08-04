@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 12:42:20",
+  "ultima_atualizacao": "04/08/2026 12:46:34",
   "total_base_dia": 27,
-  "total_atual": 34,
+  "total_atual": 32,
   "novos_produtos": 23,
-  "total_subidos": 16,
+  "total_subidos": 18,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -117,6 +117,8 @@
     "SP12501054476028",
     "SP12501100850027",
     "SP12501100850033",
+    "SP12501100850038",
+    "SP12501100850480",
     "SP12501103043568",
     "SP12501108029437",
     "SP12501108029485",
@@ -135,6 +137,8 @@
     "SP12501054476028",
     "SP12501100850027",
     "SP12501100850033",
+    "SP12501100850038",
+    "SP12501100850480",
     "SP12501103043568",
     "SP12501108029437",
     "SP12501108029485",
@@ -176,11 +180,11 @@
     {
       "sku": "SP12501100850038",
       "id_produto": "19478",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET S10 CABINE DUPLA LTZ 2.4 12/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -188,11 +192,11 @@
     {
       "sku": "SP12501100850480",
       "id_produto": "19479",
-      "nome": "PORTINHOLA DO TANQUE",
+      "nome": "PORTINHOLA DO TANQUE CHEVROLET S10 CABINE DUPLA LTZ 2.4 2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -474,6 +478,30 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100850038",
+      "id_produto": "19478",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET S10 CABINE DUPLA LTZ 2.4 12/13",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100850480",
+      "id_produto": "19479",
+      "nome": "PORTINHOLA DO TANQUE CHEVROLET S10 CABINE DUPLA LTZ 2.4 2013",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501103043568",
@@ -1056,11 +1084,11 @@
     "SP12501100850038": {
       "sku": "SP12501100850038",
       "id_produto": "19478",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET S10 CABINE DUPLA LTZ 2.4 12/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -1152,11 +1180,11 @@
     "SP12501100850480": {
       "sku": "SP12501100850480",
       "id_produto": "19479",
-      "nome": "PORTINHOLA DO TANQUE",
+      "nome": "PORTINHOLA DO TANQUE CHEVROLET S10 CABINE DUPLA LTZ 2.4 2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
