@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 15:48:34",
+  "ultima_atualizacao": "04/08/2026 15:50:39",
   "total_base_dia": 27,
-  "total_atual": 24,
+  "total_atual": 23,
   "novos_produtos": 32,
-  "total_subidos": 35,
+  "total_subidos": 36,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -150,6 +150,7 @@
     "SP12501111348480",
     "SP12501111518007",
     "SP12501111518010",
+    "SP12501111518019",
     "SP12501111518024",
     "SP12501111518027",
     "SP12501111518032",
@@ -187,6 +188,7 @@
     "SP12501111348480",
     "SP12501111518007",
     "SP12501111518010",
+    "SP12501111518019",
     "SP12501111518024",
     "SP12501111518027",
     "SP12501111518032",
@@ -412,11 +414,11 @@
     {
       "sku": "SP12501111518019",
       "id_produto": "19488",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -818,6 +820,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111518019",
+      "id_produto": "19488",
+      "nome": "LANTERNA TRASEIRA DIREITA HONDA FIT LX 1.4 5P MEC 2005/2005",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501111518024",
@@ -1496,11 +1510,11 @@
     "SP12501111518019": {
       "sku": "SP12501111518019",
       "id_produto": "19488",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
