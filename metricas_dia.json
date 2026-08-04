@@ -1,7 +1,7 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 12:46:34",
+  "ultima_atualizacao": "04/08/2026 12:50:56",
   "total_base_dia": 27,
   "total_atual": 32,
   "novos_produtos": 23,
@@ -184,7 +184,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -196,7 +196,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -486,7 +486,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -498,7 +498,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -1088,7 +1088,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -1184,7 +1184,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
