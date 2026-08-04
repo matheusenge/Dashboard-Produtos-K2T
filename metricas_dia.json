@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 16:50:53",
+  "ultima_atualizacao": "04/08/2026 17:12:50",
   "total_base_dia": 27,
-  "total_atual": 29,
-  "novos_produtos": 43,
-  "total_subidos": 41,
+  "total_atual": 28,
+  "novos_produtos": 44,
+  "total_subidos": 43,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -83,6 +83,7 @@
     "SP12501111518019",
     "SP12501111518024",
     "SP12501111518027",
+    "SP12501111518030",
     "SP12501111518032",
     "SP12501111518033",
     "SP12501111518034",
@@ -137,6 +138,7 @@
     "SP12501111518019",
     "SP12501111518024",
     "SP12501111518027",
+    "SP12501111518030",
     "SP12501111518032",
     "SP12501111518033",
     "SP12501111518034",
@@ -164,6 +166,8 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501111313010",
+    "SP12501111313019",
     "SP12501111313032",
     "SP12501111313033",
     "SP12501111313034",
@@ -207,6 +211,8 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501111313010",
+    "SP12501111313019",
     "SP12501111313032",
     "SP12501111313033",
     "SP12501111313034",
@@ -302,11 +308,11 @@
     {
       "sku": "SP12501111313010",
       "id_produto": "19508",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -314,11 +320,11 @@
     {
       "sku": "SP12501111313019",
       "id_produto": "19509",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -586,6 +592,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111518030",
+      "id_produto": "19517",
+      "nome": "PARA-LAMA DIANTEIRO DIREITO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501111518032",
@@ -888,6 +906,30 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "3"
+    },
+    {
+      "sku": "SP12501111313010",
+      "id_produto": "19508",
+      "nome": "CHAVE DE SETA HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501111313019",
+      "id_produto": "19509",
+      "nome": "LANTERNA TRASEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501111313032",
@@ -2046,11 +2088,11 @@
     "SP12501111313019": {
       "sku": "SP12501111313019",
       "id_produto": "19509",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -2058,11 +2100,11 @@
     "SP12501111313010": {
       "sku": "SP12501111313010",
       "id_produto": "19508",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -2090,6 +2132,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    "SP12501111518030": {
+      "sku": "SP12501111518030",
+      "id_produto": "19517",
+      "nome": "PARA-LAMA DIANTEIRO DIREITO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
     }
   }
 }
