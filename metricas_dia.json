@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 15:16:35",
+  "ultima_atualizacao": "04/08/2026 15:20:58",
   "total_base_dia": 27,
-  "total_atual": 27,
+  "total_atual": 26,
   "novos_produtos": 28,
-  "total_subidos": 28,
+  "total_subidos": 29,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -148,6 +148,7 @@
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
+    "SP12501117354038",
     "SP12501117354411",
     "SP12501117389034",
     "SP12501122099035"
@@ -178,6 +179,7 @@
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
+    "SP12501117354038",
     "SP12501117354411",
     "SP12501117389034",
     "SP12501122099035"
@@ -498,11 +500,11 @@
     {
       "sku": "SP12501117354038",
       "id_produto": "19494",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -820,6 +822,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501117354038",
+      "id_produto": "19494",
+      "nome": "RETROVISOR ESQUERDO FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501117354411",
@@ -1246,11 +1260,11 @@
     "SP12501117354038": {
       "sku": "SP12501117354038",
       "id_produto": "19494",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
