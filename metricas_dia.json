@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 12:12:15",
+  "ultima_atualizacao": "04/08/2026 12:16:30",
   "total_base_dia": 27,
-  "total_atual": 36,
+  "total_atual": 35,
   "novos_produtos": 21,
-  "total_subidos": 12,
+  "total_subidos": 13,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -115,6 +115,7 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501111518027",
     "SP12501111526024",
     "SP12501117354012",
     "SP12501117354026",
@@ -129,6 +130,7 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501111518027",
     "SP12501111526024",
     "SP12501117354012",
     "SP12501117354026",
@@ -296,11 +298,11 @@
     {
       "sku": "SP12501111518027",
       "id_produto": "19489",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -462,6 +464,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "3"
+    },
+    {
+      "sku": "SP12501111518027",
+      "id_produto": "19489",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT LX 1.4 5P MEC 2005/2005",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111526024",
@@ -1080,11 +1094,11 @@
     "SP12501111518027": {
       "sku": "SP12501111518027",
       "id_produto": "19489",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
