@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 16:16:25",
+  "ultima_atualizacao": "04/08/2026 16:20:41",
   "total_base_dia": 27,
   "total_atual": 21,
-  "novos_produtos": 32,
-  "total_subidos": 38,
+  "novos_produtos": 33,
+  "total_subidos": 39,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -63,6 +63,7 @@
     "SP12501111313033",
     "SP12501111313034",
     "SP12501111313035",
+    "SP12501111313038",
     "SP12501111321480",
     "SP12501111348015",
     "SP12501111348016",
@@ -106,6 +107,7 @@
     "SP12501111313033",
     "SP12501111313034",
     "SP12501111313035",
+    "SP12501111313038",
     "SP12501111321480",
     "SP12501111348015",
     "SP12501111348016",
@@ -144,6 +146,7 @@
     "SP12501108118034",
     "SP12501111313032",
     "SP12501111313033",
+    "SP12501111313034",
     "SP12501111321480",
     "SP12501111348015",
     "SP12501111348016",
@@ -184,6 +187,7 @@
     "SP12501108118034",
     "SP12501111313032",
     "SP12501111313033",
+    "SP12501111313034",
     "SP12501111321480",
     "SP12501111348015",
     "SP12501111348016",
@@ -298,11 +302,11 @@
     {
       "sku": "SP12501111313034",
       "id_produto": "19506",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -318,6 +322,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111313038",
+      "id_produto": "19514",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501111321480",
@@ -751,6 +767,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111313034",
+      "id_produto": "19506",
+      "nome": "PORTA TRASEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
       "qtd_images": "10"
     },
     {
@@ -1742,11 +1770,11 @@
     "SP12501111313034": {
       "sku": "SP12501111313034",
       "id_produto": "19506",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1762,6 +1790,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
+    },
+    "SP12501111313038": {
+      "sku": "SP12501111313038",
+      "id_produto": "19514",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     }
   }
 }
