@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 10:51:02",
+  "ultima_atualizacao": "04/08/2026 11:11:58",
   "total_base_dia": 27,
-  "total_atual": 21,
+  "total_atual": 19,
   "novos_produtos": 3,
-  "total_subidos": 9,
+  "total_subidos": 11,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -79,7 +79,9 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501117354012",
     "SP12501117354026",
+    "SP12501117354036",
     "SP12501117389034",
     "SP12501122099035"
   ],
@@ -90,7 +92,9 @@
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108118034",
+    "SP12501117354012",
     "SP12501117354026",
+    "SP12501117354036",
     "SP12501117389034",
     "SP12501122099035"
   ],
@@ -98,11 +102,11 @@
     {
       "sku": "SP12501117354012",
       "id_produto": "19473",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT ARGO 1.0 FIREFLY 24/25",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -122,11 +126,11 @@
     {
       "sku": "SP12501117354036",
       "id_produto": "19475",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -206,6 +210,18 @@
       "qtd_images": "3"
     },
     {
+      "sku": "SP12501117354012",
+      "id_produto": "19473",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT ARGO 1.0 FIREFLY 24/25",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501117354026",
       "id_produto": "19474",
       "nome": "MOTOR DE PARTIDA FIAT ARGO 1.0 FIREFLY 2024/2025",
@@ -216,6 +232,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501117354036",
+      "id_produto": "19475",
+      "nome": "RADIADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501117389034",
@@ -570,11 +598,11 @@
     "SP12501117354012": {
       "sku": "SP12501117354012",
       "id_produto": "19473",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT ARGO 1.0 FIREFLY 24/25",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -594,11 +622,11 @@
     "SP12501117354036": {
       "sku": "SP12501117354036",
       "id_produto": "19475",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
