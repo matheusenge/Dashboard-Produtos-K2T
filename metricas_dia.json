@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 15:42:02",
+  "ultima_atualizacao": "04/08/2026 15:48:34",
   "total_base_dia": 27,
-  "total_atual": 25,
+  "total_atual": 24,
   "novos_produtos": 32,
-  "total_subidos": 34,
+  "total_subidos": 35,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -158,6 +158,7 @@
     "SP12501111518035",
     "SP12501111518038",
     "SP12501111526024",
+    "SP12501111526038",
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
@@ -194,6 +195,7 @@
     "SP12501111518035",
     "SP12501111518038",
     "SP12501111526024",
+    "SP12501111526038",
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
@@ -518,11 +520,11 @@
     {
       "sku": "SP12501111526038",
       "id_produto": "19493",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -912,6 +914,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501111526038",
+      "id_produto": "19493",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501117354012",
@@ -1494,11 +1508,11 @@
     "SP12501111526038": {
       "sku": "SP12501111526038",
       "id_produto": "19493",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
