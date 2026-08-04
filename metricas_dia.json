@@ -1,10 +1,10 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 11:11:58",
+  "ultima_atualizacao": "04/08/2026 11:16:22",
   "total_base_dia": 27,
-  "total_atual": 19,
-  "novos_produtos": 3,
+  "total_atual": 23,
+  "novos_produtos": 7,
   "total_subidos": 11,
   "skus_base_dia": [
     "SP12501015160035",
@@ -49,11 +49,14 @@
     "SP12501089229040",
     "SP12501089989035",
     "SP12501100834024",
+    "SP12501100850033",
+    "SP12501100850570",
     "SP12501103043568",
     "SP12501108029437",
     "SP12501108029485",
     "SP12501108088045",
     "SP12501108118034",
+    "SP12501111348027",
     "SP12501116765039",
     "SP12501116765040",
     "SP12501116765041",
@@ -62,15 +65,20 @@
     "SP12501117354012",
     "SP12501117354026",
     "SP12501117354036",
+    "SP12501117354038",
     "SP12501117389034",
     "SP12501122099035",
     "SP42501001064042",
     "SP42501003164947"
   ],
   "skus_novos_hoje": [
+    "SP12501100850033",
+    "SP12501100850570",
+    "SP12501111348027",
     "SP12501117354012",
     "SP12501117354026",
-    "SP12501117354036"
+    "SP12501117354036",
+    "SP12501117354038"
   ],
   "skus_subidos_hoje": [
     "SP12501015160035",
@@ -99,6 +107,42 @@
     "SP12501122099035"
   ],
   "itens_novos_hoje": [
+    {
+      "sku": "SP12501100850033",
+      "id_produto": "19477",
+      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100850570",
+      "id_produto": "19480",
+      "nome": "RÁDIO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111348027",
+      "id_produto": "19484",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
     {
       "sku": "SP12501117354012",
       "id_produto": "19473",
@@ -134,6 +178,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501117354038",
+      "id_produto": "19494",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   ],
   "itens_subidos_hoje": [
@@ -629,6 +685,54 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501111348027": {
+      "sku": "SP12501111348027",
+      "id_produto": "19484",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    "SP12501100850033": {
+      "sku": "SP12501100850033",
+      "id_produto": "19477",
+      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501117354038": {
+      "sku": "SP12501117354038",
+      "id_produto": "19494",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    "SP12501100850570": {
+      "sku": "SP12501100850570",
+      "id_produto": "19480",
+      "nome": "RÁDIO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
       "qtd_images": "7"
     }
   }
