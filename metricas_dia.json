@@ -1,11 +1,11 @@
 {
   "data": "2026-08-04",
   "primeira_atualizacao": "04/08/2026 08:36:42",
-  "ultima_atualizacao": "04/08/2026 17:42:22",
+  "ultima_atualizacao": "04/08/2026 17:46:26",
   "total_base_dia": 27,
-  "total_atual": 33,
+  "total_atual": 32,
   "novos_produtos": 50,
-  "total_subidos": 44,
+  "total_subidos": 45,
   "skus_base_dia": [
     "SP12501015160035",
     "SP12501015381045",
@@ -181,6 +181,7 @@
     "SP12501111313010",
     "SP12501111313019",
     "SP12501111313020",
+    "SP12501111313024",
     "SP12501111313032",
     "SP12501111313033",
     "SP12501111313034",
@@ -227,6 +228,7 @@
     "SP12501111313010",
     "SP12501111313019",
     "SP12501111313020",
+    "SP12501111313024",
     "SP12501111313032",
     "SP12501111313033",
     "SP12501111313034",
@@ -358,11 +360,11 @@
     {
       "sku": "SP12501111313024",
       "id_produto": "19511",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -1028,6 +1030,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111313024",
+      "id_produto": "19511",
+      "nome": "MÓDULO DE INJEÇÃO HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111313032",
@@ -2174,11 +2188,11 @@
     "SP12501111313024": {
       "sku": "SP12501111313024",
       "id_produto": "19511",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
