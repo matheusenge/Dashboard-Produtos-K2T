@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 15:46:20",
+  "ultima_atualizacao": "05/08/2026 15:50:45",
   "total_base_dia": 28,
-  "total_atual": 35,
+  "total_atual": 33,
   "novos_produtos": 49,
-  "total_subidos": 42,
+  "total_subidos": 44,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -187,7 +187,9 @@
     "SP12501102489012",
     "SP12501102489024",
     "SP12501102489027",
+    "SP12501102489036",
     "SP12501102489400",
+    "SP12501102489411",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -231,7 +233,9 @@
     "SP12501102489012",
     "SP12501102489024",
     "SP12501102489027",
+    "SP12501102489036",
     "SP12501102489400",
+    "SP12501102489411",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -618,11 +622,11 @@
     {
       "sku": "SP12501102489036",
       "id_produto": "19552",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -642,11 +646,11 @@
     {
       "sku": "SP12501102489411",
       "id_produto": "19553",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1086,6 +1090,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501102489036",
+      "id_produto": "19552",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501102489400",
       "id_produto": "19561",
       "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
@@ -1096,6 +1112,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102489411",
+      "id_produto": "19553",
+      "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111330010",
@@ -2098,11 +2126,11 @@
     "SP12501102489036": {
       "sku": "SP12501102489036",
       "id_produto": "19552",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -2122,11 +2150,11 @@
     "SP12501102489411": {
       "sku": "SP12501102489411",
       "id_produto": "19553",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
