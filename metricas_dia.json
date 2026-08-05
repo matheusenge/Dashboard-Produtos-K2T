@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 16:12:01",
+  "ultima_atualizacao": "05/08/2026 16:16:17",
   "total_base_dia": 28,
-  "total_atual": 31,
-  "novos_produtos": 49,
-  "total_subidos": 46,
+  "total_atual": 32,
+  "novos_produtos": 51,
+  "total_subidos": 47,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -82,6 +82,7 @@
     "SP12501102489400",
     "SP12501102489411",
     "SP12501102489570",
+    "SP12501102535007",
     "SP12501108088045",
     "SP12501111321004",
     "SP12501111321011",
@@ -103,6 +104,7 @@
     "SP12501111526034",
     "SP12501111526035",
     "SP12501111526045",
+    "SP12501111526400",
     "SP12501111526411",
     "SP12501116765039",
     "SP12501116765040",
@@ -150,6 +152,7 @@
     "SP12501102489400",
     "SP12501102489411",
     "SP12501102489570",
+    "SP12501102535007",
     "SP12501111321004",
     "SP12501111321011",
     "SP12501111321026",
@@ -162,6 +165,7 @@
     "SP12501111518400",
     "SP12501111526001",
     "SP12501111526026",
+    "SP12501111526400",
     "SP12501111526411",
     "SP12501117362027",
     "SP12501117680449"
@@ -173,6 +177,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501100850001",
     "SP12501100850400",
     "SP12501102454010",
     "SP12501102454019",
@@ -221,6 +226,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501100850001",
     "SP12501100850400",
     "SP12501102454010",
     "SP12501102454019",
@@ -386,11 +392,11 @@
     {
       "sku": "SP12501100850001",
       "id_produto": "19568",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR CHEVROLET S10 CABINE DUPLA LTZ 2.4 FLEXPOWER 2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
@@ -630,7 +636,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -670,6 +676,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102535007",
+      "id_produto": "19578",
+      "nome": "CAPÔ",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111321004",
@@ -816,6 +834,18 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501111526400",
+      "id_produto": "19587",
+      "nome": "MOTOR COMPLETO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501111526411",
       "id_produto": "19565",
       "nome": "ELETROVENTILADOR CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
@@ -924,6 +954,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100850001",
+      "id_produto": "19568",
+      "nome": "ALTERNADOR CHEVROLET S10 CABINE DUPLA LTZ 2.4 FLEXPOWER 2013",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501100850400",
@@ -1112,7 +1154,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -2158,7 +2200,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -2250,11 +2292,11 @@
     "SP12501100850001": {
       "sku": "SP12501100850001",
       "id_produto": "19568",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR CHEVROLET S10 CABINE DUPLA LTZ 2.4 FLEXPOWER 2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "10"
@@ -2330,6 +2372,30 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
+    },
+    "SP12501102535007": {
+      "sku": "SP12501102535007",
+      "id_produto": "19578",
+      "nome": "CAPÔ",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    "SP12501111526400": {
+      "sku": "SP12501111526400",
+      "id_produto": "19587",
+      "nome": "MOTOR COMPLETO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     }
   }
 }
