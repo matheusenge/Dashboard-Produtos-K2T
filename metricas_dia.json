@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 08:16:32",
+  "ultima_atualizacao": "05/08/2026 08:20:58",
   "total_base_dia": 28,
-  "total_atual": 27,
+  "total_atual": 26,
   "novos_produtos": 0,
-  "total_subidos": 1,
+  "total_subidos": 2,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -68,10 +68,12 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
-    "SP12501111348045"
+    "SP12501111348045",
+    "SP12501111526007"
   ],
   "skus_subidos_status_ml_hoje": [
-    "SP12501111348045"
+    "SP12501111348045",
+    "SP12501111526007"
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
@@ -82,9 +84,21 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111526007",
+      "id_produto": "19521",
+      "nome": "CAPÔ CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "7"
     }
   ],
@@ -332,11 +346,11 @@
     "SP12501111526007": {
       "sku": "SP12501111526007",
       "id_produto": "19521",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -348,7 +362,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
