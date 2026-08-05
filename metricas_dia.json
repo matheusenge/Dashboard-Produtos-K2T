@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 10:50:54",
+  "ultima_atualizacao": "05/08/2026 11:12:14",
   "total_base_dia": 28,
-  "total_atual": 29,
+  "total_atual": 28,
   "novos_produtos": 15,
-  "total_subidos": 14,
+  "total_subidos": 15,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -104,6 +104,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501111330027",
     "SP12501111330038",
     "SP12501111348045",
     "SP12501111526007",
@@ -120,6 +121,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501111330027",
     "SP12501111330038",
     "SP12501111348045",
     "SP12501111526007",
@@ -290,11 +292,11 @@
     {
       "sku": "SP12501111330027",
       "id_produto": "19534",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS FORD FIESTA PERSONNALITÉ 1.0 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -371,6 +373,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111330027",
+      "id_produto": "19534",
+      "nome": "PAINEL DE INSTRUMENTOS FORD FIESTA PERSONNALITÉ 1.0 2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
       "qtd_images": "7"
     },
     {
@@ -942,11 +956,11 @@
     "SP12501111330027": {
       "sku": "SP12501111330027",
       "id_produto": "19534",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS FORD FIESTA PERSONNALITÉ 1.0 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
