@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 10:46:30",
+  "ultima_atualizacao": "05/08/2026 10:50:54",
   "total_base_dia": 28,
-  "total_atual": 30,
+  "total_atual": 29,
   "novos_produtos": 15,
-  "total_subidos": 13,
+  "total_subidos": 14,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -104,6 +104,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501111330038",
     "SP12501111348045",
     "SP12501111526007",
     "SP12501111526032",
@@ -119,6 +120,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501111330038",
     "SP12501111348045",
     "SP12501111526007",
     "SP12501111526032",
@@ -300,11 +302,11 @@
     {
       "sku": "SP12501111330038",
       "id_produto": "19536",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -370,6 +372,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111330038",
+      "id_produto": "19536",
+      "nome": "RETROVISOR ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501111348045",
@@ -916,11 +930,11 @@
     "SP12501111330038": {
       "sku": "SP12501111330038",
       "id_produto": "19536",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
