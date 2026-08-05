@@ -1,10 +1,10 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 10:16:21",
+  "ultima_atualizacao": "05/08/2026 10:20:46",
   "total_base_dia": 28,
-  "total_atual": 29,
-  "novos_produtos": 13,
+  "total_atual": 31,
+  "novos_produtos": 15,
   "total_subidos": 12,
   "skus_base_dia": [
     "SP12501015381045",
@@ -41,6 +41,8 @@
     "SP12501014857019",
     "SP12501015217010",
     "SP12501015381045",
+    "SP12501015608001",
+    "SP12501016094002",
     "SP12501042273041",
     "SP12501057114045",
     "SP12501057530045",
@@ -83,6 +85,8 @@
     "SP12501009648039",
     "SP12501014857019",
     "SP12501015217010",
+    "SP12501015608001",
+    "SP12501016094002",
     "SP12501080280002",
     "SP12501088095027",
     "SP12501102454010",
@@ -158,6 +162,30 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501015608001",
+      "id_produto": "4249",
+      "nome": "ALTERNADOR NISSAN KICKS SV 1.6 16V FLEXSTAR 5P AUT 2017/18",
+      "marca": "NISSAN",
+      "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501016094002",
+      "id_produto": "3859",
+      "nome": "BLOCO DO MOTOR FIAT UNO MILLE1.0 FIRE FLEX ECONOMY 4P 2010",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "UNO MILLE1.0 FIRE FLEX ECONOMY 4P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501080280002",
@@ -918,6 +946,30 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
+    },
+    "SP12501016094002": {
+      "sku": "SP12501016094002",
+      "id_produto": "3859",
+      "nome": "BLOCO DO MOTOR FIAT UNO MILLE1.0 FIRE FLEX ECONOMY 4P 2010",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "UNO MILLE1.0 FIRE FLEX ECONOMY 4P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "9"
+    },
+    "SP12501015608001": {
+      "sku": "SP12501015608001",
+      "id_produto": "4249",
+      "nome": "ALTERNADOR NISSAN KICKS SV 1.6 16V FLEXSTAR 5P AUT 2017/18",
+      "marca": "NISSAN",
+      "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "10"
     }
   }
 }
