@@ -1,7 +1,7 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 10:42:24",
+  "ultima_atualizacao": "05/08/2026 10:46:30",
   "total_base_dia": 28,
   "total_atual": 30,
   "novos_produtos": 15,
@@ -172,7 +172,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "10"
@@ -342,7 +342,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "10"
@@ -980,7 +980,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "10"
