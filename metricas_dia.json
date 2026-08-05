@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 15:42:03",
+  "ultima_atualizacao": "05/08/2026 15:46:20",
   "total_base_dia": 28,
-  "total_atual": 36,
+  "total_atual": 35,
   "novos_produtos": 49,
-  "total_subidos": 41,
+  "total_subidos": 42,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -186,6 +186,7 @@
     "SP12501102489011",
     "SP12501102489012",
     "SP12501102489024",
+    "SP12501102489027",
     "SP12501102489400",
     "SP12501111330010",
     "SP12501111330024",
@@ -229,6 +230,7 @@
     "SP12501102489011",
     "SP12501102489012",
     "SP12501102489024",
+    "SP12501102489027",
     "SP12501102489400",
     "SP12501111330010",
     "SP12501111330024",
@@ -572,7 +574,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -584,7 +586,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -604,11 +606,11 @@
     {
       "sku": "SP12501102489027",
       "id_produto": "19551",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -1042,7 +1044,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -1054,7 +1056,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -1070,6 +1072,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102489027",
+      "id_produto": "19551",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501102489400",
@@ -1992,7 +2006,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -2016,7 +2030,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -2072,11 +2086,11 @@
     "SP12501102489027": {
       "sku": "SP12501102489027",
       "id_produto": "19551",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
