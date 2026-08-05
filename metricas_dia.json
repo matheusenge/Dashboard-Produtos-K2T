@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 11:12:14",
+  "ultima_atualizacao": "05/08/2026 11:16:29",
   "total_base_dia": 28,
   "total_atual": 28,
-  "novos_produtos": 15,
-  "total_subidos": 15,
+  "novos_produtos": 16,
+  "total_subidos": 16,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -64,6 +64,7 @@
     "SP12501111330010",
     "SP12501111330027",
     "SP12501111330038",
+    "SP12501111348026",
     "SP12501111348045",
     "SP12501111518030",
     "SP12501111526007",
@@ -96,7 +97,8 @@
     "SP12501102454424",
     "SP12501111330010",
     "SP12501111330027",
-    "SP12501111330038"
+    "SP12501111330038",
+    "SP12501111348026"
   ],
   "skus_subidos_hoje": [
     "SP12501014857019",
@@ -104,6 +106,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501111330010",
     "SP12501111330027",
     "SP12501111330038",
     "SP12501111348045",
@@ -121,6 +124,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501111330010",
     "SP12501111330027",
     "SP12501111330038",
     "SP12501111348045",
@@ -280,11 +284,11 @@
     {
       "sku": "SP12501111330010",
       "id_produto": "19533",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -312,6 +316,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111348026",
+      "id_produto": "19539",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     }
   ],
   "itens_subidos_hoje": [
@@ -373,6 +389,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111330010",
+      "id_produto": "19533",
+      "nome": "CHAVE DE SETA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
       "qtd_images": "7"
     },
     {
@@ -920,11 +948,11 @@
     "SP12501111330010": {
       "sku": "SP12501111330010",
       "id_produto": "19533",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -1011,6 +1039,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
+      "qtd_images": "10"
+    },
+    "SP12501111348026": {
+      "sku": "SP12501111348026",
+      "id_produto": "19539",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "10"
     }
   }
