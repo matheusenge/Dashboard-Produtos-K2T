@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 11:20:58",
+  "ultima_atualizacao": "05/08/2026 11:42:17",
   "total_base_dia": 28,
-  "total_atual": 28,
-  "novos_produtos": 16,
-  "total_subidos": 16,
+  "total_atual": 29,
+  "novos_produtos": 19,
+  "total_subidos": 18,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -37,6 +37,7 @@
     "SP42501003164947"
   ],
   "skus_vistos_hoje": [
+    "SP12501005122418",
     "SP12501009648039",
     "SP12501014857019",
     "SP12501015217010",
@@ -58,8 +59,10 @@
     "SP12501102454010",
     "SP12501102454019",
     "SP12501102454020",
+    "SP12501102454024",
     "SP12501102454027",
     "SP12501102454424",
+    "SP12501102470027",
     "SP12501108088045",
     "SP12501111330010",
     "SP12501111330027",
@@ -83,6 +86,7 @@
     "SP42501003164947"
   ],
   "skus_novos_hoje": [
+    "SP12501005122418",
     "SP12501009648039",
     "SP12501014857019",
     "SP12501015217010",
@@ -93,8 +97,10 @@
     "SP12501102454010",
     "SP12501102454019",
     "SP12501102454020",
+    "SP12501102454024",
     "SP12501102454027",
     "SP12501102454424",
+    "SP12501102470027",
     "SP12501111330010",
     "SP12501111330027",
     "SP12501111330038",
@@ -106,6 +112,8 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501102454027",
+    "SP12501102454424",
     "SP12501111330010",
     "SP12501111330027",
     "SP12501111330038",
@@ -124,6 +132,8 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501102454027",
+    "SP12501102454424",
     "SP12501111330010",
     "SP12501111330027",
     "SP12501111330038",
@@ -137,6 +147,18 @@
     "SP12501117354001"
   ],
   "itens_novos_hoje": [
+    {
+      "sku": "SP12501005122418",
+      "id_produto": "3549",
+      "nome": "PNEU ESTEPE 215/60 R17 GOOD YEAR EFFICIENTGRIP",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    },
     {
       "sku": "SP12501009648039",
       "id_produto": "4048",
@@ -258,13 +280,25 @@
       "qtd_images": "9"
     },
     {
-      "sku": "SP12501102454027",
-      "id_produto": "19530",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "sku": "SP12501102454024",
+      "id_produto": "19540",
+      "nome": "MÓDULO DE INJEÇÃO",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102454027",
+      "id_produto": "19530",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -272,14 +306,26 @@
     {
       "sku": "SP12501102454424",
       "id_produto": "19532",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102470027",
+      "id_produto": "19542",
+      "nome": "PAINEL DE INSTRUMENTOS",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
-      "classificacao": "07",
-      "qtd_images": "7"
+      "classificacao": "08",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501111330010",
@@ -322,7 +368,7 @@
       "id_produto": "19539",
       "nome": "MOTOR DE PARTIDA",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "GOLF GLX 2.0 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -389,6 +435,30 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102454027",
+      "id_produto": "19530",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102454424",
+      "id_produto": "19532",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "7"
     },
     {
@@ -888,11 +958,11 @@
     "SP12501102454027": {
       "sku": "SP12501102454027",
       "id_produto": "19530",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -924,11 +994,11 @@
     "SP12501102454424": {
       "sku": "SP12501102454424",
       "id_produto": "19532",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1046,12 +1116,48 @@
       "id_produto": "19539",
       "nome": "MOTOR DE PARTIDA",
       "marca": "VOLKSWAGEN",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "GOLF GLX 2.0 4P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
+    },
+    "SP12501102454024": {
+      "sku": "SP12501102454024",
+      "id_produto": "19540",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    "SP12501005122418": {
+      "sku": "SP12501005122418",
+      "id_produto": "3549",
+      "nome": "PNEU ESTEPE 215/60 R17 GOOD YEAR EFFICIENTGRIP",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    },
+    "SP12501102470027": {
+      "sku": "SP12501102470027",
+      "id_produto": "19542",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     }
   }
 }
