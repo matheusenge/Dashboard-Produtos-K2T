@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 09:12:16",
+  "ultima_atualizacao": "05/08/2026 09:16:35",
   "total_base_dia": 28,
-  "total_atual": 22,
-  "novos_produtos": 2,
-  "total_subidos": 8,
+  "total_atual": 24,
+  "novos_produtos": 5,
+  "total_subidos": 9,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -50,6 +50,9 @@
     "SP12501089229040",
     "SP12501089989035",
     "SP12501100834024",
+    "SP12501102454010",
+    "SP12501102454020",
+    "SP12501102454027",
     "SP12501108088045",
     "SP12501111348045",
     "SP12501111518030",
@@ -70,9 +73,13 @@
   ],
   "skus_novos_hoje": [
     "SP12501009648039",
-    "SP12501080280002"
+    "SP12501080280002",
+    "SP12501102454010",
+    "SP12501102454020",
+    "SP12501102454027"
   ],
   "skus_subidos_hoje": [
+    "SP12501080280002",
     "SP12501111348045",
     "SP12501111526007",
     "SP12501111526032",
@@ -83,6 +90,7 @@
     "SP12501117354001"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501080280002",
     "SP12501111348045",
     "SP12501111526007",
     "SP12501111526032",
@@ -112,13 +120,61 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102454010",
+      "id_produto": "19527",
+      "nome": "CHAVE DE SETA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102454020",
+      "id_produto": "19529",
+      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102454027",
+      "id_produto": "19530",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501080280002",
+      "id_produto": "6716",
+      "nome": "BLOCO DO MOTOR CHEVROLET ONIX HATCH JOY 1.0 8V FLEX 2018",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "9"
+    },
     {
       "sku": "SP12501111348045",
       "id_produto": "19520",
@@ -572,10 +628,46 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "9"
+    },
+    "SP12501102454027": {
+      "sku": "SP12501102454027",
+      "id_produto": "19530",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501102454020": {
+      "sku": "SP12501102454020",
+      "id_produto": "19529",
+      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    "SP12501102454010": {
+      "sku": "SP12501102454010",
+      "id_produto": "19527",
+      "nome": "CHAVE DE SETA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   }
 }
