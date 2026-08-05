@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 08:50:58",
+  "ultima_atualizacao": "05/08/2026 09:12:16",
   "total_base_dia": 28,
   "total_atual": 22,
-  "novos_produtos": 1,
-  "total_subidos": 7,
+  "novos_produtos": 2,
+  "total_subidos": 8,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -43,6 +43,7 @@
     "SP12501057114045",
     "SP12501057530045",
     "SP12501079959400",
+    "SP12501080280002",
     "SP12501080469019",
     "SP12501080469036",
     "SP12501080469424",
@@ -68,7 +69,8 @@
     "SP42501003164947"
   ],
   "skus_novos_hoje": [
-    "SP12501009648039"
+    "SP12501009648039",
+    "SP12501080280002"
   ],
   "skus_subidos_hoje": [
     "SP12501111348045",
@@ -77,7 +79,8 @@
     "SP12501111526033",
     "SP12501111526034",
     "SP12501111526035",
-    "SP12501111526045"
+    "SP12501111526045",
+    "SP12501117354001"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501111348045",
@@ -86,7 +89,8 @@
     "SP12501111526033",
     "SP12501111526034",
     "SP12501111526035",
-    "SP12501111526045"
+    "SP12501111526045",
+    "SP12501117354001"
   ],
   "itens_novos_hoje": [
     {
@@ -100,6 +104,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501080280002",
+      "id_produto": "6716",
+      "nome": "BLOCO DO MOTOR CHEVROLET ONIX HATCH JOY 1.0 8V FLEX 2018",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "9"
     }
   ],
   "itens_subidos_hoje": [
@@ -186,6 +202,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501117354001",
+      "id_produto": "19518",
+      "nome": "ALTERNADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -384,11 +412,11 @@
     "SP12501117354001": {
       "sku": "SP12501117354001",
       "id_produto": "19518",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -536,6 +564,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    "SP12501080280002": {
+      "sku": "SP12501080280002",
+      "id_produto": "6716",
+      "nome": "BLOCO DO MOTOR CHEVROLET ONIX HATCH JOY 1.0 8V FLEX 2018",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "ONIX HATCH JOY 1.0 8V FLEX 5P MEC",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "9"
     }
   }
 }
