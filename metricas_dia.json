@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 09:46:19",
+  "ultima_atualizacao": "05/08/2026 09:50:42",
   "total_base_dia": 28,
-  "total_atual": 31,
+  "total_atual": 29,
   "novos_produtos": 12,
-  "total_subidos": 9,
+  "total_subidos": 11,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -93,6 +93,8 @@
     "SP12501111330038"
   ],
   "skus_subidos_hoje": [
+    "SP12501014857019",
+    "SP12501015217010",
     "SP12501080280002",
     "SP12501111348045",
     "SP12501111526007",
@@ -104,6 +106,8 @@
     "SP12501117354001"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501014857019",
+    "SP12501015217010",
     "SP12501080280002",
     "SP12501111348045",
     "SP12501111526007",
@@ -132,9 +136,9 @@
       "id_produto": "1904",
       "nome": "Lanterna Traseira Direita Jeep Grand Cherokee Limit 2014/15",
       "marca": "JEEP",
-      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TURBO DIESEL AUTOMÁTICO</p><p>",
+      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TURBO DIESEL AUTOMÁTICO",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "11"
@@ -146,7 +150,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO TREKKING 1.3 8V FLEX",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -261,6 +265,30 @@
     }
   ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501014857019",
+      "id_produto": "1904",
+      "nome": "Lanterna Traseira Direita Jeep Grand Cherokee Limit 2014/15",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TURBO DIESEL AUTOMÁTICO",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "11"
+    },
+    {
+      "sku": "SP12501015217010",
+      "id_produto": "3800",
+      "nome": "CHAVE DE SETA FIAT ARGO TREKKING 1.3 2019/20",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO TREKKING 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
     {
       "sku": "SP12501080280002",
       "id_produto": "6716",
@@ -786,7 +814,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO TREKKING 1.3 8V FLEX",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -844,9 +872,9 @@
       "id_produto": "1904",
       "nome": "Lanterna Traseira Direita Jeep Grand Cherokee Limit 2014/15",
       "marca": "JEEP",
-      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TURBO DIESEL AUTOMÁTICO</p><p>",
+      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TURBO DIESEL AUTOMÁTICO",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "11"
