@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 12:20:59",
+  "ultima_atualizacao": "05/08/2026 12:42:02",
   "total_base_dia": 28,
-  "total_atual": 25,
-  "novos_produtos": 24,
-  "total_subidos": 27,
+  "total_atual": 24,
+  "novos_produtos": 26,
+  "total_subidos": 30,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -53,6 +53,7 @@
     "SP12501080469019",
     "SP12501080469036",
     "SP12501080469424",
+    "SP12501080485026",
     "SP12501088095027",
     "SP12501089229040",
     "SP12501089989035",
@@ -87,6 +88,7 @@
     "SP12501116765043",
     "SP12501117354001",
     "SP12501117362027",
+    "SP12501117680449",
     "SP42501001064042",
     "SP42501003164947"
   ],
@@ -98,6 +100,31 @@
     "SP12501015608001",
     "SP12501016094002",
     "SP12501041145437",
+    "SP12501080280002",
+    "SP12501080485026",
+    "SP12501088095027",
+    "SP12501102454010",
+    "SP12501102454019",
+    "SP12501102454020",
+    "SP12501102454024",
+    "SP12501102454027",
+    "SP12501102454424",
+    "SP12501102470024",
+    "SP12501102470027",
+    "SP12501102489024",
+    "SP12501111330010",
+    "SP12501111330024",
+    "SP12501111330027",
+    "SP12501111330038",
+    "SP12501111348026",
+    "SP12501117362027",
+    "SP12501117680449"
+  ],
+  "skus_subidos_hoje": [
+    "SP12501005122418",
+    "SP12501014857019",
+    "SP12501015217010",
+    "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
     "SP12501102454010",
@@ -114,36 +141,16 @@
     "SP12501111330027",
     "SP12501111330038",
     "SP12501111348026",
-    "SP12501117362027"
-  ],
-  "skus_subidos_hoje": [
-    "SP12501005122418",
-    "SP12501014857019",
-    "SP12501015217010",
-    "SP12501015608001",
-    "SP12501080280002",
-    "SP12501088095027",
-    "SP12501102454010",
-    "SP12501102454019",
-    "SP12501102454020",
-    "SP12501102454024",
-    "SP12501102454027",
-    "SP12501102454424",
-    "SP12501102470027",
-    "SP12501102489024",
-    "SP12501111330010",
-    "SP12501111330024",
-    "SP12501111330027",
-    "SP12501111330038",
-    "SP12501111348026",
     "SP12501111348045",
+    "SP12501111518030",
     "SP12501111526007",
     "SP12501111526032",
     "SP12501111526033",
     "SP12501111526034",
     "SP12501111526035",
     "SP12501111526045",
-    "SP12501117354001"
+    "SP12501117354001",
+    "SP12501117362027"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501005122418",
@@ -158,6 +165,7 @@
     "SP12501102454024",
     "SP12501102454027",
     "SP12501102454424",
+    "SP12501102470024",
     "SP12501102470027",
     "SP12501102489024",
     "SP12501111330010",
@@ -166,13 +174,15 @@
     "SP12501111330038",
     "SP12501111348026",
     "SP12501111348045",
+    "SP12501111518030",
     "SP12501111526007",
     "SP12501111526032",
     "SP12501111526033",
     "SP12501111526034",
     "SP12501111526035",
     "SP12501111526045",
-    "SP12501117354001"
+    "SP12501117354001",
+    "SP12501117362027"
   ],
   "itens_novos_hoje": [
     {
@@ -272,6 +282,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501080485026",
+      "id_produto": "9106",
+      "nome": "MOTOR DE PARTIDA HYUNDAI CRETA ATTITUDE 1.6 16V FLEX 2021",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "CRETA ATTITUDE 1.6 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501088095027",
       "id_produto": "11850",
       "nome": "PAINEL DE INSTRUMENTOS RENAULT KWID INTENSE 1.0 2020/21",
@@ -358,11 +380,11 @@
     {
       "sku": "SP12501102470024",
       "id_produto": "19541",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021/2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
@@ -386,7 +408,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -410,7 +432,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -446,7 +468,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -457,6 +479,18 @@
       "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA LS 1.0 FLEXPOWER 2012",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LS 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501117680449",
+      "id_produto": "18878",
+      "nome": "SEMI-EIXO DIANTEIRO ESQUERDO AUDI A3 SEDAN 1.4 2017/2017",
+      "marca": "AUDI",
+      "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
       "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -610,6 +644,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501102470024",
+      "id_produto": "19541",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021/2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501102470027",
       "id_produto": "19542",
       "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
@@ -628,7 +674,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -652,7 +698,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -688,7 +734,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -704,6 +750,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111518030",
+      "id_produto": "19517",
+      "nome": "PARA-LAMA DIANTEIRO DIREITO HONDA FIT LX 1.4 2005/2005",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501111526007",
@@ -788,6 +846,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501117362027",
+      "id_produto": "19420",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA LS 1.0 FLEXPOWER 2012",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LS 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -1022,11 +1092,11 @@
     "SP12501111518030": {
       "sku": "SP12501111518030",
       "id_produto": "19517",
-      "nome": "PARA-LAMA DIANTEIRO DIREITO",
+      "nome": "PARA-LAMA DIANTEIRO DIREITO HONDA FIT LX 1.4 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -1314,7 +1384,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1362,7 +1432,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -1374,7 +1444,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -1382,11 +1452,11 @@
     "SP12501102470024": {
       "sku": "SP12501102470024",
       "id_produto": "19541",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021/2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
@@ -1409,6 +1479,30 @@
       "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA LS 1.0 FLEXPOWER 2012",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA LS 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    "SP12501080485026": {
+      "sku": "SP12501080485026",
+      "id_produto": "9106",
+      "nome": "MOTOR DE PARTIDA HYUNDAI CRETA ATTITUDE 1.6 16V FLEX 2021",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "CRETA ATTITUDE 1.6 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    "SP12501117680449": {
+      "sku": "SP12501117680449",
+      "id_produto": "18878",
+      "nome": "SEMI-EIXO DIANTEIRO ESQUERDO AUDI A3 SEDAN 1.4 2017/2017",
+      "marca": "AUDI",
+      "modelo_do_veiculo": "A3 SEDAN 1.4 TFSI FLEX TIPTRONIC 4P",
       "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
