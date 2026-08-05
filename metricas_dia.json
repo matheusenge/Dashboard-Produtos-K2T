@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 14:51:04",
+  "ultima_atualizacao": "05/08/2026 15:12:14",
   "total_base_dia": 28,
-  "total_atual": 37,
-  "novos_produtos": 41,
-  "total_subidos": 32,
+  "total_atual": 34,
+  "novos_produtos": 42,
+  "total_subidos": 36,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -58,6 +58,7 @@
     "SP12501089229040",
     "SP12501089989035",
     "SP12501100834024",
+    "SP12501100850011",
     "SP12501100850400",
     "SP12501102454010",
     "SP12501102454019",
@@ -118,6 +119,7 @@
     "SP12501080280002",
     "SP12501080485026",
     "SP12501088095027",
+    "SP12501100850011",
     "SP12501100850400",
     "SP12501102454010",
     "SP12501102454019",
@@ -166,6 +168,7 @@
     "SP12501102470024",
     "SP12501102470027",
     "SP12501102489024",
+    "SP12501102489400",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -173,7 +176,10 @@
     "SP12501111348026",
     "SP12501111348045",
     "SP12501111518030",
+    "SP12501111518400",
+    "SP12501111526001",
     "SP12501111526007",
+    "SP12501111526026",
     "SP12501111526032",
     "SP12501111526033",
     "SP12501111526034",
@@ -200,6 +206,7 @@
     "SP12501102470024",
     "SP12501102470027",
     "SP12501102489024",
+    "SP12501102489400",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -207,7 +214,10 @@
     "SP12501111348026",
     "SP12501111348045",
     "SP12501111518030",
+    "SP12501111518400",
+    "SP12501111526001",
     "SP12501111526007",
+    "SP12501111526026",
     "SP12501111526032",
     "SP12501111526033",
     "SP12501111526034",
@@ -338,6 +348,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100850011",
+      "id_produto": "19570",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501100850400",
@@ -534,11 +556,11 @@
     {
       "sku": "SP12501102489400",
       "id_produto": "19561",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -642,11 +664,11 @@
     {
       "sku": "SP12501111518400",
       "id_produto": "19564",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -654,11 +676,11 @@
     {
       "sku": "SP12501111526001",
       "id_produto": "19560",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -666,11 +688,11 @@
     {
       "sku": "SP12501111526026",
       "id_produto": "19562",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -682,7 +704,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -894,6 +916,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501102489400",
+      "id_produto": "19561",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501111330010",
       "id_produto": "19533",
       "nome": "CHAVE DE SETA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
@@ -978,6 +1012,30 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501111518400",
+      "id_produto": "19564",
+      "nome": "MOTOR COMPLETO HONDA FIT LX 1.4 5P MEC 2005/2005",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111526001",
+      "id_produto": "19560",
+      "nome": "ALTERNADOR CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501111526007",
       "id_produto": "19521",
       "nome": "CAPÔ CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
@@ -988,6 +1046,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111526026",
+      "id_produto": "19562",
+      "nome": "MOTOR DE PARTIDA CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501111526032",
@@ -1056,7 +1126,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -1762,11 +1832,11 @@
     "SP12501111526026": {
       "sku": "SP12501111526026",
       "id_produto": "19562",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1798,11 +1868,11 @@
     "SP12501102489400": {
       "sku": "SP12501102489400",
       "id_produto": "19561",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1858,11 +1928,11 @@
     "SP12501111518400": {
       "sku": "SP12501111518400",
       "id_produto": "19564",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO HONDA FIT LX 1.4 5P MEC 2005/2005",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 5P MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1894,11 +1964,11 @@
     "SP12501111526001": {
       "sku": "SP12501111526001",
       "id_produto": "19560",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1910,7 +1980,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -1925,6 +1995,18 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501100850011": {
+      "sku": "SP12501100850011",
+      "id_produto": "19570",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
       "qtd_images": "10"
     }
   }
