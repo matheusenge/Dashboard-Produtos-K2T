@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 16:50:42",
+  "ultima_atualizacao": "05/08/2026 17:12:01",
   "total_base_dia": 28,
-  "total_atual": 36,
+  "total_atual": 35,
   "novos_produtos": 57,
-  "total_subidos": 49,
+  "total_subidos": 50,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -211,6 +211,7 @@
     "SP12501102489400",
     "SP12501102489411",
     "SP12501102489570",
+    "SP12501102535007",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -262,6 +263,7 @@
     "SP12501102489400",
     "SP12501102489411",
     "SP12501102489570",
+    "SP12501102535007",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -708,11 +710,11 @@
     {
       "sku": "SP12501102535007",
       "id_produto": "19578",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -1306,6 +1308,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102535007",
+      "id_produto": "19578",
+      "nome": "CAPÔ FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111330010",
@@ -2488,11 +2502,11 @@
     "SP12501102535007": {
       "sku": "SP12501102535007",
       "id_produto": "19578",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
