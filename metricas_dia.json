@@ -1,10 +1,10 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 09:42:31",
+  "ultima_atualizacao": "05/08/2026 09:46:19",
   "total_base_dia": 28,
-  "total_atual": 30,
-  "novos_produtos": 11,
+  "total_atual": 31,
+  "novos_produtos": 12,
   "total_subidos": 9,
   "skus_base_dia": [
     "SP12501015381045",
@@ -38,6 +38,7 @@
   ],
   "skus_vistos_hoje": [
     "SP12501009648039",
+    "SP12501014857019",
     "SP12501015217010",
     "SP12501015381045",
     "SP12501042273041",
@@ -79,6 +80,7 @@
   ],
   "skus_novos_hoje": [
     "SP12501009648039",
+    "SP12501014857019",
     "SP12501015217010",
     "SP12501080280002",
     "SP12501102454010",
@@ -124,6 +126,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501014857019",
+      "id_produto": "1904",
+      "nome": "Lanterna Traseira Direita Jeep Grand Cherokee Limit 2014/15",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TURBO DIESEL AUTOMÁTICO</p><p>",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "11"
     },
     {
       "sku": "SP12501015217010",
@@ -824,6 +838,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
+    },
+    "SP12501014857019": {
+      "sku": "SP12501014857019",
+      "id_produto": "1904",
+      "nome": "Lanterna Traseira Direita Jeep Grand Cherokee Limit 2014/15",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "GRAND CHEROKEE LIMITED 3.0 TURBO DIESEL AUTOMÁTICO</p><p>",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "11"
     }
   }
 }
