@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 15:50:45",
+  "ultima_atualizacao": "05/08/2026 16:12:01",
   "total_base_dia": 28,
-  "total_atual": 33,
+  "total_atual": 31,
   "novos_produtos": 49,
-  "total_subidos": 44,
+  "total_subidos": 46,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -173,6 +173,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501100850400",
     "SP12501102454010",
     "SP12501102454019",
     "SP12501102454020",
@@ -190,6 +191,7 @@
     "SP12501102489036",
     "SP12501102489400",
     "SP12501102489411",
+    "SP12501102489570",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -219,6 +221,7 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501100850400",
     "SP12501102454010",
     "SP12501102454019",
     "SP12501102454020",
@@ -236,6 +239,7 @@
     "SP12501102489036",
     "SP12501102489400",
     "SP12501102489411",
+    "SP12501102489570",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -430,11 +434,11 @@
     {
       "sku": "SP12501100850400",
       "id_produto": "19558",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -626,7 +630,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -650,7 +654,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -658,11 +662,11 @@
     {
       "sku": "SP12501102489570",
       "id_produto": "19554",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -922,6 +926,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501100850400",
+      "id_produto": "19558",
+      "nome": "MOTOR COMPLETO CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/2013",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102454010",
       "id_produto": "19527",
       "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
@@ -1096,7 +1112,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -1120,10 +1136,22 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102489570",
+      "id_produto": "19554",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501111330010",
@@ -2066,11 +2094,11 @@
     "SP12501100850400": {
       "sku": "SP12501100850400",
       "id_produto": "19558",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO CHEVROLET S10 CABINE DUPLA LTZ 2.4 2012/2013",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -2130,7 +2158,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -2154,7 +2182,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -2162,11 +2190,11 @@
     "SP12501102489570": {
       "sku": "SP12501102489570",
       "id_produto": "19554",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
