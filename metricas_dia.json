@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 11:46:31",
+  "ultima_atualizacao": "05/08/2026 11:50:54",
   "total_base_dia": 28,
   "total_atual": 27,
-  "novos_produtos": 19,
-  "total_subidos": 20,
+  "novos_produtos": 21,
+  "total_subidos": 22,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -63,8 +63,10 @@
     "SP12501102454027",
     "SP12501102454424",
     "SP12501102470027",
+    "SP12501102489024",
     "SP12501108088045",
     "SP12501111330010",
+    "SP12501111330024",
     "SP12501111330027",
     "SP12501111330038",
     "SP12501111348026",
@@ -101,7 +103,9 @@
     "SP12501102454027",
     "SP12501102454424",
     "SP12501102470027",
+    "SP12501102489024",
     "SP12501111330010",
+    "SP12501111330024",
     "SP12501111330027",
     "SP12501111330038",
     "SP12501111348026"
@@ -113,6 +117,8 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501102454010",
+    "SP12501102454019",
     "SP12501102454020",
     "SP12501102454027",
     "SP12501102454424",
@@ -135,6 +141,8 @@
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501102454010",
+    "SP12501102454019",
     "SP12501102454020",
     "SP12501102454027",
     "SP12501102454424",
@@ -158,7 +166,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -250,11 +258,11 @@
     {
       "sku": "SP12501102454010",
       "id_produto": "19527",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -262,11 +270,11 @@
     {
       "sku": "SP12501102454019",
       "id_produto": "19528",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -278,7 +286,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -293,7 +301,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
-      "qtd_images": "9"
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501102454027",
@@ -332,6 +340,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501102489024",
+      "id_produto": "19543",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501111330010",
       "id_produto": "19533",
       "nome": "CHAVE DE SETA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
@@ -342,6 +362,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111330024",
+      "id_produto": "19545",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501111330027",
@@ -388,7 +420,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -454,13 +486,37 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501102454010",
+      "id_produto": "19527",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102454019",
+      "id_produto": "19528",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102454020",
       "id_produto": "19529",
       "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -1002,7 +1058,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -1010,11 +1066,11 @@
     "SP12501102454010": {
       "sku": "SP12501102454010",
       "id_produto": "19527",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1058,11 +1114,11 @@
     "SP12501102454019": {
       "sku": "SP12501102454019",
       "id_produto": "19528",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1161,7 +1217,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
-      "qtd_images": "9"
+      "qtd_images": "8"
     },
     "SP12501005122418": {
       "sku": "SP12501005122418",
@@ -1170,7 +1226,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -1181,6 +1237,30 @@
       "nome": "PAINEL DE INSTRUMENTOS",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    "SP12501102489024": {
+      "sku": "SP12501102489024",
+      "id_produto": "19543",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    "SP12501111330024": {
+      "sku": "SP12501111330024",
+      "id_produto": "19545",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
