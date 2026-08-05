@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 08:20:58",
+  "ultima_atualizacao": "05/08/2026 08:42:32",
   "total_base_dia": 28,
-  "total_atual": 26,
-  "novos_produtos": 0,
-  "total_subidos": 2,
+  "total_atual": 24,
+  "novos_produtos": 1,
+  "total_subidos": 5,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -37,6 +37,7 @@
     "SP42501003164947"
   ],
   "skus_vistos_hoje": [
+    "SP12501009648039",
     "SP12501015381045",
     "SP12501042273041",
     "SP12501057114045",
@@ -66,16 +67,37 @@
     "SP42501001064042",
     "SP42501003164947"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501009648039"
+  ],
   "skus_subidos_hoje": [
     "SP12501111348045",
-    "SP12501111526007"
+    "SP12501111526007",
+    "SP12501111526032",
+    "SP12501111526033",
+    "SP12501111526034"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501111348045",
-    "SP12501111526007"
+    "SP12501111526007",
+    "SP12501111526032",
+    "SP12501111526033",
+    "SP12501111526034"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501009648039",
+      "id_produto": "4048",
+      "nome": "RODA DIANTEIRA DIREITA CHEVROLET ONIX HATCH LT 1.0 12V 2021",
+      "marca": "CHEVROLET&nbsp;",
+      "modelo_do_veiculo": "ONIX HATCH LT 1.0 12V TB FLEX 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501111348045",
@@ -96,10 +118,46 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111526032",
+      "id_produto": "19522",
+      "nome": "PORTA DIANTEIRA DIREITA CHEVROLET MERIVA 1.8 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111526033",
+      "id_produto": "19523",
+      "nome": "PORTA DIANTEIRA ESQUERDA CHEVROLET MERIVA 1.8 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501111526034",
+      "id_produto": "19524",
+      "nome": "PORTA TRASEIRA DIREITA CHEVROLET MERIVA 1.8 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -142,11 +200,11 @@
     "SP12501111526032": {
       "sku": "SP12501111526032",
       "id_produto": "19522",
-      "nome": "PORTA DIANTEIRA DIREITA",
+      "nome": "PORTA DIANTEIRA DIREITA CHEVROLET MERIVA 1.8 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -238,11 +296,11 @@
     "SP12501111526034": {
       "sku": "SP12501111526034",
       "id_produto": "19524",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA CHEVROLET MERIVA 1.8 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -350,7 +408,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -370,11 +428,11 @@
     "SP12501111526033": {
       "sku": "SP12501111526033",
       "id_produto": "19523",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA CHEVROLET MERIVA 1.8 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
@@ -438,6 +496,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
+    },
+    "SP12501009648039": {
+      "sku": "SP12501009648039",
+      "id_produto": "4048",
+      "nome": "RODA DIANTEIRA DIREITA CHEVROLET ONIX HATCH LT 1.0 12V 2021",
+      "marca": "CHEVROLET&nbsp;",
+      "modelo_do_veiculo": "ONIX HATCH LT 1.0 12V TB FLEX 5P AUT.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "6"
     }
   }
 }
