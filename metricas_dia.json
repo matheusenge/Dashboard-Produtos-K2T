@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 11:50:54",
+  "ultima_atualizacao": "05/08/2026 12:10:14",
   "total_base_dia": 28,
-  "total_atual": 27,
-  "novos_produtos": 21,
-  "total_subidos": 22,
+  "total_atual": 25,
+  "novos_produtos": 23,
+  "total_subidos": 26,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -44,6 +44,7 @@
     "SP12501015381045",
     "SP12501015608001",
     "SP12501016094002",
+    "SP12501041145437",
     "SP12501042273041",
     "SP12501057114045",
     "SP12501057530045",
@@ -62,6 +63,7 @@
     "SP12501102454024",
     "SP12501102454027",
     "SP12501102454424",
+    "SP12501102470024",
     "SP12501102470027",
     "SP12501102489024",
     "SP12501108088045",
@@ -94,6 +96,7 @@
     "SP12501015217010",
     "SP12501015608001",
     "SP12501016094002",
+    "SP12501041145437",
     "SP12501080280002",
     "SP12501088095027",
     "SP12501102454010",
@@ -102,6 +105,7 @@
     "SP12501102454024",
     "SP12501102454027",
     "SP12501102454424",
+    "SP12501102470024",
     "SP12501102470027",
     "SP12501102489024",
     "SP12501111330010",
@@ -120,11 +124,15 @@
     "SP12501102454010",
     "SP12501102454019",
     "SP12501102454020",
+    "SP12501102454024",
     "SP12501102454027",
     "SP12501102454424",
+    "SP12501102470027",
     "SP12501111330010",
+    "SP12501111330024",
     "SP12501111330027",
     "SP12501111330038",
+    "SP12501111348026",
     "SP12501111348045",
     "SP12501111526007",
     "SP12501111526032",
@@ -144,11 +152,15 @@
     "SP12501102454010",
     "SP12501102454019",
     "SP12501102454020",
+    "SP12501102454024",
     "SP12501102454027",
     "SP12501102454424",
+    "SP12501102470027",
     "SP12501111330010",
+    "SP12501111330024",
     "SP12501111330027",
     "SP12501111330038",
+    "SP12501111348026",
     "SP12501111348045",
     "SP12501111526007",
     "SP12501111526032",
@@ -232,6 +244,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501041145437",
+      "id_produto": "6352",
+      "nome": "PNEU TO 205/40 R17 34V DD Tubeless Radial",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "GOL 1.6 MSI FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501080280002",
       "id_produto": "6716",
       "nome": "BLOCO DO MOTOR CHEVROLET ONIX HATCH JOY 1.0 8V FLEX 2018",
@@ -262,7 +286,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -294,11 +318,11 @@
     {
       "sku": "SP12501102454024",
       "id_produto": "19540",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -328,13 +352,25 @@
       "qtd_images": "7"
     },
     {
-      "sku": "SP12501102470027",
-      "id_produto": "19542",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "sku": "SP12501102470024",
+      "id_produto": "19541",
+      "nome": "MÓDULO DE INJEÇÃO",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501102470027",
+      "id_produto": "19542",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -366,11 +402,11 @@
     {
       "sku": "SP12501111330024",
       "id_produto": "19545",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO FORD FIESTA PERSONNALITÉ 1.0 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -402,11 +438,11 @@
     {
       "sku": "SP12501111348026",
       "id_produto": "19539",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA VOLKSWAGEN GOLF GLX 2.0 4P 1996/1996",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -492,7 +528,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -522,6 +558,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501102454024",
+      "id_produto": "19540",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501102454027",
       "id_produto": "19530",
       "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
@@ -546,6 +594,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501102470027",
+      "id_produto": "19542",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501111330010",
       "id_produto": "19533",
       "nome": "CHAVE DE SETA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
@@ -556,6 +616,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111330024",
+      "id_produto": "19545",
+      "nome": "MÓDULO DE INJEÇÃO FORD FIESTA PERSONNALITÉ 1.0 2005/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501111330027",
@@ -580,6 +652,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501111348026",
+      "id_produto": "19539",
+      "nome": "MOTOR DE PARTIDA VOLKSWAGEN GOLF GLX 2.0 4P 1996/1996",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "GOLF GLX 2.0 4P",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501111348045",
@@ -1070,7 +1154,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1198,11 +1282,11 @@
     "SP12501111348026": {
       "sku": "SP12501111348026",
       "id_produto": "19539",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA VOLKSWAGEN GOLF GLX 2.0 4P 1996/1996",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1210,11 +1294,11 @@
     "SP12501102454024": {
       "sku": "SP12501102454024",
       "id_produto": "19540",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -1234,11 +1318,11 @@
     "SP12501102470027": {
       "sku": "SP12501102470027",
       "id_produto": "19542",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -1258,14 +1342,38 @@
     "SP12501111330024": {
       "sku": "SP12501111330024",
       "id_produto": "19545",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO FORD FIESTA PERSONNALITÉ 1.0 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
+    },
+    "SP12501102470024": {
+      "sku": "SP12501102470024",
+      "id_produto": "19541",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    },
+    "SP12501041145437": {
+      "sku": "SP12501041145437",
+      "id_produto": "6352",
+      "nome": "PNEU TO 205/40 R17 34V DD Tubeless Radial",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "GOL 1.6 MSI FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
     }
   }
 }
