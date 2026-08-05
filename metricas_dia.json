@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 12:16:31",
+  "ultima_atualizacao": "05/08/2026 12:20:59",
   "total_base_dia": 28,
-  "total_atual": 26,
+  "total_atual": 25,
   "novos_produtos": 24,
-  "total_subidos": 26,
+  "total_subidos": 27,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -130,6 +130,7 @@
     "SP12501102454027",
     "SP12501102454424",
     "SP12501102470027",
+    "SP12501102489024",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -158,6 +159,7 @@
     "SP12501102454027",
     "SP12501102454424",
     "SP12501102470027",
+    "SP12501102489024",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -380,11 +382,11 @@
     {
       "sku": "SP12501102489024",
       "id_produto": "19543",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -618,6 +620,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102489024",
+      "id_produto": "19543",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111330010",
@@ -1344,11 +1358,11 @@
     "SP12501102489024": {
       "sku": "SP12501102489024",
       "id_produto": "19543",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
