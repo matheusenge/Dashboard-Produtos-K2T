@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 14:46:38",
+  "ultima_atualizacao": "05/08/2026 14:51:04",
   "total_base_dia": 28,
-  "total_atual": 38,
+  "total_atual": 37,
   "novos_produtos": 41,
-  "total_subidos": 31,
+  "total_subidos": 32,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -179,6 +179,7 @@
     "SP12501111526034",
     "SP12501111526035",
     "SP12501111526045",
+    "SP12501111526411",
     "SP12501117354001",
     "SP12501117362027",
     "SP12501117680449"
@@ -212,6 +213,7 @@
     "SP12501111526034",
     "SP12501111526035",
     "SP12501111526045",
+    "SP12501111526411",
     "SP12501117354001",
     "SP12501117362027",
     "SP12501117680449"
@@ -676,11 +678,11 @@
     {
       "sku": "SP12501111526411",
       "id_produto": "19565",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -1046,6 +1048,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111526411",
+      "id_produto": "19565",
+      "nome": "ELETROVENTILADOR CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501117354001",
@@ -1892,11 +1906,11 @@
     "SP12501111526411": {
       "sku": "SP12501111526411",
       "id_produto": "19565",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR CHEVROLET MERIVA 1.8 MPFI 8V 2003/2003",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
