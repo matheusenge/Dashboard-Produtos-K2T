@@ -1,10 +1,10 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 12:10:14",
+  "ultima_atualizacao": "05/08/2026 12:12:13",
   "total_base_dia": 28,
-  "total_atual": 25,
-  "novos_produtos": 23,
+  "total_atual": 26,
+  "novos_produtos": 24,
   "total_subidos": 26,
   "skus_base_dia": [
     "SP12501015381045",
@@ -86,6 +86,7 @@
     "SP12501116765042",
     "SP12501116765043",
     "SP12501117354001",
+    "SP12501117362027",
     "SP42501001064042",
     "SP42501003164947"
   ],
@@ -112,7 +113,8 @@
     "SP12501111330024",
     "SP12501111330027",
     "SP12501111330038",
-    "SP12501111348026"
+    "SP12501111348026",
+    "SP12501117362027"
   ],
   "skus_subidos_hoje": [
     "SP12501005122418",
@@ -446,6 +448,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501117362027",
+      "id_produto": "19420",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA LS 1.0 FLEXPOWER 2012",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LS 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     }
   ],
   "itens_subidos_hoje": [
@@ -1374,6 +1388,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    "SP12501117362027": {
+      "sku": "SP12501117362027",
+      "id_produto": "19420",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CELTA LS 1.0 FLEXPOWER 2012",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CELTA LS 1.0 MPFI 8V FLEXPOWER 3P",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
     }
   }
 }
