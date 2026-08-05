@@ -1,10 +1,10 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 15:16:29",
+  "ultima_atualizacao": "05/08/2026 15:20:57",
   "total_base_dia": 28,
-  "total_atual": 35,
-  "novos_produtos": 43,
+  "total_atual": 36,
+  "novos_produtos": 44,
   "total_subidos": 36,
   "skus_base_dia": [
     "SP12501015381045",
@@ -80,6 +80,7 @@
     "SP12501102489411",
     "SP12501102489570",
     "SP12501108088045",
+    "SP12501111321004",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -141,6 +142,7 @@
     "SP12501102489400",
     "SP12501102489411",
     "SP12501102489570",
+    "SP12501111321004",
     "SP12501111330010",
     "SP12501111330024",
     "SP12501111330027",
@@ -602,6 +604,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501111321004",
+      "id_produto": "19573",
+      "nome": "CÂMBIO MANUAL",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501111330010",
@@ -2027,6 +2041,18 @@
       "sku": "SP12501100850001",
       "id_produto": "19568",
       "nome": "ALTERNADOR",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
+    },
+    "SP12501111321004": {
+      "sku": "SP12501111321004",
+      "id_produto": "19573",
+      "nome": "CÂMBIO MANUAL",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": null,
       "status": "Desabilitado",
