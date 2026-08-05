@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 10:20:46",
+  "ultima_atualizacao": "05/08/2026 10:42:24",
   "total_base_dia": 28,
-  "total_atual": 31,
+  "total_atual": 30,
   "novos_produtos": 15,
-  "total_subidos": 12,
+  "total_subidos": 13,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -101,6 +101,7 @@
   "skus_subidos_hoje": [
     "SP12501014857019",
     "SP12501015217010",
+    "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
     "SP12501111348045",
@@ -115,6 +116,7 @@
   "skus_subidos_status_ml_hoje": [
     "SP12501014857019",
     "SP12501015217010",
+    "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
     "SP12501111348045",
@@ -170,7 +172,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "10"
@@ -332,6 +334,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501015608001",
+      "id_produto": "4249",
+      "nome": "ALTERNADOR NISSAN KICKS SV 1.6 16V FLEXSTAR 5P AUT 2017/18",
+      "marca": "NISSAN",
+      "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501080280002",
@@ -966,7 +980,7 @@
       "marca": "NISSAN",
       "modelo_do_veiculo": "KICKS SV 1.6 16V FLEXSTAR 5P AUT",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "10"
