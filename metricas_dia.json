@@ -1,10 +1,10 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 09:50:42",
+  "ultima_atualizacao": "05/08/2026 10:11:58",
   "total_base_dia": 28,
-  "total_atual": 29,
-  "novos_produtos": 12,
+  "total_atual": 30,
+  "novos_produtos": 13,
   "total_subidos": 11,
   "skus_base_dia": [
     "SP12501015381045",
@@ -49,6 +49,7 @@
     "SP12501080469019",
     "SP12501080469036",
     "SP12501080469424",
+    "SP12501088095027",
     "SP12501089229040",
     "SP12501089989035",
     "SP12501100834024",
@@ -83,6 +84,7 @@
     "SP12501014857019",
     "SP12501015217010",
     "SP12501080280002",
+    "SP12501088095027",
     "SP12501102454010",
     "SP12501102454019",
     "SP12501102454020",
@@ -166,6 +168,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501088095027",
+      "id_produto": "11850",
+      "nome": "PAINEL DE INSTRUMENTOS RENAULT KWID INTENSE 1.0 FLEX 2020/21",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "KWID INTENSE 1.0 FLEX 12V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501102454010",
@@ -878,6 +892,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "11"
+    },
+    "SP12501088095027": {
+      "sku": "SP12501088095027",
+      "id_produto": "11850",
+      "nome": "PAINEL DE INSTRUMENTOS RENAULT KWID INTENSE 1.0 FLEX 2020/21",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "KWID INTENSE 1.0 FLEX 12V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "10"
     }
   }
 }
