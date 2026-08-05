@@ -1,10 +1,10 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 15:12:14",
+  "ultima_atualizacao": "05/08/2026 15:16:29",
   "total_base_dia": 28,
-  "total_atual": 34,
-  "novos_produtos": 42,
+  "total_atual": 35,
+  "novos_produtos": 43,
   "total_subidos": 36,
   "skus_base_dia": [
     "SP12501015381045",
@@ -58,6 +58,7 @@
     "SP12501089229040",
     "SP12501089989035",
     "SP12501100834024",
+    "SP12501100850001",
     "SP12501100850011",
     "SP12501100850400",
     "SP12501102454010",
@@ -119,6 +120,7 @@
     "SP12501080280002",
     "SP12501080485026",
     "SP12501088095027",
+    "SP12501100850001",
     "SP12501100850011",
     "SP12501100850400",
     "SP12501102454010",
@@ -348,6 +350,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100850001",
+      "id_produto": "19568",
+      "nome": "ALTERNADOR",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501100850011",
@@ -680,7 +694,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1030,7 +1044,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1968,7 +1982,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -2007,6 +2021,18 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
+      "qtd_images": "10"
+    },
+    "SP12501100850001": {
+      "sku": "SP12501100850001",
+      "id_produto": "19568",
+      "nome": "ALTERNADOR",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
       "qtd_images": "10"
     }
   }
