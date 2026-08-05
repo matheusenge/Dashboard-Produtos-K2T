@@ -1,7 +1,7 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 17:16:15",
+  "ultima_atualizacao": "05/08/2026 17:20:40",
   "total_base_dia": 28,
   "total_atual": 36,
   "novos_produtos": 59,
@@ -780,7 +780,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1358,7 +1358,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -2524,7 +2524,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
