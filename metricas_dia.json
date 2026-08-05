@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 11:42:17",
+  "ultima_atualizacao": "05/08/2026 11:46:31",
   "total_base_dia": 28,
-  "total_atual": 29,
+  "total_atual": 27,
   "novos_produtos": 19,
-  "total_subidos": 18,
+  "total_subidos": 20,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -107,11 +107,13 @@
     "SP12501111348026"
   ],
   "skus_subidos_hoje": [
+    "SP12501005122418",
     "SP12501014857019",
     "SP12501015217010",
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501102454020",
     "SP12501102454027",
     "SP12501102454424",
     "SP12501111330010",
@@ -127,11 +129,13 @@
     "SP12501117354001"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501005122418",
     "SP12501014857019",
     "SP12501015217010",
     "SP12501015608001",
     "SP12501080280002",
     "SP12501088095027",
+    "SP12501102454020",
     "SP12501102454027",
     "SP12501102454424",
     "SP12501111330010",
@@ -154,7 +158,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
@@ -270,11 +274,11 @@
     {
       "sku": "SP12501102454020",
       "id_produto": "19529",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -378,6 +382,18 @@
   ],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501005122418",
+      "id_produto": "3549",
+      "nome": "PNEU ESTEPE 215/60 R17 GOOD YEAR EFFICIENTGRIP",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501014857019",
       "id_produto": "1904",
       "nome": "Lanterna Traseira Direita Jeep Grand Cherokee Limit 2014/15",
@@ -436,6 +452,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102454020",
+      "id_produto": "19529",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501102454027",
@@ -970,11 +998,11 @@
     "SP12501102454020": {
       "sku": "SP12501102454020",
       "id_produto": "19529",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -1142,7 +1170,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PLATINUM 1.0 TB 12V FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "5"
