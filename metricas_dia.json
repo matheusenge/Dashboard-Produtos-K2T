@@ -1,11 +1,11 @@
 {
   "data": "2026-08-05",
   "primeira_atualizacao": "05/08/2026 08:13:01",
-  "ultima_atualizacao": "05/08/2026 17:46:17",
+  "ultima_atualizacao": "05/08/2026 17:50:42",
   "total_base_dia": 28,
-  "total_atual": 34,
+  "total_atual": 33,
   "novos_produtos": 61,
-  "total_subidos": 55,
+  "total_subidos": 56,
   "skus_base_dia": [
     "SP12501015381045",
     "SP12501042273041",
@@ -229,6 +229,7 @@
     "SP12501111330038",
     "SP12501111348026",
     "SP12501111348045",
+    "SP12501111348400",
     "SP12501111518026",
     "SP12501111518030",
     "SP12501111518400",
@@ -286,6 +287,7 @@
     "SP12501111330038",
     "SP12501111348026",
     "SP12501111348045",
+    "SP12501111348400",
     "SP12501111518026",
     "SP12501111518030",
     "SP12501111518400",
@@ -768,7 +770,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -896,11 +898,11 @@
     {
       "sku": "SP12501111348400",
       "id_produto": "19583",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO VOLKSWAGEN GOLF GLX 2.0 4P 1996/1996",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1406,7 +1408,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -1494,6 +1496,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111348400",
+      "id_produto": "19583",
+      "nome": "MOTOR COMPLETO VOLKSWAGEN GOLF GLX 2.0 4P 1996/1996",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "GOLF GLX 2.0 4P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501111518026",
@@ -2664,11 +2678,11 @@
     "SP12501111348400": {
       "sku": "SP12501111348400",
       "id_produto": "19583",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO VOLKSWAGEN GOLF GLX 2.0 4P 1996/1996",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -2716,7 +2730,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
