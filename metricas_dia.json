@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 08:20:53",
+  "ultima_atualizacao": "06/08/2026 08:42:12",
   "total_base_dia": 43,
-  "total_atual": 42,
+  "total_atual": 41,
   "novos_produtos": 0,
-  "total_subidos": 1,
+  "total_subidos": 2,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -98,13 +98,27 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501102535400",
     "SP12501111330400"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501102535400",
     "SP12501111330400"
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501102535400",
+      "id_produto": "19589",
+      "nome": "MOTOR COMPLETO FIAT CRONOS DRIVE 1.3 8V FLEX 2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
     {
       "sku": "SP12501111330400",
       "id_produto": "19590",
@@ -112,7 +126,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "8"
@@ -242,14 +256,14 @@
     "SP12501117354004": {
       "sku": "SP12501117354004",
       "id_produto": "19602",
-      "nome": "CÂMBIO MANUAL",
+      "nome": "CÂMBIO MANUAL FIAT ARGO 1.0 FIREFLY 2024/2025",
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "09",
-      "qtd_images": "8"
+      "qtd_images": "5"
     },
     "SP12501116765039": {
       "sku": "SP12501116765039",
@@ -302,11 +316,11 @@
     "SP12501102535400": {
       "sku": "SP12501102535400",
       "id_produto": "19589",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO FIAT CRONOS DRIVE 1.3 8V FLEX 2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -462,7 +476,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "8"
