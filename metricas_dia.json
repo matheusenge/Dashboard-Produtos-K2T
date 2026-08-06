@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 11:39:43",
+  "ultima_atualizacao": "06/08/2026 12:17:03",
   "total_base_dia": 43,
-  "total_atual": 43,
+  "total_atual": 36,
   "novos_produtos": 15,
-  "total_subidos": 15,
+  "total_subidos": 22,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -131,13 +131,20 @@
   "skus_subidos_hoje": [
     "SP12501102470019",
     "SP12501102470020",
+    "SP12501102489019",
+    "SP12501102489020",
+    "SP12501102489038",
     "SP12501102535004",
+    "SP12501102535012",
+    "SP12501102535019",
     "SP12501102535020",
     "SP12501102535400",
+    "SP12501102535424",
     "SP12501103027040",
     "SP12501103027041",
     "SP12501103027042",
     "SP12501111330004",
+    "SP12501111330036",
     "SP12501111330400",
     "SP12501116706040",
     "SP12501116706041",
@@ -148,13 +155,20 @@
   "skus_subidos_status_ml_hoje": [
     "SP12501102470019",
     "SP12501102470020",
+    "SP12501102489019",
+    "SP12501102489020",
+    "SP12501102489038",
     "SP12501102535004",
+    "SP12501102535012",
+    "SP12501102535019",
     "SP12501102535020",
     "SP12501102535400",
+    "SP12501102535424",
     "SP12501103027040",
     "SP12501103027041",
     "SP12501103027042",
     "SP12501111330004",
+    "SP12501111330036",
     "SP12501111330400",
     "SP12501116706040",
     "SP12501116706041",
@@ -202,11 +216,11 @@
     {
       "sku": "SP12501102489019",
       "id_produto": "19609",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -214,11 +228,11 @@
     {
       "sku": "SP12501102489020",
       "id_produto": "19610",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -226,11 +240,11 @@
     {
       "sku": "SP12501102489038",
       "id_produto": "19611",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
@@ -238,11 +252,11 @@
     {
       "sku": "SP12501102535012",
       "id_produto": "19612",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 2022/22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -250,11 +264,11 @@
     {
       "sku": "SP12501102535019",
       "id_produto": "19613",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA FIAT CRONOS DRIVE 1.3 FLEX 2022/22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -286,11 +300,11 @@
     {
       "sku": "SP12501102535424",
       "id_produto": "19614",
-      "nome": "MULTIMÍDIA",
+      "nome": "MULTIMÍDIA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -310,11 +324,11 @@
     {
       "sku": "SP12501111330036",
       "id_produto": "19615",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
@@ -370,6 +384,42 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501102489019",
+      "id_produto": "19609",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102489020",
+      "id_produto": "19610",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102489038",
+      "id_produto": "19611",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 FLEX 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501102535004",
       "id_produto": "19593",
       "nome": "CÂMBIO MANUAL FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
@@ -379,6 +429,30 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102535012",
+      "id_produto": "19612",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 2022/22",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102535019",
+      "id_produto": "19613",
+      "nome": "LANTERNA TRASEIRA DIREITA FIAT CRONOS DRIVE 1.3 FLEX 2022/22",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
       "qtd_images": "10"
     },
     {
@@ -404,6 +478,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102535424",
+      "id_produto": "19614",
+      "nome": "MULTIMÍDIA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501103027040",
@@ -452,6 +538,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111330036",
+      "id_produto": "19615",
+      "nome": "RADIADOR FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501111330400",
@@ -1082,11 +1180,11 @@
     "SP12501111330036": {
       "sku": "SP12501111330036",
       "id_produto": "19615",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
@@ -1094,11 +1192,11 @@
     "SP12501102489038": {
       "sku": "SP12501102489038",
       "id_produto": "19611",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
@@ -1106,11 +1204,11 @@
     "SP12501102489019": {
       "sku": "SP12501102489019",
       "id_produto": "19609",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1118,11 +1216,11 @@
     "SP12501102535012": {
       "sku": "SP12501102535012",
       "id_produto": "19612",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 2022/22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -1142,11 +1240,11 @@
     "SP12501102489020": {
       "sku": "SP12501102489020",
       "id_produto": "19610",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1154,11 +1252,11 @@
     "SP12501102535019": {
       "sku": "SP12501102535019",
       "id_produto": "19613",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA FIAT CRONOS DRIVE 1.3 FLEX 2022/22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1178,11 +1276,11 @@
     "SP12501102535424": {
       "sku": "SP12501102535424",
       "id_produto": "19614",
-      "nome": "MULTIMÍDIA",
+      "nome": "MULTIMÍDIA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
