@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 08:50:53",
+  "ultima_atualizacao": "06/08/2026 09:12:13",
   "total_base_dia": 43,
-  "total_atual": 41,
-  "novos_produtos": 0,
-  "total_subidos": 2,
+  "total_atual": 40,
+  "novos_produtos": 1,
+  "total_subidos": 4,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -58,6 +58,7 @@
     "SP12501041145437",
     "SP12501042273041",
     "SP12501057114045",
+    "SP12501057335045",
     "SP12501057530045",
     "SP12501079959400",
     "SP12501080469019",
@@ -96,16 +97,35 @@
     "SP42501001064042",
     "SP42501003164947"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501057335045"
+  ],
   "skus_subidos_hoje": [
     "SP12501102535400",
-    "SP12501111330400"
+    "SP12501111330400",
+    "SP12501116706042",
+    "SP12501117354004"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501102535400",
-    "SP12501111330400"
+    "SP12501111330400",
+    "SP12501116706042",
+    "SP12501117354004"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501057335045",
+      "id_produto": "19604",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA 1.0 8V FLEX/CLASS 1.0 8V FLEX 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501102535400",
@@ -130,6 +150,30 @@
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501116706042",
+      "id_produto": "19600",
+      "nome": "RODA LIGA LEVE ARO 16 5 FUROS KIA SPORTAGE",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501117354004",
+      "id_produto": "19602",
+      "nome": "CÂMBIO MANUAL FIAT ARGO 1.0 FIREFLY 2024/2025",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -160,11 +204,11 @@
     "SP12501116706042": {
       "sku": "SP12501116706042",
       "id_produto": "19600",
-      "nome": "RODA TRASEIRA ESQUERDA",
+      "nome": "RODA LIGA LEVE ARO 16 5 FUROS KIA SPORTAGE",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -260,7 +304,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "ARGO 1.0 FIREFLY",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -328,10 +372,10 @@
     "SP12501116706043": {
       "sku": "SP12501116706043",
       "id_produto": "19601",
-      "nome": "RODA SOBRES./ESTEPE",
+      "nome": "RODA LIGA LEVE ARO 16 5 FUROS KIA SPORTAGE",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
@@ -648,6 +692,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "2"
+    },
+    "SP12501057335045": {
+      "sku": "SP12501057335045",
+      "id_produto": "19604",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA 1.0 8V FLEX/CLASS 1.0 8V FLEX 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
     }
   }
 }
