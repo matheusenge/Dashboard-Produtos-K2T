@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 10:16:38",
+  "ultima_atualizacao": "06/08/2026 10:21:07",
   "total_base_dia": 43,
-  "total_atual": 39,
-  "novos_produtos": 5,
-  "total_subidos": 9,
+  "total_atual": 41,
+  "novos_produtos": 8,
+  "total_subidos": 10,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -74,8 +74,10 @@
     "SP12501102470019",
     "SP12501102470030",
     "SP12501102489004",
+    "SP12501102489019",
     "SP12501102489038",
     "SP12501102535004",
+    "SP12501102535012",
     "SP12501102535020",
     "SP12501102535400",
     "SP12501103027040",
@@ -88,6 +90,7 @@
     "SP12501111330036",
     "SP12501111330400",
     "SP12501111518004",
+    "SP12501111526011",
     "SP12501116706040",
     "SP12501116706041",
     "SP12501116706042",
@@ -104,11 +107,15 @@
   "skus_novos_hoje": [
     "SP12501057335045",
     "SP12501102470019",
+    "SP12501102489019",
     "SP12501102489038",
+    "SP12501102535012",
     "SP12501102535020",
-    "SP12501111330036"
+    "SP12501111330036",
+    "SP12501111526011"
   ],
   "skus_subidos_hoje": [
+    "SP12501102535020",
     "SP12501102535400",
     "SP12501103027041",
     "SP12501103027042",
@@ -120,6 +127,7 @@
     "SP12501117354004"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501102535020",
     "SP12501102535400",
     "SP12501103027041",
     "SP12501103027042",
@@ -156,6 +164,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501102489019",
+      "id_produto": "19609",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102489038",
       "id_produto": "19611",
       "nome": "RETROVISOR ESQUERDO",
@@ -168,13 +188,25 @@
       "qtd_images": "8"
     },
     {
-      "sku": "SP12501102535020",
-      "id_produto": "19606",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "sku": "SP12501102535012",
+      "id_produto": "19612",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
       "marca": "FIAT",
-      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "modelo_do_veiculo": null,
       "status": "Desabilitado",
       "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102535020",
+      "id_produto": "19606",
+      "nome": "LANTERNA TRASEIRA ESQUERDA FIAT CRONOS DRIVE 1.3 FLEX 2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -190,9 +222,33 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501111526011",
+      "id_produto": "19617",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     }
   ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501102535020",
+      "id_produto": "19606",
+      "nome": "LANTERNA TRASEIRA ESQUERDA FIAT CRONOS DRIVE 1.3 FLEX 2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
     {
       "sku": "SP12501102535400",
       "id_produto": "19589",
@@ -212,7 +268,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "PARATI 1.8 MI",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -454,7 +510,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "PARATI 1.8 MI",
       "status": "Habilitado",
-      "status_ml": "active",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -834,11 +890,11 @@
     "SP12501102535020": {
       "sku": "SP12501102535020",
       "id_produto": "19606",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA FIAT CRONOS DRIVE 1.3 FLEX 2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -878,6 +934,42 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
+    },
+    "SP12501102489019": {
+      "sku": "SP12501102489019",
+      "id_produto": "19609",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    "SP12501102535012": {
+      "sku": "SP12501102535012",
+      "id_produto": "19612",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    "SP12501111526011": {
+      "sku": "SP12501111526011",
+      "id_produto": "19617",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     }
   }
 }
