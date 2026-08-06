@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 12:55:35",
+  "ultima_atualizacao": "06/08/2026 13:58:25",
   "total_base_dia": 43,
   "total_atual": 33,
-  "novos_produtos": 15,
-  "total_subidos": 25,
+  "novos_produtos": 16,
+  "total_subidos": 26,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -78,6 +78,7 @@
     "SP12501102489019",
     "SP12501102489020",
     "SP12501102489038",
+    "SP12501102527034",
     "SP12501102535004",
     "SP12501102535012",
     "SP12501102535019",
@@ -118,6 +119,7 @@
     "SP12501102489019",
     "SP12501102489020",
     "SP12501102489038",
+    "SP12501102527034",
     "SP12501102535012",
     "SP12501102535019",
     "SP12501102535020",
@@ -153,7 +155,8 @@
     "SP12501116706041",
     "SP12501116706042",
     "SP12501116706043",
-    "SP12501117354004"
+    "SP12501117354004",
+    "SP42501003164947"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501102470019",
@@ -180,7 +183,8 @@
     "SP12501116706041",
     "SP12501116706042",
     "SP12501116706043",
-    "SP12501117354004"
+    "SP12501117354004",
+    "SP42501003164947"
   ],
   "itens_novos_hoje": [
     {
@@ -254,6 +258,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501102527034",
+      "id_produto": "19620",
+      "nome": "PORTA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501102535012",
@@ -664,6 +680,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP42501003164947",
+      "id_produto": "11207",
+      "nome": "TAMPA TRASEIRA ESQUERDA FIAT DUCATO MINIBUS 2.3 2015/2015",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "DUCATO MINIBUS 2.3 T.ALTO ME DIESEL",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "2"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -1174,11 +1202,11 @@
     "SP42501003164947": {
       "sku": "SP42501003164947",
       "id_produto": "11207",
-      "nome": "TAMPA TRAS ESQ",
+      "nome": "TAMPA TRASEIRA ESQUERDA FIAT DUCATO MINIBUS 2.3 2015/2015",
       "marca": "FIAT",
       "modelo_do_veiculo": "DUCATO MINIBUS 2.3 T.ALTO ME DIESEL",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "2"
@@ -1362,6 +1390,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
+    },
+    "SP12501102527034": {
+      "sku": "SP12501102527034",
+      "id_produto": "19620",
+      "nome": "PORTA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
     }
   }
 }
