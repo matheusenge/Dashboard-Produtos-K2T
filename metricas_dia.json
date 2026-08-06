@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 15:50:58",
+  "ultima_atualizacao": "06/08/2026 16:20:55",
   "total_base_dia": 43,
-  "total_atual": 44,
-  "novos_produtos": 27,
-  "total_subidos": 26,
+  "total_atual": 45,
+  "novos_produtos": 31,
+  "total_subidos": 29,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -69,6 +69,7 @@
     "SP12501089989035",
     "SP12501100834024",
     "SP12501100850026",
+    "SP12501102454012",
     "SP12501102454036",
     "SP12501102454400",
     "SP12501102470007",
@@ -82,6 +83,9 @@
     "SP12501102489020",
     "SP12501102489038",
     "SP12501102497010",
+    "SP12501102497019",
+    "SP12501102497038",
+    "SP12501102497570",
     "SP12501102527032",
     "SP12501102527034",
     "SP12501102535004",
@@ -125,6 +129,7 @@
   ],
   "skus_novos_hoje": [
     "SP12501057335045",
+    "SP12501102454012",
     "SP12501102454036",
     "SP12501102470019",
     "SP12501102470020",
@@ -134,6 +139,9 @@
     "SP12501102489020",
     "SP12501102489038",
     "SP12501102497010",
+    "SP12501102497019",
+    "SP12501102497038",
+    "SP12501102497570",
     "SP12501102527032",
     "SP12501102527034",
     "SP12501102535012",
@@ -168,8 +176,11 @@
     "SP12501103027040",
     "SP12501103027041",
     "SP12501103027042",
+    "SP12501111321045",
     "SP12501111330004",
+    "SP12501111330007",
     "SP12501111330036",
+    "SP12501111330045",
     "SP12501111330400",
     "SP12501111330411",
     "SP12501111526011",
@@ -196,8 +207,11 @@
     "SP12501103027040",
     "SP12501103027041",
     "SP12501103027042",
+    "SP12501111321045",
     "SP12501111330004",
+    "SP12501111330007",
     "SP12501111330036",
+    "SP12501111330045",
     "SP12501111330400",
     "SP12501111330411",
     "SP12501111526011",
@@ -220,6 +234,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501102454012",
+      "id_produto": "19635",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501102454036",
@@ -328,6 +354,42 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102497019",
+      "id_produto": "19636",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102497038",
+      "id_produto": "19640",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102497570",
+      "id_produto": "19641",
+      "nome": "RÁDIO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501102527032",
@@ -464,11 +526,11 @@
     {
       "sku": "SP12501111321045",
       "id_produto": "19626",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005/2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -476,11 +538,11 @@
     {
       "sku": "SP12501111330007",
       "id_produto": "19627",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -500,11 +562,11 @@
     {
       "sku": "SP12501111330045",
       "id_produto": "19628",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -716,6 +778,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501111321045",
+      "id_produto": "19626",
+      "nome": "TAMPA TRASEIRA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005/2005",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501111330004",
       "id_produto": "19597",
       "nome": "CÂMBIO MANUAL FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/05",
@@ -728,6 +802,18 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501111330007",
+      "id_produto": "19627",
+      "nome": "CAPÔ FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501111330036",
       "id_produto": "19615",
       "nome": "RADIADOR FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
@@ -738,6 +824,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501111330045",
+      "id_produto": "19628",
+      "nome": "TAMPA TRASEIRA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111330400",
@@ -1572,11 +1670,11 @@
     "SP12501111330007": {
       "sku": "SP12501111330007",
       "id_produto": "19627",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1584,11 +1682,11 @@
     "SP12501111321045": {
       "sku": "SP12501111321045",
       "id_produto": "19626",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 2005/2005",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -1596,11 +1694,11 @@
     "SP12501111330045": {
       "sku": "SP12501111330045",
       "id_produto": "19628",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1687,6 +1785,54 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501102497038": {
+      "sku": "SP12501102497038",
+      "id_produto": "19640",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    "SP12501102454012": {
+      "sku": "SP12501102454012",
+      "id_produto": "19635",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
+    },
+    "SP12501102497570": {
+      "sku": "SP12501102497570",
+      "id_produto": "19641",
+      "nome": "RÁDIO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    "SP12501102497019": {
+      "sku": "SP12501102497019",
+      "id_produto": "19636",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "10"
     }
   }
