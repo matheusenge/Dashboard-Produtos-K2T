@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 16:50:59",
+  "ultima_atualizacao": "06/08/2026 17:20:43",
   "total_base_dia": 43,
-  "total_atual": 51,
-  "novos_produtos": 41,
-  "total_subidos": 33,
+  "total_atual": 50,
+  "novos_produtos": 43,
+  "total_subidos": 36,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -100,7 +100,9 @@
     "SP12501102535400",
     "SP12501102535411",
     "SP12501102535424",
+    "SP12501102888020",
     "SP12501102888027",
+    "SP12501102888038",
     "SP12501103027040",
     "SP12501103027041",
     "SP12501103027042",
@@ -164,7 +166,9 @@
     "SP12501102535024",
     "SP12501102535411",
     "SP12501102535424",
+    "SP12501102888020",
     "SP12501102888027",
+    "SP12501102888038",
     "SP12501103167019",
     "SP12501103167020",
     "SP12501103167024",
@@ -181,8 +185,10 @@
     "SP12501111526011"
   ],
   "skus_subidos_hoje": [
+    "SP12501102454036",
     "SP12501102470019",
     "SP12501102470020",
+    "SP12501102470400",
     "SP12501102470411",
     "SP12501102489019",
     "SP12501102489020",
@@ -200,6 +206,7 @@
     "SP12501103027041",
     "SP12501103027042",
     "SP12501103167024",
+    "SP12501111313045",
     "SP12501111321045",
     "SP12501111330004",
     "SP12501111330007",
@@ -216,8 +223,10 @@
     "SP42501003164947"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501102454036",
     "SP12501102470019",
     "SP12501102470020",
+    "SP12501102470400",
     "SP12501102470411",
     "SP12501102489019",
     "SP12501102489020",
@@ -235,6 +244,7 @@
     "SP12501103027041",
     "SP12501103027042",
     "SP12501103167024",
+    "SP12501111313045",
     "SP12501111321045",
     "SP12501111330004",
     "SP12501111330007",
@@ -278,11 +288,11 @@
     {
       "sku": "SP12501102454036",
       "id_produto": "19629",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -314,11 +324,11 @@
     {
       "sku": "SP12501102470400",
       "id_produto": "19630",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -330,7 +340,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -564,6 +574,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501102888020",
+      "id_produto": "19658",
+      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102888027",
       "id_produto": "19643",
       "nome": "PAINEL DE INSTRUMENTOS",
@@ -574,6 +596,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102888038",
+      "id_produto": "19660",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501103167019",
@@ -650,11 +684,11 @@
     {
       "sku": "SP12501111313045",
       "id_produto": "19625",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
@@ -746,6 +780,18 @@
   ],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501102454036",
+      "id_produto": "19629",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501102470019",
       "id_produto": "19605",
       "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 FLEX 2021",
@@ -770,13 +816,25 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501102470400",
+      "id_produto": "19630",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102470411",
       "id_produto": "19631",
       "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -967,6 +1025,18 @@
       "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 FLEX AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111313045",
+      "id_produto": "19625",
+      "nome": "TAMPA TRASEIRA HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
       "status_ml": "active",
       "quantidade": "1",
@@ -1854,11 +1924,11 @@
     "SP12501111313045": {
       "sku": "SP12501111313045",
       "id_produto": "19625",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
@@ -1914,11 +1984,11 @@
     "SP12501102454036": {
       "sku": "SP12501102454036",
       "id_produto": "19629",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -1954,7 +2024,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -1974,11 +2044,11 @@
     "SP12501102470400": {
       "sku": "SP12501102470400",
       "id_produto": "19630",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -2150,6 +2220,30 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
+    },
+    "SP12501102888020": {
+      "sku": "SP12501102888020",
+      "id_produto": "19658",
+      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501102888038": {
+      "sku": "SP12501102888038",
+      "id_produto": "19660",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   }
 }
