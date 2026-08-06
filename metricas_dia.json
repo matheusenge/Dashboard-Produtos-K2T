@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 09:12:13",
+  "ultima_atualizacao": "06/08/2026 09:16:32",
   "total_base_dia": 43,
-  "total_atual": 40,
+  "total_atual": 39,
   "novos_produtos": 1,
-  "total_subidos": 4,
+  "total_subidos": 5,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -103,12 +103,14 @@
   "skus_subidos_hoje": [
     "SP12501102535400",
     "SP12501111330400",
+    "SP12501116706041",
     "SP12501116706042",
     "SP12501117354004"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501102535400",
     "SP12501111330400",
+    "SP12501116706041",
     "SP12501116706042",
     "SP12501117354004"
   ],
@@ -150,6 +152,18 @@
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501116706041",
+      "id_produto": "19599",
+      "nome": "RODA LIGA LEVE ARO 16 5 FUROS KIA SPORTAGE",
+      "marca": "KIA",
+      "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501116706042",
@@ -672,11 +686,11 @@
     "SP12501116706041": {
       "sku": "SP12501116706041",
       "id_produto": "19599",
-      "nome": "RODA TRASEIRA DIREITA",
+      "nome": "RODA LIGA LEVE ARO 16 5 FUROS KIA SPORTAGE",
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
