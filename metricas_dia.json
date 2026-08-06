@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 09:20:58",
+  "ultima_atualizacao": "06/08/2026 09:42:15",
   "total_base_dia": 43,
-  "total_atual": 39,
-  "novos_produtos": 2,
-  "total_subidos": 6,
+  "total_atual": 38,
+  "novos_produtos": 3,
+  "total_subidos": 8,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -71,6 +71,7 @@
     "SP12501100850026",
     "SP12501102454400",
     "SP12501102470007",
+    "SP12501102470019",
     "SP12501102470030",
     "SP12501102489004",
     "SP12501102535004",
@@ -100,10 +101,13 @@
   ],
   "skus_novos_hoje": [
     "SP12501057335045",
+    "SP12501102470019",
     "SP12501102535020"
   ],
   "skus_subidos_hoje": [
     "SP12501102535400",
+    "SP12501103027042",
+    "SP12501111330004",
     "SP12501111330400",
     "SP12501116706040",
     "SP12501116706041",
@@ -112,6 +116,8 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501102535400",
+    "SP12501103027042",
+    "SP12501111330004",
     "SP12501111330400",
     "SP12501116706040",
     "SP12501116706041",
@@ -132,11 +138,23 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501102470019",
+      "id_produto": "19605",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
       "sku": "SP12501102535020",
       "id_produto": "19606",
       "nome": "LANTERNA TRASEIRA ESQUERDA",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -158,6 +176,30 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501103027042",
+      "id_produto": "19596",
+      "nome": "RODA LIGA LEVE ARO 15 4 FUROS VOLKSWAGEN PARATI",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "PARATI 1.8 MI",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111330004",
+      "id_produto": "19597",
+      "nome": "CÂMBIO MANUAL FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/05",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501111330400",
       "id_produto": "19590",
       "nome": "MOTOR COMPLETO FORD FIESTA PERSONNALITÉ 1.0 8V 2005",
@@ -176,7 +218,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -234,11 +276,11 @@
     "SP12501103027042": {
       "sku": "SP12501103027042",
       "id_produto": "19596",
-      "nome": "RODA TRASEIRA ESQUERDA",
+      "nome": "RODA LIGA LEVE ARO 15 4 FUROS VOLKSWAGEN PARATI",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "PARATI 1.8 MI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -258,11 +300,11 @@
     "SP12501111330004": {
       "sku": "SP12501111330004",
       "id_produto": "19597",
-      "nome": "CÂMBIO MANUAL",
+      "nome": "CÂMBIO MANUAL FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2005/05",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -322,7 +364,7 @@
       "marca": "KIA",
       "modelo_do_veiculo": "SPORTAGE EX 2.0 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -752,7 +794,19 @@
       "id_produto": "19606",
       "nome": "LANTERNA TRASEIRA ESQUERDA",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    "SP12501102470019": {
+      "sku": "SP12501102470019",
+      "id_produto": "19605",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
