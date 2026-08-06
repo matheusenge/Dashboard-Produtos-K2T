@@ -1,10 +1,10 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 14:20:57",
+  "ultima_atualizacao": "06/08/2026 14:50:55",
   "total_base_dia": 43,
-  "total_atual": 34,
-  "novos_produtos": 17,
+  "total_atual": 38,
+  "novos_produtos": 21,
   "total_subidos": 26,
   "skus_base_dia": [
     "SP12501009648039",
@@ -78,6 +78,7 @@
     "SP12501102489019",
     "SP12501102489020",
     "SP12501102489038",
+    "SP12501102527032",
     "SP12501102527034",
     "SP12501102535004",
     "SP12501102535012",
@@ -94,8 +95,11 @@
     "SP12501111313045",
     "SP12501111321004",
     "SP12501111321026",
+    "SP12501111321045",
     "SP12501111330004",
+    "SP12501111330007",
     "SP12501111330036",
+    "SP12501111330045",
     "SP12501111330400",
     "SP12501111330411",
     "SP12501111518004",
@@ -120,6 +124,7 @@
     "SP12501102489019",
     "SP12501102489020",
     "SP12501102489038",
+    "SP12501102527032",
     "SP12501102527034",
     "SP12501102535012",
     "SP12501102535019",
@@ -128,7 +133,10 @@
     "SP12501102535424",
     "SP12501105631026",
     "SP12501111313045",
+    "SP12501111321045",
+    "SP12501111330007",
     "SP12501111330036",
+    "SP12501111330045",
     "SP12501111330411",
     "SP12501111526011"
   ],
@@ -262,6 +270,18 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501102527032",
+      "id_produto": "19621",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102527034",
       "id_produto": "19620",
       "nome": "PORTA TRASEIRA DIREITA",
@@ -350,11 +370,35 @@
       "id_produto": "19625",
       "nome": "TAMPA TRASEIRA",
       "marca": "HONDA",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "05",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111321045",
+      "id_produto": "19626",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111330007",
+      "id_produto": "19627",
+      "nome": "CAPÔ",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "7"
     },
     {
@@ -368,6 +412,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501111330045",
+      "id_produto": "19628",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501111330411",
@@ -1422,12 +1478,60 @@
       "id_produto": "19625",
       "nome": "TAMPA TRASEIRA",
       "marca": "HONDA",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
+    },
+    "SP12501111330007": {
+      "sku": "SP12501111330007",
+      "id_produto": "19627",
+      "nome": "CAPÔ",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501111321045": {
+      "sku": "SP12501111321045",
+      "id_produto": "19626",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 FLEXPOWER",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    "SP12501111330045": {
+      "sku": "SP12501111330045",
+      "id_produto": "19628",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501102527032": {
+      "sku": "SP12501102527032",
+      "id_produto": "19621",
+      "nome": "PORTA DIANTEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
     }
   }
 }
