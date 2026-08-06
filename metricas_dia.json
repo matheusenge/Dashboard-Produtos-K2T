@@ -1,11 +1,11 @@
 {
   "data": "2026-08-06",
   "primeira_atualizacao": "06/08/2026 08:12:24",
-  "ultima_atualizacao": "06/08/2026 09:50:53",
+  "ultima_atualizacao": "06/08/2026 10:12:15",
   "total_base_dia": 43,
-  "total_atual": 38,
+  "total_atual": 37,
   "novos_produtos": 3,
-  "total_subidos": 8,
+  "total_subidos": 9,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -106,6 +106,7 @@
   ],
   "skus_subidos_hoje": [
     "SP12501102535400",
+    "SP12501103027041",
     "SP12501103027042",
     "SP12501111330004",
     "SP12501111330400",
@@ -116,6 +117,7 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501102535400",
+    "SP12501103027041",
     "SP12501103027042",
     "SP12501111330004",
     "SP12501111330400",
@@ -174,6 +176,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501103027041",
+      "id_produto": "19595",
+      "nome": "RODA LIGA LEVE ARO 15 4 FUROS VOLKSWAGEN PARATI",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "PARATI 1.8 MI",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501103027042",
@@ -408,11 +422,11 @@
     "SP12501103027041": {
       "sku": "SP12501103027041",
       "id_produto": "19595",
-      "nome": "RODA TRASEIRA DIREITA",
+      "nome": "RODA LIGA LEVE ARO 15 4 FUROS VOLKSWAGEN PARATI",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "PARATI 1.8 MI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
