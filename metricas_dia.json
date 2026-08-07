@@ -1,11 +1,11 @@
 {
   "data": "2026-08-07",
   "primeira_atualizacao": "07/08/2026 08:21:16",
-  "ultima_atualizacao": "07/08/2026 16:20:46",
+  "ultima_atualizacao": "07/08/2026 16:50:48",
   "total_base_dia": 52,
-  "total_atual": 54,
-  "novos_produtos": 32,
-  "total_subidos": 29,
+  "total_atual": 56,
+  "novos_produtos": 36,
+  "total_subidos": 31,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -88,7 +88,10 @@
     "SP12501089989035",
     "SP12501100834024",
     "SP12501100842001",
+    "SP12501100842010",
+    "SP12501100842011",
     "SP12501100842026",
+    "SP12501100842027",
     "SP12501100842570",
     "SP12501100850014",
     "SP12501100850026",
@@ -116,6 +119,7 @@
     "SP12501102527020",
     "SP12501102527024",
     "SP12501102527038",
+    "SP12501102527570",
     "SP12501102535011",
     "SP12501102535026",
     "SP12501102888001",
@@ -158,7 +162,10 @@
     "SP12501054352019",
     "SP12501084146033",
     "SP12501100842001",
+    "SP12501100842010",
+    "SP12501100842011",
     "SP12501100842026",
+    "SP12501100842027",
     "SP12501100842570",
     "SP12501102470038",
     "SP12501102500010",
@@ -172,6 +179,7 @@
     "SP12501102527019",
     "SP12501102527020",
     "SP12501102527024",
+    "SP12501102527570",
     "SP12501102888001",
     "SP12501102888026",
     "SP12501109556045",
@@ -181,6 +189,8 @@
     "SP52501000340875"
   ],
   "skus_subidos_hoje": [
+    "SP12501084146033",
+    "SP12501100842001",
     "SP12501100850014",
     "SP12501100850026",
     "SP12501102454011",
@@ -212,6 +222,8 @@
     "SP12501114304045"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501084146033",
+    "SP12501100842001",
     "SP12501100850014",
     "SP12501100850026",
     "SP12501102454011",
@@ -282,10 +294,10 @@
     {
       "sku": "SP12501041749020",
       "id_produto": "11382",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA HYUNDAI IX35 GLS 2.0 16V 14/15",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
@@ -354,11 +366,11 @@
     {
       "sku": "SP12501084146033",
       "id_produto": "19670",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA NISSAN LIVINA GRAND S 1.8 12/13",
       "marca": "NISSAN",
       "modelo_do_veiculo": "LIVINA GRAND S 1.8 16V FLEX FUEL MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -366,14 +378,38 @@
     {
       "sku": "SP12501100842001",
       "id_produto": "19672",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100842010",
+      "id_produto": "19690",
+      "nome": "CHAVE DE SETA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501100842011",
+      "id_produto": "19691",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "06",
-      "qtd_images": "9"
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501100842026",
@@ -386,6 +422,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100842027",
+      "id_produto": "19692",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501100842570",
@@ -488,7 +536,7 @@
       "id_produto": "19693",
       "nome": "RÁDIO",
       "marca": "JEEP",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -542,6 +590,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501102527570",
+      "id_produto": "19694",
+      "nome": "RÁDIO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501102888001",
@@ -620,7 +680,7 @@
       "id_produto": "19695",
       "nome": "PAINEL DE INSTRUMENTOS",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "STRADA ENDURANCE 1.3 FLEX 8V CS PLUS",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -629,6 +689,30 @@
     }
   ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501084146033",
+      "id_produto": "19670",
+      "nome": "PORTA DIANTEIRA ESQUERDA NISSAN LIVINA GRAND S 1.8 12/13",
+      "marca": "NISSAN",
+      "modelo_do_veiculo": "LIVINA GRAND S 1.8 16V FLEX FUEL MEC.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501100842001",
+      "id_produto": "19672",
+      "nome": "ALTERNADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
     {
       "sku": "SP12501100850014",
       "id_produto": "19662",
@@ -1678,10 +1762,10 @@
     "SP12501041749020": {
       "sku": "SP12501041749020",
       "id_produto": "11382",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA HYUNDAI IX35 GLS 2.0 16V 14/15",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
@@ -1726,11 +1810,11 @@
     "SP12501084146033": {
       "sku": "SP12501084146033",
       "id_produto": "19670",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA NISSAN LIVINA GRAND S 1.8 12/13",
       "marca": "NISSAN",
       "modelo_do_veiculo": "LIVINA GRAND S 1.8 16V FLEX FUEL MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
@@ -1798,11 +1882,11 @@
     "SP12501100842001": {
       "sku": "SP12501100842001",
       "id_produto": "19672",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
@@ -1968,7 +2052,7 @@
       "id_produto": "19693",
       "nome": "RÁDIO",
       "marca": "JEEP",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -1980,11 +2064,59 @@
       "id_produto": "19695",
       "nome": "PAINEL DE INSTRUMENTOS",
       "marca": "FIAT",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "STRADA ENDURANCE 1.3 FLEX 8V CS PLUS",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "5"
+    },
+    "SP12501100842011": {
+      "sku": "SP12501100842011",
+      "id_produto": "19691",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    "SP12501100842027": {
+      "sku": "SP12501100842027",
+      "id_produto": "19692",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    "SP12501100842010": {
+      "sku": "SP12501100842010",
+      "id_produto": "19690",
+      "nome": "CHAVE DE SETA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
+    },
+    "SP12501102527570": {
+      "sku": "SP12501102527570",
+      "id_produto": "19694",
+      "nome": "RÁDIO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "5"
     }
   }
