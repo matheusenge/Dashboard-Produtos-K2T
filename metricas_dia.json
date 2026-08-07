@@ -1,11 +1,11 @@
 {
   "data": "2026-08-07",
   "primeira_atualizacao": "07/08/2026 08:21:16",
-  "ultima_atualizacao": "07/08/2026 08:50:56",
+  "ultima_atualizacao": "07/08/2026 09:21:11",
   "total_base_dia": 52,
-  "total_atual": 47,
-  "novos_produtos": 0,
-  "total_subidos": 5,
+  "total_atual": 43,
+  "novos_produtos": 3,
+  "total_subidos": 12,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -85,6 +85,7 @@
     "SP12501102470007",
     "SP12501102470026",
     "SP12501102470030",
+    "SP12501102470038",
     "SP12501102489004",
     "SP12501102497019",
     "SP12501102497020",
@@ -104,9 +105,11 @@
     "SP12501103167038",
     "SP12501105631026",
     "SP12501108088045",
+    "SP12501109556045",
     "SP12501111321004",
     "SP12501111321026",
     "SP12501111330026",
+    "SP12501114304045",
     "SP12501116765039",
     "SP12501116765040",
     "SP12501116765041",
@@ -114,22 +117,77 @@
     "SP12501116765043",
     "SP42501001064042"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501102470038",
+    "SP12501109556045",
+    "SP12501114304045"
+  ],
   "skus_subidos_hoje": [
     "SP12501100850014",
+    "SP12501102454011",
+    "SP12501102470001",
     "SP12501102470004",
+    "SP12501102470026",
+    "SP12501102527038",
+    "SP12501102535011",
+    "SP12501102535026",
+    "SP12501102888019",
     "SP12501102888020",
     "SP12501102888024",
     "SP12501102888038"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501100850014",
+    "SP12501102454011",
+    "SP12501102470001",
     "SP12501102470004",
+    "SP12501102470026",
+    "SP12501102527038",
+    "SP12501102535011",
+    "SP12501102535026",
+    "SP12501102888019",
     "SP12501102888020",
     "SP12501102888024",
     "SP12501102888038"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501102470038",
+      "id_produto": "19608",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501109556045",
+      "id_produto": "19664",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MONTANA LTZ 1.2 TURBO FLEX 12V 4P AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501114304045",
+      "id_produto": "19665",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "JETTA HIGHLINE 2.0 TSI 16V 4P TIPTRONIC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501100850014",
@@ -137,6 +195,30 @@
       "nome": "DIFERENCIAL EIXO TRASEIRO CHEVROLET S10 CABINE DUPLA 2.4 13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102454011",
+      "id_produto": "19649",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102470001",
+      "id_produto": "19651",
+      "nome": "ALTERNADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
       "status_ml": "active",
       "quantidade": "1",
@@ -153,6 +235,66 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102470026",
+      "id_produto": "19652",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102527038",
+      "id_produto": "19654",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102535011",
+      "id_produto": "19655",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 FLEX 22",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102535026",
+      "id_produto": "19656",
+      "nome": "MOTOR DE PARTIDA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102888019",
+      "id_produto": "19657",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
       "qtd_images": "10"
     },
     {
@@ -208,11 +350,11 @@
     "SP12501102535026": {
       "sku": "SP12501102535026",
       "id_produto": "19656",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -256,11 +398,11 @@
     "SP12501102454011": {
       "sku": "SP12501102454011",
       "id_produto": "19649",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "9"
@@ -496,11 +638,11 @@
     "SP12501102470001": {
       "sku": "SP12501102470001",
       "id_produto": "19651",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -592,11 +734,11 @@
     "SP12501102888019": {
       "sku": "SP12501102888019",
       "id_produto": "19657",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -628,11 +770,11 @@
     "SP12501102527038": {
       "sku": "SP12501102527038",
       "id_produto": "19654",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -640,11 +782,11 @@
     "SP12501102470026": {
       "sku": "SP12501102470026",
       "id_produto": "19652",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -652,11 +794,11 @@
     "SP12501102535011": {
       "sku": "SP12501102535011",
       "id_produto": "19655",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 FLEX 22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -816,6 +958,42 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "4"
+    },
+    "SP12501109556045": {
+      "sku": "SP12501109556045",
+      "id_produto": "19664",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MONTANA LTZ 1.2 TURBO FLEX 12V 4P AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "8"
+    },
+    "SP12501102470038": {
+      "sku": "SP12501102470038",
+      "id_produto": "19608",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "8"
+    },
+    "SP12501114304045": {
+      "sku": "SP12501114304045",
+      "id_produto": "19665",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "JETTA HIGHLINE 2.0 TSI 16V 4P TIPTRONIC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "8"
     }
   }
 }
