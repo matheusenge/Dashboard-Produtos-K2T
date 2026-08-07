@@ -1,10 +1,10 @@
 {
   "data": "2026-08-07",
   "primeira_atualizacao": "07/08/2026 08:21:16",
-  "ultima_atualizacao": "07/08/2026 14:50:42",
+  "ultima_atualizacao": "07/08/2026 15:20:46",
   "total_base_dia": 52,
-  "total_atual": 33,
-  "novos_produtos": 11,
+  "total_atual": 39,
+  "novos_produtos": 17,
   "total_subidos": 29,
   "skus_base_dia": [
     "SP12501009648039",
@@ -73,6 +73,8 @@
     "SP12501041749040",
     "SP12501041749041",
     "SP12501042273041",
+    "SP12501054352011",
+    "SP12501054352019",
     "SP12501057114045",
     "SP12501057335045",
     "SP12501057530045",
@@ -85,6 +87,7 @@
     "SP12501089229040",
     "SP12501089989035",
     "SP12501100834024",
+    "SP12501100842001",
     "SP12501100850014",
     "SP12501100850026",
     "SP12501102454011",
@@ -99,12 +102,14 @@
     "SP12501102497020",
     "SP12501102497038",
     "SP12501102497570",
+    "SP12501102500024",
     "SP12501102527038",
     "SP12501102535011",
     "SP12501102535026",
     "SP12501102888019",
     "SP12501102888020",
     "SP12501102888024",
+    "SP12501102888026",
     "SP12501102888027",
     "SP12501102888038",
     "SP12501103167019",
@@ -114,6 +119,7 @@
     "SP12501105631026",
     "SP12501108088045",
     "SP12501109556045",
+    "SP12501111313001",
     "SP12501111321004",
     "SP12501111321026",
     "SP12501111330026",
@@ -133,9 +139,15 @@
     "SP12501041749039",
     "SP12501041749040",
     "SP12501041749041",
+    "SP12501054352011",
+    "SP12501054352019",
     "SP12501084146033",
+    "SP12501100842001",
     "SP12501102470038",
+    "SP12501102500024",
+    "SP12501102888026",
     "SP12501109556045",
+    "SP12501111313001",
     "SP12501114304045"
   ],
   "skus_subidos_hoje": [
@@ -286,6 +298,30 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501054352011",
+      "id_produto": "9874",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "24"
+    },
+    {
+      "sku": "SP12501054352019",
+      "id_produto": "10075",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
       "sku": "SP12501084146033",
       "id_produto": "19670",
       "nome": "PORTA DIANTEIRA ESQUERDA",
@@ -296,6 +332,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501100842001",
+      "id_produto": "19672",
+      "nome": "ALTERNADOR",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501102470038",
@@ -310,6 +358,30 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501102500024",
+      "id_produto": "19678",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102888026",
+      "id_produto": "19687",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501109556045",
       "id_produto": "19664",
       "nome": "TAMPA TRASEIRA CHEVROLET MONTANA LTZ 1.2 TURBO FLEX 2023/24",
@@ -320,6 +392,18 @@
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501111313001",
+      "id_produto": "19688",
+      "nome": "ALTERNADOR",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501114304045",
@@ -1440,6 +1524,78 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "8"
+    },
+    "SP12501054352019": {
+      "sku": "SP12501054352019",
+      "id_produto": "10075",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    "SP12501054352011": {
+      "sku": "SP12501054352011",
+      "id_produto": "9874",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "24"
+    },
+    "SP12501102500024": {
+      "sku": "SP12501102500024",
+      "id_produto": "19678",
+      "nome": "MÓDULO DE INJEÇÃO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    },
+    "SP12501102888026": {
+      "sku": "SP12501102888026",
+      "id_produto": "19687",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
+    "SP12501111313001": {
+      "sku": "SP12501111313001",
+      "id_produto": "19688",
+      "nome": "ALTERNADOR",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    "SP12501100842001": {
+      "sku": "SP12501100842001",
+      "id_produto": "19672",
+      "nome": "ALTERNADOR",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
     }
   }
 }
