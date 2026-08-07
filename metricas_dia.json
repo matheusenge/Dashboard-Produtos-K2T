@@ -1,11 +1,11 @@
 {
   "data": "2026-08-07",
   "primeira_atualizacao": "07/08/2026 08:21:16",
-  "ultima_atualizacao": "07/08/2026 16:50:48",
+  "ultima_atualizacao": "07/08/2026 17:20:46",
   "total_base_dia": 52,
-  "total_atual": 56,
-  "novos_produtos": 36,
-  "total_subidos": 31,
+  "total_atual": 52,
+  "novos_produtos": 39,
+  "total_subidos": 38,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -112,8 +112,10 @@
     "SP12501102500020",
     "SP12501102500024",
     "SP12501102500027",
+    "SP12501102500034",
     "SP12501102500038",
     "SP12501102500570",
+    "SP12501102519007",
     "SP12501102527010",
     "SP12501102527019",
     "SP12501102527020",
@@ -138,6 +140,7 @@
     "SP12501109556045",
     "SP12501111313001",
     "SP12501111313026",
+    "SP12501111313400",
     "SP12501111321004",
     "SP12501111321026",
     "SP12501111330026",
@@ -173,8 +176,10 @@
     "SP12501102500020",
     "SP12501102500024",
     "SP12501102500027",
+    "SP12501102500034",
     "SP12501102500038",
     "SP12501102500570",
+    "SP12501102519007",
     "SP12501102527010",
     "SP12501102527019",
     "SP12501102527020",
@@ -185,12 +190,15 @@
     "SP12501109556045",
     "SP12501111313001",
     "SP12501111313026",
+    "SP12501111313400",
     "SP12501114304045",
     "SP52501000340875"
   ],
   "skus_subidos_hoje": [
     "SP12501084146033",
     "SP12501100842001",
+    "SP12501100842026",
+    "SP12501100842570",
     "SP12501100850014",
     "SP12501100850026",
     "SP12501102454011",
@@ -203,6 +211,11 @@
     "SP12501102497020",
     "SP12501102497038",
     "SP12501102497570",
+    "SP12501102500010",
+    "SP12501102500019",
+    "SP12501102500020",
+    "SP12501102500024",
+    "SP12501102500027",
     "SP12501102527038",
     "SP12501102535011",
     "SP12501102535026",
@@ -224,6 +237,8 @@
   "skus_subidos_status_ml_hoje": [
     "SP12501084146033",
     "SP12501100842001",
+    "SP12501100842026",
+    "SP12501100842570",
     "SP12501100850014",
     "SP12501100850026",
     "SP12501102454011",
@@ -236,6 +251,11 @@
     "SP12501102497020",
     "SP12501102497038",
     "SP12501102497570",
+    "SP12501102500010",
+    "SP12501102500019",
+    "SP12501102500020",
+    "SP12501102500024",
+    "SP12501102500027",
     "SP12501102527038",
     "SP12501102535011",
     "SP12501102535026",
@@ -414,11 +434,11 @@
     {
       "sku": "SP12501100842026",
       "id_produto": "19673",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -438,11 +458,11 @@
     {
       "sku": "SP12501100842570",
       "id_produto": "19674",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -462,11 +482,11 @@
     {
       "sku": "SP12501102500010",
       "id_produto": "19675",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -474,11 +494,11 @@
     {
       "sku": "SP12501102500019",
       "id_produto": "19676",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -486,11 +506,11 @@
     {
       "sku": "SP12501102500020",
       "id_produto": "19677",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -498,11 +518,11 @@
     {
       "sku": "SP12501102500024",
       "id_produto": "19678",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 16V 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -510,14 +530,26 @@
     {
       "sku": "SP12501102500027",
       "id_produto": "19679",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 4X2 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102500034",
+      "id_produto": "19702",
+      "nome": "PORTA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501102500038",
@@ -542,6 +574,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102519007",
+      "id_produto": "19703",
+      "nome": "CAPÔ",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501102527010",
@@ -664,6 +708,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501111313400",
+      "id_produto": "19706",
+      "nome": "MOTOR COMPLETO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501114304045",
       "id_produto": "19665",
       "nome": "TAMPA TRASEIRA VOLKSWAGEN JETTA HIGHLINE 2.0 16V 2012/2013",
@@ -712,6 +768,30 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100842026",
+      "id_produto": "19673",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100842570",
+      "id_produto": "19674",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501100850014",
@@ -856,6 +936,66 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102500010",
+      "id_produto": "19675",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102500019",
+      "id_produto": "19676",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102500020",
+      "id_produto": "19677",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102500024",
+      "id_produto": "19678",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 16V 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102500027",
+      "id_produto": "19679",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 4X2 2021/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501102527038",
@@ -1846,11 +1986,11 @@
     "SP12501102500024": {
       "sku": "SP12501102500024",
       "id_produto": "19678",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 16V 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -1918,11 +2058,11 @@
     "SP12501102500020": {
       "sku": "SP12501102500020",
       "id_produto": "19677",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1966,11 +2106,11 @@
     "SP12501100842026": {
       "sku": "SP12501100842026",
       "id_produto": "19673",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1990,11 +2130,11 @@
     "SP12501100842570": {
       "sku": "SP12501100842570",
       "id_produto": "19674",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -2014,11 +2154,11 @@
     "SP12501102500019": {
       "sku": "SP12501102500019",
       "id_produto": "19676",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -2026,11 +2166,11 @@
     "SP12501102500027": {
       "sku": "SP12501102500027",
       "id_produto": "19679",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 4X2 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -2038,11 +2178,11 @@
     "SP12501102500010": {
       "sku": "SP12501102500010",
       "id_produto": "19675",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -2118,6 +2258,42 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    "SP12501111313400": {
+      "sku": "SP12501111313400",
+      "id_produto": "19706",
+      "nome": "MOTOR COMPLETO",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    "SP12501102500034": {
+      "sku": "SP12501102500034",
+      "id_produto": "19702",
+      "nome": "PORTA TRASEIRA DIREITA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501102519007": {
+      "sku": "SP12501102519007",
+      "id_produto": "19703",
+      "nome": "CAPÔ",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   }
 }
