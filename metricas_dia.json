@@ -1,11 +1,11 @@
 {
   "data": "2026-08-07",
   "primeira_atualizacao": "07/08/2026 08:21:16",
-  "ultima_atualizacao": "07/08/2026 08:21:16",
+  "ultima_atualizacao": "07/08/2026 08:50:56",
   "total_base_dia": 52,
-  "total_atual": 52,
+  "total_atual": 47,
   "novos_produtos": 0,
-  "total_subidos": 0,
+  "total_subidos": 5,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -115,10 +115,83 @@
     "SP42501001064042"
   ],
   "skus_novos_hoje": [],
-  "skus_subidos_hoje": [],
-  "skus_subidos_status_ml_hoje": [],
+  "skus_subidos_hoje": [
+    "SP12501100850014",
+    "SP12501102470004",
+    "SP12501102888020",
+    "SP12501102888024",
+    "SP12501102888038"
+  ],
+  "skus_subidos_status_ml_hoje": [
+    "SP12501100850014",
+    "SP12501102470004",
+    "SP12501102888020",
+    "SP12501102888024",
+    "SP12501102888038"
+  ],
   "itens_novos_hoje": [],
-  "itens_subidos_hoje": [],
+  "itens_subidos_hoje": [
+    {
+      "sku": "SP12501100850014",
+      "id_produto": "19662",
+      "nome": "DIFERENCIAL EIXO TRASEIRO CHEVROLET S10 CABINE DUPLA 2.4 13",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102470004",
+      "id_produto": "19663",
+      "nome": "CÂMBIO AUTOMATICO JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102888020",
+      "id_produto": "19658",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102888024",
+      "id_produto": "19659",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102888038",
+      "id_produto": "19660",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    }
+  ],
   "detalhes_skus_vistos_hoje": {
     "SP12501116765043": {
       "sku": "SP12501116765043",
@@ -303,11 +376,11 @@
     "SP12501102888038": {
       "sku": "SP12501102888038",
       "id_produto": "19660",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -435,11 +508,11 @@
     "SP12501102888024": {
       "sku": "SP12501102888024",
       "id_produto": "19659",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -543,11 +616,11 @@
     "SP12501102470004": {
       "sku": "SP12501102470004",
       "id_produto": "19663",
-      "nome": "CÂMBIO AUTOMATICO",
+      "nome": "CÂMBIO AUTOMATICO JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -627,11 +700,11 @@
     "SP12501102888020": {
       "sku": "SP12501102888020",
       "id_produto": "19658",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -651,11 +724,11 @@
     "SP12501100850014": {
       "sku": "SP12501100850014",
       "id_produto": "19662",
-      "nome": "DIFERENCIAL EIXO TRASEIRO",
+      "nome": "DIFERENCIAL EIXO TRASEIRO CHEVROLET S10 CABINE DUPLA 2.4 13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
