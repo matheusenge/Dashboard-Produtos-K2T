@@ -1,10 +1,10 @@
 {
   "data": "2026-08-07",
   "primeira_atualizacao": "07/08/2026 08:21:16",
-  "ultima_atualizacao": "07/08/2026 15:50:50",
+  "ultima_atualizacao": "07/08/2026 16:20:46",
   "total_base_dia": 52,
-  "total_atual": 52,
-  "novos_produtos": 30,
+  "total_atual": 54,
+  "novos_produtos": 32,
   "total_subidos": 29,
   "skus_base_dia": [
     "SP12501009648039",
@@ -110,6 +110,7 @@
     "SP12501102500024",
     "SP12501102500027",
     "SP12501102500038",
+    "SP12501102500570",
     "SP12501102527010",
     "SP12501102527019",
     "SP12501102527020",
@@ -142,7 +143,8 @@
     "SP12501116765041",
     "SP12501116765042",
     "SP12501116765043",
-    "SP42501001064042"
+    "SP42501001064042",
+    "SP52501000340875"
   ],
   "skus_novos_hoje": [
     "SP12501041749010",
@@ -165,6 +167,7 @@
     "SP12501102500024",
     "SP12501102500027",
     "SP12501102500038",
+    "SP12501102500570",
     "SP12501102527010",
     "SP12501102527019",
     "SP12501102527020",
@@ -174,7 +177,8 @@
     "SP12501109556045",
     "SP12501111313001",
     "SP12501111313026",
-    "SP12501114304045"
+    "SP12501114304045",
+    "SP52501000340875"
   ],
   "skus_subidos_hoje": [
     "SP12501100850014",
@@ -480,6 +484,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501102500570",
+      "id_produto": "19693",
+      "nome": "RÁDIO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501102527010",
       "id_produto": "19681",
       "nome": "CHAVE DE SETA",
@@ -598,6 +614,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP52501000340875",
+      "id_produto": "19695",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "5"
     }
   ],
   "itens_subidos_hoje": [
@@ -1933,6 +1961,30 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "5"
+    },
+    "SP12501102500570": {
+      "sku": "SP12501102500570",
+      "id_produto": "19693",
+      "nome": "RÁDIO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    "SP52501000340875": {
+      "sku": "SP52501000340875",
+      "id_produto": "19695",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
       "qtd_images": "5"
     }
   }
