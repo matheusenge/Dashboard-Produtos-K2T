@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 15:44:45",
+  "ultima_atualizacao": "10/08/2026 15:50:58",
   "total_base_dia": 55,
-  "total_atual": 83,
+  "total_atual": 82,
   "novos_produtos": 71,
-  "total_subidos": 43,
+  "total_subidos": 44,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -280,6 +280,7 @@
     "SP12501102462031",
     "SP12501102462032",
     "SP12501102462570",
+    "SP12501102497012",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
@@ -325,6 +326,7 @@
     "SP12501102462031",
     "SP12501102462032",
     "SP12501102462570",
+    "SP12501102497012",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
@@ -622,11 +624,11 @@
     {
       "sku": "SP12501102497012",
       "id_produto": "19756",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE 1.8 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -926,7 +928,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -1390,6 +1392,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501102497012",
+      "id_produto": "19756",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE 1.8 2021/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501102500032",
       "id_produto": "19700",
       "nome": "PORTA DIANTEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 AUT. 21",
@@ -1528,7 +1542,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -2918,11 +2932,11 @@
     "SP12501102497012": {
       "sku": "SP12501102497012",
       "id_produto": "19756",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE 1.8 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -2934,7 +2948,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
