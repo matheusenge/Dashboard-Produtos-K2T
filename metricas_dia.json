@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 10:44:29",
+  "ultima_atualizacao": "10/08/2026 10:50:44",
   "total_base_dia": 55,
-  "total_atual": 49,
+  "total_atual": 48,
   "novos_produtos": 14,
-  "total_subidos": 20,
+  "total_subidos": 21,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -166,6 +166,7 @@
     "SP12501102519007",
     "SP12501102519035",
     "SP12501102527570",
+    "SP12501111313001",
     "SP12501111313004",
     "SP12501111313026",
     "SP12501111313400",
@@ -188,6 +189,7 @@
     "SP12501102519007",
     "SP12501102519035",
     "SP12501102527570",
+    "SP12501111313001",
     "SP12501111313004",
     "SP12501111313026",
     "SP12501111313400",
@@ -546,6 +548,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501111313001",
+      "id_produto": "19688",
+      "nome": "ALTERNADOR HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
       "sku": "SP12501111313004",
       "id_produto": "19705",
       "nome": "CÂMBIO MANUAL HONDA FIT LX 1.4 MEC 2003/2004",
@@ -778,11 +792,11 @@
     "SP12501111313001": {
       "sku": "SP12501111313001",
       "id_produto": "19688",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
