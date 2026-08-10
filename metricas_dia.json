@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 15:50:58",
+  "ultima_atualizacao": "10/08/2026 16:14:41",
   "total_base_dia": 55,
-  "total_atual": 82,
+  "total_atual": 78,
   "novos_produtos": 71,
-  "total_subidos": 44,
+  "total_subidos": 48,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -275,6 +275,7 @@
     "SP12501100842038",
     "SP12501100842400",
     "SP12501100850029",
+    "SP12501102462012",
     "SP12501102462024",
     "SP12501102462027",
     "SP12501102462031",
@@ -292,6 +293,7 @@
     "SP12501102519034",
     "SP12501102519035",
     "SP12501102519049",
+    "SP12501102527011",
     "SP12501102527012",
     "SP12501102527026",
     "SP12501102527411",
@@ -300,6 +302,8 @@
     "SP12501102535029",
     "SP12501102888012",
     "SP12501102888488",
+    "SP12501103167012",
+    "SP12501103167026",
     "SP12501103167034",
     "SP12501111313001",
     "SP12501111313004",
@@ -321,6 +325,7 @@
     "SP12501100842038",
     "SP12501100842400",
     "SP12501100850029",
+    "SP12501102462012",
     "SP12501102462024",
     "SP12501102462027",
     "SP12501102462031",
@@ -338,6 +343,7 @@
     "SP12501102519034",
     "SP12501102519035",
     "SP12501102519049",
+    "SP12501102527011",
     "SP12501102527012",
     "SP12501102527026",
     "SP12501102527411",
@@ -346,6 +352,8 @@
     "SP12501102535029",
     "SP12501102888012",
     "SP12501102888488",
+    "SP12501103167012",
+    "SP12501103167026",
     "SP12501103167034",
     "SP12501111313001",
     "SP12501111313004",
@@ -456,11 +464,11 @@
     {
       "sku": "SP12501102462012",
       "id_produto": "19755",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE 21/21 1.8",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -912,11 +920,11 @@
     {
       "sku": "SP12501102527011",
       "id_produto": "19750",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 FLEX",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -1080,11 +1088,11 @@
     {
       "sku": "SP12501103167012",
       "id_produto": "19753",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE FLEX 1.8 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -1092,11 +1100,11 @@
     {
       "sku": "SP12501103167026",
       "id_produto": "19754",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 21/21 4X2 FLEX 16V",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -1332,6 +1340,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501102462012",
+      "id_produto": "19755",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE 21/21 1.8",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501102462024",
       "id_produto": "19730",
       "nome": "MÓDULO DE INJEÇÃO JEEP RENEGADE SPORT 1.8 4X2 FLEX 21/21",
@@ -1536,6 +1556,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501102527011",
+      "id_produto": "19750",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 FLEX",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102527012",
       "id_produto": "19757",
       "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8",
@@ -1630,6 +1662,30 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103167012",
+      "id_produto": "19753",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE FLEX 1.8 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501103167026",
+      "id_produto": "19754",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 21/21 4X2 FLEX 16V",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501103167034",
@@ -2836,11 +2892,11 @@
     "SP12501102462012": {
       "sku": "SP12501102462012",
       "id_produto": "19755",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE 21/21 1.8",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -2860,11 +2916,11 @@
     "SP12501103167012": {
       "sku": "SP12501103167012",
       "id_produto": "19753",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE FLEX 1.8 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -2908,11 +2964,11 @@
     "SP12501103167026": {
       "sku": "SP12501103167026",
       "id_produto": "19754",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 21/21 4X2 FLEX 16V",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "10"
@@ -2920,11 +2976,11 @@
     "SP12501102527011": {
       "sku": "SP12501102527011",
       "id_produto": "19750",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 FLEX",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
