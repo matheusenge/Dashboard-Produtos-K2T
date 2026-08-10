@@ -1,10 +1,10 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 11:50:41",
+  "ultima_atualizacao": "10/08/2026 12:14:28",
   "total_base_dia": 55,
-  "total_atual": 57,
-  "novos_produtos": 30,
+  "total_atual": 58,
+  "novos_produtos": 31,
   "total_subidos": 28,
   "skus_base_dia": [
     "SP12501009648039",
@@ -110,6 +110,7 @@
     "SP12501102462570",
     "SP12501102470007",
     "SP12501102470030",
+    "SP12501102497026",
     "SP12501102500030",
     "SP12501102500032",
     "SP12501102500033",
@@ -162,6 +163,7 @@
     "SP12501102462032",
     "SP12501102462038",
     "SP12501102462570",
+    "SP12501102497026",
     "SP12501102500030",
     "SP12501102500488",
     "SP12501102519024",
@@ -374,6 +376,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501102497026",
+      "id_produto": "19743",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501102500030",
@@ -1962,6 +1976,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
+    },
+    "SP12501102497026": {
+      "sku": "SP12501102497026",
+      "id_produto": "19743",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   }
 }
