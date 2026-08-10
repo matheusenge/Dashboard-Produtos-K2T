@@ -1,10 +1,10 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 14:21:06",
+  "ultima_atualizacao": "10/08/2026 14:44:43",
   "total_base_dia": 55,
-  "total_atual": 64,
-  "novos_produtos": 47,
+  "total_atual": 66,
+  "novos_produtos": 49,
   "total_subidos": 38,
   "skus_base_dia": [
     "SP12501009648039",
@@ -91,6 +91,7 @@
     "SP12501100842004",
     "SP12501100842010",
     "SP12501100842011",
+    "SP12501100842012",
     "SP12501100842019",
     "SP12501100842020",
     "SP12501100842027",
@@ -143,6 +144,7 @@
     "SP12501102527570",
     "SP12501102535029",
     "SP12501102888007",
+    "SP12501102888012",
     "SP12501102888488",
     "SP12501103167012",
     "SP12501103167026",
@@ -168,6 +170,7 @@
     "SP52501000340875"
   ],
   "skus_novos_hoje": [
+    "SP12501100842012",
     "SP12501100850029",
     "SP12501102462010",
     "SP12501102462011",
@@ -205,6 +208,7 @@
     "SP12501102527488",
     "SP12501102535029",
     "SP12501102888007",
+    "SP12501102888012",
     "SP12501102888488",
     "SP12501103167012",
     "SP12501103167026",
@@ -298,11 +302,23 @@
   ],
   "itens_novos_hoje": [
     {
+      "sku": "SP12501100842012",
+      "id_produto": "19759",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501100850029",
       "id_produto": "19760",
       "nome": "PARA-CHOQUE TRASEIRO",
       "marca": "CHEVROLET",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
@@ -740,6 +756,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102888012",
+      "id_produto": "19761",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
     },
     {
       "sku": "SP12501102888488",
@@ -2538,12 +2566,36 @@
       "id_produto": "19760",
       "nome": "PARA-CHOQUE TRASEIRO",
       "marca": "CHEVROLET",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    "SP12501102888012": {
+      "sku": "SP12501102888012",
+      "id_produto": "19761",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    "SP12501100842012": {
+      "sku": "SP12501100842012",
+      "id_produto": "19759",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
     }
   }
 }
