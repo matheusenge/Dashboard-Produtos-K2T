@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 08:21:04",
+  "ultima_atualizacao": "10/08/2026 08:44:43",
   "total_base_dia": 55,
-  "total_atual": 54,
+  "total_atual": 48,
   "novos_produtos": 0,
-  "total_subidos": 1,
+  "total_subidos": 7,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -122,13 +122,85 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
-    "SP12501111313004"
+    "SP12501102500032",
+    "SP12501102500033",
+    "SP12501102500034",
+    "SP12501102519007",
+    "SP12501102519035",
+    "SP12501111313004",
+    "SP12501111313400"
   ],
   "skus_subidos_status_ml_hoje": [
-    "SP12501111313004"
+    "SP12501102500032",
+    "SP12501102500033",
+    "SP12501102500034",
+    "SP12501102519007",
+    "SP12501102519035",
+    "SP12501111313004",
+    "SP12501111313400"
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501102500032",
+      "id_produto": "19700",
+      "nome": "PORTA DIANTEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 AUT. 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102500033",
+      "id_produto": "19701",
+      "nome": "PORTA DIANTEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 4X2 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102500034",
+      "id_produto": "19702",
+      "nome": "PORTA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102519007",
+      "id_produto": "19703",
+      "nome": "CAPÔ FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102519035",
+      "id_produto": "19704",
+      "nome": "PORTA TRASEIRA ESQUERDA FIAT CRONOS DRIVE 1.3 8V FLEX 2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
     {
       "sku": "SP12501111313004",
       "id_produto": "19705",
@@ -136,7 +208,19 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111313400",
+      "id_produto": "19706",
+      "nome": "MOTOR COMPLETO HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -182,11 +266,11 @@
     "SP12501111313400": {
       "sku": "SP12501111313400",
       "id_produto": "19706",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -266,11 +350,11 @@
     "SP12501102500033": {
       "sku": "SP12501102500033",
       "id_produto": "19701",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA JEEP RENEGADE SPORT 1.8 4X2 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -282,7 +366,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -374,11 +458,11 @@
     "SP12501102500034": {
       "sku": "SP12501102500034",
       "id_produto": "19702",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -386,11 +470,11 @@
     "SP12501102519007": {
       "sku": "SP12501102519007",
       "id_produto": "19703",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -590,11 +674,11 @@
     "SP12501102519035": {
       "sku": "SP12501102519035",
       "id_produto": "19704",
-      "nome": "PORTA TRASEIRA ESQUERDA",
+      "nome": "PORTA TRASEIRA ESQUERDA FIAT CRONOS DRIVE 1.3 8V FLEX 2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -662,11 +746,11 @@
     "SP12501102500032": {
       "sku": "SP12501102500032",
       "id_produto": "19700",
-      "nome": "PORTA DIANTEIRA DIREITA",
+      "nome": "PORTA DIANTEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 AUT. 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
