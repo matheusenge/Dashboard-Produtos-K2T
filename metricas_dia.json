@@ -1,10 +1,10 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 14:14:54",
+  "ultima_atualizacao": "10/08/2026 14:21:06",
   "total_base_dia": 55,
-  "total_atual": 63,
-  "novos_produtos": 46,
+  "total_atual": 64,
+  "novos_produtos": 47,
   "total_subidos": 38,
   "skus_base_dia": [
     "SP12501009648039",
@@ -96,6 +96,7 @@
     "SP12501100842027",
     "SP12501100842038",
     "SP12501100842400",
+    "SP12501100850029",
     "SP12501102462007",
     "SP12501102462010",
     "SP12501102462011",
@@ -167,6 +168,7 @@
     "SP52501000340875"
   ],
   "skus_novos_hoje": [
+    "SP12501100850029",
     "SP12501102462010",
     "SP12501102462011",
     "SP12501102462012",
@@ -295,6 +297,18 @@
     "SP52501000340875"
   ],
   "itens_novos_hoje": [
+    {
+      "sku": "SP12501100850029",
+      "id_produto": "19760",
+      "nome": "PARA-CHOQUE TRASEIRO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
     {
       "sku": "SP12501102462010",
       "id_produto": "19726",
@@ -2518,6 +2532,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
+    },
+    "SP12501100850029": {
+      "sku": "SP12501100850029",
+      "id_produto": "19760",
+      "nome": "PARA-CHOQUE TRASEIRO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   }
 }
