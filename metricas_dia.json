@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 09:50:43",
+  "ultima_atualizacao": "10/08/2026 10:16:47",
   "total_base_dia": 55,
-  "total_atual": 44,
+  "total_atual": 38,
   "novos_produtos": 0,
-  "total_subidos": 11,
+  "total_subidos": 17,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -122,33 +122,69 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501100842010",
+    "SP12501100842011",
     "SP12501100842019",
     "SP12501100842020",
+    "SP12501100842027",
     "SP12501100842038",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
+    "SP12501102500570",
     "SP12501102519007",
     "SP12501102519035",
+    "SP12501102527570",
     "SP12501111313004",
+    "SP12501111313026",
     "SP12501111313400",
     "SP52501000340875"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501100842010",
+    "SP12501100842011",
     "SP12501100842019",
     "SP12501100842020",
+    "SP12501100842027",
     "SP12501100842038",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
+    "SP12501102500570",
     "SP12501102519007",
     "SP12501102519035",
+    "SP12501102527570",
     "SP12501111313004",
+    "SP12501111313026",
     "SP12501111313400",
     "SP52501000340875"
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501100842010",
+      "id_produto": "19690",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501100842011",
+      "id_produto": "19691",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
     {
       "sku": "SP12501100842019",
       "id_produto": "19696",
@@ -172,6 +208,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100842027",
+      "id_produto": "19692",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 4X2 16V 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501100842038",
@@ -222,6 +270,18 @@
       "qtd_images": "10"
     },
     {
+      "sku": "SP12501102500570",
+      "id_produto": "19693",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501102519007",
       "id_produto": "19703",
       "nome": "CAPÔ FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
@@ -246,6 +306,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501102527570",
+      "id_produto": "19694",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501111313004",
       "id_produto": "19705",
       "nome": "CÂMBIO MANUAL HONDA FIT LX 1.4 MEC 2003/2004",
@@ -256,6 +328,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111313026",
+      "id_produto": "19689",
+      "nome": "MOTOR DE PARTIDA HONDA FIT LX 1.4 MEC 2003/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501111313400",
@@ -276,7 +360,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "STRADA ENDURANCE 1.3 FLEX 8V CS PLUS",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -310,11 +394,11 @@
     "SP12501111313026": {
       "sku": "SP12501111313026",
       "id_produto": "19689",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -346,11 +430,11 @@
     "SP12501100842011": {
       "sku": "SP12501100842011",
       "id_produto": "19691",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -446,7 +530,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "STRADA ENDURANCE 1.3 FLEX 8V CS PLUS",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
@@ -598,11 +682,11 @@
     "SP12501100842010": {
       "sku": "SP12501100842010",
       "id_produto": "19690",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -634,11 +718,11 @@
     "SP12501102500570": {
       "sku": "SP12501102500570",
       "id_produto": "19693",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -862,11 +946,11 @@
     "SP12501102527570": {
       "sku": "SP12501102527570",
       "id_produto": "19694",
-      "nome": "RÁDIO",
+      "nome": "RÁDIO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -874,11 +958,11 @@
     "SP12501100842027": {
       "sku": "SP12501100842027",
       "id_produto": "19692",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS JEEP RENEGADE SPORT 1.8 4X2 16V 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
