@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 10:50:44",
+  "ultima_atualizacao": "10/08/2026 11:14:27",
   "total_base_dia": 55,
-  "total_atual": 48,
+  "total_atual": 44,
   "novos_produtos": 14,
-  "total_subidos": 21,
+  "total_subidos": 25,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -166,11 +166,15 @@
     "SP12501102519007",
     "SP12501102519035",
     "SP12501102527570",
+    "SP12501102888488",
+    "SP12501103167034",
     "SP12501111313001",
     "SP12501111313004",
     "SP12501111313026",
     "SP12501111313400",
     "SP12501111348029",
+    "SP12501111348033",
+    "SP12501111526028",
     "SP52501000340875"
   ],
   "skus_subidos_status_ml_hoje": [
@@ -189,11 +193,15 @@
     "SP12501102519007",
     "SP12501102519035",
     "SP12501102527570",
+    "SP12501102888488",
+    "SP12501103167034",
     "SP12501111313001",
     "SP12501111313004",
     "SP12501111313026",
     "SP12501111313400",
     "SP12501111348029",
+    "SP12501111348033",
+    "SP12501111526028",
     "SP52501000340875"
   ],
   "itens_novos_hoje": [
@@ -296,11 +304,11 @@
     {
       "sku": "SP12501102888488",
       "id_produto": "19719",
-      "nome": "JOGO DE BAGAGEIROS DO TETO",
+      "nome": "JOGO DE BAGAGEIROS DO TETO JEEP RENEGADE SPORT 1.8 4X2 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -308,11 +316,11 @@
     {
       "sku": "SP12501103167034",
       "id_produto": "19720",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -332,11 +340,11 @@
     {
       "sku": "SP12501111348033",
       "id_produto": "19722",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA VOLKSWAGEN GOLF GLX 2.0 4P 1996/96",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -356,11 +364,11 @@
     {
       "sku": "SP12501111526028",
       "id_produto": "19725",
-      "nome": "PARA-CHOQUE DIANTEIRO",
+      "nome": "PARA-CHOQUE DIANTEIRO CHEVROLET MERIVA 1.8 MPFI 8V 2003/03",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -548,13 +556,37 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501102888488",
+      "id_produto": "19719",
+      "nome": "JOGO DE BAGAGEIROS DO TETO JEEP RENEGADE SPORT 1.8 4X2 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103167034",
+      "id_produto": "19720",
+      "nome": "PORTA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501111313001",
       "id_produto": "19688",
       "nome": "ALTERNADOR HONDA FIT LX 1.4 MEC 2003/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -605,6 +637,30 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111348033",
+      "id_produto": "19722",
+      "nome": "PORTA DIANTEIRA ESQUERDA VOLKSWAGEN GOLF GLX 2.0 4P 1996/96",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "GOLF GLX 2.0 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501111526028",
+      "id_produto": "19725",
+      "nome": "PARA-CHOQUE DIANTEIRO CHEVROLET MERIVA 1.8 MPFI 8V 2003/03",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
       "qtd_images": "10"
     },
     {
@@ -796,7 +852,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -1368,11 +1424,11 @@
     "SP12501102888488": {
       "sku": "SP12501102888488",
       "id_produto": "19719",
-      "nome": "JOGO DE BAGAGEIROS DO TETO",
+      "nome": "JOGO DE BAGAGEIROS DO TETO JEEP RENEGADE SPORT 1.8 4X2 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1380,11 +1436,11 @@
     "SP12501103167034": {
       "sku": "SP12501103167034",
       "id_produto": "19720",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1392,11 +1448,11 @@
     "SP12501111348033": {
       "sku": "SP12501111348033",
       "id_produto": "19722",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA VOLKSWAGEN GOLF GLX 2.0 4P 1996/96",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "10"
@@ -1416,11 +1472,11 @@
     "SP12501111526028": {
       "sku": "SP12501111526028",
       "id_produto": "19725",
-      "nome": "PARA-CHOQUE DIANTEIRO",
+      "nome": "PARA-CHOQUE DIANTEIRO CHEVROLET MERIVA 1.8 MPFI 8V 2003/03",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA 1.8 MPFI 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
