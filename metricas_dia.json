@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 16:21:06",
+  "ultima_atualizacao": "10/08/2026 16:44:33",
   "total_base_dia": 55,
-  "total_atual": 78,
-  "novos_produtos": 71,
-  "total_subidos": 48,
+  "total_atual": 77,
+  "novos_produtos": 74,
+  "total_subidos": 52,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -89,6 +89,7 @@
     "SP12501089989035",
     "SP12501100834024",
     "SP12501100842004",
+    "SP12501100842007",
     "SP12501100842010",
     "SP12501100842011",
     "SP12501100842012",
@@ -151,6 +152,7 @@
     "SP12501102519049",
     "SP12501102519411",
     "SP12501102527001",
+    "SP12501102527007",
     "SP12501102527011",
     "SP12501102527012",
     "SP12501102527026",
@@ -166,6 +168,7 @@
     "SP12501102888036",
     "SP12501102888411",
     "SP12501102888488",
+    "SP12501103167007",
     "SP12501103167012",
     "SP12501103167026",
     "SP12501103167034",
@@ -192,6 +195,7 @@
     "SP52501000340875"
   ],
   "skus_novos_hoje": [
+    "SP12501100842007",
     "SP12501100842012",
     "SP12501100842036",
     "SP12501100842411",
@@ -238,6 +242,7 @@
     "SP12501102519049",
     "SP12501102519411",
     "SP12501102527001",
+    "SP12501102527007",
     "SP12501102527011",
     "SP12501102527012",
     "SP12501102527026",
@@ -252,6 +257,7 @@
     "SP12501102888036",
     "SP12501102888411",
     "SP12501102888488",
+    "SP12501103167007",
     "SP12501103167012",
     "SP12501103167026",
     "SP12501103167034",
@@ -282,13 +288,17 @@
     "SP12501102462032",
     "SP12501102462570",
     "SP12501102497012",
+    "SP12501102500026",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
     "SP12501102500488",
     "SP12501102500570",
+    "SP12501102519001",
     "SP12501102519007",
+    "SP12501102519012",
     "SP12501102519024",
+    "SP12501102519026",
     "SP12501102519032",
     "SP12501102519034",
     "SP12501102519035",
@@ -332,13 +342,17 @@
     "SP12501102462032",
     "SP12501102462570",
     "SP12501102497012",
+    "SP12501102500026",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
     "SP12501102500488",
     "SP12501102500570",
+    "SP12501102519001",
     "SP12501102519007",
+    "SP12501102519012",
     "SP12501102519024",
+    "SP12501102519026",
     "SP12501102519032",
     "SP12501102519034",
     "SP12501102519035",
@@ -365,6 +379,18 @@
     "SP52501000340875"
   ],
   "itens_novos_hoje": [
+    {
+      "sku": "SP12501100842007",
+      "id_produto": "19785",
+      "nome": "CAPÔ",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
     {
       "sku": "SP12501100842012",
       "id_produto": "19759",
@@ -716,11 +742,11 @@
     {
       "sku": "SP12501102500026",
       "id_produto": "19746",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 FLEX 4X2 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -776,11 +802,11 @@
     {
       "sku": "SP12501102519001",
       "id_produto": "19747",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -788,11 +814,11 @@
     {
       "sku": "SP12501102519012",
       "id_produto": "19748",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -812,11 +838,11 @@
     {
       "sku": "SP12501102519026",
       "id_produto": "19749",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -916,6 +942,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501102527007",
+      "id_produto": "19786",
+      "nome": "CAPÔ",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501102527011",
@@ -1083,6 +1121,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103167007",
+      "id_produto": "19787",
+      "nome": "CAPÔ",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
       "qtd_images": "7"
     },
     {
@@ -1424,6 +1474,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501102500026",
+      "id_produto": "19746",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 FLEX 4X2 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
       "sku": "SP12501102500032",
       "id_produto": "19700",
       "nome": "PORTA DIANTEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2 AUT. 21",
@@ -1484,6 +1546,18 @@
       "qtd_images": "5"
     },
     {
+      "sku": "SP12501102519001",
+      "id_produto": "19747",
+      "nome": "ALTERNADOR FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102519007",
       "id_produto": "19703",
       "nome": "CAPÔ FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
@@ -1496,6 +1570,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501102519012",
+      "id_produto": "19748",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 22",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "5"
+    },
+    {
       "sku": "SP12501102519024",
       "id_produto": "19737",
       "nome": "MÓDULO DE INJEÇÃO FIAT CRONOS DRIVE 1.3 8V FLEX 2022",
@@ -1506,6 +1592,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102519026",
+      "id_produto": "19749",
+      "nome": "MOTOR DE PARTIDA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/22",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501102519032",
@@ -2832,11 +2930,11 @@
     "SP12501102519001": {
       "sku": "SP12501102519001",
       "id_produto": "19747",
-      "nome": "ALTERNADOR",
+      "nome": "ALTERNADOR FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -2844,11 +2942,11 @@
     "SP12501102500026": {
       "sku": "SP12501102500026",
       "id_produto": "19746",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 FLEX 4X2 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -2856,11 +2954,11 @@
     "SP12501102519026": {
       "sku": "SP12501102519026",
       "id_produto": "19749",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -2880,11 +2978,11 @@
     "SP12501102519012": {
       "sku": "SP12501102519012",
       "id_produto": "19748",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO FIAT CRONOS DRIVE 1.3 22",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "5"
@@ -3308,6 +3406,42 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    "SP12501100842007": {
+      "sku": "SP12501100842007",
+      "id_produto": "19785",
+      "nome": "CAPÔ",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    "SP12501103167007": {
+      "sku": "SP12501103167007",
+      "id_produto": "19787",
+      "nome": "CAPÔ",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
+    },
+    "SP12501102527007": {
+      "sku": "SP12501102527007",
+      "id_produto": "19786",
+      "nome": "CAPÔ",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
     }
   }
 }
