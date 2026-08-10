@@ -1,11 +1,11 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 09:21:00",
+  "ultima_atualizacao": "10/08/2026 09:44:30",
   "total_base_dia": 55,
-  "total_atual": 48,
+  "total_atual": 45,
   "novos_produtos": 0,
-  "total_subidos": 7,
+  "total_subidos": 10,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -122,6 +122,9 @@
   ],
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
+    "SP12501100842019",
+    "SP12501100842020",
+    "SP12501100842038",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
@@ -131,6 +134,9 @@
     "SP12501111313400"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501100842019",
+    "SP12501100842020",
+    "SP12501100842038",
     "SP12501102500032",
     "SP12501102500033",
     "SP12501102500034",
@@ -141,6 +147,42 @@
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501100842019",
+      "id_produto": "19696",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100842020",
+      "id_produto": "19697",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501100842038",
+      "id_produto": "19698",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 4X2 FLEX 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
     {
       "sku": "SP12501102500032",
       "id_produto": "19700",
@@ -326,11 +368,11 @@
     "SP12501100842020": {
       "sku": "SP12501100842020",
       "id_produto": "19697",
-      "nome": "LANTERNA TRASEIRA ESQUERDA",
+      "nome": "LANTERNA TRASEIRA ESQUERDA JEEP RENEGADE SPORT 1.8",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -410,11 +452,11 @@
     "SP12501100842038": {
       "sku": "SP12501100842038",
       "id_produto": "19698",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO JEEP RENEGADE SPORT 1.8 4X2 FLEX 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
@@ -518,11 +560,11 @@
     "SP12501100842019": {
       "sku": "SP12501100842019",
       "id_produto": "19696",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA JEEP RENEGADE SPORT 1.8 4X2",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
