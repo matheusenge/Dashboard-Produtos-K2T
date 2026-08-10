@@ -1,10 +1,10 @@
 {
   "data": "2026-08-10",
   "primeira_atualizacao": "10/08/2026 08:15:13",
-  "ultima_atualizacao": "10/08/2026 10:16:47",
+  "ultima_atualizacao": "10/08/2026 10:20:47",
   "total_base_dia": 55,
-  "total_atual": 38,
-  "novos_produtos": 0,
+  "total_atual": 40,
+  "novos_produtos": 2,
   "total_subidos": 17,
   "skus_base_dia": [
     "SP12501009648039",
@@ -105,6 +105,7 @@
     "SP12501102500570",
     "SP12501102519007",
     "SP12501102519035",
+    "SP12501102519045",
     "SP12501102527570",
     "SP12501105631026",
     "SP12501108088045",
@@ -112,6 +113,7 @@
     "SP12501111313004",
     "SP12501111313026",
     "SP12501111313400",
+    "SP12501111348029",
     "SP12501116765039",
     "SP12501116765040",
     "SP12501116765041",
@@ -120,7 +122,10 @@
     "SP42501001064042",
     "SP52501000340875"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501102519045",
+    "SP12501111348029"
+  ],
   "skus_subidos_hoje": [
     "SP12501100842010",
     "SP12501100842011",
@@ -159,7 +164,32 @@
     "SP12501111313400",
     "SP52501000340875"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501102519045",
+      "id_produto": "19716",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501111348029",
+      "id_produto": "19721",
+      "nome": "PARA-CHOQUE TRASEIRO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501100842010",
@@ -336,7 +366,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -398,7 +428,7 @@
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -1026,6 +1056,30 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "3"
+    },
+    "SP12501102519045": {
+      "sku": "SP12501102519045",
+      "id_produto": "19716",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FIAT",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501111348029": {
+      "sku": "SP12501111348029",
+      "id_produto": "19721",
+      "nome": "PARA-CHOQUE TRASEIRO",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
     }
   }
 }
