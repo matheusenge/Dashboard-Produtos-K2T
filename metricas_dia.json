@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 16:44:37",
+  "ultima_atualizacao": "11/08/2026 16:50:54",
   "total_base_dia": 80,
-  "total_atual": 47,
+  "total_atual": 46,
   "novos_produtos": 29,
-  "total_subidos": 58,
+  "total_subidos": 59,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -275,6 +275,7 @@
     "SP12501102888036",
     "SP12501102888400",
     "SP12501102888411",
+    "SP12501103043437",
     "SP12501103051034",
     "SP12501103167004",
     "SP12501103167036",
@@ -335,6 +336,7 @@
     "SP12501102888036",
     "SP12501102888400",
     "SP12501102888411",
+    "SP12501103043437",
     "SP12501103051034",
     "SP12501103167004",
     "SP12501103167036",
@@ -370,7 +372,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA SEDAN 1.6 16V FLEX MEC.",
       "status": "Desabilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "0",
       "classificacao": "07",
       "qtd_images": "7"
@@ -538,7 +540,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -558,11 +560,11 @@
     {
       "sku": "SP12501103043437",
       "id_produto": "19800",
-      "nome": "PNEU DIANTEIRO DIREITO",
+      "nome": "PNEU 225/55 R18 PIRELLI SCORPION",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -744,7 +746,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA SEDAN 1.6 16V FLEX MEC.",
       "status": "Desabilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "0",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1188,7 +1190,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
@@ -1228,6 +1230,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501103043437",
+      "id_produto": "19800",
+      "nome": "PNEU 225/55 R18 PIRELLI SCORPION",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501103051034",
@@ -2486,7 +2500,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA SEDAN 1.6 16V FLEX MEC.",
       "status": "Desabilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "0",
       "classificacao": "07",
       "qtd_images": "7"
@@ -2602,11 +2616,11 @@
     "SP12501103043437": {
       "sku": "SP12501103043437",
       "id_produto": "19800",
-      "nome": "PNEU DIANTEIRO DIREITO",
+      "nome": "PNEU 225/55 R18 PIRELLI SCORPION",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -2630,7 +2644,7 @@
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "FOX PLUS 1.6MI TOTAL FLEX 8V 4P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
