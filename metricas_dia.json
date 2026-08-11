@@ -1,10 +1,10 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 14:51:06",
+  "ultima_atualizacao": "11/08/2026 15:14:56",
   "total_base_dia": 80,
-  "total_atual": 50,
-  "novos_produtos": 24,
+  "total_atual": 51,
+  "novos_produtos": 25,
   "total_subidos": 50,
   "skus_base_dia": [
     "SP12501009648039",
@@ -140,6 +140,7 @@
     "SP12501102497400",
     "SP12501102497411",
     "SP12501102500001",
+    "SP12501102500004",
     "SP12501102500011",
     "SP12501102500012",
     "SP12501102500030",
@@ -200,6 +201,7 @@
     "SP12501089261033",
     "SP12501102462400",
     "SP12501102497400",
+    "SP12501102500004",
     "SP12501102500400",
     "SP12501102519400",
     "SP12501102527032",
@@ -383,6 +385,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102500004",
+      "id_produto": "19804",
+      "nome": "CÂMBIO AUTOMATICO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "10"
     },
     {
@@ -2463,6 +2477,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
+      "qtd_images": "10"
+    },
+    "SP12501102500004": {
+      "sku": "SP12501102500004",
+      "id_produto": "19804",
+      "nome": "CÂMBIO AUTOMATICO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "10"
     }
   }
