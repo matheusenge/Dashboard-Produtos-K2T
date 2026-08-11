@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 11:44:30",
+  "ultima_atualizacao": "11/08/2026 11:50:43",
   "total_base_dia": 80,
-  "total_atual": 62,
+  "total_atual": 61,
   "novos_produtos": 18,
-  "total_subidos": 36,
+  "total_subidos": 37,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -220,6 +220,7 @@
     "SP12501102462411",
     "SP12501102497001",
     "SP12501102497011",
+    "SP12501102497026",
     "SP12501102497036",
     "SP12501102497411",
     "SP12501102500001",
@@ -258,6 +259,7 @@
     "SP12501102462411",
     "SP12501102497001",
     "SP12501102497011",
+    "SP12501102497026",
     "SP12501102497036",
     "SP12501102497411",
     "SP12501102500001",
@@ -634,6 +636,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102497026",
+      "id_produto": "19743",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501102497036",
@@ -1372,11 +1386,11 @@
     "SP12501102497026": {
       "sku": "SP12501102497026",
       "id_produto": "19743",
-      "nome": "MOTOR DE PARTIDA",
+      "nome": "MOTOR DE PARTIDA JEEP RENEGADE SPORT 1.8 4X2 FLEX AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
