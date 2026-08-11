@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 16:50:54",
+  "ultima_atualizacao": "11/08/2026 17:14:52",
   "total_base_dia": 80,
-  "total_atual": 46,
+  "total_atual": 45,
   "novos_produtos": 29,
-  "total_subidos": 59,
+  "total_subidos": 60,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -287,6 +287,7 @@
     "SP12501116749032",
     "SP12501116749033",
     "SP12501116757032",
+    "SP12501117370034",
     "SP12501117672045",
     "SP12501117672046",
     "SP12501121858033"
@@ -348,6 +349,7 @@
     "SP12501116749032",
     "SP12501116749033",
     "SP12501116757032",
+    "SP12501117370034",
     "SP12501117672045",
     "SP12501117672046",
     "SP12501121858033"
@@ -1376,6 +1378,18 @@
       "qtd_images": "7"
     },
     {
+      "sku": "SP12501117370034",
+      "id_produto": "18436",
+      "nome": "PORTA TRASEIRA DIREITA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 06",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "MERIVA JOY 1.8 MPFI 8V FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501117672045",
       "id_produto": "18431",
       "nome": "TAMPA TRASEIRA DIREITA FIAT TORO RANCH 2.0 16V 2023",
@@ -2076,11 +2090,11 @@
     "SP12501117370034": {
       "sku": "SP12501117370034",
       "id_produto": "18436",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA CHEVROLET MERIVA JOY 1.8 FLEXPOWER 06",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "MERIVA JOY 1.8 MPFI 8V FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -2112,7 +2126,7 @@
     "SP12501041749010": {
       "sku": "SP12501041749010",
       "id_produto": "11261",
-      "nome": "CHAVE DE SETA HYUNDAI IX35 GLS 2.0 16V 2WD FLEX AUT. 2014/15",
+      "nome": "CHAVE DE SETA HYUNDAI IX35 GLS 2.0 16V 2WD FLEX AUT. 14/15",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
       "status": "Habilitado",
