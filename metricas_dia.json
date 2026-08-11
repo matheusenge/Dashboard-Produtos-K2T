@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 09:21:02",
+  "ultima_atualizacao": "11/08/2026 09:44:44",
   "total_base_dia": 80,
-  "total_atual": 84,
-  "novos_produtos": 11,
-  "total_subidos": 7,
+  "total_atual": 79,
+  "novos_produtos": 13,
+  "total_subidos": 14,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -129,6 +129,7 @@
     "SP12501102462007",
     "SP12501102462026",
     "SP12501102462030",
+    "SP12501102462400",
     "SP12501102462411",
     "SP12501102470007",
     "SP12501102470030",
@@ -150,6 +151,7 @@
     "SP12501102527001",
     "SP12501102527007",
     "SP12501102527036",
+    "SP12501102527400",
     "SP12501102535034",
     "SP12501102535045",
     "SP12501102888007",
@@ -185,6 +187,8 @@
     "SP12501089210033",
     "SP12501089210035",
     "SP12501089261033",
+    "SP12501102462400",
+    "SP12501102527400",
     "SP12501103051034",
     "SP12501116676033",
     "SP12501116749032",
@@ -195,21 +199,35 @@
     "SP12501121858033"
   ],
   "skus_subidos_hoje": [
+    "SP12501102497011",
     "SP12501102497036",
     "SP12501102497411",
     "SP12501102500001",
     "SP12501102500036",
     "SP12501102500411",
     "SP12501102519036",
+    "SP12501102519411",
+    "SP12501102527036",
+    "SP12501102535045",
+    "SP12501102888036",
+    "SP12501102888411",
+    "SP12501103167036",
     "SP12501103167411"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501102497011",
     "SP12501102497036",
     "SP12501102497411",
     "SP12501102500001",
     "SP12501102500036",
     "SP12501102500411",
     "SP12501102519036",
+    "SP12501102519411",
+    "SP12501102527036",
+    "SP12501102535045",
+    "SP12501102888036",
+    "SP12501102888411",
+    "SP12501103167036",
     "SP12501103167411"
   ],
   "itens_novos_hoje": [
@@ -248,6 +266,30 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102462400",
+      "id_produto": "19790",
+      "nome": "MOTOR COMPLETO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102527400",
+      "id_produto": "19791",
+      "nome": "MOTOR COMPLETO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501103051034",
@@ -348,13 +390,25 @@
   ],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501102497011",
+      "id_produto": "19768",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501102497036",
       "id_produto": "19769",
       "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -418,6 +472,78 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102519411",
+      "id_produto": "19775",
+      "nome": "ELETROVENTILADOR FIAT CRONOS DRIVE 1.3 8V FLEX 2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102527036",
+      "id_produto": "19777",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102535045",
+      "id_produto": "19779",
+      "nome": "TAMPA TRASEIRA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102888036",
+      "id_produto": "19780",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102888411",
+      "id_produto": "19781",
+      "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501103167036",
+      "id_produto": "19783",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501103167411",
@@ -508,11 +634,11 @@
     "SP12501102497011": {
       "sku": "SP12501102497011",
       "id_produto": "19768",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -592,11 +718,11 @@
     "SP12501102519411": {
       "sku": "SP12501102519411",
       "id_produto": "19775",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR FIAT CRONOS DRIVE 1.3 8V FLEX 2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -700,11 +826,11 @@
     "SP12501102535045": {
       "sku": "SP12501102535045",
       "id_produto": "19779",
-      "nome": "TAMPA TRASEIRA",
+      "nome": "TAMPA TRASEIRA FIAT CRONOS DRIVE 1.3 8V FLEX 2022/2022",
       "marca": "FIAT",
       "modelo_do_veiculo": "CRONOS DRIVE 1.3 8V FLEX",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -1168,11 +1294,11 @@
     "SP12501102888411": {
       "sku": "SP12501102888411",
       "id_produto": "19781",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "6"
@@ -1180,11 +1306,11 @@
     "SP12501102527036": {
       "sku": "SP12501102527036",
       "id_produto": "19777",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -1252,11 +1378,11 @@
     "SP12501102888036": {
       "sku": "SP12501102888036",
       "id_produto": "19780",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
@@ -1268,7 +1394,7 @@
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -1288,11 +1414,11 @@
     "SP12501103167036": {
       "sku": "SP12501103167036",
       "id_produto": "19783",
-      "nome": "RADIADOR",
+      "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
@@ -1524,6 +1650,30 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    "SP12501102462400": {
+      "sku": "SP12501102462400",
+      "id_produto": "19790",
+      "nome": "MOTOR COMPLETO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    "SP12501102527400": {
+      "sku": "SP12501102527400",
+      "id_produto": "19791",
+      "nome": "MOTOR COMPLETO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     }
   }
 }
