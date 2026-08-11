@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 10:44:37",
+  "ultima_atualizacao": "11/08/2026 10:50:40",
   "total_base_dia": 80,
-  "total_atual": 72,
+  "total_atual": 70,
   "novos_produtos": 14,
-  "total_subidos": 22,
+  "total_subidos": 24,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -220,8 +220,10 @@
     "SP12501102535045",
     "SP12501102888036",
     "SP12501102888411",
+    "SP12501103051034",
     "SP12501103167036",
     "SP12501103167411",
+    "SP12501116676033",
     "SP12501116749033"
   ],
   "skus_subidos_status_ml_hoje": [
@@ -244,8 +246,10 @@
     "SP12501102535045",
     "SP12501102888036",
     "SP12501102888411",
+    "SP12501103051034",
     "SP12501103167036",
     "SP12501103167411",
+    "SP12501116676033",
     "SP12501116749033"
   ],
   "itens_novos_hoje": [
@@ -324,11 +328,11 @@
     {
       "sku": "SP12501103051034",
       "id_produto": "18584",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA CITROEN C3 EXCLUSIVE 1.4 FLEX 8V 2009",
       "marca": "CITROEN",
       "modelo_do_veiculo": "C3 EXCLUSIVE 1.4 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -336,11 +340,11 @@
     {
       "sku": "SP12501116676033",
       "id_produto": "18590",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA HONDA FIT LX 1.4 MEC 2004/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -364,7 +368,7 @@
       "marca": "RENAULT",
       "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -648,6 +652,18 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501103051034",
+      "id_produto": "18584",
+      "nome": "PORTA TRASEIRA DIREITA CITROEN C3 EXCLUSIVE 1.4 FLEX 8V 2009",
+      "marca": "CITROEN",
+      "modelo_do_veiculo": "C3 EXCLUSIVE 1.4 FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501103167036",
       "id_produto": "19783",
       "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
@@ -672,13 +688,25 @@
       "qtd_images": "6"
     },
     {
+      "sku": "SP12501116676033",
+      "id_produto": "18590",
+      "nome": "PORTA DIANTEIRA ESQUERDA HONDA FIT LX 1.4 MEC 2004/2004",
+      "marca": "HONDA",
+      "modelo_do_veiculo": "FIT LX 1.4 MEC",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501116749033",
       "id_produto": "18821",
       "nome": "PORTA DIANTEIRA ESQUERDA RENAULT DUSTER DYNAMIQUE 2.0 14/15",
       "marca": "RENAULT",
       "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1403,7 +1431,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "2"
+      "qtd_images": "3"
     },
     "SP12501080469424": {
       "sku": "SP12501080469424",
@@ -1652,7 +1680,7 @@
       "marca": "RENAULT",
       "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
       "status": "Habilitado",
-      "status_ml": "under_review",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1696,11 +1724,11 @@
     "SP12501116676033": {
       "sku": "SP12501116676033",
       "id_produto": "18590",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA HONDA FIT LX 1.4 MEC 2004/2004",
       "marca": "HONDA",
       "modelo_do_veiculo": "FIT LX 1.4 MEC",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -1720,11 +1748,11 @@
     "SP12501103051034": {
       "sku": "SP12501103051034",
       "id_produto": "18584",
-      "nome": "PORTA TRASEIRA DIREITA",
+      "nome": "PORTA TRASEIRA DIREITA CITROEN C3 EXCLUSIVE 1.4 FLEX 8V 2009",
       "marca": "CITROEN",
       "modelo_do_veiculo": "C3 EXCLUSIVE 1.4 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
