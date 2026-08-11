@@ -1,10 +1,10 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 08:15:51",
+  "ultima_atualizacao": "11/08/2026 08:21:02",
   "total_base_dia": 80,
-  "total_atual": 80,
-  "novos_produtos": 0,
+  "total_atual": 81,
+  "novos_produtos": 1,
   "total_subidos": 0,
   "skus_base_dia": [
     "SP12501009648039",
@@ -161,6 +161,7 @@
     "SP12501111348031",
     "SP12501111348035",
     "SP12501111526031",
+    "SP12501116749033",
     "SP12501116765039",
     "SP12501116765040",
     "SP12501116765041",
@@ -170,10 +171,25 @@
     "SP12501117370034",
     "SP42501001064042"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501116749033"
+  ],
   "skus_subidos_hoje": [],
   "skus_subidos_status_ml_hoje": [],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501116749033",
+      "id_produto": "18821",
+      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    }
+  ],
   "itens_subidos_hoje": [],
   "detalhes_skus_vistos_hoje": {
     "SP12501102527001": {
@@ -1130,6 +1146,18 @@
       "nome": "PARA-LAMA DIANTEIRO ESQUERDO",
       "marca": "VOLKSWAGEN",
       "modelo_do_veiculo": "GOLF GLX 2.0 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501116749033": {
+      "sku": "SP12501116749033",
+      "id_produto": "18821",
+      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
