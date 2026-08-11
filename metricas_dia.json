@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 10:21:08",
+  "ultima_atualizacao": "11/08/2026 10:44:37",
   "total_base_dia": 80,
-  "total_atual": 74,
+  "total_atual": 72,
   "novos_produtos": 14,
-  "total_subidos": 20,
+  "total_subidos": 22,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -204,6 +204,7 @@
     "SP12501100842411",
     "SP12501100850035",
     "SP12501100850045",
+    "SP12501102462400",
     "SP12501102462411",
     "SP12501102497011",
     "SP12501102497036",
@@ -220,12 +221,14 @@
     "SP12501102888036",
     "SP12501102888411",
     "SP12501103167036",
-    "SP12501103167411"
+    "SP12501103167411",
+    "SP12501116749033"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501100842411",
     "SP12501100850035",
     "SP12501100850045",
+    "SP12501102462400",
     "SP12501102462411",
     "SP12501102497011",
     "SP12501102497036",
@@ -242,7 +245,8 @@
     "SP12501102888036",
     "SP12501102888411",
     "SP12501103167036",
-    "SP12501103167411"
+    "SP12501103167411",
+    "SP12501116749033"
   ],
   "itens_novos_hoje": [
     {
@@ -284,11 +288,11 @@
     {
       "sku": "SP12501102462400",
       "id_produto": "19790",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -356,11 +360,11 @@
     {
       "sku": "SP12501116749033",
       "id_produto": "18821",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA RENAULT DUSTER DYNAMIQUE 2.0 14/15",
       "marca": "RENAULT",
       "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -450,6 +454,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501102462400",
+      "id_produto": "19790",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501102462411",
@@ -654,6 +670,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501116749033",
+      "id_produto": "18821",
+      "nome": "PORTA DIANTEIRA ESQUERDA RENAULT DUSTER DYNAMIQUE 2.0 14/15",
+      "marca": "RENAULT",
+      "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "under_review",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -919,7 +947,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "8"
+      "qtd_images": "3"
     },
     "SP12501102535045": {
       "sku": "SP12501102535045",
@@ -1620,11 +1648,11 @@
     "SP12501116749033": {
       "sku": "SP12501116749033",
       "id_produto": "18821",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA RENAULT DUSTER DYNAMIQUE 2.0 14/15",
       "marca": "RENAULT",
       "modelo_do_veiculo": "DUSTER DYNAMIQUE 2.0 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "under_review",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1752,11 +1780,11 @@
     "SP12501102462400": {
       "sku": "SP12501102462400",
       "id_produto": "19790",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 2021/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
