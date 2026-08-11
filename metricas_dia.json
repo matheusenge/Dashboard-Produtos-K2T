@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 11:14:30",
+  "ultima_atualizacao": "11/08/2026 11:20:44",
   "total_base_dia": 80,
   "total_atual": 64,
-  "novos_produtos": 14,
-  "total_subidos": 30,
+  "novos_produtos": 15,
+  "total_subidos": 31,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -143,6 +143,7 @@
     "SP12501102500012",
     "SP12501102500030",
     "SP12501102500036",
+    "SP12501102500400",
     "SP12501102500411",
     "SP12501102519033",
     "SP12501102519036",
@@ -189,6 +190,7 @@
     "SP12501089210035",
     "SP12501089261033",
     "SP12501102462400",
+    "SP12501102500400",
     "SP12501102527032",
     "SP12501102527400",
     "SP12501103051034",
@@ -230,7 +232,8 @@
     "SP12501116749033",
     "SP12501116757032",
     "SP12501117672045",
-    "SP12501117672046"
+    "SP12501117672046",
+    "SP12501121858033"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501089210033",
@@ -262,7 +265,8 @@
     "SP12501116749033",
     "SP12501116757032",
     "SP12501117672045",
-    "SP12501117672046"
+    "SP12501117672046",
+    "SP12501121858033"
   ],
   "itens_novos_hoje": [
     {
@@ -272,7 +276,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA SEDAN 1.6 16V FLEX MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -309,6 +313,18 @@
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
       "status": "Habilitado",
       "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102500400",
+      "id_produto": "19793",
+      "nome": "MOTOR COMPLETO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -424,11 +440,11 @@
     {
       "sku": "SP12501121858033",
       "id_produto": "18064",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA HYUNDAI CRETA PULSE 1.6 FLEX 17/18",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PULSE 1.6 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -442,7 +458,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA SEDAN 1.6 16V FLEX MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -794,6 +810,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501121858033",
+      "id_produto": "18064",
+      "nome": "PORTA DIANTEIRA ESQUERDA HYUNDAI CRETA PULSE 1.6 FLEX 17/18",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "CRETA PULSE 1.6 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "7"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -1820,11 +1848,11 @@
     "SP12501121858033": {
       "sku": "SP12501121858033",
       "id_produto": "18064",
-      "nome": "PORTA DIANTEIRA ESQUERDA",
+      "nome": "PORTA DIANTEIRA ESQUERDA HYUNDAI CRETA PULSE 1.6 FLEX 17/18",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "CRETA PULSE 1.6 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "7"
@@ -1860,7 +1888,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA SEDAN 1.6 16V FLEX MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -1923,6 +1951,18 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
+      "qtd_images": "10"
+    },
+    "SP12501102500400": {
+      "sku": "SP12501102500400",
+      "id_produto": "19793",
+      "nome": "MOTOR COMPLETO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "10"
     }
   }
