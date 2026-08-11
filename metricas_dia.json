@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 09:50:58",
+  "ultima_atualizacao": "11/08/2026 10:14:50",
   "total_base_dia": 80,
-  "total_atual": 77,
-  "novos_produtos": 13,
-  "total_subidos": 16,
+  "total_atual": 74,
+  "novos_produtos": 14,
+  "total_subidos": 20,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -150,6 +150,7 @@
     "SP12501102519411",
     "SP12501102527001",
     "SP12501102527007",
+    "SP12501102527032",
     "SP12501102527036",
     "SP12501102527400",
     "SP12501102535034",
@@ -188,6 +189,7 @@
     "SP12501089210035",
     "SP12501089261033",
     "SP12501102462400",
+    "SP12501102527032",
     "SP12501102527400",
     "SP12501103051034",
     "SP12501116676033",
@@ -199,17 +201,21 @@
     "SP12501121858033"
   ],
   "skus_subidos_hoje": [
+    "SP12501100842411",
+    "SP12501100850035",
     "SP12501100850045",
     "SP12501102462411",
     "SP12501102497011",
     "SP12501102497036",
     "SP12501102497411",
     "SP12501102500001",
+    "SP12501102500012",
     "SP12501102500036",
     "SP12501102500411",
     "SP12501102519036",
     "SP12501102519411",
     "SP12501102527036",
+    "SP12501102527400",
     "SP12501102535045",
     "SP12501102888036",
     "SP12501102888411",
@@ -217,17 +223,21 @@
     "SP12501103167411"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501100842411",
+    "SP12501100850035",
     "SP12501100850045",
     "SP12501102462411",
     "SP12501102497011",
     "SP12501102497036",
     "SP12501102497411",
     "SP12501102500001",
+    "SP12501102500012",
     "SP12501102500036",
     "SP12501102500411",
     "SP12501102519036",
     "SP12501102519411",
     "SP12501102527036",
+    "SP12501102527400",
     "SP12501102535045",
     "SP12501102888036",
     "SP12501102888411",
@@ -284,13 +294,25 @@
       "qtd_images": "10"
     },
     {
-      "sku": "SP12501102527400",
-      "id_produto": "19791",
-      "nome": "MOTOR COMPLETO",
+      "sku": "SP12501102527032",
+      "id_produto": "19621",
+      "nome": "PORTA DIANTEIRA DIREITA JEEP RENEGADE SPORT 1.8 FLEX 2021",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
+      "status": "Habilitado",
       "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "10"
+    },
+    {
+      "sku": "SP12501102527400",
+      "id_produto": "19791",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -394,13 +416,37 @@
   ],
   "itens_subidos_hoje": [
     {
+      "sku": "SP12501100842411",
+      "id_produto": "19763",
+      "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 21/21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501100850035",
+      "id_produto": "19764",
+      "nome": "PORTA TRASEIRA ESQUERDA CHEVROLET S10 CABINE DUPLA LTZ 2.4",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
       "sku": "SP12501100850045",
       "id_produto": "19765",
       "nome": "TAMPA TRASEIRA CHEVROLET S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -466,6 +512,18 @@
       "qtd_images": "9"
     },
     {
+      "sku": "SP12501102500012",
+      "id_produto": "19745",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "6"
+    },
+    {
       "sku": "SP12501102500036",
       "id_produto": "19772",
       "nome": "RADIADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 2021",
@@ -524,6 +582,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501102527400",
+      "id_produto": "19791",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501102535045",
@@ -674,11 +744,11 @@
     "SP12501102500012": {
       "sku": "SP12501102500012",
       "id_produto": "19745",
-      "nome": "CONDENSADOR DO AR-CONDICIONADO",
+      "nome": "CONDENSADOR DO AR-CONDICIONADO JEEP RENEGADE SPORT 1.8",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
@@ -950,11 +1020,11 @@
     "SP12501100842411": {
       "sku": "SP12501100842411",
       "id_produto": "19763",
-      "nome": "ELETROVENTILADOR",
+      "nome": "ELETROVENTILADOR JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V 21/21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
@@ -1362,7 +1432,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -1370,11 +1440,11 @@
     "SP12501100850035": {
       "sku": "SP12501100850035",
       "id_produto": "19764",
-      "nome": "PORTA TRASEIRA ESQUERDA",
+      "nome": "PORTA TRASEIRA ESQUERDA CHEVROLET S10 CABINE DUPLA LTZ 2.4",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "S10 CABINE DUPLA LTZ 2.4 FLEXPOWER",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
@@ -1694,13 +1764,25 @@
     "SP12501102527400": {
       "sku": "SP12501102527400",
       "id_produto": "19791",
-      "nome": "MOTOR COMPLETO",
+      "nome": "MOTOR COMPLETO JEEP RENEGADE SPORT 1.8 4X2 FLEX 16V AUT. 21",
       "marca": "JEEP",
       "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "10"
+    },
+    "SP12501102527032": {
+      "sku": "SP12501102527032",
+      "id_produto": "19621",
+      "nome": "PORTA DIANTEIRA DIREITA JEEP RENEGADE SPORT 1.8 FLEX 2021",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE SPORT 1.8 4X2 FLEX 16V AUT.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
       "qtd_images": "10"
     }
   }
