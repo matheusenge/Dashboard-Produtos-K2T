@@ -1,11 +1,11 @@
 {
   "data": "2026-08-11",
   "primeira_atualizacao": "11/08/2026 08:15:51",
-  "ultima_atualizacao": "11/08/2026 17:44:46",
+  "ultima_atualizacao": "11/08/2026 17:50:58",
   "total_base_dia": 80,
-  "total_atual": 40,
+  "total_atual": 39,
   "novos_produtos": 29,
-  "total_subidos": 65,
+  "total_subidos": 66,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501015381045",
@@ -232,6 +232,7 @@
   ],
   "skus_subidos_hoje": [
     "SP12501015381045",
+    "SP12501041749020",
     "SP12501057335045",
     "SP12501089210033",
     "SP12501089210035",
@@ -299,6 +300,7 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501015381045",
+    "SP12501041749020",
     "SP12501057335045",
     "SP12501089210033",
     "SP12501089210035",
@@ -728,6 +730,18 @@
       "qtd_images": "4"
     },
     {
+      "sku": "SP12501041749020",
+      "id_produto": "11382",
+      "nome": "LANTERNA TRASEIRA ESQUERDA HYUNDAI IX35 GLS 2.0 16V 14/15",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501057335045",
       "id_produto": "19604",
       "nome": "TAMPA TRASEIRA FORD FIESTA 1.0 8V FLEX/CLASS 1.0 FLEX",
@@ -806,7 +820,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
@@ -1687,7 +1701,7 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "16"
+      "qtd_images": "5"
     },
     "SP12501102462007": {
       "sku": "SP12501102462007",
@@ -1948,10 +1962,10 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "16"
+      "qtd_images": "7"
     },
     "SP12501080469036": {
       "sku": "SP12501080469036",
@@ -2428,7 +2442,7 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CELTA SPIRIT 1.0 MPFI 8V FLEXP. 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
