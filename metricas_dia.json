@@ -1,11 +1,11 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 08:50:58",
+  "ultima_atualizacao": "12/08/2026 09:14:31",
   "total_base_dia": 37,
-  "total_atual": 34,
+  "total_atual": 33,
   "novos_produtos": 0,
-  "total_subidos": 3,
+  "total_subidos": 4,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -88,12 +88,14 @@
   "skus_subidos_hoje": [
     "SP12501041749016",
     "SP12501054352011",
-    "SP12501054352019"
+    "SP12501054352019",
+    "SP12501103043483"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501041749016",
     "SP12501054352011",
-    "SP12501054352019"
+    "SP12501054352019",
+    "SP12501103043483"
   ],
   "itens_novos_hoje": [],
   "itens_subidos_hoje": [
@@ -104,7 +106,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -116,7 +118,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -128,10 +130,22 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501103043483",
+      "id_produto": "19801",
+      "nome": "PNEU 175/65 R15 GOODYEAR EAGLE SPORT",
+      "marca": "MITSUBISHI",
+      "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   ],
   "detalhes_skus_vistos_hoje": {
@@ -166,7 +180,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
@@ -222,11 +236,11 @@
     "SP12501103043483": {
       "sku": "SP12501103043483",
       "id_produto": "19801",
-      "nome": "PNEU DIANTEIRO ESQUERDO",
+      "nome": "PNEU 175/65 R15 GOODYEAR EAGLE SPORT",
       "marca": "MITSUBISHI",
       "modelo_do_veiculo": "OUTLANDER SPORT HPE 2.0 16V FLEX AUT.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -298,7 +312,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "7"
@@ -538,7 +552,7 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
