@@ -1,11 +1,11 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 08:21:17",
+  "ultima_atualizacao": "12/08/2026 08:44:51",
   "total_base_dia": 37,
-  "total_atual": 37,
+  "total_atual": 35,
   "novos_produtos": 0,
-  "total_subidos": 0,
+  "total_subidos": 2,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -85,10 +85,41 @@
     "SP42501001064042"
   ],
   "skus_novos_hoje": [],
-  "skus_subidos_hoje": [],
-  "skus_subidos_status_ml_hoje": [],
+  "skus_subidos_hoje": [
+    "SP12501041749016",
+    "SP12501054352019"
+  ],
+  "skus_subidos_status_ml_hoje": [
+    "SP12501041749016",
+    "SP12501054352019"
+  ],
   "itens_novos_hoje": [],
-  "itens_subidos_hoje": [],
+  "itens_subidos_hoje": [
+    {
+      "sku": "SP12501041749016",
+      "id_produto": "11380",
+      "nome": "FAROL ESQUERDO HYUNDAI IX35 GLS 2.0 FLEX 2014/2015",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501054352019",
+      "id_produto": "10075",
+      "nome": "LANTERNA TRASEIRA DIREITA HYUNDAI HB20 1.6 FLEX 2015/2016",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "8"
+    }
+  ],
   "detalhes_skus_vistos_hoje": {
     "SP12501111348035": {
       "sku": "SP12501111348035",
@@ -121,10 +152,10 @@
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "IX35 GLS 2.0 16V 2WD FLEX AUT.",
       "status": "Habilitado",
-      "status_ml": null,
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "24"
+      "qtd_images": "8"
     },
     "SP12501080469036": {
       "sku": "SP12501080469036",
@@ -489,11 +520,11 @@
     "SP12501054352019": {
       "sku": "SP12501054352019",
       "id_produto": "10075",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA HYUNDAI HB20 1.6 FLEX 2015/2016",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
