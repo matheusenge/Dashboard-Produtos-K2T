@@ -1,11 +1,11 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 10:44:54",
+  "ultima_atualizacao": "12/08/2026 10:50:55",
   "total_base_dia": 37,
-  "total_atual": 37,
+  "total_atual": 36,
   "novos_produtos": 7,
-  "total_subidos": 7,
+  "total_subidos": 8,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -107,6 +107,7 @@
     "SP12501100770010",
     "SP12501100770027",
     "SP12501100770037",
+    "SP12501100770038",
     "SP12501103043483"
   ],
   "skus_subidos_status_ml_hoje": [
@@ -116,6 +117,7 @@
     "SP12501100770010",
     "SP12501100770027",
     "SP12501100770037",
+    "SP12501100770038",
     "SP12501103043483"
   ],
   "itens_novos_hoje": [
@@ -158,11 +160,11 @@
     {
       "sku": "SP12501100770038",
       "id_produto": "19811",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
@@ -276,6 +278,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100770038",
+      "id_produto": "19811",
+      "nome": "RETROVISOR ESQUERDO FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501103043483",
@@ -798,11 +812,11 @@
     "SP12501100770038": {
       "sku": "SP12501100770038",
       "id_produto": "19811",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "RETROVISOR ESQUERDO FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
