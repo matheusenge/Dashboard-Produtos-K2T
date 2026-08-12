@@ -1,10 +1,10 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 16:50:41",
+  "ultima_atualizacao": "12/08/2026 17:14:27",
   "total_base_dia": 37,
-  "total_atual": 34,
-  "novos_produtos": 11,
+  "total_atual": 35,
+  "novos_produtos": 12,
   "total_subidos": 14,
   "skus_base_dia": [
     "SP12501009648039",
@@ -57,6 +57,7 @@
     "SP12501054352011",
     "SP12501054352019",
     "SP12501079959400",
+    "SP12501080248011",
     "SP12501080469019",
     "SP12501080469036",
     "SP12501080469424",
@@ -96,6 +97,7 @@
     "SP42501001064042"
   ],
   "skus_novos_hoje": [
+    "SP12501080248011",
     "SP12501100770007",
     "SP12501100770010",
     "SP12501100770027",
@@ -141,6 +143,18 @@
     "SP12501103043483"
   ],
   "itens_novos_hoje": [
+    {
+      "sku": "SP12501080248011",
+      "id_produto": "17692",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "MOBI LIKE 1.0 FIRE FLEX 5P.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
+    },
     {
       "sku": "SP12501100770007",
       "id_produto": "19814",
@@ -1020,6 +1034,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
+    },
+    "SP12501080248011": {
+      "sku": "SP12501080248011",
+      "id_produto": "17692",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "MOBI LIKE 1.0 FIRE FLEX 5P.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "09",
+      "qtd_images": "9"
     }
   }
 }
