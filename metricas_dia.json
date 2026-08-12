@@ -1,11 +1,11 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 10:50:55",
+  "ultima_atualizacao": "12/08/2026 11:14:45",
   "total_base_dia": 37,
-  "total_atual": 36,
+  "total_atual": 34,
   "novos_produtos": 7,
-  "total_subidos": 8,
+  "total_subidos": 10,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -108,6 +108,8 @@
     "SP12501100770027",
     "SP12501100770037",
     "SP12501100770038",
+    "SP12501100800010",
+    "SP12501100800027",
     "SP12501103043483"
   ],
   "skus_subidos_status_ml_hoje": [
@@ -118,6 +120,8 @@
     "SP12501100770027",
     "SP12501100770037",
     "SP12501100770038",
+    "SP12501100800010",
+    "SP12501100800027",
     "SP12501103043483"
   ],
   "itens_novos_hoje": [
@@ -172,11 +176,11 @@
     {
       "sku": "SP12501100800010",
       "id_produto": "19812",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET CORSA SEDAN CLASSIC 1.6 MPFI 2002",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -184,11 +188,11 @@
     {
       "sku": "SP12501100800027",
       "id_produto": "19813",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CORSA SEDAN CLASSIC 1.6",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -290,6 +294,30 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100800010",
+      "id_produto": "19812",
+      "nome": "CHAVE DE SETA CHEVROLET CORSA SEDAN CLASSIC 1.6 MPFI 2002",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100800027",
+      "id_produto": "19813",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CORSA SEDAN CLASSIC 1.6",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501103043483",
@@ -764,11 +792,11 @@
     "SP12501100800010": {
       "sku": "SP12501100800010",
       "id_produto": "19812",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA CHEVROLET CORSA SEDAN CLASSIC 1.6 MPFI 2002",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -788,11 +816,11 @@
     "SP12501100800027": {
       "sku": "SP12501100800027",
       "id_produto": "19813",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS CHEVROLET CORSA SEDAN CLASSIC 1.6",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
