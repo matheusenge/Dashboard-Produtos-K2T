@@ -1,11 +1,11 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 10:20:42",
+  "ultima_atualizacao": "12/08/2026 10:44:54",
   "total_base_dia": 37,
-  "total_atual": 38,
-  "novos_produtos": 6,
-  "total_subidos": 5,
+  "total_atual": 37,
+  "novos_produtos": 7,
+  "total_subidos": 7,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -78,6 +78,7 @@
     "SP12501102527007",
     "SP12501102527032",
     "SP12501102888007",
+    "SP12501103035400",
     "SP12501103043483",
     "SP12501103167007",
     "SP12501105631026",
@@ -96,12 +97,15 @@
     "SP12501100770037",
     "SP12501100770038",
     "SP12501100800010",
-    "SP12501100800027"
+    "SP12501100800027",
+    "SP12501103035400"
   ],
   "skus_subidos_hoje": [
     "SP12501041749016",
     "SP12501054352011",
     "SP12501054352019",
+    "SP12501100770010",
+    "SP12501100770027",
     "SP12501100770037",
     "SP12501103043483"
   ],
@@ -109,6 +113,8 @@
     "SP12501041749016",
     "SP12501054352011",
     "SP12501054352019",
+    "SP12501100770010",
+    "SP12501100770027",
     "SP12501100770037",
     "SP12501103043483"
   ],
@@ -116,11 +122,11 @@
     {
       "sku": "SP12501100770010",
       "id_produto": "19808",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005/05",
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -128,11 +134,11 @@
     {
       "sku": "SP12501100770027",
       "id_produto": "19809",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -184,6 +190,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501103035400",
+      "id_produto": "19315",
+      "nome": "MOTOR COMPLETO JAC J6 2.0 16V MEC. 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   ],
   "itens_subidos_hoje": [
@@ -222,6 +240,30 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501100770010",
+      "id_produto": "19808",
+      "nome": "CHAVE DE SETA FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005/05",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100770027",
+      "id_produto": "19809",
+      "nome": "PAINEL DE INSTRUMENTOS FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501100770037",
@@ -720,11 +762,11 @@
     "SP12501100770010": {
       "sku": "SP12501100770010",
       "id_produto": "19808",
-      "nome": "CHAVE DE SETA",
+      "nome": "CHAVE DE SETA FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005/05",
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -744,11 +786,11 @@
     "SP12501100770027": {
       "sku": "SP12501100770027",
       "id_produto": "19809",
-      "nome": "PAINEL DE INSTRUMENTOS",
+      "nome": "PAINEL DE INSTRUMENTOS FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005",
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -764,6 +806,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    "SP12501103035400": {
+      "sku": "SP12501103035400",
+      "id_produto": "19315",
+      "nome": "MOTOR COMPLETO JAC J6 2.0 16V MEC. 2011/2012",
+      "marca": "JAC",
+      "modelo_do_veiculo": "J6 2.0 16V 5P MEC.",
+      "status": "Habilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   }
 }
