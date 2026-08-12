@@ -1,10 +1,10 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 09:14:31",
+  "ultima_atualizacao": "12/08/2026 09:20:44",
   "total_base_dia": 37,
-  "total_atual": 33,
-  "novos_produtos": 0,
+  "total_atual": 34,
+  "novos_produtos": 1,
   "total_subidos": 4,
   "skus_base_dia": [
     "SP12501009648039",
@@ -62,6 +62,7 @@
     "SP12501080469424",
     "SP12501080485026",
     "SP12501089229040",
+    "SP12501100770037",
     "SP12501100834024",
     "SP12501100842007",
     "SP12501102462007",
@@ -84,7 +85,9 @@
     "SP12501116765043",
     "SP42501001064042"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501100770037"
+  ],
   "skus_subidos_hoje": [
     "SP12501041749016",
     "SP12501054352011",
@@ -97,7 +100,20 @@
     "SP12501054352019",
     "SP12501103043483"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501100770037",
+      "id_produto": "19810",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "FORD",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501041749016",
@@ -592,6 +608,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    "SP12501100770037": {
+      "sku": "SP12501100770037",
+      "id_produto": "19810",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "FORD",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     }
   }
 }
