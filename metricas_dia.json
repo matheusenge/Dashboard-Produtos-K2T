@@ -1,11 +1,11 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 08:44:51",
+  "ultima_atualizacao": "12/08/2026 08:50:58",
   "total_base_dia": 37,
-  "total_atual": 35,
+  "total_atual": 34,
   "novos_produtos": 0,
-  "total_subidos": 2,
+  "total_subidos": 3,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -87,10 +87,12 @@
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
     "SP12501041749016",
+    "SP12501054352011",
     "SP12501054352019"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501041749016",
+    "SP12501054352011",
     "SP12501054352019"
   ],
   "itens_novos_hoje": [],
@@ -106,6 +108,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501054352011",
+      "id_produto": "9874",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO HYUNDAI HB20 1.6 FLEX 2015/16",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": null,
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501054352019",
@@ -280,14 +294,14 @@
     "SP12501054352011": {
       "sku": "SP12501054352011",
       "id_produto": "9874",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO HYUNDAI HB20 1.6 FLEX 2015/16",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 R SPEC 1.6 FLEX 16V MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": null,
-      "qtd_images": "24"
+      "qtd_images": "7"
     },
     "SP12501041145437": {
       "sku": "SP12501041145437",
