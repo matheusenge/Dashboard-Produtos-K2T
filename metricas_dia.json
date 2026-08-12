@@ -1,10 +1,10 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 11:20:55",
+  "ultima_atualizacao": "12/08/2026 11:44:41",
   "total_base_dia": 37,
-  "total_atual": 34,
-  "novos_produtos": 7,
+  "total_atual": 36,
+  "novos_produtos": 9,
   "total_subidos": 10,
   "skus_base_dia": [
     "SP12501009648039",
@@ -62,10 +62,12 @@
     "SP12501080469424",
     "SP12501080485026",
     "SP12501089229040",
+    "SP12501100770007",
     "SP12501100770010",
     "SP12501100770027",
     "SP12501100770037",
     "SP12501100770038",
+    "SP12501100770045",
     "SP12501100800010",
     "SP12501100800027",
     "SP12501100834024",
@@ -92,10 +94,12 @@
     "SP42501001064042"
   ],
   "skus_novos_hoje": [
+    "SP12501100770007",
     "SP12501100770010",
     "SP12501100770027",
     "SP12501100770037",
     "SP12501100770038",
+    "SP12501100770045",
     "SP12501100800010",
     "SP12501100800027",
     "SP12501103035400"
@@ -125,6 +129,18 @@
     "SP12501103043483"
   ],
   "itens_novos_hoje": [
+    {
+      "sku": "SP12501100770007",
+      "id_produto": "19814",
+      "nome": "CAPÔ",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
     {
       "sku": "SP12501100770010",
       "id_produto": "19808",
@@ -172,6 +188,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100770045",
+      "id_produto": "19815",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501100800010",
@@ -859,6 +887,30 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501100770045": {
+      "sku": "SP12501100770045",
+      "id_produto": "19815",
+      "nome": "TAMPA TRASEIRA",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    "SP12501100770007": {
+      "sku": "SP12501100770007",
+      "id_produto": "19814",
+      "nome": "CAPÔ",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
       "qtd_images": "7"
     }
   }
