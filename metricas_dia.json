@@ -1,7 +1,7 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 15:44:32",
+  "ultima_atualizacao": "12/08/2026 15:52:57",
   "total_base_dia": 37,
   "total_atual": 35,
   "novos_produtos": 11,
@@ -254,8 +254,8 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
       "status": "Habilitado",
-      "status_ml": "active",
-      "quantidade": "1",
+      "status_ml": "closed",
+      "quantidade": "0",
       "classificacao": "07",
       "qtd_images": "7"
     },
@@ -412,8 +412,8 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
       "status": "Habilitado",
-      "status_ml": "active",
-      "quantidade": "1",
+      "status_ml": "closed",
+      "quantidade": "0",
       "classificacao": "07",
       "qtd_images": "7"
     },
@@ -918,8 +918,8 @@
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
       "status": "Habilitado",
-      "status_ml": "active",
-      "quantidade": "1",
+      "status_ml": "closed",
+      "quantidade": "0",
       "classificacao": "07",
       "qtd_images": "7"
     },
