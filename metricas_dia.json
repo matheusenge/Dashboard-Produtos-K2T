@@ -1,10 +1,10 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 17:14:27",
+  "ultima_atualizacao": "12/08/2026 17:21:06",
   "total_base_dia": 37,
-  "total_atual": 35,
-  "novos_produtos": 12,
+  "total_atual": 36,
+  "novos_produtos": 13,
   "total_subidos": 14,
   "skus_base_dia": [
     "SP12501009648039",
@@ -63,6 +63,7 @@
     "SP12501080469424",
     "SP12501080485026",
     "SP12501089229040",
+    "SP12501100770004",
     "SP12501100770007",
     "SP12501100770010",
     "SP12501100770027",
@@ -98,6 +99,7 @@
   ],
   "skus_novos_hoje": [
     "SP12501080248011",
+    "SP12501100770004",
     "SP12501100770007",
     "SP12501100770010",
     "SP12501100770027",
@@ -154,6 +156,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100770004",
+      "id_produto": "19818",
+      "nome": "CÂMBIO MANUAL",
+      "marca": "FORD",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501100770007",
@@ -1046,6 +1060,18 @@
       "quantidade": "1",
       "classificacao": "09",
       "qtd_images": "9"
+    },
+    "SP12501100770004": {
+      "sku": "SP12501100770004",
+      "id_produto": "19818",
+      "nome": "CÂMBIO MANUAL",
+      "marca": "FORD",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
     }
   }
 }
