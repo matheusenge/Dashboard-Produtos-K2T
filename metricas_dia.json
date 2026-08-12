@@ -1,10 +1,10 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 14:50:40",
+  "ultima_atualizacao": "12/08/2026 15:14:28",
   "total_base_dia": 37,
-  "total_atual": 34,
-  "novos_produtos": 9,
+  "total_atual": 35,
+  "novos_produtos": 10,
   "total_subidos": 12,
   "skus_base_dia": [
     "SP12501009648039",
@@ -65,6 +65,7 @@
     "SP12501100770007",
     "SP12501100770010",
     "SP12501100770027",
+    "SP12501100770031",
     "SP12501100770037",
     "SP12501100770038",
     "SP12501100770045",
@@ -97,6 +98,7 @@
     "SP12501100770007",
     "SP12501100770010",
     "SP12501100770027",
+    "SP12501100770031",
     "SP12501100770037",
     "SP12501100770038",
     "SP12501100770045",
@@ -167,6 +169,18 @@
       "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100770031",
+      "id_produto": "19817",
+      "nome": "PARA-LAMA DIANTEIRO ESQUERDO",
+      "marca": "FORD",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
       "qtd_images": "7"
     },
     {
@@ -937,6 +951,18 @@
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
       "status": "Habilitado",
       "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    "SP12501100770031": {
+      "sku": "SP12501100770031",
+      "id_produto": "19817",
+      "nome": "PARA-LAMA DIANTEIRO ESQUERDO",
+      "marca": "FORD",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
