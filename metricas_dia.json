@@ -1,10 +1,10 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 09:20:44",
+  "ultima_atualizacao": "12/08/2026 09:44:30",
   "total_base_dia": 37,
-  "total_atual": 34,
-  "novos_produtos": 1,
+  "total_atual": 39,
+  "novos_produtos": 6,
   "total_subidos": 4,
   "skus_base_dia": [
     "SP12501009648039",
@@ -62,7 +62,12 @@
     "SP12501080469424",
     "SP12501080485026",
     "SP12501089229040",
+    "SP12501100770010",
+    "SP12501100770027",
     "SP12501100770037",
+    "SP12501100770038",
+    "SP12501100800010",
+    "SP12501100800027",
     "SP12501100834024",
     "SP12501100842007",
     "SP12501102462007",
@@ -86,7 +91,12 @@
     "SP42501001064042"
   ],
   "skus_novos_hoje": [
-    "SP12501100770037"
+    "SP12501100770010",
+    "SP12501100770027",
+    "SP12501100770037",
+    "SP12501100770038",
+    "SP12501100800010",
+    "SP12501100800027"
   ],
   "skus_subidos_hoje": [
     "SP12501041749016",
@@ -102,16 +112,76 @@
   ],
   "itens_novos_hoje": [
     {
-      "sku": "SP12501100770037",
-      "id_produto": "19810",
-      "nome": "RETROVISOR DIREITO",
+      "sku": "SP12501100770010",
+      "id_produto": "19808",
+      "nome": "CHAVE DE SETA",
       "marca": "FORD",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100770027",
+      "id_produto": "19809",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
-      "qtd_images": "10"
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100770037",
+      "id_produto": "19810",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FORD ECOSPORT XLS 1.6 FLEX 8V",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100770038",
+      "id_produto": "19811",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100800010",
+      "id_produto": "19812",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100800027",
+      "id_produto": "19813",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     }
   ],
   "itens_subidos_hoje": [
@@ -614,12 +684,72 @@
       "id_produto": "19810",
       "nome": "RETROVISOR DIREITO",
       "marca": "FORD",
-      "modelo_do_veiculo": null,
+      "modelo_do_veiculo": "FORD ECOSPORT XLS 1.6 FLEX 8V",
       "status": "Desabilitado",
       "status_ml": null,
       "quantidade": "1",
       "classificacao": "07",
-      "qtd_images": "10"
+      "qtd_images": "7"
+    },
+    "SP12501100800010": {
+      "sku": "SP12501100800010",
+      "id_produto": "19812",
+      "nome": "CHAVE DE SETA",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    "SP12501100770010": {
+      "sku": "SP12501100770010",
+      "id_produto": "19808",
+      "nome": "CHAVE DE SETA",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    "SP12501100800027": {
+      "sku": "SP12501100800027",
+      "id_produto": "19813",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CORSA SEDAN CLASSIC 1.6 MPFI",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501100770027": {
+      "sku": "SP12501100770027",
+      "id_produto": "19809",
+      "nome": "PAINEL DE INSTRUMENTOS",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
+    },
+    "SP12501100770038": {
+      "sku": "SP12501100770038",
+      "id_produto": "19811",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "9"
     }
   }
 }
