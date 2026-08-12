@@ -1,11 +1,11 @@
 {
   "data": "2026-08-12",
   "primeira_atualizacao": "12/08/2026 08:21:17",
-  "ultima_atualizacao": "12/08/2026 10:14:30",
+  "ultima_atualizacao": "12/08/2026 10:20:42",
   "total_base_dia": 37,
-  "total_atual": 39,
+  "total_atual": 38,
   "novos_produtos": 6,
-  "total_subidos": 4,
+  "total_subidos": 5,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -102,12 +102,14 @@
     "SP12501041749016",
     "SP12501054352011",
     "SP12501054352019",
+    "SP12501100770037",
     "SP12501103043483"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501041749016",
     "SP12501054352011",
     "SP12501054352019",
+    "SP12501100770037",
     "SP12501103043483"
   ],
   "itens_novos_hoje": [
@@ -138,11 +140,11 @@
     {
       "sku": "SP12501100770037",
       "id_produto": "19810",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005/05",
       "marca": "FORD",
       "modelo_do_veiculo": "FORD ECOSPORT XLS 1.6 FLEX 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
@@ -220,6 +222,18 @@
       "quantidade": "1",
       "classificacao": null,
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501100770037",
+      "id_produto": "19810",
+      "nome": "RETROVISOR DIREITO FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005/05",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FORD ECOSPORT XLS 1.6 FLEX 8V",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501103043483",
@@ -682,11 +696,11 @@
     "SP12501100770037": {
       "sku": "SP12501100770037",
       "id_produto": "19810",
-      "nome": "RETROVISOR DIREITO",
+      "nome": "RETROVISOR DIREITO FORD ECOSPORT XLS 1.6 FLEX 8V 5P 2005/05",
       "marca": "FORD",
       "modelo_do_veiculo": "FORD ECOSPORT XLS 1.6 FLEX 8V",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
