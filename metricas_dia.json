@@ -1,11 +1,11 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 15:51:06",
+  "ultima_atualizacao": "13/08/2026 16:21:21",
   "total_base_dia": 39,
-  "total_atual": 41,
+  "total_atual": 37,
   "novos_produtos": 32,
-  "total_subidos": 30,
+  "total_subidos": 34,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -156,6 +156,7 @@
   ],
   "skus_subidos_hoje": [
     "SP12501005084026",
+    "SP12501009586019",
     "SP12501014083027",
     "SP12501015209027",
     "SP12501015322015",
@@ -176,6 +177,9 @@
     "SP12501100788027",
     "SP12501100788037",
     "SP12501100788038",
+    "SP12501100796007",
+    "SP12501100796024",
+    "SP12501100796031",
     "SP12501100796045",
     "SP12501100796505",
     "SP12501102276007",
@@ -188,6 +192,7 @@
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501005084026",
+    "SP12501009586019",
     "SP12501014083027",
     "SP12501015209027",
     "SP12501015322015",
@@ -208,6 +213,9 @@
     "SP12501100788027",
     "SP12501100788037",
     "SP12501100788038",
+    "SP12501100796007",
+    "SP12501100796024",
+    "SP12501100796031",
     "SP12501100796045",
     "SP12501100796505",
     "SP12501102276007",
@@ -234,11 +242,11 @@
     {
       "sku": "SP12501009586019",
       "id_produto": "19022",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA HYUNDAI HB20 1.0 COMFOR 2016/2017",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 1.0M COMFOR",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
@@ -462,11 +470,11 @@
     {
       "sku": "SP12501100796007",
       "id_produto": "19821",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2004/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
@@ -474,11 +482,11 @@
     {
       "sku": "SP12501100796024",
       "id_produto": "19822",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO FORD FIESTA PERSONNALITÉ 1.0 2004/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
@@ -486,11 +494,11 @@
     {
       "sku": "SP12501100796031",
       "id_produto": "19823",
-      "nome": "PARA-LAMA DIANTEIRO ESQUERDO",
+      "nome": "PARA-LAMA DIANTEIRO ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 05",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -616,6 +624,18 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501009586019",
+      "id_produto": "19022",
+      "nome": "LANTERNA TRASEIRA DIREITA HYUNDAI HB20 1.0 COMFOR 2016/2017",
+      "marca": "HYUNDAI",
+      "modelo_do_veiculo": "HB20 1.0M COMFOR",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501014083027",
@@ -856,6 +876,42 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100796007",
+      "id_produto": "19821",
+      "nome": "CAPÔ FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2004/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "05",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100796024",
+      "id_produto": "19822",
+      "nome": "MÓDULO DE INJEÇÃO FORD FIESTA PERSONNALITÉ 1.0 2004/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100796031",
+      "id_produto": "19823",
+      "nome": "PARA-LAMA DIANTEIRO ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 05",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
     },
     {
       "sku": "SP12501100796045",
@@ -1486,11 +1542,11 @@
     "SP12501100796031": {
       "sku": "SP12501100796031",
       "id_produto": "19823",
-      "nome": "PARA-LAMA DIANTEIRO ESQUERDO",
+      "nome": "PARA-LAMA DIANTEIRO ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 05",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
@@ -1510,11 +1566,11 @@
     "SP12501100796007": {
       "sku": "SP12501100796007",
       "id_produto": "19821",
-      "nome": "CAPÔ",
+      "nome": "CAPÔ FORD FIESTA PERSONNALITÉ 1.0 8V 5P 2004/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "05",
       "qtd_images": "7"
@@ -1642,11 +1698,11 @@
     "SP12501009586019": {
       "sku": "SP12501009586019",
       "id_produto": "19022",
-      "nome": "LANTERNA TRASEIRA DIREITA",
+      "nome": "LANTERNA TRASEIRA DIREITA HYUNDAI HB20 1.0 COMFOR 2016/2017",
       "marca": "HYUNDAI",
       "modelo_do_veiculo": "HB20 1.0M COMFOR",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
@@ -1690,11 +1746,11 @@
     "SP12501100796024": {
       "sku": "SP12501100796024",
       "id_produto": "19822",
-      "nome": "MÓDULO DE INJEÇÃO",
+      "nome": "MÓDULO DE INJEÇÃO FORD FIESTA PERSONNALITÉ 1.0 2004/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "7"
