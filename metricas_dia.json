@@ -1,11 +1,11 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 09:50:57",
+  "ultima_atualizacao": "13/08/2026 10:14:44",
   "total_base_dia": 39,
   "total_atual": 38,
-  "novos_produtos": 2,
-  "total_subidos": 3,
+  "novos_produtos": 3,
+  "total_subidos": 4,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -69,6 +69,7 @@
     "SP12501100770004",
     "SP12501100834024",
     "SP12501100842007",
+    "SP12501102276035",
     "SP12501102462007",
     "SP12501102470007",
     "SP12501102470030",
@@ -92,14 +93,17 @@
   ],
   "skus_novos_hoje": [
     "SP12501041811026",
-    "SP12501080477011"
+    "SP12501080477011",
+    "SP12501102276035"
   ],
   "skus_subidos_hoje": [
+    "SP12501080477011",
     "SP12501087390028",
     "SP12501100770004",
     "SP12501117729029"
   ],
   "skus_subidos_status_ml_hoje": [
+    "SP12501080477011",
     "SP12501087390028",
     "SP12501100770004",
     "SP12501117729029"
@@ -120,17 +124,41 @@
     {
       "sku": "SP12501080477011",
       "id_produto": "17694",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO CHEVROLET PRISMA 1.4 2018/2019",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "PRISMA SED. LT 1.4 8V FLEXPOWER 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501102276035",
+      "id_produto": "19830",
+      "nome": "PORTA TRASEIRA ESQUERDA",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     }
   ],
   "itens_subidos_hoje": [
+    {
+      "sku": "SP12501080477011",
+      "id_produto": "17694",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO CHEVROLET PRISMA 1.4 2018/2019",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "PRISMA SED. LT 1.4 8V FLEXPOWER 4P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    },
     {
       "sku": "SP12501087390028",
       "id_produto": "19820",
@@ -652,14 +680,26 @@
     "SP12501080477011": {
       "sku": "SP12501080477011",
       "id_produto": "17694",
-      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO CHEVROLET PRISMA 1.4 2018/2019",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "PRISMA SED. LT 1.4 8V FLEXPOWER 4P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
+    },
+    "SP12501102276035": {
+      "sku": "SP12501102276035",
+      "id_produto": "19830",
+      "nome": "PORTA TRASEIRA ESQUERDA",
+      "marca": "HONDA",
+      "modelo_do_veiculo": null,
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     }
   }
 }
