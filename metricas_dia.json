@@ -1,10 +1,10 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 16:51:01",
+  "ultima_atualizacao": "13/08/2026 17:21:09",
   "total_base_dia": 39,
-  "total_atual": 38,
-  "novos_produtos": 34,
+  "total_atual": 43,
+  "novos_produtos": 39,
   "total_subidos": 35,
   "skus_base_dia": [
     "SP12501009648039",
@@ -52,11 +52,16 @@
     "SP12501005084026",
     "SP12501009586019",
     "SP12501009648039",
+    "SP12501009918013",
+    "SP12501009918014",
     "SP12501014083027",
+    "SP12501014903013",
+    "SP12501014903014",
     "SP12501015209027",
     "SP12501015322015",
     "SP12501015322037",
     "SP12501015411010",
+    "SP12501015411026",
     "SP12501015535024",
     "SP12501016655411",
     "SP12501041145437",
@@ -126,11 +131,16 @@
     "SP12501004304019",
     "SP12501005084026",
     "SP12501009586019",
+    "SP12501009918013",
+    "SP12501009918014",
     "SP12501014083027",
+    "SP12501014903013",
+    "SP12501014903014",
     "SP12501015209027",
     "SP12501015322015",
     "SP12501015322037",
     "SP12501015411010",
+    "SP12501015411026",
     "SP12501015535024",
     "SP12501016655411",
     "SP12501041811026",
@@ -270,6 +280,30 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501009918013",
+      "id_produto": "19150",
+      "nome": "DIFERENCIAL EIXO DIANTEIRO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE CUSTOM 2.0 4X4 TB DIESEL AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501009918014",
+      "id_produto": "19033",
+      "nome": "DIFERENCIAL EIXO TRASEIRO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE CUSTOM 2.0 4X4 TB DIESEL AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    {
       "sku": "SP12501014083027",
       "id_produto": "17033",
       "nome": "PAINEL DE INSTRUMENTOS chevrolet PRISMA SED. 1.0 2018/18",
@@ -280,6 +314,30 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501014903013",
+      "id_produto": "19035",
+      "nome": "DIFERENCIAL EIXO DIANTEIRO",
+      "marca": "RAM",
+      "modelo_do_veiculo": "RAMPAGE LAR. HURR. 4 2.0 TB CD 4X4 AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501014903014",
+      "id_produto": "19036",
+      "nome": "DIFERENCIAL EIXO TRASEIRO",
+      "marca": "RAM",
+      "modelo_do_veiculo": "RAMPAGE LAR. HURR. 4 2.0 TB CD 4X4 AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     },
     {
       "sku": "SP12501015209027",
@@ -328,6 +386,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "6"
+    },
+    {
+      "sku": "SP12501015411026",
+      "id_produto": "18784",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "TOYOTA",
+      "modelo_do_veiculo": "ETIOS XLS 1.5 FLEX 16V 5P MEC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501015535024",
@@ -1940,6 +2010,66 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
+    },
+    "SP12501014903014": {
+      "sku": "SP12501014903014",
+      "id_produto": "19036",
+      "nome": "DIFERENCIAL EIXO TRASEIRO",
+      "marca": "RAM",
+      "modelo_do_veiculo": "RAMPAGE LAR. HURR. 4 2.0 TB CD 4X4 AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    "SP12501009918013": {
+      "sku": "SP12501009918013",
+      "id_produto": "19150",
+      "nome": "DIFERENCIAL EIXO DIANTEIRO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE CUSTOM 2.0 4X4 TB DIESEL AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    "SP12501014903013": {
+      "sku": "SP12501014903013",
+      "id_produto": "19035",
+      "nome": "DIFERENCIAL EIXO DIANTEIRO",
+      "marca": "RAM",
+      "modelo_do_veiculo": "RAMPAGE LAR. HURR. 4 2.0 TB CD 4X4 AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "9"
+    },
+    "SP12501009918014": {
+      "sku": "SP12501009918014",
+      "id_produto": "19033",
+      "nome": "DIFERENCIAL EIXO TRASEIRO",
+      "marca": "JEEP",
+      "modelo_do_veiculo": "RENEGADE CUSTOM 2.0 4X4 TB DIESEL AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "7"
+    },
+    "SP12501015411026": {
+      "sku": "SP12501015411026",
+      "id_produto": "18784",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "TOYOTA",
+      "modelo_do_veiculo": "ETIOS XLS 1.5 FLEX 16V 5P MEC",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
     }
   }
 }
