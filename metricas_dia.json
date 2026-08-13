@@ -1,11 +1,11 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 08:21:08",
+  "ultima_atualizacao": "13/08/2026 08:44:48",
   "total_base_dia": 39,
-  "total_atual": 39,
+  "total_atual": 37,
   "novos_produtos": 0,
-  "total_subidos": 0,
+  "total_subidos": 2,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -89,10 +89,41 @@
     "SP42501001064042"
   ],
   "skus_novos_hoje": [],
-  "skus_subidos_hoje": [],
-  "skus_subidos_status_ml_hoje": [],
+  "skus_subidos_hoje": [
+    "SP12501087390028",
+    "SP12501117729029"
+  ],
+  "skus_subidos_status_ml_hoje": [
+    "SP12501087390028",
+    "SP12501117729029"
+  ],
   "itens_novos_hoje": [],
-  "itens_subidos_hoje": [],
+  "itens_subidos_hoje": [
+    {
+      "sku": "SP12501087390028",
+      "id_produto": "19820",
+      "nome": "PARA-CHOQUE DIANTEIRO CHEVROLET CAPTIVA SPORT 3.0 2013/13",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "CAPTIVA SPORT AWD 3.0 V6 24V 268CV",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501117729029",
+      "id_produto": "19819",
+      "nome": "PARA-CHOQUE TRASEIRO FIAT PULSE DRIVE 1.3 8V FLEX 2023/2024",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "PULSE DRIVE 1.3 8V FLEX MEC.",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    }
+  ],
   "detalhes_skus_vistos_hoje": {
     "SP12501102470007": {
       "sku": "SP12501102470007",
@@ -265,11 +296,11 @@
     "SP12501117729029": {
       "sku": "SP12501117729029",
       "id_produto": "19819",
-      "nome": "PARA-CHOQUE TRASEIRO",
+      "nome": "PARA-CHOQUE TRASEIRO FIAT PULSE DRIVE 1.3 8V FLEX 2023/2024",
       "marca": "FIAT",
       "modelo_do_veiculo": "PULSE DRIVE 1.3 8V FLEX MEC.",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
@@ -349,11 +380,11 @@
     "SP12501087390028": {
       "sku": "SP12501087390028",
       "id_produto": "19820",
-      "nome": "PARA-CHOQUE DIANTEIRO",
+      "nome": "PARA-CHOQUE DIANTEIRO CHEVROLET CAPTIVA SPORT 3.0 2013/13",
       "marca": "CHEVROLET",
       "modelo_do_veiculo": "CAPTIVA SPORT AWD 3.0 V6 24V 268CV",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "8"
