@@ -1,11 +1,11 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 16:21:21",
+  "ultima_atualizacao": "13/08/2026 16:51:01",
   "total_base_dia": 39,
-  "total_atual": 37,
-  "novos_produtos": 32,
-  "total_subidos": 34,
+  "total_atual": 38,
+  "novos_produtos": 34,
+  "total_subidos": 35,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -48,6 +48,7 @@
     "SP42501001064042"
   ],
   "skus_vistos_hoje": [
+    "SP12501004304019",
     "SP12501005084026",
     "SP12501009586019",
     "SP12501009648039",
@@ -57,6 +58,7 @@
     "SP12501015322037",
     "SP12501015411010",
     "SP12501015535024",
+    "SP12501016655411",
     "SP12501041145437",
     "SP12501041560026",
     "SP12501041749039",
@@ -121,6 +123,7 @@
     "SP42501001064042"
   ],
   "skus_novos_hoje": [
+    "SP12501004304019",
     "SP12501005084026",
     "SP12501009586019",
     "SP12501014083027",
@@ -129,6 +132,7 @@
     "SP12501015322037",
     "SP12501015411010",
     "SP12501015535024",
+    "SP12501016655411",
     "SP12501041811026",
     "SP12501080477011",
     "SP12501100656038",
@@ -180,6 +184,7 @@
     "SP12501100796007",
     "SP12501100796024",
     "SP12501100796031",
+    "SP12501100796038",
     "SP12501100796045",
     "SP12501100796505",
     "SP12501102276007",
@@ -216,6 +221,7 @@
     "SP12501100796007",
     "SP12501100796024",
     "SP12501100796031",
+    "SP12501100796038",
     "SP12501100796045",
     "SP12501100796505",
     "SP12501102276007",
@@ -227,6 +233,18 @@
     "SP12501117729029"
   ],
   "itens_novos_hoje": [
+    {
+      "sku": "SP12501004304019",
+      "id_produto": "19051",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "GM",
+      "modelo_do_veiculo": "ONIX HATCH LTZ 1.4 8V FLEXPOWER 5P MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
     {
       "sku": "SP12501005084026",
       "id_produto": "16233",
@@ -322,6 +340,18 @@
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501016655411",
+      "id_produto": "18792",
+      "nome": "ELETROVENTILADOR",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "FREEMONT EMOT./PRECISION 2.4 16V 5P AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
     },
     {
       "sku": "SP12501041811026",
@@ -506,11 +536,11 @@
     {
       "sku": "SP12501100796038",
       "id_produto": "19824",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "ETROVISOR ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 2004/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -912,6 +942,18 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "7"
+    },
+    {
+      "sku": "SP12501100796038",
+      "id_produto": "19824",
+      "nome": "ETROVISOR ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 2004/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "active",
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "10"
     },
     {
       "sku": "SP12501100796045",
@@ -1722,11 +1764,11 @@
     "SP12501100796038": {
       "sku": "SP12501100796038",
       "id_produto": "19824",
-      "nome": "RETROVISOR ESQUERDO",
+      "nome": "ETROVISOR ESQUERDO FORD FIESTA PERSONNALITÉ 1.0 2004/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "FIESTA PERSONNALITÉ 1.0 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "10"
@@ -1874,6 +1916,30 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "9"
+    },
+    "SP12501016655411": {
+      "sku": "SP12501016655411",
+      "id_produto": "18792",
+      "nome": "ELETROVENTILADOR",
+      "marca": "FIAT",
+      "modelo_do_veiculo": "FREEMONT EMOT./PRECISION 2.4 16V 5P AUT.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "5"
+    },
+    "SP12501004304019": {
+      "sku": "SP12501004304019",
+      "id_produto": "19051",
+      "nome": "LANTERNA TRASEIRA DIREITA",
+      "marca": "GM",
+      "modelo_do_veiculo": "ONIX HATCH LTZ 1.4 8V FLEXPOWER 5P MEC.",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
     }
   }
 }
