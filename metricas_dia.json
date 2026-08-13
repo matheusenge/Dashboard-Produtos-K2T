@@ -1,11 +1,11 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 08:44:48",
+  "ultima_atualizacao": "13/08/2026 08:50:57",
   "total_base_dia": 39,
-  "total_atual": 37,
+  "total_atual": 36,
   "novos_produtos": 0,
-  "total_subidos": 2,
+  "total_subidos": 3,
   "skus_base_dia": [
     "SP12501009648039",
     "SP12501041145437",
@@ -91,10 +91,12 @@
   "skus_novos_hoje": [],
   "skus_subidos_hoje": [
     "SP12501087390028",
+    "SP12501100770004",
     "SP12501117729029"
   ],
   "skus_subidos_status_ml_hoje": [
     "SP12501087390028",
+    "SP12501100770004",
     "SP12501117729029"
   ],
   "itens_novos_hoje": [],
@@ -112,13 +114,25 @@
       "qtd_images": "8"
     },
     {
+      "sku": "SP12501100770004",
+      "id_produto": "19818",
+      "nome": "CÂMBIO MANUAL FORD ECOSPORT XLS 1.6 FLEX 8V 2005/2005",
+      "marca": "FORD",
+      "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
+      "status": "Habilitado",
+      "status_ml": "paused",
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "10"
+    },
+    {
       "sku": "SP12501117729029",
       "id_produto": "19819",
       "nome": "PARA-CHOQUE TRASEIRO FIAT PULSE DRIVE 1.3 8V FLEX 2023/2024",
       "marca": "FIAT",
       "modelo_do_veiculo": "PULSE DRIVE 1.3 8V FLEX MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
@@ -188,11 +202,11 @@
     "SP12501100770004": {
       "sku": "SP12501100770004",
       "id_produto": "19818",
-      "nome": "CÂMBIO MANUAL",
+      "nome": "CÂMBIO MANUAL FORD ECOSPORT XLS 1.6 FLEX 8V 2005/2005",
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
-      "status": "Desabilitado",
-      "status_ml": null,
+      "status": "Habilitado",
+      "status_ml": "paused",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -300,7 +314,7 @@
       "marca": "FIAT",
       "modelo_do_veiculo": "PULSE DRIVE 1.3 8V FLEX MEC.",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "8"
