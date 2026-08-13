@@ -1,10 +1,10 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 14:21:23",
+  "ultima_atualizacao": "13/08/2026 14:51:28",
   "total_base_dia": 39,
-  "total_atual": 50,
-  "novos_produtos": 30,
+  "total_atual": 52,
+  "novos_produtos": 32,
   "total_subidos": 19,
   "skus_base_dia": [
     "SP12501009648039",
@@ -83,6 +83,8 @@
     "SP12501100770411",
     "SP12501100788010",
     "SP12501100788027",
+    "SP12501100788037",
+    "SP12501100788038",
     "SP12501100796007",
     "SP12501100796024",
     "SP12501100796031",
@@ -137,6 +139,8 @@
     "SP12501100770411",
     "SP12501100788010",
     "SP12501100788027",
+    "SP12501100788037",
+    "SP12501100788038",
     "SP12501100796007",
     "SP12501100796024",
     "SP12501100796031",
@@ -408,6 +412,30 @@
       "quantidade": "1",
       "classificacao": "08",
       "qtd_images": "5"
+    },
+    {
+      "sku": "SP12501100788037",
+      "id_produto": "19841",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "KA ONE 1.0",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    {
+      "sku": "SP12501100788038",
+      "id_produto": "19842",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "KA ONE 1.0",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
     },
     {
       "sku": "SP12501100796007",
@@ -1612,6 +1640,30 @@
       "quantidade": "1",
       "classificacao": "06",
       "qtd_images": "6"
+    },
+    "SP12501100788037": {
+      "sku": "SP12501100788037",
+      "id_produto": "19841",
+      "nome": "RETROVISOR DIREITO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "KA ONE 1.0",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
+    },
+    "SP12501100788038": {
+      "sku": "SP12501100788038",
+      "id_produto": "19842",
+      "nome": "RETROVISOR ESQUERDO",
+      "marca": "FORD",
+      "modelo_do_veiculo": "KA ONE 1.0",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "08",
+      "qtd_images": "9"
     }
   }
 }
