@@ -1,10 +1,10 @@
 {
   "data": "2026-08-13",
   "primeira_atualizacao": "13/08/2026 08:15:02",
-  "ultima_atualizacao": "13/08/2026 08:50:57",
+  "ultima_atualizacao": "13/08/2026 09:17:19",
   "total_base_dia": 39,
-  "total_atual": 36,
-  "novos_produtos": 0,
+  "total_atual": 38,
+  "novos_produtos": 2,
   "total_subidos": 3,
   "skus_base_dia": [
     "SP12501009648039",
@@ -54,6 +54,7 @@
     "SP12501041749039",
     "SP12501041749040",
     "SP12501041749041",
+    "SP12501041811026",
     "SP12501042214033",
     "SP12501042273041",
     "SP12501079959400",
@@ -61,6 +62,7 @@
     "SP12501080469019",
     "SP12501080469036",
     "SP12501080469424",
+    "SP12501080477011",
     "SP12501080485026",
     "SP12501087390028",
     "SP12501089229040",
@@ -88,7 +90,10 @@
     "SP12501117729029",
     "SP42501001064042"
   ],
-  "skus_novos_hoje": [],
+  "skus_novos_hoje": [
+    "SP12501041811026",
+    "SP12501080477011"
+  ],
   "skus_subidos_hoje": [
     "SP12501087390028",
     "SP12501100770004",
@@ -99,7 +104,32 @@
     "SP12501100770004",
     "SP12501117729029"
   ],
-  "itens_novos_hoje": [],
+  "itens_novos_hoje": [
+    {
+      "sku": "SP12501041811026",
+      "id_produto": "17691",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "Fox PRIME/Higli. 1.6 Total Flex 8V 5p",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    {
+      "sku": "SP12501080477011",
+      "id_produto": "17694",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "PRISMA SED. LT 1.4 8V FLEXPOWER 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
+      "qtd_images": "8"
+    }
+  ],
   "itens_subidos_hoje": [
     {
       "sku": "SP12501087390028",
@@ -120,7 +150,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -206,7 +236,7 @@
       "marca": "FORD",
       "modelo_do_veiculo": "ECOSPORT XLS 1.6 FLEX 8V 5P",
       "status": "Habilitado",
-      "status_ml": "paused",
+      "status_ml": "active",
       "quantidade": "1",
       "classificacao": "07",
       "qtd_images": "10"
@@ -605,6 +635,30 @@
       "status_ml": null,
       "quantidade": "1",
       "classificacao": null,
+      "qtd_images": "8"
+    },
+    "SP12501041811026": {
+      "sku": "SP12501041811026",
+      "id_produto": "17691",
+      "nome": "MOTOR DE PARTIDA",
+      "marca": "VOLKSWAGEN",
+      "modelo_do_veiculo": "Fox PRIME/Higli. 1.6 Total Flex 8V 5p",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "06",
+      "qtd_images": "8"
+    },
+    "SP12501080477011": {
+      "sku": "SP12501080477011",
+      "id_produto": "17694",
+      "nome": "COMPRESSOR DO AR-CONDICIONADO",
+      "marca": "CHEVROLET",
+      "modelo_do_veiculo": "PRISMA SED. LT 1.4 8V FLEXPOWER 4P",
+      "status": "Desabilitado",
+      "status_ml": null,
+      "quantidade": "1",
+      "classificacao": "07",
       "qtd_images": "8"
     }
   }
